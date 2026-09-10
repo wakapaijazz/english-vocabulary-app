@@ -3,24 +3,55 @@ interface SpeakButtonProps {
   label?: string;
 }
 
+let speechRequestId = 0;
+
 function canSpeak(): boolean {
   return typeof window !== "undefined"
     && "speechSynthesis" in window
     && "SpeechSynthesisUtterance" in window;
 }
 
+function findEnglishVoice(synthesis: SpeechSynthesis): SpeechSynthesisVoice | undefined {
+  const voices = synthesis.getVoices();
+  const americanVoice = voices.find((voice) => voice.lang.toLowerCase() === "en-us")
+    ?? voices.find((voice) => /^en-us[-_]/i.test(voice.lang));
+  return americanVoice ?? voices.find((voice) => /^en(-|_)/i.test(voice.lang));
+}
+
 export function speakEnglish(text: string): void {
   if (!canSpeak() || !text.trim()) return;
 
   const synthesis = window.speechSynthesis;
+  const requestId = ++speechRequestId;
   synthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = "en-US";
-  utterance.rate = 0.9;
-  utterance.pitch = 1;
-  const englishVoice = synthesis.getVoices().find((voice) => /^en(-|_)/i.test(voice.lang));
-  if (englishVoice) utterance.voice = englishVoice;
-  synthesis.speak(utterance);
+
+  const speak = () => {
+    if (requestId !== speechRequestId) return;
+    const utterance = new SpeechSynthesisUtterance(text);
+    const englishVoice = findEnglishVoice(synthesis);
+    utterance.lang = "en-US";
+    utterance.rate = 0.9;
+    utterance.pitch = 1;
+    if (englishVoice) utterance.voice = englishVoice;
+    synthesis.speak(utterance);
+  };
+
+  if (synthesis.getVoices().length > 0) {
+    speak();
+    return;
+  }
+
+  let timeoutId: number | undefined;
+  const handleVoicesChanged = () => {
+    if (timeoutId !== undefined) window.clearTimeout(timeoutId);
+    synthesis.removeEventListener("voiceschanged", handleVoicesChanged);
+    speak();
+  };
+  synthesis.addEventListener("voiceschanged", handleVoicesChanged);
+  timeoutId = window.setTimeout(() => {
+    synthesis.removeEventListener("voiceschanged", handleVoicesChanged);
+    speak();
+  }, 500);
 }
 
 export function SpeakButton({ text, label = "英語を再生" }: SpeakButtonProps) {

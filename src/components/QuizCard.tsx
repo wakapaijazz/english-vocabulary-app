@@ -1,5 +1,5 @@
 import { SpeakButton } from "./SpeakButton";
-import type { QuizChoice, QuizQuestion } from "../types/quiz";
+import type { QuizChoice, QuizExample, QuizQuestion } from "../types/quiz";
 
 interface QuizCardProps {
   question: QuizQuestion;
@@ -18,6 +18,9 @@ export function QuizCard({ question, selectedChoiceId, answered, onSelect }: Qui
   const canSpeakPrompt = question.type === "en-to-ja" || question.type === "en-to-en";
   const choicesAreEnglish = question.type !== "en-to-ja";
   const pronunciationUnlocked = answered;
+  const examples: QuizExample[] = question.details.examples?.length
+    ? question.details.examples
+    : [{ english: question.details.exampleEnglish, japanese: question.details.exampleJapanese }];
 
   return (
     <section className="quiz-card">
@@ -66,13 +69,15 @@ export function QuizCard({ question, selectedChoiceId, answered, onSelect }: Qui
                 <SpeakButton text={question.details.definitionEn} label="英語説明を再生" />
               </span>
             </div>
-            <div style={{ display: "flex", alignItems: "center", gap: "8px", marginTop: "8px" }}>
-              <strong>例文</strong>
-              <span style={{ flex: 1 }}>{question.details.exampleEnglish}（{question.details.exampleJapanese}）</span>
-              <span style={{ position: "relative", width: "48px", height: "36px", flex: "0 0 48px" }}>
-                <SpeakButton text={question.details.exampleEnglish} label="例文を再生" />
-              </span>
-            </div>
+            {examples.map((example, index) => (
+              <div key={`${question.id}-example-${index}`} style={{ display: "flex", alignItems: "center", gap: "8px", marginTop: "8px" }}>
+                <strong>{index === 0 ? "例文" : `例文${index + 1}`}</strong>
+                <span style={{ flex: 1 }}>{example.english}（{example.japanese}）</span>
+                <span style={{ position: "relative", width: "48px", height: "36px", flex: "0 0 48px" }}>
+                  <SpeakButton text={example.english} label={`${index === 0 ? "例文" : `例文${index + 1}`}を再生`} />
+                </span>
+              </div>
+            ))}
           </div>
         </div>
       )}

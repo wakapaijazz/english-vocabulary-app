@@ -1,9 +1,10 @@
 import { definitionCatalog } from "../data/definitionCatalog";
 import { exampleCatalog } from "../data/exampleCatalog";
+import { phraseExampleCatalog } from "../data/phraseExampleCatalog";
 import { phraseCatalog, type PhraseQuestionSeed } from "../data/phraseCatalog";
 import { phraseMeaningCatalog } from "../data/phraseMeaningCatalog";
 import type { LearningHistory } from "../types/learning";
-import type { QuizChoice, QuizQuestion, QuizType } from "../types/quiz";
+import type { QuizChoice, QuizExample, QuizQuestion, QuizType } from "../types/quiz";
 import type { VocabularyEntry, VocabularySense } from "../types/vocabulary";
 import { isDue } from "../review/reviewScheduler";
 import { isWeak } from "../review/masteryCalculator";
@@ -15,8 +16,21 @@ type QuestionType = Exclude<QuizType, "mixed">;
 
 const mixedTypes: QuestionType[] = ["en-to-ja", "ja-to-en", "en-to-en", "cloze", "collocation"];
 
+interface PreparedExample extends QuizExample {
+  target: string;
+}
+
+interface PreparedExamples {
+  all: QuizExample[];
+  cloze: PreparedExample[];
+}
+
 function shuffle<T>(items: T[]): T[] {
   return [...items].sort(() => Math.random() - 0.5);
+}
+
+function pick<T>(items: T[]): T {
+  return items[Math.floor(Math.random() * items.length)];
 }
 
 function primarySense(entry: VocabularyEntry): VocabularySense {
@@ -32,7 +46,7 @@ function getDefinition(entry: VocabularyEntry): string {
 }
 
 function escapeRegExp(value: string): string {
-  return value.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&");
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function findClozeTarget(lemma: string, english: string, preferred?: string): string | undefined {
@@ -49,7 +63,7 @@ function findClozeTarget(lemma: string, english: string, preferred?: string): st
   return candidates.find((candidate) => new RegExp(`\\b${escapeRegExp(candidate)}\\b`, "i").test(english));
 }
 
-function fallbackExample(lemma: string) {
+function fallbackExample(lemma: string): PreparedExample {
   return {
     english: `The word "${lemma}" is useful in context.`,
     japanese: `「${lemma}」は文脈の中で役立つ語です。`,
@@ -57,24 +71,45 @@ function fallbackExample(lemma: string) {
   };
 }
 
-function getExample(entry: VocabularyEntry) {
-  const direct = entry.examples?.find((example) => example.english && example.japanese);
-  if (direct) {
-    const target = findClozeTarget(entry.lemma, direct.english, direct.clozeTarget);
-    return target ? { english: direct.english, japanese: direct.japanese, target } : fallbackExample(entry.lemma);
+function prepareExamples(entry: VocabularyEntry): PreparedExamples {
+  const direct = (entry.examples ?? [])
+    .filter((example) => example.english.trim() && example.japanese.trim())
+    .map(({ english, japanese, clozeTarget }) => ({ english, japanese, clozeTarget }));
+
+  if (direct.length) {
+    const cloze = direct
+      .map((example) => ({
+        english: example.english,
+        japanese: example.japanese,
+        target: findClozeTarget(entry.lemma, example.english, example.clozeTarget),
+      }))
+      .filter((example): example is PreparedExample => Boolean(example.target));
+    return {
+      all: direct.map(({ english, japanese }) => ({ english, japanese })),
+      cloze: cloze.length ? cloze : [fallbackExample(entry.lemma)],
+    };
   }
 
   const catalog = exampleCatalog[entry.lemma];
   if (catalog) {
     const target = findClozeTarget(entry.lemma, catalog.english);
-    if (target) return { ...catalog, target };
+    if (target) {
+      const example = { english: catalog.english, japanese: catalog.japanese };
+      return { all: [example], cloze: [{ ...example, target }] };
+    }
   }
 
-  return fallbackExample(entry.lemma);
+  const example = fallbackExample(entry.lemma);
+  return { all: [{ english: example.english, japanese: example.japanese }], cloze: [example] };
 }
 
-function baseQuestion(entry: VocabularyEntry, type: QuestionType, index: number): QuizQuestion {
-  const example = getExample(entry);
+function baseQuestion(
+  entry: VocabularyEntry,
+  type: QuestionType,
+  index: number,
+  selectedExample: QuizExample,
+  examples: QuizExample[],
+): QuizQuestion {
   return {
     id: `${entry.id}-${type}-${index}`,
     vocabularyId: entry.id,
@@ -84,13 +119,14 @@ function baseQuestion(entry: VocabularyEntry, type: QuestionType, index: number)
     prompt: "",
     choices: [],
     correctChoiceId: "",
-    explanation: example.japanese,
+    explanation: selectedExample.japanese,
     details: {
       word: entry.lemma,
       meaningJa: getMeaning(entry),
       definitionEn: getDefinition(entry),
-      exampleEnglish: example.english,
-      exampleJapanese: example.japanese,
+      exampleEnglish: selectedExample.english,
+      exampleJapanese: selectedExample.japanese,
+      examples,
     },
   };
 }
@@ -105,7 +141,9 @@ function articleFor(word: string): "a" | "an" {
 }
 
 function createWordQuestion(entry: VocabularyEntry, entries: VocabularyEntry[], type: QuestionType, index: number): QuizQuestion {
-  const question = baseQuestion(entry, type, index);
+  const prepared = prepareExamples(entry);
+  const selectedExample = type === "cloze" ? pick(prepared.cloze) : pick(prepared.all);
+  const question = baseQuestion(entry, type, index, selectedExample, prepared.all);
   const meaningJa = getMeaning(entry);
   const definitionEn = getDefinition(entry);
   const correctChoiceId = `choice-correct-${entry.id}-${type}-${index}`;
@@ -126,12 +164,12 @@ function createWordQuestion(entry: VocabularyEntry, entries: VocabularyEntry[], 
       choice.text === entry.lemma ? { ...choice, id: correctChoiceId } : choice,
     );
   } else {
-    const example = getExample(entry);
-    const articleMatch = new RegExp(`\\b(a|an)\\s+${escapeRegExp(example.target)}\\b`, "i").exec(example.english);
-    const targetPattern = new RegExp(escapeRegExp(example.target), "i");
+    const clozeExample = selectedExample as PreparedExample;
+    const articleMatch = new RegExp(`\\b(a|an)\\s+${escapeRegExp(clozeExample.target)}\\b`, "i").exec(clozeExample.english);
+    const targetPattern = new RegExp(escapeRegExp(clozeExample.target), "i");
     const prompt = (articleMatch
-      ? example.english.replace(articleMatch[0], "_____")
-      : example.english.replace(targetPattern, "_____"))
+      ? clozeExample.english.replace(articleMatch[0], "_____")
+      : clozeExample.english.replace(targetPattern, "_____"))
       .replace(/\s+([,.!?])/g, "$1");
     const rawChoices = createChoices(entry, entries, entry.lemma, "lemma");
     question.prompt = prompt;
@@ -149,26 +187,30 @@ function createPhraseQuestion(seed: PhraseQuestionSeed, index: number, entries: 
   const relatedEntry = entries.find((entry) => entry.lemma === seed.word);
   const meanings = phraseMeaningCatalog[seed.expression] ?? {};
   const correctChoiceId = `phrase-choice-${seed.id}-correct`;
+  const extraExamples = phraseExampleCatalog[seed.id]?.filter((example) => example.english.trim() && example.japanese.trim()) ?? [];
+  const availableExamples = extraExamples.length ? extraExamples : [{ english: seed.exampleEnglish, japanese: seed.exampleJapanese }];
+  const selectedExample = pick(availableExamples);
   return {
     id: `phrase-${seed.id}-${index}`,
     vocabularyId: relatedEntry?.id ?? seed.id,
     senseId: relatedEntry?.senses[0]?.id,
     type: "collocation",
     skill: "collocation",
-    prompt: seed.prompt,
+    prompt: selectedExample.prompt ?? seed.prompt,
     choices: seed.choices.map((choice, choiceIndex) => ({
       id: choice.text === seed.answer ? correctChoiceId : `phrase-choice-${seed.id}-${choiceIndex}`,
       text: choice.text,
       meaningJa: meanings[choice.text] ?? choice.meaningJa,
     })),
     correctChoiceId,
-    explanation: seed.exampleJapanese,
+    explanation: selectedExample.japanese,
     details: {
       word: seed.expression,
       meaningJa: seed.meaningJa,
       definitionEn: seed.definitionEn,
-      exampleEnglish: seed.exampleEnglish,
-      exampleJapanese: seed.exampleJapanese,
+      exampleEnglish: selectedExample.english,
+      exampleJapanese: selectedExample.japanese,
+      examples: availableExamples.map(({ english, japanese }) => ({ english, japanese })),
     },
   };
 }

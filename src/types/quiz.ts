@@ -8,12 +8,18 @@ export interface QuizChoice {
   meaningJa?: string;
 }
 
+export interface QuizExample {
+  english: string;
+  japanese: string;
+}
+
 export interface QuizExplanation {
   word: string;
   meaningJa: string;
   definitionEn: string;
   exampleEnglish: string;
   exampleJapanese: string;
+  examples: QuizExample[];
 }
 
 export interface QuizQuestion {

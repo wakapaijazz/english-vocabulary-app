@@ -1,4 +1,15 @@
-export type PageKey="home"|"study"|"quiz"|"review"|"mistakes"|"dictionary"|"statistics"|"settings";
-interface NavigationProps { activePage:PageKey; onNavigate:(page:PageKey)=>void; }
-const items:Array<{key:PageKey;label:string;icon:string}>=[{key:"home",label:"ホーム",icon:"⌂"},{key:"study",label:"単語帳",icon:"▤"},{key:"quiz",label:"クイズ",icon:"✦"},{key:"review",label:"復習",icon:"↻"},{key:"mistakes",label:"苦手",icon:"!"},{key:"dictionary",label:"辞書",icon:"⌕"},{key:"statistics",label:"記録",icon:"▥"},{key:"settings",label:"設定",icon:"⚙"}];
-export function Navigation({activePage,onNavigate}:NavigationProps){ return <nav className="navigation" aria-label="メインナビゲーション">{items.map(item=><button key={item.key} className={activePage===item.key?"nav-item active":"nav-item"} onClick={()=>onNavigate(item.key)}><span className="nav-icon" aria-hidden="true">{item.icon}</span><span>{item.label}</span></button>)}</nav>; }
+export type PageKey = "home" | "quiz" | "review" | "mistakes" | "dictionary" | "statistics" | "settings";
+interface NavigationProps { activePage: PageKey; onNavigate: (page: PageKey) => void; }
+const items: Array<{ key: PageKey; label: string; icon: string }> = [
+  { key: "home", label: "ホーム", icon: "⌂" },
+  { key: "quiz", label: "クイズ", icon: "✦" },
+  { key: "review", label: "復習", icon: "↻" },
+  { key: "mistakes", label: "苦手", icon: "!" },
+  { key: "dictionary", label: "辞書", icon: "⌕" },
+  { key: "statistics", label: "記録", icon: "▥" },
+  { key: "settings", label: "設定", icon: "⚙" },
+];
+
+export function Navigation({ activePage, onNavigate }: NavigationProps) {
+  return <nav className="navigation" aria-label="メインナビゲーション">{items.map((item) => <button key={item.key} className={activePage === item.key ? "nav-item active" : "nav-item"} onClick={() => onNavigate(item.key)}><span className="nav-icon" aria-hidden="true">{item.icon}</span><span>{item.label}</span></button>)}</nav>;
+}

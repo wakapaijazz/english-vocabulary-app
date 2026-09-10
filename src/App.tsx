@@ -6,7 +6,6 @@ import vocabularyFinal from "./data/vocabulary-final.json";
 import { pronunciationCatalog } from "./data/pronunciationCatalog";
 import { Navigation, type PageKey } from "./components/Navigation";
 import { HomePage } from "./pages/HomePage";
-import { StudyPage } from "./pages/StudyPage";
 import { QuizPage } from "./pages/QuizPage";
 import { ReviewPage } from "./pages/ReviewPage";
 import { MistakesPage } from "./pages/MistakesPage";
@@ -49,7 +48,6 @@ export default function App() {
     <header className="mobile-header"><div className="brand"><span className="brand-mark">W</span><strong>wordly</strong></div><span className="mobile-progress">{learnedCount}/{entries.length} WORDS</span></header>
     <main className="main-content">
       {activePage === "home" && <HomePage entries={entries} history={history} onNavigate={setActivePage} onStartQuiz={openQuiz}/>} 
-      {activePage === "study" && <StudyPage entries={entries} history={history} onStartQuiz={openQuiz}/>} 
       {activePage === "quiz" && <QuizPage entries={entries} history={history} questionCount={settings.questionsPerSet} config={{ type: quizConfig.type, mode: quizConfig.mode }} onAnswer={updateHistory} onExit={() => setActivePage("home")} onConfigChange={(type) => setQuizConfig((current) => ({ ...current, type }))}/>} 
       {activePage === "review" && <ReviewPage entries={entries} history={history} onStart={() => openQuiz("mixed", "review")} onNavigate={setActivePage}/>} 
       {activePage === "mistakes" && <MistakesPage entries={entries} history={history} onStart={() => openQuiz("mixed", "mistakes")}/>} 

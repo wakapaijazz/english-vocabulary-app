@@ -27,12 +27,13 @@ export function speakEnglish(text: string): void {
 
   const speak = () => {
     if (requestId !== speechRequestId) return;
-    const utterance = new SpeechSynthesisUtterance(text);
     const englishVoice = findEnglishVoice(synthesis);
+    if (!englishVoice) return;
+    const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US";
     utterance.rate = 0.9;
     utterance.pitch = 1;
-    if (englishVoice) utterance.voice = englishVoice;
+    utterance.voice = englishVoice;
     synthesis.speak(utterance);
   };
 

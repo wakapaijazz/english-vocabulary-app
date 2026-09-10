@@ -1,5 +1,7 @@
 import { useState } from "react";
+import { exampleSupplementCatalog } from "../data/exampleSupplementCatalog";
 import { phraseCatalog } from "../data/phraseCatalog";
+import { phraseExampleCatalog } from "../data/phraseExampleCatalog";
 import type { VocabularyEntry } from "../types/vocabulary";
 import { POS_LABELS } from "../types/vocabulary";
 
@@ -13,7 +15,8 @@ export function WordCard({ entry, compact = false }: { entry: VocabularyEntry; c
   const catalogPhrases = phraseCatalog.filter(
     (seed) => seed.word.toLowerCase() === entry.lemma.toLowerCase() && !existingExpressions.has(seed.expression.toLowerCase()),
   );
-  const examples = entry.examples ?? [];
+  const supplement = exampleSupplementCatalog[entry.lemma];
+  const examples = [...(entry.examples ?? []), ...(supplement ? [supplement] : [])];
 
   return (
     <article className={`word-card ${compact ? "compact" : ""}`}>
@@ -32,7 +35,10 @@ export function WordCard({ entry, compact = false }: { entry: VocabularyEntry; c
         <div className="word-details">
           {entry.collocations?.length ? <div className="detail-group"><span className="detail-label">COLLOCATIONS</span>{entry.collocations.map((item) => <p key={item.id}><strong>{item.expression}</strong>{item.meaningJa && <em>{item.meaningJa}</em>}</p>)}</div> : null}
           {entry.idioms?.length ? <div className="detail-group"><span className="detail-label">IDIOMS</span>{entry.idioms.map((item) => <p key={item.id}><strong>{item.expression}</strong><em>{item.meaningJa}</em></p>)}</div> : null}
-          {catalogPhrases.length ? <div className="detail-group"><span className="detail-label">PHRASES IN QUIZ</span>{catalogPhrases.map((seed) => <div key={seed.id} style={{ marginBottom: "10px" }}><p><strong>{seed.expression}</strong><em>{seed.meaningJa}</em></p><p className="example-en">{seed.exampleEnglish}</p><p className="example-ja">{seed.exampleJapanese}</p></div>)}</div> : null}
+          {catalogPhrases.length ? <div className="detail-group"><span className="detail-label">PHRASES IN QUIZ</span>{catalogPhrases.map((seed) => {
+            const phraseExamples = [{ english: seed.exampleEnglish, japanese: seed.exampleJapanese }, ...(phraseExampleCatalog[seed.id] ?? [])];
+            return <div key={seed.id} style={{ marginBottom: "10px" }}><p><strong>{seed.expression}</strong><em>{seed.meaningJa}</em></p>{phraseExamples.map((example, index) => <div key={`${seed.id}-example-${index}`}><p className="example-en">{example.english}</p><p className="example-ja">{example.japanese}</p></div>)}</div>;
+          })}</div> : null}
           {entry.derivatives?.length || entry.synonyms?.length ? <div className="detail-group"><span className="detail-label">RELATED WORDS</span><p className="tag-list">{[...(entry.derivatives ?? []), ...(entry.synonyms ?? [])].map((word) => <span key={word.word}>{word.word}</span>)}</p></div> : null}
           {examples.length ? <div className="example-box"><span className="detail-label">EXAMPLES</span>{examples.map((example) => <div key={example.id}><p className="example-en">{example.english}</p><p className="example-ja">{example.japanese}</p></div>)}</div> : null}
         </div>

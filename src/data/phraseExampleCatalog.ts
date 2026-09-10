@@ -1,8 +1,5 @@
 /**
- * 既存の語句問題に追加例文を登録するためのカタログです。
- *
- * 例文は phraseCatalog の1問に対して複数登録できます。prompt を指定すると、
- * その例文を問題文として使えます。未指定の場合は元の問題文を使います。
+ * 語句問題ごとの追加例文です。各例文には、その例文を使う空所補充の prompt も登録します。
  */
 export interface PhraseExample {
   english: string;
@@ -10,4 +7,65 @@ export interface PhraseExample {
   prompt?: string;
 }
 
-export const phraseExampleCatalog: Record<string, PhraseExample[]> = {};
+export const phraseExampleCatalog: Record<string, PhraseExample[]> = {
+  p001: [{ english: "Look at the footprint before the rain washes it away.", japanese: "雨で流される前に、その足跡を見てください。", prompt: "Look _____ the footprint before the rain washes it away." }],
+  p002: [{ english: "Local families took part in the lantern-making workshop.", japanese: "地元の家族がランタン作りの講習会に参加した。", prompt: "Local families took part _____ the lantern-making workshop." }],
+  p003: [{ english: "Planting native flowers can contribute to the survival of local bees.", japanese: "在来種の花を植えることは地元のハチの生存に貢献できる。", prompt: "Planting native flowers can contribute _____ the survival of local bees." }],
+  p004: [{ english: "Mina was absent from work because her child was ill.", japanese: "ミナは子どもが病気だったため仕事を休んだ。", prompt: "Mina was absent _____ work because her child was ill." }],
+  p005: [{ english: "Drivers should be aware of bicycles in the narrow tunnel.", japanese: "運転者は狭いトンネル内の自転車に注意すべきだ。", prompt: "Drivers should be aware _____ bicycles in the narrow tunnel." }],
+  p006: [{ english: "The curator is responsible for locking the gallery at night.", japanese: "学芸員は夜に画廊を施錠する責任がある。", prompt: "The curator is responsible _____ locking the gallery at night." }],
+  p007: [{ english: "The harvest depends on how much rain falls in June.", japanese: "収穫は6月にどれだけ雨が降るかにかかっている。", prompt: "The harvest depends _____ how much rain falls in June." }],
+  p008: [{ english: "The emergency kit consists of water, blankets, and a radio.", japanese: "その非常用キットは水、毛布、ラジオから成る。", prompt: "The emergency kit consists _____ water, blankets, and a radio." }],
+  p009: [{ english: "The camera focuses on the flower at the center of the frame.", japanese: "そのカメラは画面中央の花に焦点を合わせる。", prompt: "The camera focuses _____ the flower at the center of the frame." }],
+  p010: [{ english: "The helpline deals with questions about housing and visas.", japanese: "その相談窓口は住居とビザに関する質問を扱う。", prompt: "The helpline deals _____ questions about housing and visas." }],
+  p011: [{ english: "Two large orders account for most of the bakery's sales today.", japanese: "今日は2件の大口注文がそのパン屋の売上の大部分を占める。", prompt: "Two large orders account _____ most of the bakery's sales today." }],
+  p012: [{ english: "A blocked drain resulted in water covering the basement floor.", japanese: "排水口の詰まりが地下室の床を水浸しにした。", prompt: "A blocked drain resulted _____ water covering the basement floor." }],
+  p013: [{ english: "The blue color resulted from a harmless mineral in the soil.", japanese: "その青い色は土に含まれる無害な鉱物から生じた。", prompt: "The blue color resulted _____ a harmless mineral in the soil." }],
+  p014: [{ english: "The small robot is capable of climbing stairs on its own.", japanese: "その小型ロボットは自力で階段を上る能力がある。", prompt: "The small robot is capable _____ climbing stairs on its own." }],
+  p015: [{ english: "The new mechanic is familiar with electric delivery vans.", japanese: "その新しい整備士は電気配送車に精通している。", prompt: "The new mechanic is familiar _____ electric delivery vans." }],
+  p016: [{ english: "Mika was involved in planning the town's first night market.", japanese: "ミカは町で初めての夜市の計画に関わった。", prompt: "Mika was involved _____ planning the town's first night market." }],
+  p017: [{ english: "Who is in charge of feeding the animals this weekend?", japanese: "今週末に動物へ餌をやる担当は誰ですか。", prompt: "Who is in charge _____ feeding the animals this weekend?" }],
+  p018: [{ english: "The birds take advantage of the warm air above the cliff.", japanese: "鳥たちは崖の上の暖かい空気を活用する。", prompt: "The birds take advantage _____ the warm air above the cliff." }],
+  p019: [{ english: "Extra sleep cannot make up for weeks of poor rest.", japanese: "余分な睡眠を取っても、何週間もの睡眠不足を埋め合わせることはできない。", prompt: "Extra sleep cannot make up _____ weeks of poor rest." }],
+  p020: [{ english: "Volunteers carried out a night survey of the nesting turtles.", japanese: "ボランティアは巣を作るカメの夜間調査を実施した。", prompt: "Volunteers carried _____ a night survey of the nesting turtles." }],
+  p021: [{ english: "We put off painting the hallway until the rainy season ended.", japanese: "私たちは雨季が終わるまで廊下の塗装を延期した。", prompt: "We put _____ painting the hallway until the rainy season ended." }],
+  p022: [{ english: "The child came up with a clever way to store her shell collection.", japanese: "その子は貝殻のコレクションを保管する巧い方法を思いついた。", prompt: "The child came up _____ a clever way to store her shell collection." }],
+  p023: [{ english: "The children look forward to seeing the rescued sea turtle.", japanese: "子どもたちは保護されたウミガメに会うのを楽しみにしている。", prompt: "The children look forward _____ seeing the rescued sea turtle." }],
+  p024: [{ english: "Compost helps gardeners get rid of food scraps without wasting them.", japanese: "堆肥作りは庭師が食品くずを無駄にせず処分するのに役立つ。", prompt: "Compost helps gardeners get rid _____ food scraps without wasting them." }],
+  p025: [{ english: "The small shop struggles to keep up with online orders during holidays.", japanese: "その小さな店は休暇中のオンライン注文に遅れず対応するのに苦労する。", prompt: "The small shop struggles to keep up _____ online orders during holidays." }],
+  p026: [{ english: "Can you take care of the seedlings while I am away?", japanese: "私が留守の間、苗の世話をしてくれますか。", prompt: "Can you take care _____ the seedlings while I am away?" }],
+  p027: [{ english: "He accepted the award on behalf of the entire research team.", japanese: "彼は研究チーム全体を代表して賞を受け取った。", prompt: "He accepted the award on behalf _____ the entire research team." }],
+  p028: [{ english: "Our van broke down beside a field just before sunset.", japanese: "私たちのバンは日没直前に野原のそばで故障した。", prompt: "Our van broke _____ beside a field just before sunset." }],
+  p029: [{ english: "She figured out how to repair the old sewing machine.", japanese: "彼女は古いミシンの修理方法を理解した。", prompt: "She figured _____ how to repair the old sewing machine." }],
+  p030: [{ english: "The timetable is subject to change if the storm continues.", japanese: "嵐が続けば、その時刻表は変更される可能性がある。", prompt: "The timetable is subject _____ change if the storm continues." }],
+  p031: [{ english: "Please pay attention to the color of the warning lights.", japanese: "警告灯の色に注意を払ってください。", prompt: "Please pay attention _____ the color of the warning lights." }],
+  p032: [{ english: "He became interested in traditional maps after finding one in the attic.", japanese: "彼は屋根裏で古い地図を見つけてから伝統的な地図に興味を持った。", prompt: "He became interested _____ traditional maps after finding one in the attic." }],
+  p033: [{ english: "The village is known for its hand-painted wooden toys.", japanese: "その村は手描きの木のおもちゃで知られている。", prompt: "The village is known _____ its hand-painted wooden toys." }],
+  p034: [{ english: "This fabric feels different from the one used in the old curtains.", japanese: "この布は古いカーテンに使われていたものとは感触が異なる。", prompt: "This fabric feels different _____ the one used in the old curtains." }],
+  p035: [{ english: "The two bird calls are similar to each other but come from different trees.", japanese: "その2つの鳥の鳴き声は互いに似ているが、別々の木から聞こえる。", prompt: "The two bird calls are similar _____ each other but come from different trees." }],
+  p036: [{ english: "The film is based on letters written by a lighthouse keeper.", japanese: "その映画は灯台守が書いた手紙に基づいている。", prompt: "The film is based _____ letters written by a lighthouse keeper." }],
+  p037: [{ english: "The rash may be related to a new detergent used at home.", japanese: "その発疹は家庭で使い始めた新しい洗剤に関係しているかもしれない。", prompt: "The rash may be related _____ a new detergent used at home." }],
+  p038: [{ english: "She applied for a place in the summer astronomy program.", japanese: "彼女は夏の天文学プログラムに応募した。", prompt: "She applied _____ a place in the summer astronomy program." }],
+  p039: [{ english: "The student discount applies to weekend train tickets as well.", japanese: "学生割引は週末の列車の切符にも適用される。", prompt: "The student discount applies _____ weekend train tickets as well." }],
+  p040: [{ english: "The footnote refers to a study published nearly a century ago.", japanese: "脚注はほぼ1世紀前に発表された研究を指している。", prompt: "The footnote refers _____ a study published nearly a century ago." }],
+  p041: [{ english: "The clinic specializes in treating sports injuries in young athletes.", japanese: "その診療所は若い選手のスポーツ障害を専門に扱う。", prompt: "The clinic specializes _____ treating sports injuries in young athletes." }],
+  p042: [{ english: "The old tree suffers from a fungus that attacks its roots.", japanese: "その古木は根を侵す菌に苦しんでいる。", prompt: "The old tree suffers _____ a fungus that attacks its roots." }],
+  p043: [{ english: "He recovered from the operation sooner than his doctors expected.", japanese: "彼は医師たちの予想より早く手術から回復した。", prompt: "He recovered _____ the operation sooner than his doctors expected." }],
+  p044: [{ english: "Sunscreen protects the skin from strong ultraviolet rays.", japanese: "日焼け止めは皮膚を強い紫外線から守る。", prompt: "Sunscreen protects the skin _____ strong ultraviolet rays." }],
+  p045: [{ english: "The fence prevents deer from entering the vegetable garden.", japanese: "その柵はシカが野菜畑に入るのを防ぐ。", prompt: "The fence prevents deer _____ entering the vegetable garden." }],
+  p046: [{ english: "The scent of pine reminds me of winter camping trips.", japanese: "松の香りをかぐと冬のキャンプ旅行を思い出す。", prompt: "The scent of pine reminds me _____ winter camping trips." }],
+  p047: [{ english: "The camp provides visitors with boots for crossing the muddy trail.", japanese: "そのキャンプ場は訪問者にぬかるんだ道を渡るための長靴を提供する。", prompt: "The camp provides visitors _____ boots for crossing the muddy trail." }],
+  p048: [{ english: "They replaced the cracked window with a stronger one.", japanese: "彼らはひびの入った窓をより丈夫なものに取り替えた。", prompt: "They replaced the cracked window _____ a stronger one." }],
+  p049: [{ english: "The customer was satisfied with the tailor's careful work.", japanese: "その客は仕立屋の丁寧な仕事に満足した。", prompt: "The customer was satisfied _____ the tailor's careful work." }],
+  p050: [{ english: "Parents are concerned about the amount of screen time their children get.", japanese: "親たちは子どもたちの画面を見る時間を心配している。", prompt: "Parents are concerned _____ the amount of screen time their children get." }],
+  p051: [{ english: "Residents are opposed to building a hotel beside the wetland.", japanese: "住民は湿地のそばにホテルを建てることに反対している。", prompt: "Residents are opposed _____ building a hotel beside the wetland." }],
+  p052: [{ english: "She was willing to lend her notes to a classmate who was absent.", japanese: "彼女は欠席したクラスメートにノートを貸す意思があった。", prompt: "She was willing _____ lend her notes to a classmate who was absent." }],
+  p053: [{ english: "I agree with your suggestion to repair the bridge before winter.", japanese: "冬になる前に橋を修理するというあなたの提案に賛成です。", prompt: "I agree _____ your suggestion to repair the bridge before winter." }],
+  p054: [{ english: "The umbrella belongs to the family that runs the bookstore.", japanese: "その傘は書店を営む家族のものだ。", prompt: "The umbrella belongs _____ the family that runs the bookstore." }],
+  p055: [{ english: "The divers searched for a bell lost near the old pier.", japanese: "ダイバーたちは古い桟橋の近くで失われた鐘を探した。", prompt: "The divers searched _____ a bell lost near the old pier." }],
+  p056: [{ english: "We waited for the fog to lift before starting the hike.", japanese: "私たちは霧が晴れるのを待ってからハイキングを始めた。", prompt: "We waited _____ the fog to lift before starting the hike." }],
+  p057: [{ english: "Did you hear from the museum about the lost sketch?", japanese: "なくなったスケッチについて美術館から連絡はありましたか。", prompt: "Did you hear _____ the museum about the lost sketch?" }],
+  p058: [{ english: "A small leak led to serious damage inside the ceiling.", japanese: "小さな漏れが天井内部の深刻な損傷につながった。", prompt: "A small leak led _____ serious damage inside the ceiling." }],
+  p059: [{ english: "The bakery ran out of rye flour before the lunch rush.", japanese: "そのパン屋は昼の混雑前にライ麦粉を切らした。", prompt: "The bakery ran out _____ rye flour before the lunch rush." }],
+  p060: [{ english: "She gets along with her new neighbors despite the language barrier.", japanese: "彼女は言葉の壁があるにもかかわらず、新しい隣人とうまくやっている。", prompt: "She gets along _____ her new neighbors despite the language barrier." }],
+};

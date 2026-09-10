@@ -1,0 +1,2 @@
+interface ProgressBarProps { value:number; label?:string; tone?:"teal"|"orange"|"purple"; }
+export function ProgressBar({value,label,tone="teal"}:ProgressBarProps){ const safe=Math.max(0,Math.min(100,value)); return <div className="progress-wrap">{label&&<div className="progress-label"><span>{label}</span><strong>{Math.round(safe)}%</strong></div>}<div className={`progress-track progress-${tone}`}><span style={{width:`${safe}%`}}/></div></div>; }

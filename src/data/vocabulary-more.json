@@ -1,0 +1,4292 @@
+[
+  {
+    "id": "w301",
+    "lemma": "abrupt",
+    "pronunciation": "/əˈbrʌpt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w301-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "突然の、急な",
+        "meaningEn": "happening suddenly and unexpectedly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e301",
+        "english": "The meeting came to an abrupt end.",
+        "japanese": "その会議は突然終わった。",
+        "clozeTarget": "abrupt"
+      }
+    ]
+  },
+  {
+    "id": "w302",
+    "lemma": "abundant",
+    "pronunciation": "/əˈbʌndənt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w302-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "豊富な、十分な",
+        "meaningEn": "existing in large quantities"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e302",
+        "english": "The region has abundant water resources.",
+        "japanese": "その地域には豊富な水資源がある。",
+        "clozeTarget": "abundant"
+      }
+    ]
+  },
+  {
+    "id": "w303",
+    "lemma": "accessible",
+    "pronunciation": "/əkˈsesəbl/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w303-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "利用しやすい、近づきやすい",
+        "meaningEn": "easy to reach, use, or understand"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e303",
+        "english": "The museum is accessible by public transportation.",
+        "japanese": "その博物館には公共交通機関で行くことができる。",
+        "clozeTarget": "accessible"
+      }
+    ]
+  },
+  {
+    "id": "w304",
+    "lemma": "accumulate",
+    "pronunciation": "/əˈkjuːmjəleɪt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w304-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "蓄積する、ためる",
+        "meaningEn": "to collect or increase over time"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e304",
+        "english": "The project accumulated enough data over three years.",
+        "japanese": "その計画は3年間で十分なデータを蓄積した。",
+        "clozeTarget": "accumulate"
+      }
+    ]
+  },
+  {
+    "id": "w305",
+    "lemma": "acknowledge",
+    "pronunciation": "/əkˈnɑːlɪdʒ/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w305-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "認める、認識する",
+        "meaningEn": "to accept or admit that something is true"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e305",
+        "english": "The report acknowledges the limits of the method.",
+        "japanese": "その報告書はその方法の限界を認めている。",
+        "clozeTarget": "acknowledge"
+      }
+    ]
+  },
+  {
+    "id": "w306",
+    "lemma": "adjacent",
+    "pronunciation": "/əˈdʒeɪsənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w306-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "隣接した、隣の",
+        "meaningEn": "next to or near something else"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e306",
+        "english": "The laboratory is adjacent to the main library.",
+        "japanese": "その研究室は中央図書館に隣接している。",
+        "clozeTarget": "adjacent"
+      }
+    ]
+  },
+  {
+    "id": "w307",
+    "lemma": "advocate",
+    "pronunciation": "/ˈædvəkeɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w307-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "支持する、提唱する",
+        "meaningEn": "to publicly support a particular idea or plan"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e307",
+        "english": "Many experts advocate stronger safety rules.",
+        "japanese": "多くの専門家がより厳しい安全規則を提唱している。",
+        "clozeTarget": "advocate"
+      }
+    ]
+  },
+  {
+    "id": "w308",
+    "lemma": "aggregate",
+    "pronunciation": "/ˈæɡrɪɡət/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w308-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "総計、集合体",
+        "meaningEn": "a total formed by combining separate amounts"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e308",
+        "english": "The aggregate of these figures exceeds the estimate.",
+        "japanese": "これらの数値の合計は見積もりを上回る。",
+        "clozeTarget": "aggregate"
+      }
+    ]
+  },
+  {
+    "id": "w309",
+    "lemma": "aid",
+    "pronunciation": "/eɪd/",
+    "level": 3,
+    "senses": [
+      {
+        "id": "w309-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "援助、助け",
+        "meaningEn": "help given to someone or something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e309",
+        "english": "The organization provides aid to rural communities.",
+        "japanese": "その組織は農村地域に援助を提供している。",
+        "clozeTarget": "aid"
+      }
+    ]
+  },
+  {
+    "id": "w310",
+    "lemma": "align",
+    "pronunciation": "/əˈlaɪn/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w310-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "整列させる、調整する",
+        "meaningEn": "to arrange things in a straight line or agreement"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e310",
+        "english": "The new policy can align with the team's goals.",
+        "japanese": "新しい方針はチームの目標と一致しうる。",
+        "clozeTarget": "align"
+      }
+    ]
+  },
+  {
+    "id": "w311",
+    "lemma": "analogy",
+    "pronunciation": "/əˈnælədʒi/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w311-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "類似、たとえ",
+        "meaningEn": "a comparison showing how two things are similar"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e311",
+        "english": "The professor used an analogy to explain the theory.",
+        "japanese": "教授はその理論を説明するためにたとえを使った。",
+        "clozeTarget": "analogy"
+      }
+    ]
+  },
+  {
+    "id": "w312",
+    "lemma": "annual",
+    "pronunciation": "/ˈænjuəl/",
+    "level": 3,
+    "senses": [
+      {
+        "id": "w312-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "年1回の、年間の",
+        "meaningEn": "happening once every year"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e312",
+        "english": "The company publishes an annual report.",
+        "japanese": "その会社は年次報告書を発行している。",
+        "clozeTarget": "annual"
+      }
+    ]
+  },
+  {
+    "id": "w313",
+    "lemma": "anonymous",
+    "pronunciation": "/əˈnɑːnɪməs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w313-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "匿名の、作者不明の",
+        "meaningEn": "with a name that is not known"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e313",
+        "english": "The survey allowed anonymous responses.",
+        "japanese": "その調査では匿名で回答できた。",
+        "clozeTarget": "anonymous"
+      }
+    ]
+  },
+  {
+    "id": "w314",
+    "lemma": "applicable",
+    "pronunciation": "/əˈplɪkəbl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w314-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "適用できる、当てはまる",
+        "meaningEn": "relevant or suitable for a particular situation"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e314",
+        "english": "The rule is applicable to all participants.",
+        "japanese": "その規則はすべての参加者に適用される。",
+        "clozeTarget": "applicable"
+      }
+    ]
+  },
+  {
+    "id": "w315",
+    "lemma": "assemble",
+    "pronunciation": "/əˈsembl/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w315-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "組み立てる、集める",
+        "meaningEn": "to put parts together or gather people"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e315",
+        "english": "The students will assemble the model in an hour.",
+        "japanese": "学生たちは1時間でその模型を組み立てる。",
+        "clozeTarget": "assemble"
+      }
+    ]
+  },
+  {
+    "id": "w316",
+    "lemma": "attain",
+    "pronunciation": "/əˈteɪn/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w316-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "達成する、獲得する",
+        "meaningEn": "to succeed in reaching or getting something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e316",
+        "english": "The team hopes to attain its goal this year.",
+        "japanese": "そのチームは今年目標を達成することを望んでいる。",
+        "clozeTarget": "attain"
+      }
+    ]
+  },
+  {
+    "id": "w317",
+    "lemma": "authentic",
+    "pronunciation": "/ɔːˈθentɪk/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w317-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "本物の、信頼できる",
+        "meaningEn": "real and genuine rather than copied"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e317",
+        "english": "The museum displayed an authentic artifact.",
+        "japanese": "その博物館は本物の遺物を展示した。",
+        "clozeTarget": "authentic"
+      }
+    ]
+  },
+  {
+    "id": "w318",
+    "lemma": "bias",
+    "pronunciation": "/ˈbaɪəs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w318-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "偏見、偏り",
+        "meaningEn": "an unfair preference for or against something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e318",
+        "english": "The study tested the data for bias.",
+        "japanese": "その研究はデータに偏りがないか検証した。",
+        "clozeTarget": "bias"
+      }
+    ]
+  },
+  {
+    "id": "w319",
+    "lemma": "brief",
+    "pronunciation": "/briːf/",
+    "level": 3,
+    "senses": [
+      {
+        "id": "w319-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "短時間の、簡潔な",
+        "meaningEn": "lasting only a short time or using few words"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e319",
+        "english": "The speaker gave a brief explanation.",
+        "japanese": "話し手は簡潔な説明をした。",
+        "clozeTarget": "brief"
+      }
+    ]
+  },
+  {
+    "id": "w320",
+    "lemma": "capacity",
+    "pronunciation": "/kəˈpæsəti/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w320-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "能力、容量",
+        "meaningEn": "the ability or amount that something can contain"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e320",
+        "english": "The hall has a capacity of five hundred people.",
+        "japanese": "そのホールは500人を収容できる。",
+        "clozeTarget": "capacity"
+      }
+    ]
+  },
+  {
+    "id": "w321",
+    "lemma": "commence",
+    "pronunciation": "/kəˈmens/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w321-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "開始する",
+        "meaningEn": "to begin or start"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e321",
+        "english": "The ceremony will commence at noon.",
+        "japanese": "式典は正午に始まる。",
+        "clozeTarget": "commence"
+      }
+    ]
+  },
+  {
+    "id": "w322",
+    "lemma": "commodity",
+    "pronunciation": "/kəˈmɑːdəti/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w322-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "商品、必需品",
+        "meaningEn": "a basic product bought and sold"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e322",
+        "english": "Coffee is an important commodity in the region.",
+        "japanese": "コーヒーはその地域の重要な商品である。",
+        "clozeTarget": "commodity"
+      }
+    ]
+  },
+  {
+    "id": "w323",
+    "lemma": "complement",
+    "pronunciation": "/ˈkɑːmpləment/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w323-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "補完するもの、補足",
+        "meaningEn": "something that completes or improves another thing"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e323",
+        "english": "The chart is a useful complement to the report.",
+        "japanese": "その図表は報告書を補う有用なものだ。",
+        "clozeTarget": "complement"
+      }
+    ]
+  },
+  {
+    "id": "w324",
+    "lemma": "comprise",
+    "pronunciation": "/kəmˈpraɪz/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w324-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "構成する、含む",
+        "meaningEn": "to consist of particular parts or members"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e324",
+        "english": "The committee will comprise five members.",
+        "japanese": "その委員会は5人の委員で構成される。",
+        "clozeTarget": "comprise"
+      }
+    ]
+  },
+  {
+    "id": "w325",
+    "lemma": "confer",
+    "pronunciation": "/kənˈfɜːr/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w325-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "相談する、授与する",
+        "meaningEn": "to discuss something or give an honor or degree"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e325",
+        "english": "The researchers will confer before making a decision.",
+        "japanese": "研究者たちは決定を下す前に相談する。",
+        "clozeTarget": "confer"
+      }
+    ]
+  },
+  {
+    "id": "w326",
+    "lemma": "conform",
+    "pronunciation": "/kənˈfɔːrm/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w326-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "従う、一致する",
+        "meaningEn": "to follow a rule or be similar to something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e326",
+        "english": "The results should conform to the original prediction.",
+        "japanese": "結果は当初の予測と一致するはずだ。",
+        "clozeTarget": "conform"
+      }
+    ]
+  },
+  {
+    "id": "w327",
+    "lemma": "controversy",
+    "pronunciation": "/ˈkɑːntrəvɜːrsi/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w327-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "論争、議論",
+        "meaningEn": "a public disagreement about an important issue"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e327",
+        "english": "The decision caused controversy among residents.",
+        "japanese": "その決定は住民の間で論争を引き起こした。",
+        "clozeTarget": "controversy"
+      }
+    ]
+  },
+  {
+    "id": "w328",
+    "lemma": "cumulative",
+    "pronunciation": "/ˈkjuːmjələtɪv/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w328-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "累積する、累積的な",
+        "meaningEn": "increasing by adding more over time"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e328",
+        "english": "The cumulative effect was greater than expected.",
+        "japanese": "累積的な効果は予想より大きかった。",
+        "clozeTarget": "cumulative"
+      }
+    ]
+  },
+  {
+    "id": "w329",
+    "lemma": "depict",
+    "pronunciation": "/dɪˈpɪkt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w329-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "描写する、表す",
+        "meaningEn": "to represent someone or something in a picture or words"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e329",
+        "english": "The diagram helps depict the process clearly.",
+        "japanese": "その図は工程を明確に描写するのに役立つ。",
+        "clozeTarget": "depict"
+      }
+    ]
+  },
+  {
+    "id": "w330",
+    "lemma": "devise",
+    "pronunciation": "/dɪˈvaɪz/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w330-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "考案する、工夫する",
+        "meaningEn": "to invent a plan or method"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e330",
+        "english": "The team hopes to devise a better solution.",
+        "japanese": "そのチームはよりよい解決策を考案しようとしている。",
+        "clozeTarget": "devise"
+      }
+    ]
+  },
+  {
+    "id": "w331",
+    "lemma": "deviate",
+    "pronunciation": "/ˈdiːvieɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w331-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "それる、逸脱する",
+        "meaningEn": "to move away from a usual or expected course"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e331",
+        "english": "The route may deviate from the main road.",
+        "japanese": "その経路は幹線道路からそれる可能性がある。",
+        "clozeTarget": "deviate"
+      }
+    ]
+  },
+  {
+    "id": "w332",
+    "lemma": "discriminate",
+    "pronunciation": "/dɪˈskrɪməneɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w332-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "差別する、識別する",
+        "meaningEn": "to treat people unfairly or recognize a difference"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e332",
+        "english": "The test can discriminate between similar sounds.",
+        "japanese": "そのテストは似た音を識別できる。",
+        "clozeTarget": "discriminate"
+      }
+    ]
+  },
+  {
+    "id": "w333",
+    "lemma": "domain",
+    "pronunciation": "/doʊˈmeɪn/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w333-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "領域、分野",
+        "meaningEn": "an area of knowledge, activity, or control"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e333",
+        "english": "The study focuses on the domain of language education.",
+        "japanese": "その研究は言語教育の分野に焦点を当てている。",
+        "clozeTarget": "domain"
+      }
+    ]
+  },
+  {
+    "id": "w334",
+    "lemma": "duration",
+    "pronunciation": "/duˈreɪʃən/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w334-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "期間、持続時間",
+        "meaningEn": "the length of time something continues"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e334",
+        "english": "The course lasts for the duration of the semester.",
+        "japanese": "その講座は学期中ずっと続く。",
+        "clozeTarget": "duration"
+      }
+    ]
+  },
+  {
+    "id": "w335",
+    "lemma": "eligible",
+    "pronunciation": "/ˈelɪdʒəbl/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w335-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "資格のある、適格な",
+        "meaningEn": "having the necessary qualities or conditions"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e335",
+        "english": "Only eligible students may apply.",
+        "japanese": "資格のある学生だけが応募できる。",
+        "clozeTarget": "eligible"
+      }
+    ]
+  },
+  {
+    "id": "w336",
+    "lemma": "erode",
+    "pronunciation": "/ɪˈroʊd/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w336-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "浸食する、徐々に損なう",
+        "meaningEn": "to gradually wear away or weaken"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e336",
+        "english": "Constant criticism can erode confidence.",
+        "japanese": "絶え間ない批判は自信を徐々に損なうことがある。",
+        "clozeTarget": "erode"
+      }
+    ]
+  },
+  {
+    "id": "w337",
+    "lemma": "evaluate",
+    "pronunciation": "/ɪˈvæljueɪt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w337-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "評価する",
+        "meaningEn": "to judge the quality or value of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e337",
+        "english": "The panel will evaluate the proposal tomorrow.",
+        "japanese": "審査団は明日その提案を評価する。",
+        "clozeTarget": "evaluate"
+      }
+    ]
+  },
+  {
+    "id": "w338",
+    "lemma": "feasible",
+    "pronunciation": "/ˈfiːzəbl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w338-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "実行可能な",
+        "meaningEn": "possible and practical to do"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e338",
+        "english": "The engineers proposed a feasible solution.",
+        "japanese": "技術者たちは実行可能な解決策を提案した。",
+        "clozeTarget": "feasible"
+      }
+    ]
+  },
+  {
+    "id": "w339",
+    "lemma": "fluctuate",
+    "pronunciation": "/ˈflʌktʃueɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w339-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "変動する",
+        "meaningEn": "to change continually between higher and lower levels"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e339",
+        "english": "Prices often fluctuate during the summer.",
+        "japanese": "価格は夏の間に変動することが多い。",
+        "clozeTarget": "fluctuate"
+      }
+    ]
+  },
+  {
+    "id": "w340",
+    "lemma": "formulate",
+    "pronunciation": "/ˈfɔːrmjəleɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w340-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "策定する、明確に述べる",
+        "meaningEn": "to develop or express a plan or idea carefully"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e340",
+        "english": "The committee will formulate a new policy.",
+        "japanese": "委員会は新しい方針を策定する。",
+        "clozeTarget": "formulate"
+      }
+    ]
+  },
+  {
+    "id": "w341",
+    "lemma": "foster",
+    "pronunciation": "/ˈfɔːstər/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w341-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "育成する、促進する",
+        "meaningEn": "to encourage the development of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e341",
+        "english": "The program aims to foster cooperation.",
+        "japanese": "その計画は協力を促進することを目指している。",
+        "clozeTarget": "foster"
+      }
+    ]
+  },
+  {
+    "id": "w342",
+    "lemma": "forthcoming",
+    "pronunciation": "/ˌfɔːrθˈkʌmɪŋ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w342-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "近く発表される、率直な",
+        "meaningEn": "coming soon or willing to give information"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e342",
+        "english": "The forthcoming report will include new data.",
+        "japanese": "近く発表される報告書には新しいデータが含まれる。",
+        "clozeTarget": "forthcoming"
+      }
+    ]
+  },
+  {
+    "id": "w343",
+    "lemma": "hierarchy",
+    "pronunciation": "/ˈhaɪərɑːrki/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w343-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "階層、ヒエラルキー",
+        "meaningEn": "a system in which people or things are ranked"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e343",
+        "english": "The organization has a clear hierarchy.",
+        "japanese": "その組織には明確な階層がある。",
+        "clozeTarget": "hierarchy"
+      }
+    ]
+  },
+  {
+    "id": "w344",
+    "lemma": "hypothesis",
+    "pronunciation": "/haɪˈpɑːθəsɪs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w344-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "仮説",
+        "meaningEn": "an idea offered as an explanation to be tested"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e344",
+        "english": "The experiment was designed to test the hypothesis.",
+        "japanese": "その実験は仮説を検証するために設計された。",
+        "clozeTarget": "hypothesis"
+      }
+    ]
+  },
+  {
+    "id": "w345",
+    "lemma": "implement",
+    "pronunciation": "/ˈɪmpləment/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w345-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "実行する、実施する",
+        "meaningEn": "to put a plan or decision into effect"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e345",
+        "english": "The city will implement the new policy.",
+        "japanese": "市は新しい方針を実施する。",
+        "clozeTarget": "implement"
+      }
+    ]
+  },
+  {
+    "id": "w346",
+    "lemma": "incentive",
+    "pronunciation": "/ɪnˈsentɪv/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w346-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "動機、奨励金",
+        "meaningEn": "something that encourages a person to act"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e346",
+        "english": "The bonus provided an incentive to work harder.",
+        "japanese": "その賞与はより懸命に働く動機になった。",
+        "clozeTarget": "incentive"
+      }
+    ]
+  },
+  {
+    "id": "w347",
+    "lemma": "incidence",
+    "pronunciation": "/ˈɪnsɪdəns/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w347-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "発生率、発生",
+        "meaningEn": "the occurrence or rate of an event"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e347",
+        "english": "The study measured the incidence of the disease.",
+        "japanese": "その研究はその病気の発生率を測定した。",
+        "clozeTarget": "incidence"
+      }
+    ]
+  },
+  {
+    "id": "w348",
+    "lemma": "indicator",
+    "pronunciation": "/ˈɪndɪkeɪtər/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w348-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "指標、表示器",
+        "meaningEn": "a sign that shows a condition or change"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e348",
+        "english": "The unemployment rate is an important economic indicator.",
+        "japanese": "失業率は重要な経済指標である。",
+        "clozeTarget": "indicator"
+      }
+    ]
+  },
+  {
+    "id": "w349",
+    "lemma": "infrastructure",
+    "pronunciation": "/ˈɪnfrəstrʌktʃər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w349-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "社会基盤、インフラ",
+        "meaningEn": "the basic systems and structures a society needs"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e349",
+        "english": "The city is investing in public infrastructure.",
+        "japanese": "市は公共インフラに投資している。",
+        "clozeTarget": "infrastructure"
+      }
+    ]
+  },
+  {
+    "id": "w350",
+    "lemma": "initiate",
+    "pronunciation": "/ɪˈnɪʃieɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w350-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "開始する、始める",
+        "meaningEn": "to cause a process or action to begin"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e350",
+        "english": "The university will initiate a review next month.",
+        "japanese": "大学は来月、調査を開始する。",
+        "clozeTarget": "initiate"
+      }
+    ]
+  },
+  {
+    "id": "w351",
+    "lemma": "insight",
+    "pronunciation": "/ˈɪnsaɪt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w351-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "洞察、理解",
+        "meaningEn": "a clear and deep understanding of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e351",
+        "english": "The interview provided insight into the problem.",
+        "japanese": "そのインタビューは問題への洞察を与えた。",
+        "clozeTarget": "insight"
+      }
+    ]
+  },
+  {
+    "id": "w352",
+    "lemma": "intense",
+    "pronunciation": "/ɪnˈtens/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w352-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "強烈な、激しい",
+        "meaningEn": "very strong or extreme"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e352",
+        "english": "The team faced intense competition.",
+        "japanese": "そのチームは激しい競争に直面した。",
+        "clozeTarget": "intense"
+      }
+    ]
+  },
+  {
+    "id": "w353",
+    "lemma": "interval",
+    "pronunciation": "/ˈɪntərvəl/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w353-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "間隔、休憩時間",
+        "meaningEn": "a period between events or activities"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e353",
+        "english": "The machine checks the temperature after a short interval.",
+        "japanese": "その機械は短い間隔を置いて温度を確認する。",
+        "clozeTarget": "interval"
+      }
+    ]
+  },
+  {
+    "id": "w354",
+    "lemma": "intervene",
+    "pronunciation": "/ˌɪntərˈviːn/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w354-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "介入する、仲裁する",
+        "meaningEn": "to become involved in a situation to affect its outcome"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e354",
+        "english": "The teacher had to intervene in the dispute.",
+        "japanese": "教師はその争いに介入しなければならなかった。",
+        "clozeTarget": "intervene"
+      }
+    ]
+  },
+  {
+    "id": "w355",
+    "lemma": "intrinsic",
+    "pronunciation": "/ɪnˈtrɪnzɪk/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w355-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "固有の、本質的な",
+        "meaningEn": "belonging naturally to something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e355",
+        "english": "Curiosity is an intrinsic part of learning.",
+        "japanese": "好奇心は学習に本来備わっている要素だ。",
+        "clozeTarget": "intrinsic"
+      }
+    ]
+  },
+  {
+    "id": "w356",
+    "lemma": "likewise",
+    "pronunciation": "/ˈlaɪkwaɪz/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w356-v01",
+        "partOfSpeech": "adverb",
+        "meaningJa": "同様に、同じように",
+        "meaningEn": "in the same way or also"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e356",
+        "english": "The second group responded likewise.",
+        "japanese": "2番目のグループも同様に反応した。",
+        "clozeTarget": "likewise"
+      }
+    ]
+  },
+  {
+    "id": "w357",
+    "lemma": "mechanism",
+    "pronunciation": "/ˈmekənɪzəm/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w357-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "仕組み、機構",
+        "meaningEn": "a system of parts that works together"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e357",
+        "english": "The researchers studied the mechanism behind the reaction.",
+        "japanese": "研究者たちはその反応の背後にある仕組みを調べた。",
+        "clozeTarget": "mechanism"
+      }
+    ]
+  },
+  {
+    "id": "w358",
+    "lemma": "migrate",
+    "pronunciation": "/ˈmaɪɡreɪt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w358-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "移住する、移動する",
+        "meaningEn": "to move from one region or habitat to another"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e358",
+        "english": "Many birds migrate south in winter.",
+        "japanese": "多くの鳥は冬に南へ移動する。",
+        "clozeTarget": "migrate"
+      }
+    ]
+  },
+  {
+    "id": "w359",
+    "lemma": "norm",
+    "pronunciation": "/nɔːrm/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w359-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "標準、規範",
+        "meaningEn": "an accepted standard or usual way of behaving"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e359",
+        "english": "The behavior became a social norm.",
+        "japanese": "その行動は社会的な規範になった。",
+        "clozeTarget": "norm"
+      }
+    ]
+  },
+  {
+    "id": "w360",
+    "lemma": "offset",
+    "pronunciation": "/ˈɔːfset/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w360-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "相殺する、埋め合わせる",
+        "meaningEn": "to balance or reduce the effect of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e360",
+        "english": "The trees help offset carbon emissions.",
+        "japanese": "その木々は炭素排出を相殺するのに役立つ。",
+        "clozeTarget": "offset"
+      }
+    ]
+  },
+  {
+    "id": "w361",
+    "lemma": "overlap",
+    "pronunciation": "/ˌoʊvərˈlæp/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w361-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "重なる、重複する",
+        "meaningEn": "to partly cover the same area or share features"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e361",
+        "english": "The two schedules overlap on Friday.",
+        "japanese": "その2つの予定は金曜日に重なる。",
+        "clozeTarget": "overlap"
+      }
+    ]
+  },
+  {
+    "id": "w362",
+    "lemma": "peak",
+    "pronunciation": "/piːk/",
+    "level": 3,
+    "senses": [
+      {
+        "id": "w362-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "頂点、最盛期",
+        "meaningEn": "the highest point or level"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e362",
+        "english": "Demand usually reaches its peak in summer.",
+        "japanese": "需要は通常、夏に頂点に達する。",
+        "clozeTarget": "peak"
+      }
+    ]
+  },
+  {
+    "id": "w363",
+    "lemma": "precede",
+    "pronunciation": "/prɪˈsiːd/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w363-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "先行する",
+        "meaningEn": "to happen or come before something else"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e363",
+        "english": "A short introduction will precede the lecture.",
+        "japanese": "短い導入が講義に先立って行われる。",
+        "clozeTarget": "precede"
+      }
+    ]
+  },
+  {
+    "id": "w364",
+    "lemma": "prerequisite",
+    "pronunciation": "/ˌpriːˈrekwəzɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w364-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "前提条件、必須条件",
+        "meaningEn": "something required before another thing can happen"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e364",
+        "english": "Basic training is a prerequisite for the job.",
+        "japanese": "基礎研修はその仕事の前提条件である。",
+        "clozeTarget": "prerequisite"
+      }
+    ]
+  },
+  {
+    "id": "w365",
+    "lemma": "presume",
+    "pronunciation": "/prɪˈzuːm/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w365-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "推定する、思い込む",
+        "meaningEn": "to believe something is true without proof"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e365",
+        "english": "We should not presume that the result is final.",
+        "japanese": "その結果が最終的なものだと思い込むべきではない。",
+        "clozeTarget": "presume"
+      }
+    ]
+  },
+  {
+    "id": "w366",
+    "lemma": "prevalent",
+    "pronunciation": "/ˈprevələnt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w366-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "普及している、一般的な",
+        "meaningEn": "common or widespread in a particular place or time"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e366",
+        "english": "The practice is prevalent in rural areas.",
+        "japanese": "その慣行は農村地域で広く見られる。",
+        "clozeTarget": "prevalent"
+      }
+    ]
+  },
+  {
+    "id": "w367",
+    "lemma": "prompt",
+    "pronunciation": "/prɑːmpt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w367-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "迅速な、時間どおりの",
+        "meaningEn": "done quickly or without delay"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e367",
+        "english": "The clinic provided a prompt response.",
+        "japanese": "その診療所は迅速な対応をした。",
+        "clozeTarget": "prompt"
+      }
+    ]
+  },
+  {
+    "id": "w368",
+    "lemma": "prospect",
+    "pronunciation": "/ˈprɑːspekt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w368-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "見込み、展望",
+        "meaningEn": "the possibility or likelihood of a future event"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e368",
+        "english": "The prospect of success encouraged the team.",
+        "japanese": "成功の見込みがチームを励ました。",
+        "clozeTarget": "prospect"
+      }
+    ]
+  },
+  {
+    "id": "w369",
+    "lemma": "protocol",
+    "pronunciation": "/ˈproʊtəkɑːl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w369-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "手順、規約",
+        "meaningEn": "an official system of rules or procedures"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e369",
+        "english": "The hospital follows a strict safety protocol.",
+        "japanese": "その病院は厳格な安全手順に従っている。",
+        "clozeTarget": "protocol"
+      }
+    ]
+  },
+  {
+    "id": "w370",
+    "lemma": "refine",
+    "pronunciation": "/rɪˈfaɪn/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w370-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "洗練する、改良する",
+        "meaningEn": "to improve something by making small changes"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e370",
+        "english": "The team will refine the model after testing.",
+        "japanese": "そのチームはテスト後にモデルを改良する。",
+        "clozeTarget": "refine"
+      }
+    ]
+  },
+  {
+    "id": "w371",
+    "lemma": "resilient",
+    "pronunciation": "/rɪˈzɪliənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w371-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "回復力のある、弾力のある",
+        "meaningEn": "able to recover quickly from difficulty"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e371",
+        "english": "The resilient community recovered quickly.",
+        "japanese": "その回復力のある地域はすぐに立ち直った。",
+        "clozeTarget": "resilient"
+      }
+    ]
+  },
+  {
+    "id": "w372",
+    "lemma": "retrieve",
+    "pronunciation": "/rɪˈtriːv/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w372-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "取り戻す、検索する",
+        "meaningEn": "to find and bring back something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e372",
+        "english": "The program can retrieve the file quickly.",
+        "japanese": "そのプログラムはファイルをすぐに検索できる。",
+        "clozeTarget": "retrieve"
+      }
+    ]
+  },
+  {
+    "id": "w373",
+    "lemma": "revenue",
+    "pronunciation": "/ˈrevənuː/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w373-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "収入、歳入",
+        "meaningEn": "money received by a business or organization"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e373",
+        "english": "The company increased its revenue this year.",
+        "japanese": "その会社は今年、収入を増やした。",
+        "clozeTarget": "revenue"
+      }
+    ]
+  },
+  {
+    "id": "w374",
+    "lemma": "robust",
+    "pronunciation": "/roʊˈbʌst/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w374-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "強健な、堅牢な",
+        "meaningEn": "strong and able to work well"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e374",
+        "english": "The system is robust enough for daily use.",
+        "japanese": "そのシステムは日常使用に十分耐えられる。",
+        "clozeTarget": "robust"
+      }
+    ]
+  },
+  {
+    "id": "w375",
+    "lemma": "route",
+    "pronunciation": "/ruːt/",
+    "level": 3,
+    "senses": [
+      {
+        "id": "w375-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "道筋、経路",
+        "meaningEn": "a way from one place to another"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e375",
+        "english": "The hikers chose a shorter route.",
+        "japanese": "ハイカーたちはより短い経路を選んだ。",
+        "clozeTarget": "route"
+      }
+    ]
+  },
+  {
+    "id": "w376",
+    "lemma": "solely",
+    "pronunciation": "/ˈsoʊlli/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w376-v01",
+        "partOfSpeech": "adverb",
+        "meaningJa": "もっぱら、単独で",
+        "meaningEn": "only or completely"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e376",
+        "english": "The decision was based solely on the evidence.",
+        "japanese": "その決定はもっぱら証拠に基づいていた。",
+        "clozeTarget": "solely"
+      }
+    ]
+  },
+  {
+    "id": "w377",
+    "lemma": "specify",
+    "pronunciation": "/ˈspesɪfaɪ/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w377-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "明記する、指定する",
+        "meaningEn": "to state something clearly and exactly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e377",
+        "english": "Please specify the conditions in your application.",
+        "japanese": "応募書類に条件を明記してください。",
+        "clozeTarget": "specify"
+      }
+    ]
+  },
+  {
+    "id": "w378",
+    "lemma": "spontaneous",
+    "pronunciation": "/spɑːnˈteɪniəs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w378-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "自発的な、自然発生的な",
+        "meaningEn": "happening naturally without planning"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e378",
+        "english": "The audience gave a spontaneous response.",
+        "japanese": "観客は自然な反応を示した。",
+        "clozeTarget": "spontaneous"
+      }
+    ]
+  },
+  {
+    "id": "w379",
+    "lemma": "stationary",
+    "pronunciation": "/ˈsteɪʃəneri/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w379-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "動かない、静止した",
+        "meaningEn": "not moving or changing position"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e379",
+        "english": "The vehicle remained stationary during the test.",
+        "japanese": "試験中、その車両は静止したままだった。",
+        "clozeTarget": "stationary"
+      }
+    ]
+  },
+  {
+    "id": "w380",
+    "lemma": "subordinate",
+    "pronunciation": "/səˈbɔːrdənət/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w380-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "下位の、従属する",
+        "meaningEn": "lower in rank or less important"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e380",
+        "english": "The subordinate clause depends on the main clause.",
+        "japanese": "従属節は主節に依存している。",
+        "clozeTarget": "subordinate"
+      }
+    ]
+  },
+  {
+    "id": "w381",
+    "lemma": "supplement",
+    "pronunciation": "/ˈsʌpləmənt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w381-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "補足、サプリメント",
+        "meaningEn": "something added to complete or improve something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e381",
+        "english": "The guide is a useful supplement to the textbook.",
+        "japanese": "そのガイドは教科書を補う有用なものだ。",
+        "clozeTarget": "supplement"
+      }
+    ]
+  },
+  {
+    "id": "w382",
+    "lemma": "suspend",
+    "pronunciation": "/səˈspend/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w382-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "一時停止する、延期する",
+        "meaningEn": "to stop or delay something temporarily"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e382",
+        "english": "The school may suspend the activity temporarily.",
+        "japanese": "学校はその活動を一時停止する可能性がある。",
+        "clozeTarget": "suspend"
+      }
+    ]
+  },
+  {
+    "id": "w383",
+    "lemma": "tentative",
+    "pronunciation": "/ˈtentətɪv/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w383-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "暫定的な、確信のない",
+        "meaningEn": "not certain or final"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e383",
+        "english": "The committee reached a tentative agreement.",
+        "japanese": "委員会は暫定的な合意に達した。",
+        "clozeTarget": "tentative"
+      }
+    ]
+  },
+  {
+    "id": "w384",
+    "lemma": "thereby",
+    "pronunciation": "/ˌðerˈbaɪ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w384-v01",
+        "partOfSpeech": "adverb",
+        "meaningJa": "それによって",
+        "meaningEn": "by that means or as a result"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e384",
+        "english": "The team reduced costs, thereby improving access.",
+        "japanese": "そのチームは費用を削減し、それによって利用しやすさを高めた。",
+        "clozeTarget": "thereby"
+      }
+    ]
+  },
+  {
+    "id": "w385",
+    "lemma": "threshold",
+    "pronunciation": "/ˈθreʃhoʊld/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w385-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "境界、限界",
+        "meaningEn": "the level at which something begins to happen"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e385",
+        "english": "The signal exceeded the detection threshold.",
+        "japanese": "信号は検出限界を超えた。",
+        "clozeTarget": "threshold"
+      }
+    ]
+  },
+  {
+    "id": "w386",
+    "lemma": "trigger",
+    "pronunciation": "/ˈtrɪɡər/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w386-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "引き起こす、作動させる",
+        "meaningEn": "to cause something to start or happen"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e386",
+        "english": "The announcement could trigger a debate.",
+        "japanese": "その発表は議論を引き起こす可能性がある。",
+        "clozeTarget": "trigger"
+      }
+    ]
+  },
+  {
+    "id": "w387",
+    "lemma": "utility",
+    "pronunciation": "/juːˈtɪləti/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w387-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "有用性、公共事業",
+        "meaningEn": "usefulness or a service such as gas or electricity"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e387",
+        "english": "The utility of the method is clear.",
+        "japanese": "その方法の有用性は明らかだ。",
+        "clozeTarget": "utility"
+      }
+    ]
+  },
+  {
+    "id": "w388",
+    "lemma": "verify",
+    "pronunciation": "/ˈverɪfaɪ/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w388-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "確認する、検証する",
+        "meaningEn": "to check that something is true or accurate"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e388",
+        "english": "The analyst will verify the figures.",
+        "japanese": "分析担当者は数値を検証する。",
+        "clozeTarget": "verify"
+      }
+    ]
+  },
+  {
+    "id": "w389",
+    "lemma": "violate",
+    "pronunciation": "/ˈvaɪəleɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w389-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "違反する、侵害する",
+        "meaningEn": "to break a law, rule, or agreement"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e389",
+        "english": "The company must not violate the agreement.",
+        "japanese": "その会社は契約に違反してはならない。",
+        "clozeTarget": "violate"
+      }
+    ]
+  },
+  {
+    "id": "w390",
+    "lemma": "virtual",
+    "pronunciation": "/ˈvɜːrtʃuəl/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w390-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "仮想の、事実上の",
+        "meaningEn": "existing online or nearly equivalent to something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e390",
+        "english": "The university offers a virtual classroom.",
+        "japanese": "その大学はオンライン教室を提供している。",
+        "clozeTarget": "virtual"
+      }
+    ]
+  },
+  {
+    "id": "w391",
+    "lemma": "visible",
+    "pronunciation": "/ˈvɪzəbl/",
+    "level": 3,
+    "senses": [
+      {
+        "id": "w391-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "見える、明らかな",
+        "meaningEn": "able to be seen or noticed"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e391",
+        "english": "The mark is clearly visible in the image.",
+        "japanese": "その印は画像にはっきり見える。",
+        "clozeTarget": "visible"
+      }
+    ]
+  },
+  {
+    "id": "w392",
+    "lemma": "withdraw",
+    "pronunciation": "/wɪðˈdrɔː/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w392-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "撤回する、引き出す",
+        "meaningEn": "to remove or take something back"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e392",
+        "english": "The candidate may withdraw from the race.",
+        "japanese": "その候補者は競争から撤退する可能性がある。",
+        "clozeTarget": "withdraw"
+      }
+    ]
+  },
+  {
+    "id": "w393",
+    "lemma": "abolish",
+    "pronunciation": "/əˈbɑːlɪʃ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w393-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "廃止する",
+        "meaningEn": "to officially end a law, system, or practice"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e393",
+        "english": "The government plans to abolish the outdated rule.",
+        "japanese": "政府は時代遅れの規則を廃止する予定だ。",
+        "clozeTarget": "abolish"
+      }
+    ]
+  },
+  {
+    "id": "w394",
+    "lemma": "adverse",
+    "pronunciation": "/ˈædvɜːrs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w394-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "不利な、逆境の",
+        "meaningEn": "negative or harmful"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e394",
+        "english": "The drug can have adverse effects.",
+        "japanese": "その薬には有害な影響が出ることがある。",
+        "clozeTarget": "adverse"
+      }
+    ]
+  },
+  {
+    "id": "w395",
+    "lemma": "aftermath",
+    "pronunciation": "/ˈæftərmæθ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w395-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "余波、直後の結果",
+        "meaningEn": "the effects of an unpleasant event"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e395",
+        "english": "The town struggled in the aftermath of the storm.",
+        "japanese": "その町は嵐の余波に苦しんだ。",
+        "clozeTarget": "aftermath"
+      }
+    ]
+  },
+  {
+    "id": "w396",
+    "lemma": "alleviate",
+    "pronunciation": "/əˈliːvieɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w396-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "軽減する、和らげる",
+        "meaningEn": "to make pain or a problem less severe"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e396",
+        "english": "The treatment may alleviate the pain.",
+        "japanese": "その治療は痛みを和らげる可能性がある。",
+        "clozeTarget": "alleviate"
+      }
+    ]
+  },
+  {
+    "id": "w397",
+    "lemma": "ambiguity",
+    "pronunciation": "/ˌæmbɪˈɡjuːəti/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w397-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "曖昧さ",
+        "meaningEn": "the quality of having more than one meaning"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e397",
+        "english": "The ambiguity in the sentence caused confusion.",
+        "japanese": "その文の曖昧さが混乱を招いた。",
+        "clozeTarget": "ambiguity"
+      }
+    ]
+  },
+  {
+    "id": "w398",
+    "lemma": "apathy",
+    "pronunciation": "/ˈæpəθi/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w398-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "無関心、無気力",
+        "meaningEn": "lack of interest or enthusiasm"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e398",
+        "english": "The survey revealed public apathy toward the issue.",
+        "japanese": "その調査はその問題に対する人々の無関心を明らかにした。",
+        "clozeTarget": "apathy"
+      }
+    ]
+  },
+  {
+    "id": "w399",
+    "lemma": "articulate",
+    "pronunciation": "/ɑːrˈtɪkjəleɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w399-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "明確に述べる",
+        "meaningEn": "to express an idea clearly in words"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e399",
+        "english": "She can articulate her concerns clearly.",
+        "japanese": "彼女は懸念を明確に述べることができる。",
+        "clozeTarget": "articulate"
+      }
+    ]
+  },
+  {
+    "id": "w400",
+    "lemma": "ascertain",
+    "pronunciation": "/ˌæsərˈteɪn/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w400-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "確かめる、突き止める",
+        "meaningEn": "to find out something with certainty"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e400",
+        "english": "The team conducted tests to ascertain the cause.",
+        "japanese": "そのチームは原因を確かめるために実験を行った。",
+        "clozeTarget": "ascertain"
+      }
+    ]
+  },
+  {
+    "id": "w401",
+    "lemma": "autonomous",
+    "pronunciation": "/ɔːˈtɑːnəməs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w401-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "自治の、自律した",
+        "meaningEn": "independent and able to govern itself"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e401",
+        "english": "The region became an autonomous state.",
+        "japanese": "その地域は自治州になった。",
+        "clozeTarget": "autonomous"
+      }
+    ]
+  },
+  {
+    "id": "w402",
+    "lemma": "catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w402-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "きっかけ、触媒",
+        "meaningEn": "something that causes a change or event"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e402",
+        "english": "The discovery became a catalyst for change.",
+        "japanese": "その発見は変化のきっかけになった。",
+        "clozeTarget": "catalyst"
+      }
+    ]
+  },
+  {
+    "id": "w403",
+    "lemma": "designate",
+    "pronunciation": "/ˈdezɪɡneɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w403-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "指定する、任命する",
+        "meaningEn": "to officially choose someone or something for a purpose"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e403",
+        "english": "The committee will designate a new coordinator.",
+        "japanese": "委員会は新しい調整役を指名する。",
+        "clozeTarget": "designate"
+      }
+    ]
+  },
+  {
+    "id": "w404",
+    "lemma": "distort",
+    "pronunciation": "/dɪˈstɔːrt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w404-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "ゆがめる、歪曲する",
+        "meaningEn": "to change the shape or meaning of something unfairly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e404",
+        "english": "The lens can distort the image.",
+        "japanese": "そのレンズは画像をゆがめることがある。",
+        "clozeTarget": "distort"
+      }
+    ]
+  },
+  {
+    "id": "w405",
+    "lemma": "drastic",
+    "pronunciation": "/ˈdræstɪk/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w405-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "抜本的な、極端な",
+        "meaningEn": "extreme and likely to have a strong effect"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e405",
+        "english": "The company took drastic measures.",
+        "japanese": "その会社は抜本的な措置を取った。",
+        "clozeTarget": "drastic"
+      }
+    ]
+  },
+  {
+    "id": "w406",
+    "lemma": "elaborate",
+    "pronunciation": "/ɪˈlæbərət/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w406-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "詳細な、手の込んだ",
+        "meaningEn": "containing many careful details"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e406",
+        "english": "The report provides an elaborate explanation.",
+        "japanese": "その報告書は詳細な説明を示している。",
+        "clozeTarget": "elaborate"
+      }
+    ]
+  },
+  {
+    "id": "w407",
+    "lemma": "exclusive",
+    "pronunciation": "/ɪkˈskluːsɪv/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w407-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "独占的な、排他的な",
+        "meaningEn": "limited to a particular person or group"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e407",
+        "english": "The club offers exclusive access to members.",
+        "japanese": "そのクラブは会員に限定的な利用権を提供する。",
+        "clozeTarget": "exclusive"
+      }
+    ]
+  },
+  {
+    "id": "w408",
+    "lemma": "grant",
+    "pronunciation": "/ɡrænt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w408-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "認める、与える",
+        "meaningEn": "to give or allow something officially"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e408",
+        "english": "The board may grant permission tomorrow.",
+        "japanese": "理事会は明日、許可を与える可能性がある。",
+        "clozeTarget": "grant"
+      }
+    ]
+  },
+  {
+    "id": "w409",
+    "lemma": "intermediate",
+    "pronunciation": "/ˌɪntərˈmiːdiət/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w409-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "中間の、中級の",
+        "meaningEn": "between two levels, stages, or places"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e409",
+        "english": "The course is suitable for intermediate learners.",
+        "japanese": "その講座は中級学習者に適している。",
+        "clozeTarget": "intermediate"
+      }
+    ]
+  },
+  {
+    "id": "w410",
+    "lemma": "invoke",
+    "pronunciation": "/ɪnˈvoʊk/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w410-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "引き起こす、発動する",
+        "meaningEn": "to call on a rule, principle, or authority"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e410",
+        "english": "The lawyer may invoke the rule.",
+        "japanese": "その弁護士はその規則を発動する可能性がある。",
+        "clozeTarget": "invoke"
+      }
+    ]
+  },
+  {
+    "id": "w411",
+    "lemma": "isolate",
+    "pronunciation": "/ˈaɪsəleɪt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w411-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "孤立させる、分離する",
+        "meaningEn": "to separate something or someone from others"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e411",
+        "english": "The experiment can isolate the main variable.",
+        "japanese": "その実験は主要な変数を分離できる。",
+        "clozeTarget": "isolate"
+      }
+    ]
+  },
+  {
+    "id": "w412",
+    "lemma": "legitimate",
+    "pronunciation": "/lɪˈdʒɪtəmət/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w412-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "正当な、合法の",
+        "meaningEn": "reasonable, lawful, or accepted as genuine"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e412",
+        "english": "The committee raised a legitimate concern.",
+        "japanese": "委員会は正当な懸念を提起した。",
+        "clozeTarget": "legitimate"
+      }
+    ]
+  },
+  {
+    "id": "w413",
+    "lemma": "levy",
+    "pronunciation": "/ˈlevi/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w413-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "課す、徴収する",
+        "meaningEn": "to officially impose a tax or charge"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e413",
+        "english": "The city may levy a new tax.",
+        "japanese": "市は新しい税を課す可能性がある。",
+        "clozeTarget": "levy"
+      }
+    ]
+  },
+  {
+    "id": "w414",
+    "lemma": "magnitude",
+    "pronunciation": "/ˈmæɡnɪtuːd/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w414-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "大きさ、規模",
+        "meaningEn": "the great size or importance of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e414",
+        "english": "The researchers underestimated the magnitude of the problem.",
+        "japanese": "研究者たちは問題の規模を過小評価した。",
+        "clozeTarget": "magnitude"
+      }
+    ]
+  },
+  {
+    "id": "w415",
+    "lemma": "mandatory",
+    "pronunciation": "/ˈmændətɔːri/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w415-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "義務的な、必須の",
+        "meaningEn": "required by a rule or law"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e415",
+        "english": "Attendance is mandatory for all staff.",
+        "japanese": "全職員の出席は義務である。",
+        "clozeTarget": "mandatory"
+      }
+    ]
+  },
+  {
+    "id": "w416",
+    "lemma": "maximize",
+    "pronunciation": "/ˈmæksɪmaɪz/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w416-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "最大化する",
+        "meaningEn": "to make something as large or effective as possible"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e416",
+        "english": "The design aims to maximize efficiency.",
+        "japanese": "その設計は効率を最大化することを目指している。",
+        "clozeTarget": "maximize"
+      }
+    ]
+  },
+  {
+    "id": "w417",
+    "lemma": "minimum",
+    "pronunciation": "/ˈmɪnɪməm/",
+    "level": 3,
+    "senses": [
+      {
+        "id": "w417-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "最小限、最低限",
+        "meaningEn": "the smallest amount or number allowed"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e417",
+        "english": "The machine requires a minimum of two operators.",
+        "japanese": "その機械には最低2人の操作者が必要だ。",
+        "clozeTarget": "minimum"
+      }
+    ]
+  },
+  {
+    "id": "w418",
+    "lemma": "notable",
+    "pronunciation": "/ˈnoʊtəbl/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w418-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "注目すべき、著名な",
+        "meaningEn": "worthy of attention or notice"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e418",
+        "english": "The study found a notable difference.",
+        "japanese": "その研究は注目すべき差を発見した。",
+        "clozeTarget": "notable"
+      }
+    ]
+  },
+  {
+    "id": "w419",
+    "lemma": "notify",
+    "pronunciation": "/ˈnoʊtɪfaɪ/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w419-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "通知する",
+        "meaningEn": "to officially tell someone about something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e419",
+        "english": "The office will notify applicants by email.",
+        "japanese": "事務局は応募者にメールで通知する。",
+        "clozeTarget": "notify"
+      }
+    ]
+  },
+  {
+    "id": "w420",
+    "lemma": "oblige",
+    "pronunciation": "/əˈblaɪdʒ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w420-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "義務づける、助ける",
+        "meaningEn": "to require someone to do something or help them"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e420",
+        "english": "The rules oblige companies to report the data.",
+        "japanese": "規則は企業にデータの報告を義務づけている。",
+        "clozeTarget": "oblige"
+      }
+    ]
+  },
+  {
+    "id": "w421",
+    "lemma": "omit",
+    "pronunciation": "/oʊˈmɪt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w421-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "省く、除外する",
+        "meaningEn": "to leave out or fail to include something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e421",
+        "english": "Please do not omit important details.",
+        "japanese": "重要な詳細を省かないでください。",
+        "clozeTarget": "omit"
+      }
+    ]
+  },
+  {
+    "id": "w422",
+    "lemma": "partially",
+    "pronunciation": "/ˈpɑːrʃəli/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w422-v01",
+        "partOfSpeech": "adverb",
+        "meaningJa": "部分的に",
+        "meaningEn": "only in part, not completely"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e422",
+        "english": "The treatment was only partially effective.",
+        "japanese": "その治療の効果は部分的にとどまった。",
+        "clozeTarget": "partially"
+      }
+    ]
+  },
+  {
+    "id": "w423",
+    "lemma": "pioneer",
+    "pronunciation": "/ˌpaɪəˈnɪr/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w423-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "先駆ける、開拓する",
+        "meaningEn": "to be the first to develop or use something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e423",
+        "english": "The laboratory hopes to pioneer a new treatment.",
+        "japanese": "その研究所は新しい治療法を開拓しようとしている。",
+        "clozeTarget": "pioneer"
+      }
+    ]
+  },
+  {
+    "id": "w424",
+    "lemma": "pose",
+    "pronunciation": "/poʊz/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w424-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "引き起こす、提起する",
+        "meaningEn": "to cause a problem or ask a question"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e424",
+        "english": "The change may pose a serious risk.",
+        "japanese": "その変化は重大なリスクをもたらす可能性がある。",
+        "clozeTarget": "pose"
+      }
+    ]
+  },
+  {
+    "id": "w425",
+    "lemma": "predominant",
+    "pronunciation": "/prɪˈdɑːmɪnənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w425-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "支配的な、圧倒的な",
+        "meaningEn": "more common or important than others"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e425",
+        "english": "The predominant cause was lack of funding.",
+        "japanese": "主な原因は資金不足だった。",
+        "clozeTarget": "predominant"
+      }
+    ]
+  },
+  {
+    "id": "w426",
+    "lemma": "prohibit",
+    "pronunciation": "/prəˈhɪbɪt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w426-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "禁止する",
+        "meaningEn": "to officially stop something from being done"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e426",
+        "english": "The law will prohibit the sale of the product.",
+        "japanese": "その法律はその製品の販売を禁止する。",
+        "clozeTarget": "prohibit"
+      }
+    ]
+  },
+  {
+    "id": "w427",
+    "lemma": "prosper",
+    "pronunciation": "/ˈprɑːspər/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w427-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "繁栄する、成功する",
+        "meaningEn": "to grow and develop well"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e427",
+        "english": "Small businesses can prosper with reliable support.",
+        "japanese": "中小企業は信頼できる支援があれば繁栄できる。",
+        "clozeTarget": "prosper"
+      }
+    ]
+  },
+  {
+    "id": "w428",
+    "lemma": "residual",
+    "pronunciation": "/rɪˈzɪdʒuəl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w428-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "残余の、残った",
+        "meaningEn": "remaining after a process or event"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e428",
+        "english": "The test detected residual heat.",
+        "japanese": "その試験は残留熱を検出した。",
+        "clozeTarget": "residual"
+      }
+    ]
+  },
+  {
+    "id": "w429",
+    "lemma": "restrain",
+    "pronunciation": "/rɪˈstreɪn/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w429-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "抑える、制止する",
+        "meaningEn": "to prevent someone or something from acting freely"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e429",
+        "english": "The policy is designed to restrain spending.",
+        "japanese": "その方針は支出を抑えるよう設計されている。",
+        "clozeTarget": "restrain"
+      }
+    ]
+  },
+  {
+    "id": "w430",
+    "lemma": "straightforward",
+    "pronunciation": "/ˌstreɪtˈfɔːrwərd/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w430-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "簡単な、率直な",
+        "meaningEn": "simple, clear, and easy to understand"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e430",
+        "english": "The procedure is straightforward and easy to follow.",
+        "japanese": "その手順は簡単で、実行しやすい。",
+        "clozeTarget": "straightforward"
+      }
+    ]
+  },
+  {
+    "id": "w431",
+    "lemma": "substantial",
+    "pronunciation": "/səbˈstænʃəl/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w431-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "かなりの、実質的な",
+        "meaningEn": "large in amount or important in effect"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e431",
+        "english": "The project requires substantial investment.",
+        "japanese": "その計画にはかなりの投資が必要だ。",
+        "clozeTarget": "substantial"
+      }
+    ]
+  },
+  {
+    "id": "w432",
+    "lemma": "undermine",
+    "pronunciation": "/ˌʌndərˈmaɪn/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w432-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "弱体化させる、損なう",
+        "meaningEn": "to weaken something gradually or secretly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e432",
+        "english": "Rumors can undermine public confidence.",
+        "japanese": "うわさは人々の信頼を損なうことがある。",
+        "clozeTarget": "undermine"
+      }
+    ]
+  },
+  {
+    "id": "w433",
+    "lemma": "utilize",
+    "pronunciation": "/ˈjuːtəlaɪz/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w433-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "利用する",
+        "meaningEn": "to use something effectively"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e433",
+        "english": "The team will utilize satellite data.",
+        "japanese": "そのチームは衛星データを利用する。",
+        "clozeTarget": "utilize"
+      }
+    ]
+  },
+  {
+    "id": "w434",
+    "lemma": "accordingly",
+    "pronunciation": "/əˈkɔːrdɪŋli/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w434-v01",
+        "partOfSpeech": "adverb",
+        "meaningJa": "それに応じて、したがって",
+        "meaningEn": "in a way that is suitable or expected"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e434",
+        "english": "The schedule was adjusted accordingly.",
+        "japanese": "予定はそれに応じて調整された。",
+        "clozeTarget": "accordingly"
+      }
+    ]
+  },
+  {
+    "id": "w435",
+    "lemma": "albeit",
+    "pronunciation": "/ɔːlˈbiːɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w435-v01",
+        "partOfSpeech": "conjunction",
+        "meaningJa": "〜ではあるが",
+        "meaningEn": "although or even though"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e435",
+        "english": "The method was simple, albeit effective.",
+        "japanese": "その方法は効果的ではあるが、単純だった。",
+        "clozeTarget": "albeit"
+      }
+    ]
+  },
+  {
+    "id": "w436",
+    "lemma": "amend",
+    "pronunciation": "/əˈmend/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w436-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "修正する、改正する",
+        "meaningEn": "to change a document or law slightly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e436",
+        "english": "The committee may amend the law.",
+        "japanese": "委員会は法律を改正する可能性がある。",
+        "clozeTarget": "amend"
+      }
+    ]
+  },
+  {
+    "id": "w437",
+    "lemma": "bulk",
+    "pronunciation": "/bʌlk/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w437-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "大部分、かさ",
+        "meaningEn": "the larger part or main amount of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e437",
+        "english": "The bulk of the work was completed early.",
+        "japanese": "作業の大部分は早い段階で完了した。",
+        "clozeTarget": "bulk"
+      }
+    ]
+  },
+  {
+    "id": "w438",
+    "lemma": "capability",
+    "pronunciation": "/ˌkeɪpəˈbɪləti/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w438-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "能力、性能",
+        "meaningEn": "the ability to do something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e438",
+        "english": "The device has the capability to process large files.",
+        "japanese": "その装置には大きなファイルを処理する能力がある。",
+        "clozeTarget": "capability"
+      }
+    ]
+  },
+  {
+    "id": "w439",
+    "lemma": "criterion",
+    "pronunciation": "/kraɪˈtɪriən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w439-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "基準",
+        "meaningEn": "a standard used to judge something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e439",
+        "english": "Accuracy is an important criterion for selection.",
+        "japanese": "正確さは選定の重要な基準である。",
+        "clozeTarget": "criterion"
+      }
+    ]
+  },
+  {
+    "id": "w440",
+    "lemma": "deduce",
+    "pronunciation": "/dɪˈduːs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w440-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "推論する、演繹する",
+        "meaningEn": "to reach a conclusion from available facts"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e440",
+        "english": "We can deduce the answer from the evidence.",
+        "japanese": "証拠から答えを推論できる。",
+        "clozeTarget": "deduce"
+      }
+    ]
+  },
+  {
+    "id": "w441",
+    "lemma": "former",
+    "pronunciation": "/ˈfɔːrmər/",
+    "level": 3,
+    "senses": [
+      {
+        "id": "w441-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "以前の、前者の",
+        "meaningEn": "existing or happening earlier"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e441",
+        "english": "The former director joined the meeting.",
+        "japanese": "前任の責任者が会議に参加した。",
+        "clozeTarget": "former"
+      }
+    ]
+  },
+  {
+    "id": "w442",
+    "lemma": "framework",
+    "pronunciation": "/ˈfreɪmwɜːrk/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w442-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "枠組み、構成",
+        "meaningEn": "a basic structure supporting an idea or system"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e442",
+        "english": "The policy provides a framework for cooperation.",
+        "japanese": "その方針は協力の枠組みを提供する。",
+        "clozeTarget": "framework"
+      }
+    ]
+  },
+  {
+    "id": "w443",
+    "lemma": "hence",
+    "pronunciation": "/hens/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w443-v01",
+        "partOfSpeech": "adverb",
+        "meaningJa": "それゆえ、今から",
+        "meaningEn": "for this reason or from now"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e443",
+        "english": "The evidence was weak; hence, the claim was rejected.",
+        "japanese": "証拠が弱かったため、その主張は退けられた。",
+        "clozeTarget": "hence"
+      }
+    ]
+  },
+  {
+    "id": "w444",
+    "lemma": "illustrate",
+    "pronunciation": "/ˈɪləstreɪt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w444-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "説明する、例示する",
+        "meaningEn": "to explain something by using examples"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e444",
+        "english": "This example helps illustrate the difference.",
+        "japanese": "この例は違いを説明するのに役立つ。",
+        "clozeTarget": "illustrate"
+      }
+    ]
+  },
+  {
+    "id": "w445",
+    "lemma": "implicit",
+    "pronunciation": "/ɪmˈplɪsɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w445-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "暗黙の、含蓄された",
+        "meaningEn": "suggested without being directly stated"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e445",
+        "english": "The agreement contains an implicit promise.",
+        "japanese": "その合意には暗黙の約束が含まれている。",
+        "clozeTarget": "implicit"
+      }
+    ]
+  },
+  {
+    "id": "w446",
+    "lemma": "latter",
+    "pronunciation": "/ˈlætər/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w446-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "後者の、後半の",
+        "meaningEn": "the second of two people or things mentioned"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e446",
+        "english": "Of the two options, the latter is safer.",
+        "japanese": "2つの選択肢のうち、後者のほうが安全だ。",
+        "clozeTarget": "latter"
+      }
+    ]
+  },
+  {
+    "id": "w447",
+    "lemma": "nuclear",
+    "pronunciation": "/ˈnuːkliər/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w447-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "核の、原子力の",
+        "meaningEn": "relating to the nucleus of an atom"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e447",
+        "english": "The country is expanding its nuclear program.",
+        "japanese": "その国は原子力計画を拡大している。",
+        "clozeTarget": "nuclear"
+      }
+    ]
+  },
+  {
+    "id": "w448",
+    "lemma": "paradox",
+    "pronunciation": "/ˈpærədɑːks/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w448-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "逆説、パラドックス",
+        "meaningEn": "a situation that seems contradictory but may be true"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e448",
+        "english": "The result presents a paradox for the theory.",
+        "japanese": "その結果はその理論にとって逆説を示している。",
+        "clozeTarget": "paradox"
+      }
+    ]
+  },
+  {
+    "id": "w449",
+    "lemma": "recede",
+    "pronunciation": "/rɪˈsiːd/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w449-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "後退する、遠のく",
+        "meaningEn": "to move away or become less"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e449",
+        "english": "The floodwaters began to recede.",
+        "japanese": "洪水の水は引き始めた。",
+        "clozeTarget": "recede"
+      }
+    ]
+  },
+  {
+    "id": "w450",
+    "lemma": "subtle",
+    "pronunciation": "/ˈsʌtl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w450-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "微妙な、巧妙な",
+        "meaningEn": "not obvious and therefore difficult to notice"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e450",
+        "english": "The study found a subtle difference.",
+        "japanese": "その研究は微妙な違いを発見した。",
+        "clozeTarget": "subtle"
+      }
+    ]
+  },
+  {
+    "id": "w451",
+    "lemma": "underlying",
+    "pronunciation": "/ˌʌndərˈlaɪɪŋ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w451-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "根底にある",
+        "meaningEn": "forming the basic cause or support of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e451",
+        "english": "The report identifies the underlying cause.",
+        "japanese": "その報告書は根底にある原因を特定している。",
+        "clozeTarget": "underlying"
+      }
+    ]
+  },
+  {
+    "id": "w452",
+    "lemma": "whereby",
+    "pronunciation": "/werˈbaɪ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w452-v01",
+        "partOfSpeech": "adverb",
+        "meaningJa": "それによって",
+        "meaningEn": "by which or through which"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e452",
+        "english": "They adopted a system whereby users could review the data.",
+        "japanese": "彼らは利用者がデータを確認できる仕組みを採用した。",
+        "clozeTarget": "whereby"
+      }
+    ]
+  },
+  {
+    "id": "w453",
+    "lemma": "contemplate",
+    "pronunciation": "/ˈkɑːntəmpleɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w453-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "熟考する、考慮する",
+        "meaningEn": "to think carefully about something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e453",
+        "english": "The committee will contemplate several options.",
+        "japanese": "委員会はいくつかの選択肢を熟考する。",
+        "clozeTarget": "contemplate"
+      }
+    ]
+  },
+  {
+    "id": "w454",
+    "lemma": "deter",
+    "pronunciation": "/dɪˈtɜːr/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w454-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "思いとどまらせる",
+        "meaningEn": "to make someone less willing to do something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e454",
+        "english": "Visible cameras can deter crime.",
+        "japanese": "目に見えるカメラは犯罪を思いとどまらせることがある。",
+        "clozeTarget": "deter"
+      }
+    ]
+  },
+  {
+    "id": "w455",
+    "lemma": "devour",
+    "pronunciation": "/dɪˈvaʊər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w455-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "むさぼり食う、夢中で読む",
+        "meaningEn": "to eat something quickly or consume eagerly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e455",
+        "english": "The child began to devour the sandwich.",
+        "japanese": "その子どもはサンドイッチをむさぼり食べ始めた。",
+        "clozeTarget": "devour"
+      }
+    ]
+  },
+  {
+    "id": "w456",
+    "lemma": "emit",
+    "pronunciation": "/ɪˈmɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w456-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "放出する、発する",
+        "meaningEn": "to send out light, heat, sound, or gas"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e456",
+        "english": "The device can emit a faint signal.",
+        "japanese": "その装置はかすかな信号を発することがある。",
+        "clozeTarget": "emit"
+      }
+    ]
+  },
+  {
+    "id": "w457",
+    "lemma": "endure",
+    "pronunciation": "/ɪnˈdʊr/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w457-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "耐える、持ちこたえる",
+        "meaningEn": "to suffer something difficult patiently"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e457",
+        "english": "The bridge must endure heavy traffic.",
+        "japanese": "その橋は激しい交通に耐えなければならない。",
+        "clozeTarget": "endure"
+      }
+    ]
+  },
+  {
+    "id": "w458",
+    "lemma": "exert",
+    "pronunciation": "/ɪɡˈzɜːrt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w458-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "発揮する、行使する",
+        "meaningEn": "to use power, influence, or effort"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e458",
+        "english": "The policy may exert pressure on small firms.",
+        "japanese": "その方針は小規模企業に圧力をかける可能性がある。",
+        "clozeTarget": "exert"
+      }
+    ]
+  },
+  {
+    "id": "w459",
+    "lemma": "fuse",
+    "pronunciation": "/fjuːz/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w459-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "融合する、溶かす",
+        "meaningEn": "to join or blend into one"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e459",
+        "english": "The two materials can fuse under heat.",
+        "japanese": "その2つの素材は熱によって融合することがある。",
+        "clozeTarget": "fuse"
+      }
+    ]
+  },
+  {
+    "id": "w460",
+    "lemma": "hinder",
+    "pronunciation": "/ˈhɪndər/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w460-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "妨げる",
+        "meaningEn": "to make it difficult for something to happen"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e460",
+        "english": "Poor lighting can hinder concentration.",
+        "japanese": "照明が悪いと集中を妨げることがある。",
+        "clozeTarget": "hinder"
+      }
+    ]
+  },
+  {
+    "id": "w461",
+    "lemma": "indulge",
+    "pronunciation": "/ɪnˈdʌldʒ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w461-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "甘やかす、ふける",
+        "meaningEn": "to allow yourself to enjoy something freely"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e461",
+        "english": "It is easy to indulge in speculation.",
+        "japanese": "推測にふけるのは簡単だ。",
+        "clozeTarget": "indulge"
+      }
+    ]
+  },
+  {
+    "id": "w462",
+    "lemma": "patrol",
+    "pronunciation": "/pəˈtroʊl/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w462-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "巡回する、警備する",
+        "meaningEn": "to move around an area to guard it"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e462",
+        "english": "Officers patrol the area at night.",
+        "japanese": "警官たちは夜にその地域を巡回する。",
+        "clozeTarget": "patrol"
+      }
+    ]
+  },
+  {
+    "id": "w463",
+    "lemma": "prevail",
+    "pronunciation": "/prɪˈveɪl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w463-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "普及する、勝つ",
+        "meaningEn": "to exist or be successful despite difficulty"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e463",
+        "english": "A calm atmosphere can prevail after the discussion.",
+        "japanese": "話し合いの後には穏やかな雰囲気が広がることがある。",
+        "clozeTarget": "prevail"
+      }
+    ]
+  },
+  {
+    "id": "w464",
+    "lemma": "reconcile",
+    "pronunciation": "/ˈrekənsaɪl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w464-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "和解させる、調和させる",
+        "meaningEn": "to make two ideas or people agree"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e464",
+        "english": "The report tries to reconcile the conflicting results.",
+        "japanese": "その報告書は矛盾する結果を調和させようとしている。",
+        "clozeTarget": "reconcile"
+      }
+    ]
+  },
+  {
+    "id": "w465",
+    "lemma": "recur",
+    "pronunciation": "/rɪˈkɜːr/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w465-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "再発する、繰り返される",
+        "meaningEn": "to happen again, especially repeatedly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e465",
+        "english": "The same error may recur in future tests.",
+        "japanese": "同じ誤りが今後の試験で再発する可能性がある。",
+        "clozeTarget": "recur"
+      }
+    ]
+  },
+  {
+    "id": "w466",
+    "lemma": "reform",
+    "pronunciation": "/rɪˈfɔːrm/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w466-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "改革する、改善する",
+        "meaningEn": "to improve a system by changing it"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e466",
+        "english": "The government plans to reform the system.",
+        "japanese": "政府は制度を改革する予定だ。",
+        "clozeTarget": "reform"
+      }
+    ]
+  },
+  {
+    "id": "w467",
+    "lemma": "render",
+    "pronunciation": "/ˈrendər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w467-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "〜にする、提供する",
+        "meaningEn": "to cause someone or something to be in a condition"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e467",
+        "english": "The update could render the old system unusable.",
+        "japanese": "その更新によって古いシステムが使えなくなる可能性がある。",
+        "clozeTarget": "render"
+      }
+    ]
+  },
+  {
+    "id": "w468",
+    "lemma": "replicate",
+    "pronunciation": "/ˈreplɪkeɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w468-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "複製する、再現する",
+        "meaningEn": "to copy or repeat something accurately"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e468",
+        "english": "Other teams should replicate the experiment.",
+        "japanese": "他のチームもその実験を再現すべきだ。",
+        "clozeTarget": "replicate"
+      }
+    ]
+  },
+  {
+    "id": "w469",
+    "lemma": "resign",
+    "pronunciation": "/rɪˈzaɪn/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w469-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "辞職する、断念する",
+        "meaningEn": "to officially leave a job or give up"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e469",
+        "english": "The director may resign next month.",
+        "japanese": "責任者は来月辞職する可能性がある。",
+        "clozeTarget": "resign"
+      }
+    ]
+  },
+  {
+    "id": "w470",
+    "lemma": "schedule",
+    "pronunciation": "/ˈskedʒuːl/",
+    "level": 3,
+    "senses": [
+      {
+        "id": "w470-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "予定を組む",
+        "meaningEn": "to arrange for something to happen at a particular time"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e470",
+        "english": "The hospital will schedule the procedure tomorrow.",
+        "japanese": "病院は明日その処置を予定に入れる。",
+        "clozeTarget": "schedule"
+      }
+    ]
+  },
+  {
+    "id": "w471",
+    "lemma": "seek",
+    "pronunciation": "/siːk/",
+    "level": 3,
+    "senses": [
+      {
+        "id": "w471-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "求める、探す",
+        "meaningEn": "to try to find or obtain something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e471",
+        "english": "The researchers seek a reliable explanation.",
+        "japanese": "研究者たちは信頼できる説明を求めている。",
+        "clozeTarget": "seek"
+      }
+    ]
+  },
+  {
+    "id": "w472",
+    "lemma": "simulate",
+    "pronunciation": "/ˈsɪmjuleɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w472-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "模擬する、装う",
+        "meaningEn": "to copy the appearance or behavior of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e472",
+        "english": "The program can simulate a real conversation.",
+        "japanese": "そのプログラムは実際の会話を模擬できる。",
+        "clozeTarget": "simulate"
+      }
+    ]
+  },
+  {
+    "id": "w473",
+    "lemma": "surplus",
+    "pronunciation": "/ˈsɜːrplʌs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w473-v01",
+        "partOfSpeech": "noun",
+        "meaningJa": "余剰、余分",
+        "meaningEn": "an amount that is more than needed"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e473",
+        "english": "The farm sold its surplus after the harvest.",
+        "japanese": "その農場は収穫後に余剰分を販売した。",
+        "clozeTarget": "surplus"
+      }
+    ]
+  },
+  {
+    "id": "w474",
+    "lemma": "tolerate",
+    "pronunciation": "/ˈtɑːləreɪt/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w474-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "我慢する、許容する",
+        "meaningEn": "to accept something unpleasant without opposing it"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e474",
+        "english": "This material can tolerate high temperatures.",
+        "japanese": "この素材は高温に耐えられる。",
+        "clozeTarget": "tolerate"
+      }
+    ]
+  },
+  {
+    "id": "w475",
+    "lemma": "unify",
+    "pronunciation": "/ˈjuːnɪfaɪ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w475-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "統一する、結合する",
+        "meaningEn": "to join people or things into one"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e475",
+        "english": "The project aims to unify the two systems.",
+        "japanese": "その計画は2つのシステムを統合することを目指している。",
+        "clozeTarget": "unify"
+      }
+    ]
+  },
+  {
+    "id": "w476",
+    "lemma": "unprecedented",
+    "pronunciation": "/ʌnˈpresɪdentɪd/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w476-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "前例のない",
+        "meaningEn": "never having happened or existed before"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e476",
+        "english": "The city faced unprecedented demand.",
+        "japanese": "その都市は前例のない需要に直面した。",
+        "clozeTarget": "unprecedented"
+      }
+    ]
+  },
+  {
+    "id": "w477",
+    "lemma": "vanish",
+    "pronunciation": "/ˈvænɪʃ/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w477-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "消える、消滅する",
+        "meaningEn": "to disappear suddenly or completely"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e477",
+        "english": "The fog began to vanish as the sun rose.",
+        "japanese": "太陽が昇ると霧が消え始めた。",
+        "clozeTarget": "vanish"
+      }
+    ]
+  },
+  {
+    "id": "w478",
+    "lemma": "worsen",
+    "pronunciation": "/ˈwɜːrsən/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w478-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "悪化させる、悪化する",
+        "meaningEn": "to become or make something worse"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e478",
+        "english": "The situation may worsen without action.",
+        "japanese": "対策を取らなければ状況は悪化する可能性がある。",
+        "clozeTarget": "worsen"
+      }
+    ]
+  },
+  {
+    "id": "w479",
+    "lemma": "administer",
+    "pronunciation": "/ədˈmɪnɪstər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w479-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "管理する、施行する",
+        "meaningEn": "to manage or organize something officially"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e479",
+        "english": "Nurses carefully administer the medicine.",
+        "japanese": "看護師たちは慎重に薬を投与する。",
+        "clozeTarget": "administer"
+      }
+    ]
+  },
+  {
+    "id": "w480",
+    "lemma": "affluent",
+    "pronunciation": "/ˈæfluənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w480-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "裕福な、豊かな",
+        "meaningEn": "having a lot of money or resources"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e480",
+        "english": "The area is home to an affluent population.",
+        "japanese": "その地域には裕福な人々が住んでいる。",
+        "clozeTarget": "affluent"
+      }
+    ]
+  },
+  {
+    "id": "w481",
+    "lemma": "concise",
+    "pronunciation": "/kənˈsaɪs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w481-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "簡潔な",
+        "meaningEn": "giving information clearly in few words"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e481",
+        "english": "The report gives a concise summary.",
+        "japanese": "その報告書は簡潔な要約を示している。",
+        "clozeTarget": "concise"
+      }
+    ]
+  },
+  {
+    "id": "w482",
+    "lemma": "constrain",
+    "pronunciation": "/kənˈstreɪn/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w482-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "制約する、抑える",
+        "meaningEn": "to limit or restrict someone or something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e482",
+        "english": "Limited funding can constrain the project.",
+        "japanese": "限られた資金が計画を制約することがある。",
+        "clozeTarget": "constrain"
+      }
+    ]
+  },
+  {
+    "id": "w483",
+    "lemma": "defer",
+    "pronunciation": "/dɪˈfɜːr/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w483-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "延期する、従う",
+        "meaningEn": "to delay something or follow another person's judgment"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e483",
+        "english": "The committee decided to defer the vote.",
+        "japanese": "委員会は投票を延期することに決めた。",
+        "clozeTarget": "defer"
+      }
+    ]
+  },
+  {
+    "id": "w484",
+    "lemma": "endeavor",
+    "pronunciation": "/ɪnˈdevər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w484-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "努力する、試みる",
+        "meaningEn": "to try very hard to do something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e484",
+        "english": "The organization will endeavor to improve access.",
+        "japanese": "その組織は利用しやすさの向上に努める。",
+        "clozeTarget": "endeavor"
+      }
+    ]
+  },
+  {
+    "id": "w485",
+    "lemma": "impartial",
+    "pronunciation": "/ɪmˈpɑːrʃəl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w485-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "公平な、中立の",
+        "meaningEn": "not favoring one side over another"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e485",
+        "english": "The panel must remain impartial.",
+        "japanese": "審査団は公平でなければならない。",
+        "clozeTarget": "impartial"
+      }
+    ]
+  },
+  {
+    "id": "w486",
+    "lemma": "notably",
+    "pronunciation": "/ˈnoʊtəbli/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w486-v01",
+        "partOfSpeech": "adverb",
+        "meaningJa": "特に、著しく",
+        "meaningEn": "especially or in a noticeable way"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e486",
+        "english": "The results were notably different.",
+        "japanese": "結果は特に大きく異なっていた。",
+        "clozeTarget": "notably"
+      }
+    ]
+  },
+  {
+    "id": "w487",
+    "lemma": "rectify",
+    "pronunciation": "/ˈrektɪfaɪ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w487-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "修正する、是正する",
+        "meaningEn": "to correct a problem or mistake"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e487",
+        "english": "The team must rectify the error.",
+        "japanese": "そのチームは誤りを修正しなければならない。",
+        "clozeTarget": "rectify"
+      }
+    ]
+  },
+  {
+    "id": "w488",
+    "lemma": "tangible",
+    "pronunciation": "/ˈtændʒəbl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w488-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "有形の、実感できる",
+        "meaningEn": "real and able to be touched or clearly seen"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e488",
+        "english": "The project produced tangible benefits.",
+        "japanese": "その計画は目に見える利益を生み出した。",
+        "clozeTarget": "tangible"
+      }
+    ]
+  },
+  {
+    "id": "w489",
+    "lemma": "transcend",
+    "pronunciation": "/trænˈsend/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w489-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "超越する",
+        "meaningEn": "to go beyond a limit or ordinary experience"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e489",
+        "english": "The message can transcend cultural boundaries.",
+        "japanese": "そのメッセージは文化の境界を超えられる。",
+        "clozeTarget": "transcend"
+      }
+    ]
+  },
+  {
+    "id": "w490",
+    "lemma": "unavoidable",
+    "pronunciation": "/ˌʌnəˈvɔɪdəbl/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w490-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "避けられない",
+        "meaningEn": "impossible to avoid or prevent"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e490",
+        "english": "Some level of risk is unavoidable.",
+        "japanese": "ある程度のリスクは避けられない。",
+        "clozeTarget": "unavoidable"
+      }
+    ]
+  },
+  {
+    "id": "w491",
+    "lemma": "uphold",
+    "pronunciation": "/ʌpˈhoʊld/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w491-v01",
+        "partOfSpeech": "verb",
+        "meaningJa": "支持する、維持する",
+        "meaningEn": "to support or maintain a principle or decision"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e491",
+        "english": "The court will uphold the original decision.",
+        "japanese": "裁判所は元の決定を支持するだろう。",
+        "clozeTarget": "uphold"
+      }
+    ]
+  },
+  {
+    "id": "w492",
+    "lemma": "versatile",
+    "pronunciation": "/ˈvɜːrsətl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w492-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "多才な、多用途の",
+        "meaningEn": "able to be used in many different ways"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e492",
+        "english": "This is a versatile tool for data analysis.",
+        "japanese": "これはデータ分析に使える多用途のツールだ。",
+        "clozeTarget": "versatile"
+      }
+    ]
+  },
+  {
+    "id": "w493",
+    "lemma": "wary",
+    "pronunciation": "/ˈweri/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w493-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "用心深い",
+        "meaningEn": "careful because you do not completely trust something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e493",
+        "english": "Investors remain wary of sudden changes.",
+        "japanese": "投資家たちは突然の変化を警戒している。",
+        "clozeTarget": "wary"
+      }
+    ]
+  },
+  {
+    "id": "w494",
+    "lemma": "rigorous",
+    "pronunciation": "/ˈrɪɡərəs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w494-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "厳密な、厳しい",
+        "meaningEn": "careful, thorough, and demanding"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e494",
+        "english": "The study followed a rigorous method.",
+        "japanese": "その研究は厳密な方法に従った。",
+        "clozeTarget": "rigorous"
+      }
+    ]
+  },
+  {
+    "id": "w495",
+    "lemma": "vague",
+    "pronunciation": "/veɪɡ/",
+    "level": 4,
+    "senses": [
+      {
+        "id": "w495-v01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "曖昧な、漠然とした",
+        "meaningEn": "not clearly expressed or defined"
+      }
+    ],
+    "examples": [
+      {
+        "id": "e495",
+        "english": "The instructions were too vague to follow.",
+        "japanese": "その指示は曖昧すぎて従えなかった。",
+        "clozeTarget": "vague"
+      }
+    ]
+  }
+]

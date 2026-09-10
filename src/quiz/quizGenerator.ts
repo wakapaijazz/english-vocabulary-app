@@ -1,6 +1,7 @@
 import { definitionCatalog } from "../data/definitionCatalog";
 import { exampleCatalog } from "../data/exampleCatalog";
 import { exampleSupplementCatalog } from "../data/exampleSupplementCatalog";
+import { exampleRevisionCatalog } from "../data/exampleRevisionCatalog";
 import { phraseExampleCatalog } from "../data/phraseExampleCatalog";
 import { phraseCatalog, type PhraseQuestionSeed } from "../data/phraseCatalog";
 import { phraseMeaningCatalog } from "../data/phraseMeaningCatalog";
@@ -74,7 +75,9 @@ function fallbackExample(lemma: string): PreparedExample {
 
 function prepareExamples(entry: VocabularyEntry): PreparedExamples {
   const supplement = exampleSupplementCatalog[entry.lemma];
-  const direct = [...(entry.examples ?? []), ...(supplement ? [supplement] : [])]
+  const revised = exampleRevisionCatalog[entry.lemma];
+  const directExamples = (entry.examples ?? []).map((example, index) => index === 0 && revised ? revised : example);
+  const direct = [...directExamples, ...(supplement ? [supplement] : [])]
     .filter((example) => example.english.trim() && example.japanese.trim())
     .map(({ english, japanese, clozeTarget }) => ({ english, japanese, clozeTarget }));
 

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { exampleSupplementCatalog } from "../data/exampleSupplementCatalog";
+import { exampleRevisionCatalog } from "../data/exampleRevisionCatalog";
 import { phraseCatalog } from "../data/phraseCatalog";
 import { phraseExampleCatalog } from "../data/phraseExampleCatalog";
 import type { VocabularyEntry } from "../types/vocabulary";
@@ -24,7 +25,9 @@ export function WordCard({ entry, compact = false, isFavorite = false, onToggleF
     (seed) => seed.word.toLowerCase() === entry.lemma.toLowerCase() && !existingExpressions.has(seed.expression.toLowerCase()),
   );
   const supplement = exampleSupplementCatalog[entry.lemma];
-  const examples = [...(entry.examples ?? []), ...(supplement ? [supplement] : [])];
+  const revised = exampleRevisionCatalog[entry.lemma];
+  const directExamples = (entry.examples ?? []).map((example, index) => index === 0 && revised ? revised : example);
+  const examples = [...directExamples, ...(supplement ? [supplement] : [])];
 
   return (
     <article className={`word-card ${compact ? "compact" : ""}`}>

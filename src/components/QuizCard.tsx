@@ -72,7 +72,10 @@ export function QuizCard({ question, selectedChoiceId, answered, onSelect }: Qui
             {examples.map((example, index) => (
               <div key={`${question.id}-example-${index}`} style={{ display: "flex", alignItems: "center", gap: "8px", marginTop: "8px" }}>
                 <strong>{index === 0 ? "例文" : `例文${index + 1}`}</strong>
-                <span style={{ flex: 1 }}>{example.english}（{example.japanese}）</span>
+                <span style={{ flex: 1 }}>
+                  <span style={{ display: "block" }}>{example.english}</span>
+                  <span style={{ display: "block", color: "var(--muted)", marginTop: "3px" }}>（{example.japanese}）</span>
+                </span>
                 <span style={{ position: "relative", width: "48px", height: "36px", flex: "0 0 48px" }}>
                   <SpeakButton text={example.english} label={`${index === 0 ? "例文" : `例文${index + 1}`}を再生`} />
                 </span>

@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { exampleSupplementCatalog } from "../data/exampleSupplementCatalog";
-import { exampleRevisionCatalog } from "../data/exampleRevisionCatalog";
+import { getWordExamples } from "../data/exampleResolver";
 import { phraseCatalog } from "../data/phraseCatalog";
 import { phraseExampleCatalog } from "../data/phraseExampleCatalog";
 import type { VocabularyEntry } from "../types/vocabulary";
@@ -17,10 +16,7 @@ export function WordCard({ entry, compact = false, isFavorite = false, onToggleF
     ...(entry.idioms ?? []).map((item) => item.expression.toLowerCase()),
   ]);
   const catalogPhrases = phraseCatalog.filter((seed) => seed.word.toLowerCase() === entry.lemma.toLowerCase() && !existingExpressions.has(seed.expression.toLowerCase()));
-  const supplement = exampleSupplementCatalog[entry.lemma];
-  const revised = exampleRevisionCatalog[entry.lemma];
-  const directExamples = (entry.examples ?? []).map((example, index) => index === 0 && revised ? revised : example);
-  const examples = [...directExamples, ...(supplement ? [supplement] : [])];
+  const examples = getWordExamples(entry);
   const detailToggleStyle = { display: "grid", placeItems: "center", width: "32px", height: "32px", borderRadius: "10px", color: "var(--teal-dark)", background: expanded ? "#e7f1ea" : "transparent", transition: "background .2s ease" } as const;
   const chevronStyle = { width: "8px", height: "8px", borderRight: "1.5px solid currentColor", borderBottom: "1.5px solid currentColor", transform: expanded ? "rotate(225deg)" : "rotate(45deg)", marginTop: expanded ? "4px" : "-4px", transition: "transform .2s ease, margin .2s ease" } as const;
 

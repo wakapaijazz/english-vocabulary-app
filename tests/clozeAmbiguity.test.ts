@@ -26,6 +26,13 @@ describe("cloze answer uniqueness", () => {
     }
   });
 
+  it("makes the past tense explicit for absorb", () => {
+    const questions = generateQuizQuestions(entries, { type: "cloze", count: entries.length });
+    const question = questions.find((candidate) => candidate.details.word === "absorb");
+    expect(question?.prompt).toContain("yesterday");
+    expect(question?.prompt).toContain("missed her stop");
+    expect(question?.choices.map((choice) => choice.text)).toEqual(expect.arrayContaining(["absorb", "assign", "inspect", "publish"]));
+  });
   it("uses reviewed phrase choices that contain only one answer", () => {
     for (const [id, choices] of Object.entries(phraseChoiceOverrides)) {
       const seed = allPhraseCatalog.find((candidate) => candidate.id === id);

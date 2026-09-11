@@ -8,7 +8,7 @@ export const exampleSupplementB: Record<string, ExampleSentence> = {
   support: { id: "supp-105", english: "Four stone pillars support the roof of the ancient hall.", japanese: "4本の石柱が古いホールの屋根を支えている。", clozeTarget: "support" },
   abandon: { id: "supp-106", english: "The crew had to abandon the boat when the engine caught fire.", japanese: "エンジンが発火したとき、乗組員はボートを見捨てざるを得なかった。", clozeTarget: "abandon" },
   absolute: { id: "supp-107", english: "The judge demanded absolute honesty from every witness.", japanese: "裁判官はすべての証人に絶対的な正直さを求めた。", clozeTarget: "absolute" },
-  absorb: { id: "supp-108", english: "The mystery novel absorbed her attention during the long train ride.", japanese: "そのミステリー小説は長い列車の旅の間、彼女を夢中にさせた。", clozeTarget: "absorbed" },
+  absorb: { id: "supp-108", english: "During the long train ride yesterday, the mystery novel absorbed her so completely that she missed her stop.", japanese: "昨日の長い列車の旅で、そのミステリー小説に彼女はすっかり夢中になり、降りる駅を逃した。", clozeTarget: "absorbed" },
   academic: { id: "supp-109", english: "His academic record earned him a place at the university.", japanese: "彼の学業成績によって、彼はその大学への入学を果たした。", clozeTarget: "academic" },
   accommodate: { id: "supp-110", english: "The small theater can accommodate only eighty guests.", japanese: "その小さな劇場は80人の客しか収容できない。", clozeTarget: "accommodate" },
   accomplish: { id: "supp-111", english: "The volunteer accomplished more in one afternoon than we expected.", japanese: "そのボランティアは、私たちが予想した以上のことを午後の一日で成し遂げた。", clozeTarget: "accomplished" },

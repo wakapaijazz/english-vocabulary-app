@@ -55,6 +55,6 @@ export default function App() {
       {activePage === "statistics" && <StatisticsPage entries={entries} history={history}/>} 
       {activePage === "settings" && <SettingsPage settings={settings} onSave={saveAppSettings}/>} 
     </main>
-    <div className="mobile-nav"><Navigation activePage={activePage} onNavigate={setActivePage}/></div>
+    <div className="mobile-nav"><Navigation activePage={activePage} onNavigate={setActivePage} mobile /></div>
   </div>;
 }

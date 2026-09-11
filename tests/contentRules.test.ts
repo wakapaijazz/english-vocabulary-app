@@ -40,6 +40,38 @@ function similarity(left: string, right: string, lemma: string): number {
   return shared.length / Math.max(1, Math.min(leftTokens.length, rightTokens.length));
 }
 
+function normalizedWords(text: string): string[] {
+  return text.toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(Boolean);
+}
+
+function targetLike(word: string, lemma: string): boolean {
+  const lemmaStem = lemma.toLowerCase().replace(/(ing|ed|es|s)$/i, "");
+  const wordStem = word.replace(/(ing|ed|es|s)$/i, "");
+  return wordStem === lemmaStem;
+}
+
+function sentenceSkeleton(text: string, lemma: string): string[] {
+  return normalizedWords(text).map((word) => {
+    if (targetLike(word, lemma)) return "TARGET";
+    if (stopWords.has(word)) return ["a", "an", "the", "any", "each", "both", "some", "one"].includes(word) ? "DET" : word;
+    return "CONTENT";
+  });
+}
+
+function sharedLiteralPrefix(left: string, right: string): string[] {
+  const leftWords = normalizedWords(left);
+  const rightWords = normalizedWords(right);
+  const prefix: string[] = [];
+  while (prefix.length < leftWords.length && prefix.length < rightWords.length && leftWords[prefix.length] === rightWords[prefix.length]) prefix.push(leftWords[prefix.length]);
+  return prefix;
+}
+
+function sharedContextTokens(left: string, right: string, lemma: string): string[] {
+  const leftTokens = contentTokens(left, lemma);
+  const rightTokens = contentTokens(right, lemma);
+  return [...new Set(leftTokens.filter((word) => rightTokens.includes(word)))];
+}
+
 describe("content rules", () => {
   it("keeps every word's rendered examples complete and non-placeholder", () => {
     expect(Object.keys({ ...exampleRevisionCatalog, ...exampleRevisionExtra }).every((lemma) => entries.some((entry) => entry.lemma === lemma))).toBe(true);
@@ -62,7 +94,10 @@ describe("content rules", () => {
       const examples = getWordExamples(entry);
       const pairs: string[] = [];
       for (let i = 0; i < examples.length; i += 1) for (let j = i + 1; j < examples.length; j += 1) {
-        if (similarity(examples[i].english, examples[j].english, entry.lemma) >= 0.9) pairs.push(`${examples[i].english} / ${examples[j].english}`);
+        const sameStructure = sentenceSkeleton(examples[i].english, entry.lemma).join(" ") === sentenceSkeleton(examples[j].english, entry.lemma).join(" ");
+        const sharedContext = sharedContextTokens(examples[i].english, examples[j].english, entry.lemma);
+        const longSharedPrefix = sharedLiteralPrefix(examples[i].english, examples[j].english).length >= 4;
+        if (similarity(examples[i].english, examples[j].english, entry.lemma) >= 0.9 || (sameStructure && sharedContext.length > 0) || longSharedPrefix) pairs.push(examples[i].english + " / " + examples[j].english);
       }
       return pairs.length ? [`${entry.lemma}: ${pairs.join(" | ")}`] : [];
     });

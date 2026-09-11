@@ -3,6 +3,7 @@ import { exampleRevisionCatalog } from "./exampleRevisionCatalog";
 import { exampleRevisionExtra } from "./exampleRevisionExtra";
 import { exampleSupplementCatalog } from "./exampleSupplementCatalog";
 import { exampleThirdCatalog } from "./exampleThirdCatalog";
+import { exampleDiversityRevision } from "./exampleDiversityRevision";
 import type { ExampleSentence, VocabularyEntry } from "../types/vocabulary";
 
 const revisions = { ...exampleRevisionCatalog, ...exampleRevisionExtra };
@@ -21,6 +22,9 @@ export function getWordExamples(entry: VocabularyEntry): ExampleSentence[] {
   const supplement = exampleSupplementCatalog[entry.lemma];
   const third = exampleThirdCatalog[entry.lemma];
 
-  return [...directExamples, ...(supplement ? [supplement] : []), ...(third ? [third] : [])]
+  const renderedExamples = [...directExamples, ...(supplement ? [supplement] : []), ...(third ? [third] : [])];
+
+  return renderedExamples
+    .map((example, index) => exampleDiversityRevision[entry.lemma]?.[index] ?? example)
     .filter((example) => example.english.trim() && example.japanese.trim());
 }

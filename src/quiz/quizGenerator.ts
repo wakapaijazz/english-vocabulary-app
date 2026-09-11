@@ -5,6 +5,7 @@ import { allPhraseCatalog } from "../data/phraseCatalogAll";
 import { getPhraseExamples } from "../data/phraseResolver";
 import { phraseMeaningCatalog } from "../data/phraseMeaningCatalog";
 import { phraseMeaningExpansion } from "../data/phraseMeaningExpansion";
+import { phraseMeaningExpansion2 } from "../data/phraseMeaningExpansion2";
 import type { LearningHistory } from "../types/learning";
 import type { QuizChoice, QuizExample, QuizQuestion, QuizType } from "../types/quiz";
 import type { VocabularyEntry, VocabularySense } from "../types/vocabulary";
@@ -57,10 +58,13 @@ function createWordQuestion(entry: VocabularyEntry, entries: VocabularyEntry[], 
   question.correctChoiceId = correctChoiceId; return question;
 }
 function createPhraseQuestion(seed: (typeof allPhraseCatalog)[number], index: number, entries: VocabularyEntry[]): QuizQuestion {
-  const relatedEntry = entries.find((entry) => entry.lemma === seed.word); const meanings = { ...(phraseMeaningCatalog[seed.expression] ?? {}), ...(phraseMeaningExpansion[seed.expression] ?? {}) }; const correctChoiceId = `phrase-choice-${seed.id}-correct`; const availableExamples = getPhraseExamples(seed); const selectedExample = pick(availableExamples);
+  const relatedEntry = entries.find((entry) => entry.lemma === seed.word); const meanings = { ...(phraseMeaningCatalog[seed.expression] ?? {}), ...(phraseMeaningExpansion[seed.expression] ?? {}), ...(phraseMeaningExpansion2[seed.expression] ?? {}) }; const correctChoiceId = `phrase-choice-${seed.id}-correct`; const availableExamples = getPhraseExamples(seed); const selectedExample = pick(availableExamples);
   return { id: `phrase-${seed.id}-${index}`, vocabularyId: relatedEntry?.id ?? seed.id, senseId: relatedEntry?.senses[0]?.id, type: "collocation", skill: "collocation", prompt: selectedExample.prompt ?? seed.prompt, choices: seed.choices.map((choice, choiceIndex) => ({ id: choice.text === seed.answer ? correctChoiceId : `phrase-choice-${seed.id}-${choiceIndex}`, text: choice.text, meaningJa: meanings[choice.text] ?? choice.meaningJa })), correctChoiceId, explanation: selectedExample.japanese, details: { word: seed.expression, meaningJa: seed.meaningJa, definitionEn: seed.definitionEn, exampleEnglish: selectedExample.english, exampleJapanese: selectedExample.japanese, examples: availableExamples.map(({ english, japanese }) => ({ english, japanese })) } };
 }
 function eligibleEntries(entries: VocabularyEntry[], mode: QuizMode, history: LearningHistory = {}, level?: number): VocabularyEntry[] { const byLevel = entries.filter((entry) => level === undefined || entry.level === level); const filtered = byLevel.filter((entry) => { const state = history[entry.id]; if (mode === "new") return !state?.seenCount; if (mode === "review") return Boolean(state && isDue(state)); if (mode === "mistakes") return Boolean(state?.wrongCount); if (mode === "weak") return Boolean(state && isWeak(state)); return true; }); return filtered.length ? filtered : byLevel; }
 export function generateQuizQuestions(entries: VocabularyEntry[], options: { type: QuizType; count: number; mode?: QuizMode; history?: LearningHistory; level?: number }): QuizQuestion[] { const pool = shuffle(eligibleEntries(entries, options.mode ?? "all", options.history, options.level)); if (!pool.length || options.count <= 0) return []; const phrasePool = shuffle(allPhraseCatalog); let phraseIndex = 0; return Array.from({ length: options.count }, (_, index) => { const entry = pool[index % pool.length]; const type = options.type === "mixed" ? mixedTypes[index % mixedTypes.length] : options.type; if (type === "collocation") { const seed = phrasePool[phraseIndex % phrasePool.length]; phraseIndex += 1; return createPhraseQuestion(seed, index, entries); } return createWordQuestion(entry, entries, type, index); }); }
 export function validateQuizQuestion(question: QuizQuestion): boolean { const choiceIds = new Set(question.choices.map((choice) => choice.id)); return question.choices.length === 4 && choiceIds.size === 4 && question.choices.some((choice) => choice.id === question.correctChoiceId) && Boolean(question.prompt.trim()); }
 export type { QuizChoice };
+
+
+

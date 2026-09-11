@@ -4,10 +4,10 @@
 
 ## 1. 件数とデータの責務
 
-- 単語は次の5つのJSONを統合して管理する。`vocabulary.json`、`vocabulary-extra.json`、`vocabulary-more.json`、`vocabulary-final.json`、`vocabulary-expansion.json`。現在は合計700語。
-- 現在の700語は共通テストレベルの基礎・標準語彙として、原則 `common-test` タグを付ける。件数を増やすためだけに、出題価値の低い語を追加しない。
-- 語句問題は `phraseCatalog.ts` と `phraseCatalogExpansion.ts` を `allPhraseCatalog` で統合して管理する。現在は単語700語とは別に100問。
-- 辞書には「単語」「語句」の2タブがあり、語句タブで100問すべてを直接確認できる。語句を単語カード内だけに頼らない。
+- 単語は次の6つのJSONを統合して管理する。`vocabulary.json`、`vocabulary-extra.json`、`vocabulary-more.json`、`vocabulary-final.json`、`vocabulary-expansion.json`、`vocabulary-expansion-2.json`。現在は合計800語。
+- 現在の800語は共通テストレベルの基礎・標準語彙として、原則 `common-test` タグを付ける。件数を増やすためだけに、出題価値の低い語を追加しない。
+- 語句問題は `phraseCatalog.ts`、`phraseCatalogExpansion.ts`、`phraseCatalogExpansion2.ts` を `allPhraseCatalog` で統合して管理する。現在は単語800語とは別に150問。
+- 辞書には「単語」「語句」の2タブがあり、語句タブで150問すべてを直接確認できる。語句を単語カード内だけに頼らない。
 - 単語の例文は `src/data/exampleResolver.ts` の `getWordExamples()` で統合する。画面やクイズ側で個別に配列を組み立てない。
   - JSONの `entry.examples`: 各単語の基本例文。
   - `exampleCatalog.ts`: 旧データに直接例文がない単語を補う旧例文。
@@ -15,9 +15,9 @@
   - `exampleSupplementA.ts`〜`E.ts`: 既存500語のレビュー済み追加例文。
   - `exampleThirdCatalog.ts`: 複数の意味・用法がある既存語の3つ目の例文。
 - 語句の例文は `getPhraseExamples()` で統合する。
-  - `phraseCatalog.ts` / `phraseCatalogExpansion.ts`: 基本例文。
-  - `phraseExampleCatalog.ts` / `phraseExampleExpansion.ts`: 追加例文。
-  - `phraseExampleRevision.ts`: 基本例文と同じ文になった追加例文を別用例へ差し替える編集レイヤー。
+  - `phraseCatalog.ts` / `phraseCatalogExpansion.ts` / `phraseCatalogExpansion2.ts`: 基本例文。
+  - `phraseExampleCatalog.ts` / `phraseExampleExpansion.ts` / `phraseExampleExpansion2.ts`: 追加例文。
+  - `phraseExampleRevision.ts` / `phraseExampleRevision2.ts`: 基本例文と同じ文になった追加例文や、最終レビューで語法を直した例文を別用例へ差し替える編集レイヤー。
 
 ## 2. 単語データ
 
@@ -32,7 +32,7 @@
 
 ### 今後のレベル拡張ルール（今回追加した運用案）
 
-- 700語の共通テスト土台と、将来追加する国公立二次・英検準1級・英検1級レベルを混ぜて管理しない。上位語彙には `advanced-secondary`、`eiken-pre1`、`eiken-1` など、出典・対象レベルが分かるタグを付ける。
+- 800語の共通テスト土台と、将来追加する国公立二次・英検準1級・英検1級レベルを混ぜて管理しない。上位語彙には `advanced-secondary`、`eiken-pre1`、`eiken-1` など、出典・対象レベルが分かるタグを付ける。
 - 同じ語の難しい意味を追加するときは、既存の `senses` に追加し、例文をその意味専用にする。単語を重複登録しない。
 - 新しい試験レベルを追加するときは、件数だけでなく、抽象語・学術語・社会問題・自然科学・読解頻出語などの分野の偏りを点検する。
 - 発音記号・品詞・英語定義・日本語訳・例文がそろわない語は、登録件数に含めない。
@@ -78,13 +78,13 @@
 
 ## 4. コロケーション／イディオム
 
-- 各IDは一意にする。基本60問は `phraseCatalog.ts`、追加40問は `phraseCatalogExpansion.ts` に登録し、出題・辞書では `allPhraseCatalog` を使う。
+- 各IDは一意にする。基本60問は `phraseCatalog.ts`、追加40問は `phraseCatalogExpansion.ts`、追加50問は `phraseCatalogExpansion2.ts` に登録し、出題・辞書では `allPhraseCatalog` を使う。
 - 各問題は完成した `expression`、関連語 `word`、日本語訳、英語説明、例文を持つ。
 - `prompt` は空欄をちょうど1つ含める。`answer` は完成した表現の空欄部分であること。
 - 選択肢は4つ、テキストはすべて異なるものにする。複数語の答えも可とする（例：`down on`）。
-- `phraseMeaningCatalog.ts` と `phraseMeaningExpansion.ts` に4選択肢すべての意味を登録する。正解以外も、完成した語句としての意味、または「この文では意味をなさない」と明示する。
+- `phraseMeaningCatalog.ts`、`phraseMeaningExpansion.ts`、`phraseMeaningExpansion2.ts` に4選択肢すべての意味を登録する。正解以外も、完成した語句としての意味、または「この文では意味をなさない」と明示する。
 - 例文の日本語訳は、語句の意味を括弧で足すのではなく、文全体を自然に訳す。
-- 追加例文は `phraseExampleCatalog.ts` / `phraseExampleExpansion.ts` に登録し、英文・日本語訳・必要なら専用の `prompt` を持たせる。出題時は1つを選び、回答後と辞書展開後はすべて表示する。
+- 追加例文は `phraseExampleCatalog.ts` / `phraseExampleExpansion.ts` / `phraseExampleExpansion2.ts` に登録し、英文・日本語訳・必要なら専用の `prompt` を持たせる。出題時は1つを選び、回答後と辞書展開後はすべて表示する。
 - 語句の例文も、主語・場面・用法を変え、元の例文の単なる長文化や再掲にしない。
 - 語句の分類は、前置詞を伴う定型表現、句動詞、慣用表現、一般的なコロケーションを含む。単なる任意の単語の組み合わせは登録しない。
 
@@ -115,12 +115,12 @@
 
 テストでは少なくとも次を検証する。
 
-- 単語700語、ID・見出し語の重複なし。
-- 700語すべてに発音記号と英語定義がある。
-- 700語すべての統合済み例文が2つ以上あり、複数意味語は3つ以上ある。
+- 単語800語、ID・見出し語の重複なし。
+- 800語すべてに発音記号と英語定義がある。
+- 800語すべての統合済み例文が2つ以上あり、複数意味語は3つ以上ある。
 - 例文に空欄・日本語訳不足・仮テンプレートの問題がない。
 - 例文ペアの内容語がほぼ同じになるケースを検出する。
-- 100語句、語句ID、空欄1つ、4選択肢、選択肢意味、追加例文を検証する。
+- 150語句、語句ID、空欄1つ、4選択肢、選択肢意味、追加例文を検証する。
 - クイズ生成後の全空所補充問題に `_____` がある。
 - 語句の追加例文が基本例文と同一でないことを検証する。
 - TypeScriptの型チェックと本番ビルドが成功する。
@@ -130,6 +130,13 @@
 ## 8. 追加時に提案するルール
 
 - 追加語彙には、試験レベルだけでなく出典・分野タグを付け、将来「共通テスト」「二次試験」「英検準1級」「英検1級」を別々に絞り込めるようにする。
-- 単語と語句の件数表示は、データファイルの数値を直接書かず、統合後の配列長から表示する。今回の700／100対応でもこの方式を維持する。
+- 単語と語句の件数表示は、データファイルの数値を直接書かず、統合後の配列長から表示する。今回の800／150対応でもこの方式を維持する。
 - 例文作成時は、追加前に既存例文との内容語・主語・構造を比較し、追加後に自動類似度テストを実行する。
 - 例文や語句を大きく追加する場合は、今回のように「基本データ」「追加データ」「編集・修正レイヤー」「共通Resolver」「自動テスト」を分離し、画面ごとの個別実装を増やさない。
+
+
+
+
+
+
+

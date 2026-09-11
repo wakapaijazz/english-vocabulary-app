@@ -4,6 +4,7 @@ import vocabularyExtra from "./data/vocabulary-extra.json";
 import vocabularyMore from "./data/vocabulary-more.json";
 import vocabularyFinal from "./data/vocabulary-final.json";
 import vocabularyExpansion from "./data/vocabulary-expansion.json";
+import vocabularyExpansion2 from "./data/vocabulary-expansion-2.json";
 import { pronunciationCatalog } from "./data/pronunciationCatalog";
 import { Navigation, type PageKey } from "./components/Navigation";
 import { HomePage } from "./pages/HomePage";
@@ -19,7 +20,7 @@ import type { VocabularyEntry } from "./types/vocabulary";
 import { createEmptyLearningState, loadLearningHistory, loadSettings, saveLearningHistory, saveSettings } from "./services/storageService";
 import { recordQuizResult } from "./review/masteryCalculator";
 
-const rawEntries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion] as unknown as VocabularyEntry[];
+const rawEntries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2] as unknown as VocabularyEntry[];
 const entries = rawEntries.map((entry) => ({
   ...entry,
   pronunciation: entry.pronunciation ?? pronunciationCatalog[entry.lemma],
@@ -59,3 +60,6 @@ export default function App() {
     <div className="mobile-nav"><Navigation activePage={activePage} onNavigate={setActivePage} mobile /></div>
   </div>;
 }
+
+
+

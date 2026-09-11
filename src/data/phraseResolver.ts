@@ -1,9 +1,11 @@
 import { phraseExampleCatalog, type PhraseExample } from "./phraseExampleCatalog";
 import { phraseExampleExpansion } from "./phraseExampleExpansion";
 import { phraseExampleRevision } from "./phraseExampleRevision";
+import { phraseExampleRevision2 } from "./phraseExampleRevision2";
+import { phraseExampleExpansion2 } from "./phraseExampleExpansion2";
 import type { PhraseQuestionSeed } from "./phraseCatalog";
 
-const supplementalExamples = { ...phraseExampleCatalog, ...phraseExampleExpansion, ...phraseExampleRevision };
+const supplementalExamples = { ...phraseExampleCatalog, ...phraseExampleExpansion, ...phraseExampleExpansion2, ...phraseExampleRevision, ...phraseExampleRevision2 };
 
 /** Returns the base example and the reviewed additional example for a phrase. */
 export function getPhraseExamples(seed: PhraseQuestionSeed): PhraseExample[] {
@@ -12,3 +14,8 @@ export function getPhraseExamples(seed: PhraseQuestionSeed): PhraseExample[] {
     ...(supplementalExamples[seed.id] ?? []),
   ].filter((example) => example.english.trim() && example.japanese.trim());
 }
+
+
+
+
+

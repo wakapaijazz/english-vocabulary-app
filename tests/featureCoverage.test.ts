@@ -72,6 +72,13 @@ describe("vocabulary feature coverage", () => {
     }
     expect(questions.every((question) => question.prompt.includes("_____"))).toBe(true);
   });
+
+  it("assigns dictionary-compatible favorite IDs to reviewed questions", () => {
+    const wordQuestion = generateQuizQuestions(entries, { type: "en-to-ja", count: 1 })[0];
+    const phraseQuestion = generateQuizQuestions(entries, { type: "collocation", count: 1 })[0];
+    expect(wordQuestion.favoriteId).toBe(wordQuestion.vocabularyId);
+    expect(phraseQuestion.favoriteId).toMatch(/^phrase:/);
+  });
 });
 
 

@@ -25,6 +25,7 @@ export interface QuizExplanation {
 export interface QuizQuestion {
   id: string;
   vocabularyId: string;
+  favoriteId?: string;
   senseId?: string;
   type: Exclude<QuizType, "mixed">;
   skill: SkillKey;

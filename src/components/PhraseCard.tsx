@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { phraseExampleCatalog } from "../data/phraseExampleCatalog";
+import { getPhraseExamples } from "../data/phraseResolver";
 import type { PhraseQuestionSeed } from "../data/phraseCatalog";
 import { SpeakButton } from "./SpeakButton";
 
@@ -7,7 +7,7 @@ interface PhraseCardProps { phrase: PhraseQuestionSeed; isFavorite: boolean; onT
 
 export function PhraseCard({ phrase, isFavorite, onToggleFavorite }: PhraseCardProps) {
   const [expanded, setExpanded] = useState(false);
-  const examples = [{ english: phrase.exampleEnglish, japanese: phrase.exampleJapanese }, ...(phraseExampleCatalog[phrase.id] ?? [])];
+  const examples = getPhraseExamples(phrase);
   const detailToggleStyle = { display: "grid", placeItems: "center", width: "32px", height: "32px", borderRadius: "10px", color: "var(--teal-dark)", background: expanded ? "#e7f1ea" : "transparent", transition: "background .2s ease" } as const;
   const chevronStyle = { width: "8px", height: "8px", borderRight: "1.5px solid currentColor", borderBottom: "1.5px solid currentColor", transform: expanded ? "rotate(225deg)" : "rotate(45deg)", marginTop: expanded ? "4px" : "-4px", transition: "transform .2s ease, margin .2s ease" } as const;
 

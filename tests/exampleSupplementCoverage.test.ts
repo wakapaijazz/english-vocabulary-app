@@ -11,7 +11,7 @@ import type { VocabularyEntry } from "../src/types/vocabulary";
 const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal] as unknown as VocabularyEntry[];
 
 describe("example supplements", () => {
-  it("adds one reviewed example to every word", () => {
+  it("adds one reviewed example to every original word", () => {
     expect(Object.keys(exampleSupplementCatalog)).toHaveLength(500);
     expect(new Set(Object.keys(exampleSupplementCatalog)).size).toBe(500);
     for (const entry of entries) {
@@ -24,7 +24,7 @@ describe("example supplements", () => {
     }
   });
 
-  it("adds a distinct cloze example to every phrase question", () => {
+  it("adds a distinct cloze example to every original phrase question", () => {
     expect(Object.keys(phraseExampleCatalog)).toHaveLength(60);
     expect(new Set(Object.keys(phraseExampleCatalog)).size).toBe(60);
     for (const seed of phraseCatalog) {

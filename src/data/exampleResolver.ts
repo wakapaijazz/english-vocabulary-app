@@ -2,6 +2,7 @@ import { exampleCatalog } from "./exampleCatalog";
 import { exampleRevisionCatalog } from "./exampleRevisionCatalog";
 import { exampleRevisionExtra } from "./exampleRevisionExtra";
 import { exampleSupplementCatalog } from "./exampleSupplementCatalog";
+import { exampleThirdCatalog } from "./exampleThirdCatalog";
 import type { ExampleSentence, VocabularyEntry } from "../types/vocabulary";
 
 const revisions = { ...exampleRevisionCatalog, ...exampleRevisionExtra };
@@ -18,7 +19,8 @@ export function getWordExamples(entry: VocabularyEntry): ExampleSentence[] {
         ? [{ id: `catalog-${entry.id}`, english: catalog.english, japanese: catalog.japanese }]
         : [];
   const supplement = exampleSupplementCatalog[entry.lemma];
+  const third = exampleThirdCatalog[entry.lemma];
 
-  return [...directExamples, ...(supplement ? [supplement] : [])]
+  return [...directExamples, ...(supplement ? [supplement] : []), ...(third ? [third] : [])]
     .filter((example) => example.english.trim() && example.japanese.trim());
 }

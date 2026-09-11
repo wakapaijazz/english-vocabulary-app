@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { phraseCatalog } from "../data/phraseCatalog";
+import { allPhraseCatalog } from "../data/phraseCatalogAll";
 import { PhraseCard } from "../components/PhraseCard";
 import { WordCard } from "../components/WordCard";
 import { getStoredFavorites, updateFavorites } from "../services/storageService";
@@ -35,7 +35,7 @@ export function DictionaryPage({ entries }: { entries: VocabularyEntry[] }) {
     .sort((a, b) => sortOrder === "asc" ? a.lemma.localeCompare(b.lemma, "en") : b.lemma.localeCompare(a.lemma, "en")),
   [entries, value, level, partOfSpeech, tag, favoritesOnly, favorites, sortOrder]);
 
-  const phraseResults = useMemo(() => phraseCatalog
+  const phraseResults = useMemo(() => allPhraseCatalog
     .filter((phrase) => {
       const searchable = [phrase.expression, phrase.word, phrase.meaningJa, phrase.definitionEn, phrase.exampleEnglish].join(" ").toLowerCase();
       const matchesQuery = !value || searchable.includes(value);
@@ -64,7 +64,7 @@ export function DictionaryPage({ entries }: { entries: VocabularyEntry[] }) {
   };
 
   const visibleCount = libraryMode === "words" ? wordResults.length : phraseResults.length;
-  const totalCount = libraryMode === "words" ? entries.length : phraseCatalog.length;
+  const totalCount = libraryMode === "words" ? entries.length : allPhraseCatalog.length;
 
   return (
     <div className="page">
@@ -72,14 +72,14 @@ export function DictionaryPage({ entries }: { entries: VocabularyEntry[] }) {
         <div>
           <span className="eyebrow">WORD LIBRARY</span>
           <h1>辞書</h1>
-          <p>単語500語と語句60個を、検索・タグ・お気に入りで整理できます。</p>
+          <p>単語{entries.length}語と語句{allPhraseCatalog.length}個を、検索・タグ・お気に入りで整理できます。</p>
         </div>
         <span className="search-count">{visibleCount} / {totalCount} {libraryMode === "words" ? "WORDS" : "PHRASES"}</span>
       </div>
 
       <div className="quiz-switcher" role="tablist" aria-label="辞書の種類" style={{ width: "fit-content", marginBottom: "18px" }}>
         <button className={libraryMode === "words" ? "active" : ""} onClick={() => setLibraryMode("words")} role="tab" aria-selected={libraryMode === "words"}>単語 {entries.length}</button>
-        <button className={libraryMode === "phrases" ? "active" : ""} onClick={() => setLibraryMode("phrases")} role="tab" aria-selected={libraryMode === "phrases"}>語句 {phraseCatalog.length}</button>
+        <button className={libraryMode === "phrases" ? "active" : ""} onClick={() => setLibraryMode("phrases")} role="tab" aria-selected={libraryMode === "phrases"}>語句 {allPhraseCatalog.length}</button>
       </div>
 
       <div className="search-box">

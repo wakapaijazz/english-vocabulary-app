@@ -5,6 +5,7 @@ import vocabularyMore from "../src/data/vocabulary-more.json";
 import vocabularyFinal from "../src/data/vocabulary-final.json";
 import vocabularyExpansion from "../src/data/vocabulary-expansion.json";
 import vocabularyExpansion2 from "../src/data/vocabulary-expansion-2.json";
+import vocabularyExpansion3 from "../src/data/vocabulary-expansion-3.json";
 import { definitionCatalog } from "../src/data/definitionCatalog";
 import { exampleRevisionCatalog } from "../src/data/exampleRevisionCatalog";
 import { exampleRevisionExtra } from "../src/data/exampleRevisionExtra";
@@ -14,14 +15,16 @@ import { allPhraseCatalog } from "../src/data/phraseCatalogAll";
 import { phraseExampleCatalog } from "../src/data/phraseExampleCatalog";
 import { phraseExampleExpansion } from "../src/data/phraseExampleExpansion";
 import { phraseExampleExpansion2 } from "../src/data/phraseExampleExpansion2";
+import { phraseExampleExpansion3 } from "../src/data/phraseExampleExpansion3";
 import { getPhraseExamples } from "../src/data/phraseResolver";
 import { phraseMeaningCatalog } from "../src/data/phraseMeaningCatalog";
 import { phraseMeaningExpansion } from "../src/data/phraseMeaningExpansion";
 import { phraseMeaningExpansion2 } from "../src/data/phraseMeaningExpansion2";
+import { phraseMeaningExpansion3 } from "../src/data/phraseMeaningExpansion3";
 import { pronunciationCatalog } from "../src/data/pronunciationCatalog";
 import type { VocabularyEntry } from "../src/types/vocabulary";
 
-const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2] as unknown as VocabularyEntry[];
+const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3] as unknown as VocabularyEntry[];
 const placeholderPattern = /The word ".*" is useful in context\.|This example shows how to use the word/i;
 const stopWords = new Set("a an the and or but if to of in on at for from with by as is are was were be been being this that these those it its they them their he she his her we our you your i me my do does did can could will would should may might must have has had than then very about into after before during over under up down out not no so who which what where when how all any each both more most some such only own new one several".split(" "));
 
@@ -105,19 +108,20 @@ describe("content rules", () => {
   });
 
   it("keeps every definition and pronunciation covered", () => {
-    expect(entries).toHaveLength(800);
-    expect(new Set(entries.map((entry) => entry.id)).size).toBe(800);
-    expect(new Set(entries.map((entry) => entry.lemma)).size).toBe(800);
+    expect(entries).toHaveLength(1000);
+    expect(new Set(entries.map((entry) => entry.id)).size).toBe(1000);
+    expect(new Set(entries.map((entry) => entry.lemma)).size).toBe(1000);
     expect(entries.every((entry) => entry.senses[0]?.meaningEn || definitionCatalog[entry.lemma])).toBe(true);
     expect(entries.every((entry) => entry.pronunciation || pronunciationCatalog[entry.lemma])).toBe(true);
   });
 
   it("keeps all phrase questions structurally valid", () => {
-    expect(allPhraseCatalog).toHaveLength(150);
-    expect(new Set(allPhraseCatalog.map((seed) => seed.id)).size).toBe(150);
+    expect(allPhraseCatalog).toHaveLength(200);
+    expect(new Set(allPhraseCatalog.map((seed) => seed.id)).size).toBe(200);
     expect(Object.keys(phraseExampleCatalog)).toHaveLength(60);
     expect(Object.keys(phraseExampleExpansion)).toHaveLength(40);
     expect(Object.keys(phraseExampleExpansion2)).toHaveLength(50);
+    expect(Object.keys(phraseExampleExpansion3)).toHaveLength(50);
     for (const seed of allPhraseCatalog) {
       expect((seed.prompt.match(/_____/g) ?? []).length, seed.id).toBe(1);
       expect(seed.expression).toContain(seed.answer);
@@ -126,7 +130,7 @@ describe("content rules", () => {
       expect(seed.exampleJapanese.trim(), seed.id).not.toBe("");
       expect(seed.choices, seed.id).toHaveLength(4);
       expect(new Set(seed.choices.map((choice) => choice.text)).size, seed.id).toBe(4);
-      const meanings = { ...(phraseMeaningCatalog[seed.expression] ?? {}), ...(phraseMeaningExpansion[seed.expression] ?? {}), ...(phraseMeaningExpansion2[seed.expression] ?? {}) };
+      const meanings = { ...(phraseMeaningCatalog[seed.expression] ?? {}), ...(phraseMeaningExpansion[seed.expression] ?? {}), ...(phraseMeaningExpansion2[seed.expression] ?? {}), ...(phraseMeaningExpansion3[seed.expression] ?? {}) };
       expect(Object.keys(meanings), seed.id).toHaveLength(4);
       for (const choice of seed.choices) expect(meanings[choice.text] ?? choice.meaningJa, `${seed.id}:${choice.text}`).toBeTruthy();
       const examples = getPhraseExamples(seed);

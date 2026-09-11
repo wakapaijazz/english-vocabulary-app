@@ -5,19 +5,20 @@ import vocabularyMore from "../src/data/vocabulary-more.json";
 import vocabularyFinal from "../src/data/vocabulary-final.json";
 import vocabularyExpansion from "../src/data/vocabulary-expansion.json";
 import vocabularyExpansion2 from "../src/data/vocabulary-expansion-2.json";
+import vocabularyExpansion3 from "../src/data/vocabulary-expansion-3.json";
 import { definitionCatalog } from "../src/data/definitionCatalog";
 import { allPhraseCatalog } from "../src/data/phraseCatalogAll";
 import { pronunciationCatalog } from "../src/data/pronunciationCatalog";
 import { generateQuizQuestions } from "../src/quiz/quizGenerator";
 import type { VocabularyEntry } from "../src/types/vocabulary";
 
-const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2] as unknown as VocabularyEntry[];
+const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3] as unknown as VocabularyEntry[];
 
 describe("vocabulary feature coverage", () => {
-  it("provides 800 unique words with pronunciation data", () => {
+  it("provides 1000 unique words with pronunciation data", () => {
     const missing = entries.filter((entry) => !entry.pronunciation && !pronunciationCatalog[entry.lemma]);
-    expect(entries).toHaveLength(800);
-    expect(new Set(entries.map((entry) => entry.lemma)).size).toBe(800);
+    expect(entries).toHaveLength(1000);
+    expect(new Set(entries.map((entry) => entry.lemma)).size).toBe(1000);
     expect(missing).toEqual([]);
   });
 
@@ -40,11 +41,11 @@ describe("vocabulary feature coverage", () => {
     expect(questions.flatMap((question) => question.choices).every((choice) => Boolean(choice.meaningJa))).toBe(true);
   });
 
-  it("generates 150 collocation and idiom cloze questions", () => {
-    expect(allPhraseCatalog).toHaveLength(150);
-    expect(new Set(allPhraseCatalog.map((seed) => seed.id)).size).toBe(150);
-    const questions = generateQuizQuestions(entries, { type: "collocation", count: 150 });
-    expect(questions).toHaveLength(150);
+  it("generates 200 collocation and idiom cloze questions", () => {
+    expect(allPhraseCatalog).toHaveLength(200);
+    expect(new Set(allPhraseCatalog.map((seed) => seed.id)).size).toBe(200);
+    const questions = generateQuizQuestions(entries, { type: "collocation", count: 200 });
+    expect(questions).toHaveLength(200);
     expect(questions.every((question) => question.type === "collocation" && question.prompt.includes("_____"))).toBe(true);
     expect(questions.flatMap((question) => question.choices).every((choice) => Boolean(choice.meaningJa))).toBe(true);
   });

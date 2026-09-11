@@ -5,6 +5,7 @@ import vocabularyMore from "./data/vocabulary-more.json";
 import vocabularyFinal from "./data/vocabulary-final.json";
 import vocabularyExpansion from "./data/vocabulary-expansion.json";
 import vocabularyExpansion2 from "./data/vocabulary-expansion-2.json";
+import vocabularyExpansion3 from "./data/vocabulary-expansion-3.json";
 import { pronunciationCatalog } from "./data/pronunciationCatalog";
 import { Navigation, type PageKey } from "./components/Navigation";
 import { HomePage } from "./pages/HomePage";
@@ -20,7 +21,7 @@ import type { VocabularyEntry } from "./types/vocabulary";
 import { createEmptyLearningState, loadLearningHistory, loadSettings, saveLearningHistory, saveSettings } from "./services/storageService";
 import { recordQuizResult } from "./review/masteryCalculator";
 
-const rawEntries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2] as unknown as VocabularyEntry[];
+const rawEntries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3] as unknown as VocabularyEntry[];
 const entries = rawEntries.map((entry) => ({
   ...entry,
   pronunciation: entry.pronunciation ?? pronunciationCatalog[entry.lemma],

@@ -1,0 +1,6450 @@
+[
+  {
+    "id": "w801",
+    "lemma": "abide",
+    "pronunciation": "/əˈbaɪd/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w801-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "守る、耐える",
+        "meaningEn": "to accept or follow a rule, or remain in a place"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w801-e01",
+        "english": "All visitors must abide by the laboratory's safety rules.",
+        "japanese": "すべての訪問者は研究室の安全規則を守らなければならない。",
+        "clozeTarget": "abide"
+      },
+      {
+        "id": "w801-e02",
+        "english": "The old bridge has abided many winters, but it now needs repair.",
+        "japanese": "その古い橋は何度も冬を耐えてきたが、今は修理が必要だ。",
+        "clozeTarget": "abided"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w802",
+    "lemma": "absurd",
+    "pronunciation": "/əbˈsɝːd/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w802-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "ばかげた、不合理な",
+        "meaningEn": "completely unreasonable or silly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w802-e01",
+        "english": "It would be absurd to blame the river for the flood.",
+        "japanese": "洪水の責任を川に負わせるのはばかげている。",
+        "clozeTarget": "absurd"
+      },
+      {
+        "id": "w802-e02",
+        "english": "The absurd rumor made the entire office laugh.",
+        "japanese": "そのばかげたうわさに職場全体が笑った。",
+        "clozeTarget": "absurd"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w803",
+    "lemma": "abstain",
+    "pronunciation": "/əbˈsteɪn/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w803-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "控える、棄権する",
+        "meaningEn": "to choose not to do or have something, or not to vote"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w803-e01",
+        "english": "The doctor advised him to abstain from alcohol during treatment.",
+        "japanese": "医師は治療中は飲酒を控えるよう彼に助言した。",
+        "clozeTarget": "abstain"
+      },
+      {
+        "id": "w803-e02",
+        "english": "Three members abstained when the council voted on the proposal.",
+        "japanese": "議会がその提案を採決した際、3人の議員が棄権した。",
+        "clozeTarget": "abstained"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w804",
+    "lemma": "acclaim",
+    "pronunciation": "/əˈkleɪm/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w804-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "称賛する",
+        "meaningEn": "to praise someone or something publicly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w804-e01",
+        "english": "Critics acclaimed the young director's first film.",
+        "japanese": "批評家たちはその若い監督の初作品を称賛した。",
+        "clozeTarget": "acclaimed"
+      },
+      {
+        "id": "w804-e02",
+        "english": "The scientist was acclaimed for making complex ideas accessible.",
+        "japanese": "その科学者は複雑な考えを分かりやすくしたことで称賛された。",
+        "clozeTarget": "acclaimed"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w805",
+    "lemma": "assert",
+    "pronunciation": "/əˈsɝːt/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w805-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "断言する、主張する",
+        "meaningEn": "to state an opinion or fact confidently"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w805-e01",
+        "english": "The witness asserted that the document had been altered.",
+        "japanese": "その証人は文書が改ざんされたと断言した。",
+        "clozeTarget": "asserted"
+      },
+      {
+        "id": "w805-e02",
+        "english": "In her essay, she asserts that public art belongs in everyday spaces.",
+        "japanese": "彼女は論文で、公共芸術は日常の空間にあるべきだと主張している。",
+        "clozeTarget": "asserts"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w806",
+    "lemma": "adhere",
+    "pronunciation": "/ədˈhɪr/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w806-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "固く守る、付着する",
+        "meaningEn": "to behave according to a rule or stick firmly to something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w806-e01",
+        "english": "The nurses adhere to a strict hand-washing routine.",
+        "japanese": "看護師たちは厳格な手洗いの手順を守っている。",
+        "clozeTarget": "adhere"
+      },
+      {
+        "id": "w806-e02",
+        "english": "Wet clay adhered to the artist's boots as she crossed the studio.",
+        "japanese": "芸術家が工房を横切ると、湿った粘土がブーツに付着した。",
+        "clozeTarget": "adhered"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w807",
+    "lemma": "aesthetic",
+    "pronunciation": "/esˈθetɪk/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w807-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "美的な、審美的な",
+        "meaningEn": "concerned with beauty or the appreciation of beauty"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w807-e01",
+        "english": "The architect balanced aesthetic appeal with earthquake safety.",
+        "japanese": "その建築家は美的な魅力と耐震性のバランスを取った。",
+        "clozeTarget": "aesthetic"
+      },
+      {
+        "id": "w807-e02",
+        "english": "The gallery's minimalist aesthetic leaves space for each sculpture.",
+        "japanese": "その画廊のミニマリスト的な美意識は彫刻一つ一つのための空間を残している。",
+        "clozeTarget": "aesthetic"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w808",
+    "lemma": "alienate",
+    "pronunciation": "/ˈeɪliəneɪt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w808-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "疎外する、遠ざける",
+        "meaningEn": "to make someone feel that they do not belong"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w808-e01",
+        "english": "The policy alienated small farmers who could not afford new equipment.",
+        "japanese": "その政策は新しい設備を買えない小規模農家を疎外した。",
+        "clozeTarget": "alienated"
+      },
+      {
+        "id": "w808-e02",
+        "english": "His refusal to listen alienated even his closest colleagues.",
+        "japanese": "彼が耳を傾けなかったため、最も親しい同僚さえ遠ざかった。",
+        "clozeTarget": "alienated"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w809",
+    "lemma": "apprehensive",
+    "pronunciation": "/ˌæprɪˈhensɪv/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w809-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "不安な、心配して",
+        "meaningEn": "worried or nervous about a future event"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w809-e01",
+        "english": "The children were apprehensive about their first night in the forest.",
+        "japanese": "子どもたちは森での最初の夜を不安に思っていた。",
+        "clozeTarget": "apprehensive"
+      },
+      {
+        "id": "w809-e02",
+        "english": "Investors grew apprehensive when the company delayed its report.",
+        "japanese": "会社が報告書を遅らせると、投資家たちは不安になった。",
+        "clozeTarget": "apprehensive"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w810",
+    "lemma": "compelling",
+    "pronunciation": "/kəmˈpelɪŋ/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w810-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "説得力のある、強く心を引く",
+        "meaningEn": "very convincing or interesting"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w810-e01",
+        "english": "The documentary offers compelling evidence of the river's decline.",
+        "japanese": "そのドキュメンタリーは川の衰退を示す説得力のある証拠を提示している。",
+        "clozeTarget": "compelling"
+      },
+      {
+        "id": "w810-e02",
+        "english": "Her compelling performance made the audience forget the simple stage set.",
+        "japanese": "彼女の強く心を引く演技は、観客に簡素な舞台装置を忘れさせた。",
+        "clozeTarget": "compelling"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w811",
+    "lemma": "avert",
+    "pronunciation": "/əˈvɝːt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w811-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "避ける、回避する",
+        "meaningEn": "to prevent something bad from happening"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w811-e01",
+        "english": "A quick repair averted a serious leak in the hospital roof.",
+        "japanese": "迅速な修理が病院の屋根の深刻な雨漏りを防いだ。",
+        "clozeTarget": "averted"
+      },
+      {
+        "id": "w811-e02",
+        "english": "The pilot changed course to avert a collision with the fishing boat.",
+        "japanese": "パイロットは漁船との衝突を避けるため進路を変えた。",
+        "clozeTarget": "avert"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w812",
+    "lemma": "barren",
+    "pronunciation": "/ˈbærən/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w812-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "不毛の、実を結ばない",
+        "meaningEn": "unable to produce plants or results"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w812-e01",
+        "english": "The once fertile field became barren after years of salt damage.",
+        "japanese": "かつて肥沃だった畑は、何年もの塩害の後に不毛になった。",
+        "clozeTarget": "barren"
+      },
+      {
+        "id": "w812-e02",
+        "english": "The committee's long discussion produced a barren list of promises.",
+        "japanese": "委員会の長い議論は実を結ばない約束の一覧を生んだ。",
+        "clozeTarget": "barren"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w813",
+    "lemma": "bewilder",
+    "pronunciation": "/bɪˈwɪldər/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w813-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "当惑させる",
+        "meaningEn": "to confuse someone greatly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w813-e01",
+        "english": "The unfamiliar symbols bewildered the visiting students.",
+        "japanese": "見慣れない記号が訪問した学生たちを大いに当惑させた。",
+        "clozeTarget": "bewildered"
+      },
+      {
+        "id": "w813-e02",
+        "english": "The sudden change in the train schedule bewildered tourists at the station.",
+        "japanese": "急な列車時刻変更が駅の観光客を困惑させた。",
+        "clozeTarget": "bewildered"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w814",
+    "lemma": "blatant",
+    "pronunciation": "/ˈbleɪtənt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w814-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "露骨な、明白な",
+        "meaningEn": "very obvious and offensive or wrong"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w814-e01",
+        "english": "The report exposed a blatant violation of the safety code.",
+        "japanese": "その報告書は安全規則の露骨な違反を暴いた。",
+        "clozeTarget": "blatant"
+      },
+      {
+        "id": "w814-e02",
+        "english": "His blatant attempt to copy the answer was noticed immediately.",
+        "japanese": "彼が露骨に答えを写そうとしたことはすぐに気づかれた。",
+        "clozeTarget": "blatant"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w815",
+    "lemma": "bolster",
+    "pronunciation": "/ˈboʊlstər/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w815-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "強化する、支える",
+        "meaningEn": "to support or strengthen something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w815-e01",
+        "english": "The new evidence bolstered the scientist's original theory.",
+        "japanese": "新しい証拠がその科学者の元の理論を強化した。",
+        "clozeTarget": "bolstered"
+      },
+      {
+        "id": "w815-e02",
+        "english": "A row of trees bolsters the riverbank against strong winds.",
+        "japanese": "一列の木々が強風から川岸を支えている。",
+        "clozeTarget": "bolsters"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w816",
+    "lemma": "commemorate",
+    "pronunciation": "/kəˈmeməreɪt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w816-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "記念する",
+        "meaningEn": "to honor a person or event with a special action"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w816-e01",
+        "english": "The town built a stone marker to commemorate the rescue workers.",
+        "japanese": "町は救助隊員を記念するため石碑を建てた。",
+        "clozeTarget": "commemorate"
+      },
+      {
+        "id": "w816-e02",
+        "english": "The concert commemorated the centennial of the composer's birth.",
+        "japanese": "その演奏会は作曲家の生誕100周年を記念した。",
+        "clozeTarget": "commemorated"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w817",
+    "lemma": "credible",
+    "pronunciation": "/ˈkredəbəl/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w817-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "信頼できる、信用できる",
+        "meaningEn": "able to be believed or trusted"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w817-e01",
+        "english": "The journalist checked three sources before publishing a credible account.",
+        "japanese": "その記者は信頼できる報道を発表する前に3つの情報源を確認した。",
+        "clozeTarget": "credible"
+      },
+      {
+        "id": "w817-e02",
+        "english": "His explanation sounded credible until the security footage appeared.",
+        "japanese": "防犯映像が現れるまで、彼の説明は信用できそうに聞こえた。",
+        "clozeTarget": "credible"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w818",
+    "lemma": "compel",
+    "pronunciation": "/kəmˈpel/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w818-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "強いる、〜させる",
+        "meaningEn": "to force someone to do something or create a strong reason"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w818-e01",
+        "english": "The evidence compelled the court to reopen the case.",
+        "japanese": "証拠が裁判所に事件の再審理を強いた。",
+        "clozeTarget": "compelled"
+      },
+      {
+        "id": "w818-e02",
+        "english": "A shortage of water compelled the village to ration every household's supply.",
+        "japanese": "水不足が村に各家庭の供給を配給制にすることを強いた。",
+        "clozeTarget": "compelled"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w819",
+    "lemma": "deliberate",
+    "pronunciation": "/dɪˈlɪbərət/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w819-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "意図的な、慎重な",
+        "meaningEn": "done intentionally or carefully considered"
+      },
+      {
+        "id": "w819-s02",
+        "partOfSpeech": "verb",
+        "meaningJa": "熟考する、審議する",
+        "meaningEn": "to think about something carefully before deciding"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w819-e01",
+        "english": "The leak was deliberate, not the result of a broken pipe.",
+        "japanese": "その漏水は、壊れたパイプの結果ではなく意図的なものだった。",
+        "clozeTarget": "deliberate"
+      },
+      {
+        "id": "w819-e02",
+        "english": "The jury deliberated for two days before reaching a verdict.",
+        "japanese": "陪審は評決に達する前に2日間審議した。",
+        "clozeTarget": "deliberated"
+      },
+      {
+        "id": "w819-e03",
+        "english": "The artist made a deliberate choice to leave the background unfinished.",
+        "japanese": "その芸術家は背景を未完成のままにする意図的な選択をした。",
+        "clozeTarget": "deliberate"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w820",
+    "lemma": "competent",
+    "pronunciation": "/ˈkɑːmpətənt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w820-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "有能な、十分な能力のある",
+        "meaningEn": "having enough skill or ability to do something well"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w820-e01",
+        "english": "The new mechanic is competent to service electric vehicles.",
+        "japanese": "新しい整備士は電気自動車を整備する十分な能力がある。",
+        "clozeTarget": "competent"
+      },
+      {
+        "id": "w820-e02",
+        "english": "A competent editor can make a difficult argument easier to follow.",
+        "japanese": "有能な編集者なら難しい論旨を追いやすくできる。",
+        "clozeTarget": "competent"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w821",
+    "lemma": "deteriorate",
+    "pronunciation": "/dɪˈtɪriəreɪt/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w821-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "悪化する、劣化する",
+        "meaningEn": "to become worse in quality or condition"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w821-e01",
+        "english": "The road deteriorated after repeated flooding.",
+        "japanese": "その道路は洪水が繰り返された後、劣化した。",
+        "clozeTarget": "deteriorated"
+      },
+      {
+        "id": "w821-e02",
+        "english": "Without shade, the fruit will deteriorate quickly in the summer heat.",
+        "japanese": "日陰がなければ、その果物は夏の暑さですぐに悪くなる。",
+        "clozeTarget": "deteriorate"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w822",
+    "lemma": "conceal",
+    "pronunciation": "/kənˈsiːl/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w822-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "隠す",
+        "meaningEn": "to hide something or keep it from being known"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w822-e01",
+        "english": "The box was designed to conceal a small emergency radio.",
+        "japanese": "その箱は小型の非常用ラジオを隠すよう設計されていた。",
+        "clozeTarget": "conceal"
+      },
+      {
+        "id": "w822-e02",
+        "english": "She concealed her disappointment behind a polite smile.",
+        "japanese": "彼女は丁寧な笑顔の裏に失望を隠した。",
+        "clozeTarget": "concealed"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w823",
+    "lemma": "concur",
+    "pronunciation": "/kənˈkɝː/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w823-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "同意する、一致する",
+        "meaningEn": "to agree with someone or have the same opinion"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w823-e01",
+        "english": "The two judges concurred that the evidence was unreliable.",
+        "japanese": "2人の裁判官は証拠が信頼できないという点で一致した。",
+        "clozeTarget": "concurred"
+      },
+      {
+        "id": "w823-e02",
+        "english": "Medical experts concur with the recommendation to reduce salt intake.",
+        "japanese": "医学の専門家たちは塩分摂取を減らすという勧告に同意している。",
+        "clozeTarget": "concur"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w824",
+    "lemma": "condemn",
+    "pronunciation": "/kənˈdem/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w824-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "強く非難する、〜に有罪判決を下す",
+        "meaningEn": "to express strong disapproval or officially declare someone guilty"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w824-e01",
+        "english": "The mayor condemned the illegal dumping near the wetlands.",
+        "japanese": "市長は湿地近くの不法投棄を強く非難した。",
+        "clozeTarget": "condemned"
+      },
+      {
+        "id": "w824-e02",
+        "english": "The court condemned the company for ignoring repeated warnings.",
+        "japanese": "裁判所は繰り返しの警告を無視した会社を厳しく非難した。",
+        "clozeTarget": "condemned"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w825",
+    "lemma": "confront",
+    "pronunciation": "/kənˈfrʌnt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w825-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "立ち向かう、直面させる",
+        "meaningEn": "to face a difficult situation or challenge someone directly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w825-e01",
+        "english": "The community must confront the rising cost of housing.",
+        "japanese": "地域社会は住宅費の上昇に立ち向かわなければならない。",
+        "clozeTarget": "confront"
+      },
+      {
+        "id": "w825-e02",
+        "english": "When confronted with the original letter, he admitted the error.",
+        "japanese": "元の手紙を突きつけられると、彼は誤りを認めた。",
+        "clozeTarget": "confronted"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w826",
+    "lemma": "encompass",
+    "pronunciation": "/ɪnˈkʌmpəs/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w826-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "含む、取り囲む",
+        "meaningEn": "to include a wide range of things or surround something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w826-e01",
+        "english": "The course encompasses history, ethics, and practical fieldwork.",
+        "japanese": "その講座は歴史、倫理、実地調査を含んでいる。",
+        "clozeTarget": "encompasses"
+      },
+      {
+        "id": "w826-e02",
+        "english": "A stone wall encompasses the oldest part of the garden.",
+        "japanese": "石壁が庭の最も古い部分を囲んでいる。",
+        "clozeTarget": "encompasses"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w827",
+    "lemma": "consolidate",
+    "pronunciation": "/kənˈsɑːlədeɪt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w827-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "統合する、固める",
+        "meaningEn": "to combine things into a stronger or more effective whole"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w827-e01",
+        "english": "The library consolidated its digital archives into one searchable system.",
+        "japanese": "図書館はデジタル資料を1つの検索システムに統合した。",
+        "clozeTarget": "consolidated"
+      },
+      {
+        "id": "w827-e02",
+        "english": "The victory consolidated the leader's position within the party.",
+        "japanese": "その勝利が党内での指導者の地位を固めた。",
+        "clozeTarget": "consolidated"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w828",
+    "lemma": "converge",
+    "pronunciation": "/kənˈvɝːdʒ/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w828-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "集まる、収束する",
+        "meaningEn": "to move toward the same place or become more similar"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w828-e01",
+        "english": "Three mountain paths converge near the shrine.",
+        "japanese": "3本の山道が神社の近くで合流する。",
+        "clozeTarget": "converge"
+      },
+      {
+        "id": "w828-e02",
+        "english": "The researchers' estimates converged as more data became available.",
+        "japanese": "データが増えるにつれて研究者たちの推定は収束した。",
+        "clozeTarget": "converged"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w829",
+    "lemma": "eradicate",
+    "pronunciation": "/ɪˈrædɪkeɪt/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w829-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "根絶する",
+        "meaningEn": "to destroy or remove something completely"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w829-e01",
+        "english": "The campaign aims to eradicate mosquito-borne disease from the island.",
+        "japanese": "その運動は島から蚊が媒介する病気を根絶することを目指している。",
+        "clozeTarget": "eradicate"
+      },
+      {
+        "id": "w829-e02",
+        "english": "The gardener worked for years to eradicate an invasive vine.",
+        "japanese": "庭師は侵略的なつる植物を根絶するため何年も働いた。",
+        "clozeTarget": "eradicate"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w830",
+    "lemma": "evoke",
+    "pronunciation": "/ɪˈvoʊk/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w830-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "呼び起こす",
+        "meaningEn": "to produce a memory, feeling, or response in someone"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w830-e01",
+        "english": "The smell of cedar evoked memories of her grandfather's workshop.",
+        "japanese": "杉の香りは彼女に祖父の工房の記憶を呼び起こした。",
+        "clozeTarget": "evoked"
+      },
+      {
+        "id": "w830-e02",
+        "english": "The speaker's question evoked laughter rather than anger.",
+        "japanese": "講演者の質問は怒りではなく笑いを引き起こした。",
+        "clozeTarget": "evoked"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w831",
+    "lemma": "dilemma",
+    "pronunciation": "/dɪˈlemə/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w831-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "板挟み、難しい選択",
+        "meaningEn": "a situation in which one must choose between difficult alternatives"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w831-e01",
+        "english": "The nurse faced a dilemma when two patients needed the last bed.",
+        "japanese": "2人の患者が最後のベッドを必要としたとき、看護師は難しい選択に直面した。",
+        "clozeTarget": "dilemma"
+      },
+      {
+        "id": "w831-e02",
+        "english": "The novel's hero must choose between loyalty and truth, a painful dilemma.",
+        "japanese": "その小説の主人公は忠誠と真実のどちらかを選ぶという苦しい板挟みに直面する。",
+        "clozeTarget": "dilemma"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w832",
+    "lemma": "discard",
+    "pronunciation": "/dɪˈskɑːrd/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w832-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "捨てる、廃棄する",
+        "meaningEn": "to throw something away or reject it as useless"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w832-e01",
+        "english": "The factory discards damaged plastic instead of selling it.",
+        "japanese": "その工場は傷んだプラスチックを販売せず廃棄する。",
+        "clozeTarget": "discards"
+      },
+      {
+        "id": "w832-e02",
+        "english": "Do not discard the draft until the editor has checked the figures.",
+        "japanese": "編集者が数値を確認するまで下書きを捨てないでください。",
+        "clozeTarget": "discard"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w833",
+    "lemma": "disclose",
+    "pronunciation": "/dɪˈskloʊz/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w833-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "明らかにする、開示する",
+        "meaningEn": "to give information that was previously secret or unknown"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w833-e01",
+        "english": "The company must disclose its use of customer data.",
+        "japanese": "その会社は顧客データの利用について開示しなければならない。",
+        "clozeTarget": "disclose"
+      },
+      {
+        "id": "w833-e02",
+        "english": "The witness disclosed a detail that changed the entire investigation.",
+        "japanese": "証人は捜査全体を変える詳細を明らかにした。",
+        "clozeTarget": "disclosed"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w834",
+    "lemma": "dismiss",
+    "pronunciation": "/dɪsˈmɪs/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w834-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "退ける、解雇する",
+        "meaningEn": "to decide that something is unimportant, or remove someone from a job"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w834-e01",
+        "english": "The judge dismissed the claim because it lacked evidence.",
+        "japanese": "裁判官は証拠がないためその主張を退けた。",
+        "clozeTarget": "dismissed"
+      },
+      {
+        "id": "w834-e02",
+        "english": "The coach dismissed the player after repeated violations of team rules.",
+        "japanese": "コーチはチーム規則違反を繰り返した選手を解雇した。",
+        "clozeTarget": "dismissed"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w835",
+    "lemma": "genuine",
+    "pronunciation": "/ˈdʒenjuɪn/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w835-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "本物の、心からの",
+        "meaningEn": "real, sincere, and not pretended"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w835-e01",
+        "english": "The curator discovered a genuine signature beneath the faded ink.",
+        "japanese": "学芸員は色あせたインクの下に本物の署名を発見した。",
+        "clozeTarget": "genuine"
+      },
+      {
+        "id": "w835-e02",
+        "english": "His genuine apology changed the tone of the meeting.",
+        "japanese": "彼の心からの謝罪が会議の雰囲気を変えた。",
+        "clozeTarget": "genuine"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w836",
+    "lemma": "duplicate",
+    "pronunciation": "/ˈduːplɪkeɪt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w836-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "複製する、重複する",
+        "meaningEn": "to make an exact copy or repeat something unnecessarily"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w836-e01",
+        "english": "The technician duplicated the key for the museum's night guard.",
+        "japanese": "技術者は博物館の夜間警備員のために鍵を複製した。",
+        "clozeTarget": "duplicated"
+      },
+      {
+        "id": "w836-e02",
+        "english": "The database removed duplicate entries before the analysis began.",
+        "japanese": "データベースは分析開始前に重複する項目を削除した。",
+        "clozeTarget": "duplicate"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w837",
+    "lemma": "integrity",
+    "pronunciation": "/ɪnˈteɡrəti/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w837-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "誠実さ、完全性",
+        "meaningEn": "honesty and strong moral principles, or the state of being whole"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w837-e01",
+        "english": "The editor's integrity prevented her from hiding the source's mistake.",
+        "japanese": "編集者の誠実さにより、彼女は情報源の誤りを隠さなかった。",
+        "clozeTarget": "integrity"
+      },
+      {
+        "id": "w837-e02",
+        "english": "Moisture damaged the structural integrity of the wooden bridge.",
+        "japanese": "湿気が木橋の構造的完全性を損なった。",
+        "clozeTarget": "integrity"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w838",
+    "lemma": "elevate",
+    "pronunciation": "/ˈeləveɪt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w838-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "高める、昇進させる",
+        "meaningEn": "to raise something to a higher position or level"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w838-e01",
+        "english": "The campaign elevated public awareness of the recycling problem.",
+        "japanese": "その運動はリサイクル問題への市民の意識を高めた。",
+        "clozeTarget": "elevated"
+      },
+      {
+        "id": "w838-e02",
+        "english": "The board elevated her to director after the successful merger.",
+        "japanese": "取締役会は合併の成功後、彼女を部長に昇進させた。",
+        "clozeTarget": "elevated"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w839",
+    "lemma": "elusive",
+    "pronunciation": "/ɪˈluːsɪv/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w839-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "つかみにくい、理解しにくい",
+        "meaningEn": "difficult to find, achieve, or understand"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w839-e01",
+        "english": "The elusive fox left only faint tracks in the snow.",
+        "japanese": "つかみにくいキツネは雪にかすかな足跡だけを残した。",
+        "clozeTarget": "elusive"
+      },
+      {
+        "id": "w839-e02",
+        "english": "A clear explanation remained elusive despite weeks of research.",
+        "japanese": "何週間調べても明確な説明はなかなか得られなかった。",
+        "clozeTarget": "elusive"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w840",
+    "lemma": "embark",
+    "pronunciation": "/ɪmˈbɑːrk/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w840-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "乗り出す、乗船する",
+        "meaningEn": "to begin a new activity or journey"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w840-e01",
+        "english": "The students embarked on a year-long study of local rivers.",
+        "japanese": "学生たちは地元の川について1年がかりの研究に乗り出した。",
+        "clozeTarget": "embarked"
+      },
+      {
+        "id": "w840-e02",
+        "english": "Passengers embarked at the island port just before sunset.",
+        "japanese": "乗客たちは日没直前に島の港で乗船した。",
+        "clozeTarget": "embarked"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w841",
+    "lemma": "endorse",
+    "pronunciation": "/ɪnˈdɔːrs/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w841-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "支持する、推薦する",
+        "meaningEn": "to publicly express support or approve something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w841-e01",
+        "english": "The medical association endorsed the new vaccination schedule.",
+        "japanese": "医学協会は新しい予防接種日程を支持した。",
+        "clozeTarget": "endorsed"
+      },
+      {
+        "id": "w841-e02",
+        "english": "The athlete refused to endorse a product she had never used.",
+        "japanese": "その選手は一度も使ったことのない製品を推薦するのを断った。",
+        "clozeTarget": "endorse"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w842",
+    "lemma": "escalate",
+    "pronunciation": "/ˈeskəleɪt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w842-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "悪化する、エスカレートする",
+        "meaningEn": "to become or make a conflict or problem more serious"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w842-e01",
+        "english": "A small disagreement escalated into a dispute over land rights.",
+        "japanese": "小さな意見の違いが土地の権利をめぐる争いに発展した。",
+        "clozeTarget": "escalated"
+      },
+      {
+        "id": "w842-e02",
+        "english": "The hospital acted quickly before the infection could escalate.",
+        "japanese": "病院は感染が悪化する前に素早く対応した。",
+        "clozeTarget": "escalate"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w843",
+    "lemma": "essence",
+    "pronunciation": "/ˈesəns/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w843-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "本質、精髄",
+        "meaningEn": "the most basic or important quality of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w843-e01",
+        "english": "The essence of the proposal is to make public transport affordable.",
+        "japanese": "その提案の本質は公共交通を手頃にすることだ。",
+        "clozeTarget": "essence"
+      },
+      {
+        "id": "w843-e02",
+        "english": "Vanilla essence gave the cake a warm, sweet aroma.",
+        "japanese": "バニラエッセンスがケーキに温かく甘い香りを与えた。",
+        "clozeTarget": "essence"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w844",
+    "lemma": "evade",
+    "pronunciation": "/ɪˈveɪd/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w844-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "逃れる、巧みに避ける",
+        "meaningEn": "to avoid something or escape from someone"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w844-e01",
+        "english": "The suspect evaded capture by leaving the country.",
+        "japanese": "容疑者は国外へ出て逮捕を逃れた。",
+        "clozeTarget": "evaded"
+      },
+      {
+        "id": "w844-e02",
+        "english": "The minister evaded the question about the missing funds.",
+        "japanese": "大臣は行方不明の資金についての質問を巧みに避けた。",
+        "clozeTarget": "evaded"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w845",
+    "lemma": "excess",
+    "pronunciation": "/ˈekses/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w845-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "過剰、超過",
+        "meaningEn": "an amount that is more than necessary or allowed"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w845-e01",
+        "english": "Excess salt can damage both health and the taste of soup.",
+        "japanese": "過剰な塩分は健康とスープの味の両方を損なうことがある。",
+        "clozeTarget": "excess"
+      },
+      {
+        "id": "w845-e02",
+        "english": "The airline charged a fee for excess baggage.",
+        "japanese": "航空会社は超過手荷物に料金を請求した。",
+        "clozeTarget": "excess"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w846",
+    "lemma": "exempt",
+    "pronunciation": "/ɪɡˈzempt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w846-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "免除された",
+        "meaningEn": "not having to obey a rule or pay a charge"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w846-e01",
+        "english": "Children under six are exempt from the museum entrance fee.",
+        "japanese": "6歳未満の子どもは博物館の入場料を免除される。",
+        "clozeTarget": "exempt"
+      },
+      {
+        "id": "w846-e02",
+        "english": "The new regulation exempts small family farms from the reporting requirement.",
+        "japanese": "新しい規則は小規模な家族農家を報告義務から免除する。",
+        "clozeTarget": "exempts"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w847",
+    "lemma": "gratitude",
+    "pronunciation": "/ˈɡrætətuːd/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w847-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "感謝",
+        "meaningEn": "the feeling of being thankful"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w847-e01",
+        "english": "She expressed her gratitude to the volunteers who rebuilt the playground.",
+        "japanese": "彼女は遊び場を再建したボランティアに感謝を表した。",
+        "clozeTarget": "gratitude"
+      },
+      {
+        "id": "w847-e02",
+        "english": "A handwritten note conveyed his gratitude more warmly than a formal email.",
+        "japanese": "手書きのメモは正式なメールより温かく彼の感謝を伝えた。",
+        "clozeTarget": "gratitude"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w848",
+    "lemma": "illuminate",
+    "pronunciation": "/ɪˈluːməneɪt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w848-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "照らす、明らかにする",
+        "meaningEn": "to light something or make an idea easier to understand"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w848-e01",
+        "english": "Lanterns illuminated the path through the winter garden.",
+        "japanese": "ランタンが冬の庭を通る道を照らした。",
+        "clozeTarget": "illuminated"
+      },
+      {
+        "id": "w848-e02",
+        "english": "The historian's letter illuminates the difficult choices made during the crisis.",
+        "japanese": "その歴史家の手紙は危機の中でなされた難しい選択を明らかにする。",
+        "clozeTarget": "illuminates"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w849",
+    "lemma": "imminent",
+    "pronunciation": "/ˈɪmənənt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w849-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "差し迫った",
+        "meaningEn": "about to happen very soon"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w849-e01",
+        "english": "The warning siren indicated that a landslide was imminent.",
+        "japanese": "警報サイレンは土砂崩れが差し迫っていることを示した。",
+        "clozeTarget": "imminent"
+      },
+      {
+        "id": "w849-e02",
+        "english": "With winter imminent, the farmers hurried to harvest the apples.",
+        "japanese": "冬が迫っていたので、農家は急いでリンゴを収穫した。",
+        "clozeTarget": "imminent"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w850",
+    "lemma": "plausible",
+    "pronunciation": "/ˈplɔːzəbəl/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w850-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "もっともらしい、妥当な",
+        "meaningEn": "seeming reasonable and likely to be true"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w850-e01",
+        "english": "The detective offered a plausible explanation for the missing key.",
+        "japanese": "その刑事はなくなった鍵についてもっともらしい説明を示した。",
+        "clozeTarget": "plausible"
+      },
+      {
+        "id": "w850-e02",
+        "english": "It is plausible that the species migrated north as the climate warmed.",
+        "japanese": "気候が温暖化するにつれて、その種が北へ移動したというのは妥当だ。",
+        "clozeTarget": "plausible"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w851",
+    "lemma": "innovative",
+    "pronunciation": "/ˈɪnəveɪtɪv/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w851-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "革新的な",
+        "meaningEn": "using new ideas or methods"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w851-e01",
+        "english": "The clinic adopted an innovative system for sharing patient records.",
+        "japanese": "その診療所は患者記録を共有する革新的な制度を採用した。",
+        "clozeTarget": "innovative"
+      },
+      {
+        "id": "w851-e02",
+        "english": "Her innovative design uses discarded sails to make umbrellas.",
+        "japanese": "彼女の革新的な設計は廃棄された帆を傘に利用している。",
+        "clozeTarget": "innovative"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w852",
+    "lemma": "interact",
+    "pronunciation": "/ˌɪntərˈækt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w852-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "交流する、相互作用する",
+        "meaningEn": "to communicate or have an effect on each other"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w852-e01",
+        "english": "The program lets children interact with scientists through live video.",
+        "japanese": "そのプログラムは子どもたちがライブ映像で科学者と交流できるようにする。",
+        "clozeTarget": "interact"
+      },
+      {
+        "id": "w852-e02",
+        "english": "Chemicals interact with sunlight and produce a harmful gas.",
+        "japanese": "化学物質は日光と反応して有害な気体を生み出す。",
+        "clozeTarget": "interact"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w853",
+    "lemma": "lucrative",
+    "pronunciation": "/ˈluːkrətɪv/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w853-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "利益の多い",
+        "meaningEn": "producing a large amount of money"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w853-e01",
+        "english": "The farmer changed to a more lucrative crop after studying the market.",
+        "japanese": "その農家は市場を調べた後、より利益の多い作物に変えた。",
+        "clozeTarget": "lucrative"
+      },
+      {
+        "id": "w853-e02",
+        "english": "Freelance translation became a lucrative career for her.",
+        "japanese": "フリーランスの翻訳は彼女にとって利益の多い職業になった。",
+        "clozeTarget": "lucrative"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w854",
+    "lemma": "mediocre",
+    "pronunciation": "/ˌmiːdiˈoʊkər/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w854-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "平凡な、あまりよくない",
+        "meaningEn": "of only average quality and not very good"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w854-e01",
+        "english": "The restaurant survived despite its mediocre food because of its friendly staff.",
+        "japanese": "そのレストランは料理が平凡だったが、親切な店員のおかげで生き残った。",
+        "clozeTarget": "mediocre"
+      },
+      {
+        "id": "w854-e02",
+        "english": "The critic found the sequel mediocre compared with the original film.",
+        "japanese": "批評家は続編が元の映画に比べて平凡だと感じた。",
+        "clozeTarget": "mediocre"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w855",
+    "lemma": "naive",
+    "pronunciation": "/naɪˈiːv/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w855-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "世間知らずの、単純な",
+        "meaningEn": "lacking experience and showing too much trust"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w855-e01",
+        "english": "It was naive to believe that one meeting would solve the conflict.",
+        "japanese": "1回の会合で対立が解決すると信じるのは単純すぎた。",
+        "clozeTarget": "naive"
+      },
+      {
+        "id": "w855-e02",
+        "english": "The naive design ignored how much rain the roof would receive.",
+        "japanese": "その単純な設計は屋根が受ける雨量を無視していた。",
+        "clozeTarget": "naive"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w856",
+    "lemma": "nurture",
+    "pronunciation": "/ˈnɝːtʃər/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w856-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "育てる、養う",
+        "meaningEn": "to care for and encourage the development of someone or something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w856-e01",
+        "english": "The school nurtures curiosity through hands-on science projects.",
+        "japanese": "その学校は実践的な科学計画を通して好奇心を育てる。",
+        "clozeTarget": "nurtures"
+      },
+      {
+        "id": "w856-e02",
+        "english": "Parents cannot nurture confidence by solving every problem for a child.",
+        "japanese": "親は子どもの問題をすべて解決していては自信を育てられない。",
+        "clozeTarget": "nurture"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w857",
+    "lemma": "outrage",
+    "pronunciation": "/ˈaʊtreɪdʒ/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w857-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "激しい怒り、憤慨",
+        "meaningEn": "a strong feeling of anger caused by something unjust"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w857-e01",
+        "english": "The decision to cut the shelter's funds caused public outrage.",
+        "japanese": "避難所の資金を削る決定が市民の激しい怒りを引き起こした。",
+        "clozeTarget": "outrage"
+      },
+      {
+        "id": "w857-e02",
+        "english": "The photograph sparked outrage because it showed deliberate cruelty.",
+        "japanese": "その写真は故意の残酷さを示していたため憤慨を招いた。",
+        "clozeTarget": "outrage"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w858",
+    "lemma": "propel",
+    "pronunciation": "/prəˈpel/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w858-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "推進する、駆り立てる",
+        "meaningEn": "to cause something to move forward or encourage an action"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w858-e01",
+        "english": "The grant propelled the small laboratory into international research.",
+        "japanese": "その助成金が小さな研究室を国際的な研究へと押し進めた。",
+        "clozeTarget": "propelled"
+      },
+      {
+        "id": "w858-e02",
+        "english": "Curiosity propelled her to explore the abandoned observatory.",
+        "japanese": "好奇心が彼女を廃れた天文台の探検へ駆り立てた。",
+        "clozeTarget": "propelled"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w859",
+    "lemma": "redundant",
+    "pronunciation": "/rɪˈdʌndənt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w859-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "余分な、冗長な",
+        "meaningEn": "unnecessary because it repeats information or is no longer needed"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w859-e01",
+        "english": "The editor removed redundant phrases from the report.",
+        "japanese": "編集者は報告書から冗長な表現を削除した。",
+        "clozeTarget": "redundant"
+      },
+      {
+        "id": "w859-e02",
+        "english": "The old backup system became redundant after the network was rebuilt.",
+        "japanese": "ネットワークが再構築されると古いバックアップシステムは不要になった。",
+        "clozeTarget": "redundant"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w860",
+    "lemma": "refrain",
+    "pronunciation": "/rɪˈfreɪn/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w860-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "控える",
+        "meaningEn": "to stop yourself from doing something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w860-e01",
+        "english": "Please refrain from touching the paintings in this room.",
+        "japanese": "この部屋の絵に触れるのは控えてください。",
+        "clozeTarget": "refrain"
+      },
+      {
+        "id": "w860-e02",
+        "english": "He refrained from answering until he had checked the figures.",
+        "japanese": "彼は数値を確認するまで答えるのを控えた。",
+        "clozeTarget": "refrain"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w861",
+    "lemma": "revive",
+    "pronunciation": "/rɪˈvaɪv/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w861-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "復活させる、回復する",
+        "meaningEn": "to bring something back to life or make it active again"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w861-e01",
+        "english": "The town revived its traditional spring market.",
+        "japanese": "町は伝統的な春の市場を復活させた。",
+        "clozeTarget": "revived"
+      },
+      {
+        "id": "w861-e02",
+        "english": "Fresh water revived the wilted plants after the heat wave.",
+        "japanese": "熱波の後、新鮮な水がしおれた植物を元気にした。",
+        "clozeTarget": "revived"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w862",
+    "lemma": "skeptical",
+    "pronunciation": "/ˈskeptɪkəl/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w862-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "懐疑的な",
+        "meaningEn": "not easily convinced that something is true"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w862-e01",
+        "english": "The committee was skeptical of the company's optimistic forecast.",
+        "japanese": "委員会は会社の楽観的な予測に懐疑的だった。",
+        "clozeTarget": "skeptical"
+      },
+      {
+        "id": "w862-e02",
+        "english": "She remained skeptical until an independent test confirmed the result.",
+        "japanese": "独立した検査が結果を確認するまで、彼女は懐疑的なままだった。",
+        "clozeTarget": "skeptical"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w863",
+    "lemma": "static",
+    "pronunciation": "/ˈstætɪk/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w863-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "静的な、動かない",
+        "meaningEn": "not moving or changing"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w863-e01",
+        "english": "The website looks static because its data are updated only once a month.",
+        "japanese": "そのウェブサイトはデータが月1回しか更新されないため静的に見える。",
+        "clozeTarget": "static"
+      },
+      {
+        "id": "w863-e02",
+        "english": "Static air made the room feel hotter than it was.",
+        "japanese": "空気が動かないため、部屋は実際より暑く感じられた。",
+        "clozeTarget": "static"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w864",
+    "lemma": "strategic",
+    "pronunciation": "/strəˈtiːdʒɪk/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w864-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "戦略的な",
+        "meaningEn": "carefully planned to achieve a particular long-term aim"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w864-e01",
+        "english": "The company made a strategic investment in battery research.",
+        "japanese": "その会社は電池研究に戦略的な投資を行った。",
+        "clozeTarget": "strategic"
+      },
+      {
+        "id": "w864-e02",
+        "english": "The village occupies a strategic position beside the only mountain pass.",
+        "japanese": "その村は唯一の山道のそばという戦略的な位置を占めている。",
+        "clozeTarget": "strategic"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w865",
+    "lemma": "stringent",
+    "pronunciation": "/ˈstrɪndʒənt/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w865-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "厳格な、厳しい",
+        "meaningEn": "very strict and difficult to satisfy"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w865-e01",
+        "english": "The laboratory follows stringent rules for handling infectious samples.",
+        "japanese": "その研究室は感染性試料の扱いに厳格な規則を守っている。",
+        "clozeTarget": "stringent"
+      },
+      {
+        "id": "w865-e02",
+        "english": "Stringent safety checks delayed the opening of the amusement park.",
+        "japanese": "厳しい安全点検が遊園地の開園を遅らせた。",
+        "clozeTarget": "stringent"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w866",
+    "lemma": "strive",
+    "pronunciation": "/straɪv/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w866-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "努力する、目指す",
+        "meaningEn": "to try very hard to achieve something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w866-e01",
+        "english": "The team strives to make the museum accessible to every visitor.",
+        "japanese": "そのチームは博物館をすべての訪問者に利用しやすくしようと努めている。",
+        "clozeTarget": "strives"
+      },
+      {
+        "id": "w866-e02",
+        "english": "She strove to balance scientific accuracy with a clear writing style.",
+        "japanese": "彼女は科学的正確さと明快な文体の両立に努めた。",
+        "clozeTarget": "strove"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w867",
+    "lemma": "suppress",
+    "pronunciation": "/səˈpres/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w867-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "抑える、抑圧する",
+        "meaningEn": "to prevent something from being expressed or to stop an activity"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w867-e01",
+        "english": "The thick curtains suppress outside noise during the recording.",
+        "japanese": "厚いカーテンが録音中の外部の騒音を抑える。",
+        "clozeTarget": "suppress"
+      },
+      {
+        "id": "w867-e02",
+        "english": "The regime tried to suppress reports of the food shortage.",
+        "japanese": "その政権は食料不足の報告を抑え込もうとした。",
+        "clozeTarget": "suppress"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w868",
+    "lemma": "surpass",
+    "pronunciation": "/sərˈpæs/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w868-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "上回る、超える",
+        "meaningEn": "to do or be better than someone or something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w868-e01",
+        "english": "The new bridge surpassed engineers' expectations for durability.",
+        "japanese": "新しい橋は耐久性について技術者の期待を上回った。",
+        "clozeTarget": "surpassed"
+      },
+      {
+        "id": "w868-e02",
+        "english": "Her latest painting surpasses her earlier work in subtlety.",
+        "japanese": "彼女の最新作は繊細さで以前の作品を超えている。",
+        "clozeTarget": "surpasses"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w869",
+    "lemma": "transparent",
+    "pronunciation": "/trænsˈpærənt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w869-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "透明な、分かりやすい、公正な",
+        "meaningEn": "easy to see through or understand, or open and honest"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w869-e01",
+        "english": "The transparent roof filled the greenhouse with winter light.",
+        "japanese": "透明な屋根が温室を冬の光で満たした。",
+        "clozeTarget": "transparent"
+      },
+      {
+        "id": "w869-e02",
+        "english": "The committee promised a transparent process for selecting the grant winners.",
+        "japanese": "委員会は助成金受給者を選ぶ透明な過程を約束した。",
+        "clozeTarget": "transparent"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w870",
+    "lemma": "unpredictable",
+    "pronunciation": "/ˌʌnprɪˈdɪktəbəl/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w870-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "予測できない",
+        "meaningEn": "not able to be known or guessed in advance"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w870-e01",
+        "english": "Mountain weather is notoriously unpredictable in spring.",
+        "japanese": "山の天気は春には予測できないことで有名だ。",
+        "clozeTarget": "unpredictable"
+      },
+      {
+        "id": "w870-e02",
+        "english": "The unpredictable actor changed the ending during every performance.",
+        "japanese": "予測できないその俳優は公演ごとに結末を変えた。",
+        "clozeTarget": "unpredictable"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w871",
+    "lemma": "validate",
+    "pronunciation": "/ˈvælədeɪt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w871-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "妥当性を確認する、認める",
+        "meaningEn": "to prove that something is reasonable, accurate, or acceptable"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w871-e01",
+        "english": "The second experiment validated the team's surprising result.",
+        "japanese": "2回目の実験がチームの驚くべき結果の妥当性を確認した。",
+        "clozeTarget": "validated"
+      },
+      {
+        "id": "w871-e02",
+        "english": "A simple note from her teacher validated the student's effort.",
+        "japanese": "教師の簡単なメモがその学生の努力を認めた。",
+        "clozeTarget": "validated"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w872",
+    "lemma": "abject",
+    "pronunciation": "/ˈæbdʒekt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w872-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "絶望的な、卑しむべき",
+        "meaningEn": "extremely bad or showing no pride or hope"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w872-e01",
+        "english": "The refugees were living in abject poverty after the flood.",
+        "japanese": "洪水の後、難民たちは極度の貧困の中で暮らしていた。",
+        "clozeTarget": "abject"
+      },
+      {
+        "id": "w872-e02",
+        "english": "The official issued an abject apology for abandoning the patients.",
+        "japanese": "その役人は患者を見捨てたことについて深い謝罪をした。",
+        "clozeTarget": "abject"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w873",
+    "lemma": "viable",
+    "pronunciation": "/ˈvaɪəbəl/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w873-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "実行可能な、生存可能な",
+        "meaningEn": "able to work successfully or continue to exist"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w873-e01",
+        "english": "The engineers are searching for a viable alternative to diesel engines.",
+        "japanese": "技術者たちはディーゼルエンジンに代わる実行可能な選択肢を探している。",
+        "clozeTarget": "viable"
+      },
+      {
+        "id": "w873-e02",
+        "english": "Without regular rainfall, the seedlings are not viable in this region.",
+        "japanese": "定期的な降雨がなければ、この地域ではその苗木は生育できない。",
+        "clozeTarget": "viable"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w874",
+    "lemma": "vulnerable",
+    "pronunciation": "/ˈvʌlnərəbəl/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w874-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "傷つきやすい、脆弱な",
+        "meaningEn": "easily harmed, influenced, or attacked"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w874-e01",
+        "english": "Young children are particularly vulnerable to misleading online advertisements.",
+        "japanese": "幼い子どもは誤解を招くネット広告の影響を特に受けやすい。",
+        "clozeTarget": "vulnerable"
+      },
+      {
+        "id": "w874-e02",
+        "english": "The bridge is vulnerable to strong winds because it has a narrow frame.",
+        "japanese": "その橋は骨組みが細いため強風に弱い。",
+        "clozeTarget": "vulnerable"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w875",
+    "lemma": "abrogate",
+    "pronunciation": "/ˈæbrəɡeɪt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w875-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "廃止する、無効にする",
+        "meaningEn": "to officially end a law, agreement, or custom"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w875-e01",
+        "english": "The council voted to abrogate an outdated parking ordinance.",
+        "japanese": "議会は時代遅れの駐車条例を廃止することを議決した。",
+        "clozeTarget": "abrogate"
+      },
+      {
+        "id": "w875-e02",
+        "english": "Neither side wanted to abrogate the treaty during the fragile peace.",
+        "japanese": "不安定な平和の間、どちらの側も条約を無効にしたくなかった。",
+        "clozeTarget": "abrogate"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w876",
+    "lemma": "amendment",
+    "pronunciation": "/əˈmendmənt/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w876-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "修正、改正案",
+        "meaningEn": "a change made to a document, law, or proposal"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w876-e01",
+        "english": "The committee approved an amendment to the environmental law.",
+        "japanese": "委員会は環境法の改正案を承認した。",
+        "clozeTarget": "amendment"
+      },
+      {
+        "id": "w876-e02",
+        "english": "The author accepted the editor's amendment to the final paragraph.",
+        "japanese": "著者は最終段落への編集者の修正を受け入れた。",
+        "clozeTarget": "amendment"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w877",
+    "lemma": "analogous",
+    "pronunciation": "/əˈnæləɡəs/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w877-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "類似した、類推できる",
+        "meaningEn": "similar in some important way to another thing"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w877-e01",
+        "english": "The two ecosystems are analogous in how they store water.",
+        "japanese": "その2つの生態系は水を蓄える仕組みが似ている。",
+        "clozeTarget": "analogous"
+      },
+      {
+        "id": "w877-e02",
+        "english": "The professor used an analogous example from music to explain the formula.",
+        "japanese": "教授はその公式を説明するため音楽から類似した例を使った。",
+        "clozeTarget": "analogous"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w878",
+    "lemma": "appraise",
+    "pronunciation": "/əˈpreɪz/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w878-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "評価する、査定する",
+        "meaningEn": "to judge the value or quality of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w878-e01",
+        "english": "An expert appraised the antique clock before the auction.",
+        "japanese": "専門家が競売の前にその古時計を査定した。",
+        "clozeTarget": "appraised"
+      },
+      {
+        "id": "w878-e02",
+        "english": "The nurse appraised the patient's condition before calling the surgeon.",
+        "japanese": "看護師は外科医に電話する前に患者の状態を評価した。",
+        "clozeTarget": "appraised"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w879",
+    "lemma": "aptitude",
+    "pronunciation": "/ˈæptətuːd/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w879-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "適性、才能",
+        "meaningEn": "a natural ability to learn or do something well"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w879-e01",
+        "english": "Her aptitude for languages became clear during the exchange program.",
+        "japanese": "交換留学中に、彼女の言語の才能が明らかになった。",
+        "clozeTarget": "aptitude"
+      },
+      {
+        "id": "w879-e02",
+        "english": "The test measures an applicant's aptitude for spatial reasoning.",
+        "japanese": "その試験は応募者の空間推理の適性を測定する。",
+        "clozeTarget": "aptitude"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w880",
+    "lemma": "accede",
+    "pronunciation": "/əkˈsiːd/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w880-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "同意する、就任する",
+        "meaningEn": "to agree to a request or take a position of power"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w880-e01",
+        "english": "The landlord acceded to the tenants' request for repairs.",
+        "japanese": "家主は入居者の修理要望に同意した。",
+        "clozeTarget": "acceded"
+      },
+      {
+        "id": "w880-e02",
+        "english": "She acceded to the throne after her father's death.",
+        "japanese": "彼女は父の死後、王位に就いた。",
+        "clozeTarget": "acceded"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w881",
+    "lemma": "accolade",
+    "pronunciation": "/ˈækəleɪd/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w881-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "称賛、栄誉",
+        "meaningEn": "an award or expression of praise"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w881-e01",
+        "english": "The chef received an accolade for reducing food waste.",
+        "japanese": "その料理人は食品廃棄を減らしたことで称賛を受けた。",
+        "clozeTarget": "accolade"
+      },
+      {
+        "id": "w881-e02",
+        "english": "The novel earned international accolades for its precise language.",
+        "japanese": "その小説は正確な言葉遣いで国際的な称賛を得た。",
+        "clozeTarget": "accolades"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w882",
+    "lemma": "acrimonious",
+    "pronunciation": "/ˌækrəˈmoʊniəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w882-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "辛辣な、険悪な",
+        "meaningEn": "full of anger, bitterness, or harsh words"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w882-e01",
+        "english": "The meeting became acrimonious when the budget cuts were announced.",
+        "japanese": "予算削減が発表されると、会議は険悪になった。",
+        "clozeTarget": "acrimonious"
+      },
+      {
+        "id": "w882-e02",
+        "english": "An acrimonious exchange ended the interview early.",
+        "japanese": "辛辣な応酬が面接を早く終わらせた。",
+        "clozeTarget": "acrimonious"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w883",
+    "lemma": "chronic",
+    "pronunciation": "/ˈkrɑːnɪk/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w883-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "慢性的な、長期にわたる",
+        "meaningEn": "continuing for a long time or happening repeatedly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w883-e01",
+        "english": "The clinic treats patients with chronic back pain.",
+        "japanese": "その診療所は慢性的な腰痛の患者を治療している。",
+        "clozeTarget": "chronic"
+      },
+      {
+        "id": "w883-e02",
+        "english": "Chronic traffic congestion has changed how residents commute.",
+        "japanese": "慢性的な交通渋滞が住民の通勤方法を変えた。",
+        "clozeTarget": "chronic"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w884",
+    "lemma": "adept",
+    "pronunciation": "/əˈdept/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w884-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "熟達した",
+        "meaningEn": "very skilled at doing something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w884-e01",
+        "english": "The engineer is adept at repairing machines with improvised parts.",
+        "japanese": "その技術者は間に合わせの部品で機械を修理するのが得意だ。",
+        "clozeTarget": "adept"
+      },
+      {
+        "id": "w884-e02",
+        "english": "She became adept at reading old maps during her archival research.",
+        "japanese": "彼女は資料研究を通じて古地図を読むのに熟達した。",
+        "clozeTarget": "adept"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w885",
+    "lemma": "collaborate",
+    "pronunciation": "/kəˈlæbəreɪt/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w885-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "協力する、共同研究する",
+        "meaningEn": "to work with another person or group to achieve something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w885-e01",
+        "english": "The two laboratories collaborated on a study of coral reefs.",
+        "japanese": "その2つの研究室はサンゴ礁の研究で協力した。",
+        "clozeTarget": "collaborated"
+      },
+      {
+        "id": "w885-e02",
+        "english": "Local artists collaborated with students to paint the station wall.",
+        "japanese": "地元の芸術家たちは学生と協力して駅の壁を描いた。",
+        "clozeTarget": "collaborated"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w886",
+    "lemma": "admonish",
+    "pronunciation": "/ədˈmɑːnɪʃ/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w886-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "戒める、注意する",
+        "meaningEn": "to tell someone firmly that they have done something wrong"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w886-e01",
+        "english": "The coach admonished the players for ignoring the safety signal.",
+        "japanese": "コーチは安全信号を無視した選手たちを戒めた。",
+        "clozeTarget": "admonished"
+      },
+      {
+        "id": "w886-e02",
+        "english": "The editor admonished him to check names before publication.",
+        "japanese": "編集者は掲載前に名前を確認するよう彼に注意した。",
+        "clozeTarget": "admonished"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w887",
+    "lemma": "alacrity",
+    "pronunciation": "/əˈlækrəti/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w887-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "敏速さ、快活さ",
+        "meaningEn": "speed and enthusiasm in responding or doing something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w887-e01",
+        "english": "The volunteers accepted the difficult assignment with alacrity.",
+        "japanese": "ボランティアたちは難しい任務を快く素早く引き受けた。",
+        "clozeTarget": "alacrity"
+      },
+      {
+        "id": "w887-e02",
+        "english": "She answered the students' questions with surprising alacrity.",
+        "japanese": "彼女は学生の質問に驚くほどてきぱきと答えた。",
+        "clozeTarget": "alacrity"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w888",
+    "lemma": "compulsory",
+    "pronunciation": "/kəmˈpʌlsəri/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w888-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "義務的な",
+        "meaningEn": "required by a rule or law"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w888-e01",
+        "english": "Safety training is compulsory for everyone who enters the laboratory.",
+        "japanese": "研究室に入る全員に安全研修が義務づけられている。",
+        "clozeTarget": "compulsory"
+      },
+      {
+        "id": "w888-e02",
+        "english": "In the region, voting is compulsory for citizens over eighteen.",
+        "japanese": "その地域では18歳を超える市民に投票が義務づけられている。",
+        "clozeTarget": "compulsory"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w889",
+    "lemma": "complementary",
+    "pronunciation": "/ˌkɑːmpləˈmentəri/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w889-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "補完的な、相補的な",
+        "meaningEn": "combining well with something else to improve the whole"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w889-e01",
+        "english": "The two maps provide complementary views of the mountain range.",
+        "japanese": "その2枚の地図は山脈を補完的な視点から示している。",
+        "clozeTarget": "complementary"
+      },
+      {
+        "id": "w889-e02",
+        "english": "The chef paired the spicy soup with a complementary sweet dessert.",
+        "japanese": "その料理人は辛いスープに合う甘いデザートを組み合わせた。",
+        "clozeTarget": "complementary"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w890",
+    "lemma": "altruistic",
+    "pronunciation": "/ˌæltruˈɪstɪk/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w890-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "利他的な",
+        "meaningEn": "caring about other people more than oneself"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w890-e01",
+        "english": "His altruistic decision gave the scholarship to a poorer applicant.",
+        "japanese": "彼の利他的な決定は、より貧しい応募者に奨学金を与えた。",
+        "clozeTarget": "altruistic"
+      },
+      {
+        "id": "w890-e02",
+        "english": "The rescue team was motivated by an altruistic concern for strangers.",
+        "japanese": "その救助隊は見知らぬ人々への利他的な思いやりに動かされていた。",
+        "clozeTarget": "altruistic"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w891",
+    "lemma": "anomaly",
+    "pronunciation": "/əˈnɑːməli/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w891-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "異常、例外",
+        "meaningEn": "something unusual that does not fit a pattern"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w891-e01",
+        "english": "The sudden reading was an anomaly in an otherwise stable experiment.",
+        "japanese": "その突然の数値は、それ以外は安定した実験における異常だった。",
+        "clozeTarget": "anomaly"
+      },
+      {
+        "id": "w891-e02",
+        "english": "The analyst investigated a pricing anomaly in the old records.",
+        "japanese": "分析担当者は古い記録の価格の異常を調べた。",
+        "clozeTarget": "anomaly"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w892",
+    "lemma": "appease",
+    "pronunciation": "/əˈpiːz/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w892-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "なだめる、譲歩して満足させる",
+        "meaningEn": "to make someone less angry by giving them what they want"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w892-e01",
+        "english": "The manager offered a refund to appease the disappointed customer.",
+        "japanese": "管理者は失望した顧客をなだめるため返金を申し出た。",
+        "clozeTarget": "appease"
+      },
+      {
+        "id": "w892-e02",
+        "english": "Small concessions failed to appease the protesting residents.",
+        "japanese": "小さな譲歩では抗議する住民を満足させられなかった。",
+        "clozeTarget": "appease"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w893",
+    "lemma": "ardent",
+    "pronunciation": "/ˈɑːrdənt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w893-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "熱烈な、熱心な",
+        "meaningEn": "showing strong feelings or enthusiasm"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w893-e01",
+        "english": "An ardent supporter of public libraries donated her collection.",
+        "japanese": "公共図書館の熱心な支持者が自分の蔵書を寄贈した。",
+        "clozeTarget": "ardent"
+      },
+      {
+        "id": "w893-e02",
+        "english": "His ardent interest in insects began during childhood summers.",
+        "japanese": "彼の昆虫への熱烈な関心は子どもの夏休みに始まった。",
+        "clozeTarget": "ardent"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w894",
+    "lemma": "correlate",
+    "pronunciation": "/ˈkɔːrəleɪt/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w894-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "相関する、関連づける",
+        "meaningEn": "to have a mutual relationship or connection"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w894-e01",
+        "english": "The survey found that sleep hours correlate with concentration in class.",
+        "japanese": "その調査は睡眠時間と授業中の集中力に相関があると示した。",
+        "clozeTarget": "correlate"
+      },
+      {
+        "id": "w894-e02",
+        "english": "Researchers correlated tree growth with changes in rainfall.",
+        "japanese": "研究者たちは木の成長を降雨量の変化と関連づけた。",
+        "clozeTarget": "correlated"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w895",
+    "lemma": "arduous",
+    "pronunciation": "/ˈɑːrdʒuəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w895-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "困難な、骨の折れる",
+        "meaningEn": "requiring a lot of effort and energy"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w895-e01",
+        "english": "Mapping the remote coastline was an arduous task.",
+        "japanese": "人里離れた海岸線の地図を作るのは骨の折れる作業だった。",
+        "clozeTarget": "arduous"
+      },
+      {
+        "id": "w895-e02",
+        "english": "The hikers completed an arduous climb before dawn.",
+        "japanese": "ハイカーたちは夜明け前に困難な登りを終えた。",
+        "clozeTarget": "arduous"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w896",
+    "lemma": "deprive",
+    "pronunciation": "/dɪˈpraɪv/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w896-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "奪う、与えない",
+        "meaningEn": "to prevent someone from having something they need or want"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w896-e01",
+        "english": "A lack of sleep deprived the students of the concentration needed for the exam.",
+        "japanese": "睡眠不足は学生から試験に必要な集中力を奪った。",
+        "clozeTarget": "deprived"
+      },
+      {
+        "id": "w896-e02",
+        "english": "The drought deprived the village of its usual harvest.",
+        "japanese": "干ばつは村からいつもの収穫を奪った。",
+        "clozeTarget": "deprived"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w897",
+    "lemma": "detach",
+    "pronunciation": "/dɪˈtætʃ/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w897-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "取り外す、切り離す",
+        "meaningEn": "to separate one thing from another"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w897-e01",
+        "english": "Detach the battery before opening the device.",
+        "japanese": "装置を開ける前に電池を取り外してください。",
+        "clozeTarget": "Detach"
+      },
+      {
+        "id": "w897-e02",
+        "english": "The historian tried to detach the legend from later political claims.",
+        "japanese": "その歴史家は伝説を後世の政治的主張から切り離そうとした。",
+        "clozeTarget": "detach"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w898",
+    "lemma": "assimilate",
+    "pronunciation": "/əˈsɪməleɪt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w898-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "同化する、吸収する",
+        "meaningEn": "to become part of a group or take in and understand information"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w898-e01",
+        "english": "New residents gradually assimilated into the island community.",
+        "japanese": "新しい住民たちは徐々に島の地域社会に同化した。",
+        "clozeTarget": "assimilated"
+      },
+      {
+        "id": "w898-e02",
+        "english": "It took time for the student to assimilate the unfamiliar theory.",
+        "japanese": "その学生がなじみのない理論を吸収するには時間がかかった。",
+        "clozeTarget": "assimilate"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w899",
+    "lemma": "diagnose",
+    "pronunciation": "/ˈdaɪəɡnoʊz/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w899-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "診断する",
+        "meaningEn": "to identify an illness or problem by examining its signs"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w899-e01",
+        "english": "The doctor diagnosed the rash as an allergic reaction.",
+        "japanese": "医師はその発疹をアレルギー反応と診断した。",
+        "clozeTarget": "diagnosed"
+      },
+      {
+        "id": "w899-e02",
+        "english": "Engineers diagnosed the cause of the vibration within an hour.",
+        "japanese": "技術者たちは1時間以内に振動の原因を診断した。",
+        "clozeTarget": "diagnosed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w900",
+    "lemma": "disperse",
+    "pronunciation": "/dɪˈspɝːs/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w900-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "分散する、散らす",
+        "meaningEn": "to spread out or cause people or things to spread out"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w900-e01",
+        "english": "The crowd dispersed when the storm approached.",
+        "japanese": "嵐が近づくと群衆は散らばった。",
+        "clozeTarget": "dispersed"
+      },
+      {
+        "id": "w900-e02",
+        "english": "The fan disperses warm air evenly across the greenhouse.",
+        "japanese": "その扇風機は温かい空気を温室全体に均等に広げる。",
+        "clozeTarget": "disperses"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w901",
+    "lemma": "audacious",
+    "pronunciation": "/ɔːˈdeɪʃəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w901-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "大胆不敵な",
+        "meaningEn": "willing to take surprising risks"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w901-e01",
+        "english": "The climber made an audacious attempt to cross the ice field alone.",
+        "japanese": "その登山者は単独で氷原を渡る大胆な試みをした。",
+        "clozeTarget": "audacious"
+      },
+      {
+        "id": "w901-e02",
+        "english": "Her audacious proposal forced the board to rethink the entire project.",
+        "japanese": "彼女の大胆な提案が取締役会に計画全体の再考を迫った。",
+        "clozeTarget": "audacious"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w902",
+    "lemma": "augment",
+    "pronunciation": "/ɔːɡˈment/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w902-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "増やす、拡充する",
+        "meaningEn": "to increase the size, value, or quality of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w902-e01",
+        "english": "The museum augmented its collection with photographs from local families.",
+        "japanese": "その博物館は地元家庭の写真で収蔵品を拡充した。",
+        "clozeTarget": "augmented"
+      },
+      {
+        "id": "w902-e02",
+        "english": "A small grant augmented the school's budget for science equipment.",
+        "japanese": "小さな助成金が学校の科学機器予算を増やした。",
+        "clozeTarget": "augmented"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w903",
+    "lemma": "enrich",
+    "pronunciation": "/ɪnˈrɪtʃ/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w903-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "豊かにする、強化する",
+        "meaningEn": "to improve the quality or value of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w903-e01",
+        "english": "Travel enriched her understanding of regional history.",
+        "japanese": "旅行は彼女の地域史への理解を豊かにした。",
+        "clozeTarget": "enriched"
+      },
+      {
+        "id": "w903-e02",
+        "english": "The farmer enriches the soil with compost each spring.",
+        "japanese": "その農家は毎春、堆肥で土壌を豊かにする。",
+        "clozeTarget": "enriches"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w904",
+    "lemma": "aversion",
+    "pronunciation": "/əˈvɝːʒən/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w904-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "嫌悪、反感",
+        "meaningEn": "a strong feeling of dislike"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w904-e01",
+        "english": "She has a strong aversion to unnecessary plastic packaging.",
+        "japanese": "彼女は不要なプラスチック包装を強く嫌っている。",
+        "clozeTarget": "aversion"
+      },
+      {
+        "id": "w904-e02",
+        "english": "His aversion to public speaking made the presentation difficult.",
+        "japanese": "彼は人前で話すのが嫌いなので、発表は難しかった。",
+        "clozeTarget": "aversion"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w905",
+    "lemma": "benign",
+    "pronunciation": "/bɪˈnaɪn/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w905-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "良性の、無害な、温和な",
+        "meaningEn": "not harmful or dangerous"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w905-e01",
+        "english": "The scan showed that the tumor was benign.",
+        "japanese": "画像検査で、その腫瘍は良性だと分かった。",
+        "clozeTarget": "benign"
+      },
+      {
+        "id": "w905-e02",
+        "english": "The old dog had a benign expression despite its enormous size.",
+        "japanese": "その老犬は体が大きいにもかかわらず温和な表情をしていた。",
+        "clozeTarget": "benign"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w906",
+    "lemma": "exhibit",
+    "pronunciation": "/ɪɡˈzɪbɪt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w906-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "展示する、示す",
+        "meaningEn": "to show something publicly or as evidence"
+      },
+      {
+        "id": "w906-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "展示品、証拠物件",
+        "meaningEn": "an object shown publicly or used as evidence"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w906-e01",
+        "english": "The gallery exhibits photographs taken during the flood.",
+        "japanese": "その画廊は洪水の際に撮影された写真を展示している。",
+        "clozeTarget": "exhibits"
+      },
+      {
+        "id": "w906-e02",
+        "english": "The diary became the most popular exhibit in the museum.",
+        "japanese": "その日記は博物館で最も人気の展示品になった。",
+        "clozeTarget": "exhibit"
+      },
+      {
+        "id": "w906-e03",
+        "english": "The experiment exhibits how quickly salt dissolves in warm water.",
+        "japanese": "その実験は塩が温水にどれほど早く溶けるかを示している。",
+        "clozeTarget": "exhibits"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w907",
+    "lemma": "candid",
+    "pronunciation": "/ˈkændɪd/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w907-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "率直な、隠し立てのない",
+        "meaningEn": "honest and direct, even when the truth is difficult"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w907-e01",
+        "english": "The director gave a candid account of the failed experiment.",
+        "japanese": "監督は失敗した実験について率直に説明した。",
+        "clozeTarget": "candid"
+      },
+      {
+        "id": "w907-e02",
+        "english": "Her candid advice helped me reconsider the expensive purchase.",
+        "japanese": "彼女の率直な助言が高価な買い物を考え直すのに役立った。",
+        "clozeTarget": "candid"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w908",
+    "lemma": "caustic",
+    "pronunciation": "/ˈkɔːstɪk/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w908-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "辛辣な、腐食性の",
+        "meaningEn": "very critical or able to burn or damage chemically"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w908-e01",
+        "english": "The columnist's caustic remarks divided the readers.",
+        "japanese": "そのコラムニストの辛辣な発言は読者を分裂させた。",
+        "clozeTarget": "caustic"
+      },
+      {
+        "id": "w908-e02",
+        "english": "Workers wore gloves when handling the caustic cleaning liquid.",
+        "japanese": "作業員は腐食性の洗浄液を扱う際に手袋を着けた。",
+        "clozeTarget": "caustic"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w909",
+    "lemma": "fragile",
+    "pronunciation": "/ˈfrædʒəl/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w909-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "壊れやすい、脆い",
+        "meaningEn": "easily broken, damaged, or harmed"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w909-e01",
+        "english": "The package contains fragile glass instruments.",
+        "japanese": "その荷物には壊れやすいガラス器具が入っている。",
+        "clozeTarget": "fragile"
+      },
+      {
+        "id": "w909-e02",
+        "english": "The cease-fire created a fragile hope for peace.",
+        "japanese": "停戦は平和へのもろい希望を生んだ。",
+        "clozeTarget": "fragile"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w910",
+    "lemma": "complacent",
+    "pronunciation": "/kəmˈpleɪsənt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w910-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "自己満足した、油断した",
+        "meaningEn": "too satisfied with oneself to notice danger or problems"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w910-e01",
+        "english": "The champion became complacent after several easy victories.",
+        "japanese": "その王者は何度か楽に勝った後、油断した。",
+        "clozeTarget": "complacent"
+      },
+      {
+        "id": "w910-e02",
+        "english": "A complacent attitude toward small errors can cause a disaster.",
+        "japanese": "小さな誤りに対する自己満足的な態度は災害を引き起こすことがある。",
+        "clozeTarget": "complacent"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w911",
+    "lemma": "conducive",
+    "pronunciation": "/kənˈduːsɪv/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w911-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "助けになる、促進する",
+        "meaningEn": "helping to produce a particular result"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w911-e01",
+        "english": "Quiet music creates an atmosphere conducive to concentration.",
+        "japanese": "静かな音楽は集中しやすい雰囲気を作る。",
+        "clozeTarget": "conducive"
+      },
+      {
+        "id": "w911-e02",
+        "english": "The new benches are conducive to conversation in the public garden.",
+        "japanese": "新しいベンチは公共庭園での会話を促す。",
+        "clozeTarget": "conducive"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w912",
+    "lemma": "induce",
+    "pronunciation": "/ɪnˈduːs/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w912-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "引き起こす、説得して〜させる",
+        "meaningEn": "to cause something to happen or persuade someone to do something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w912-e01",
+        "english": "The medication may induce sleep in sensitive patients.",
+        "japanese": "その薬は敏感な患者に眠気を引き起こすことがある。",
+        "clozeTarget": "induce"
+      },
+      {
+        "id": "w912-e02",
+        "english": "The coach induced the reluctant runner to try one more lap.",
+        "japanese": "コーチは気の進まない走者を説得してもう1周走らせた。",
+        "clozeTarget": "induced"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w913",
+    "lemma": "conclusive",
+    "pronunciation": "/kənˈkluːsɪv/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w913-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "決定的な、結論を示す",
+        "meaningEn": "proving something so that there is no doubt"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w913-e01",
+        "english": "The second test provided conclusive evidence of contamination.",
+        "japanese": "2回目の検査が汚染の決定的な証拠を示した。",
+        "clozeTarget": "conclusive"
+      },
+      {
+        "id": "w913-e02",
+        "english": "No conclusive explanation has been found for the strange signal.",
+        "japanese": "その奇妙な信号について決定的な説明は見つかっていない。",
+        "clozeTarget": "conclusive"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w914",
+    "lemma": "contentious",
+    "pronunciation": "/kənˈtenʃəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w914-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "論争を招く、争い好きな",
+        "meaningEn": "causing disagreement or likely to cause argument"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w914-e01",
+        "english": "The plan contains a contentious proposal to close the rural hospital.",
+        "japanese": "その計画には地方病院を閉鎖する論争を招く提案が含まれる。",
+        "clozeTarget": "contentious"
+      },
+      {
+        "id": "w914-e02",
+        "english": "The professor avoided the most contentious part of the debate.",
+        "japanese": "教授は議論で最も争いを招く部分を避けた。",
+        "clozeTarget": "contentious"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w915",
+    "lemma": "contrive",
+    "pronunciation": "/kənˈtraɪv/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w915-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "考案する、何とか〜する",
+        "meaningEn": "to invent a clever way of doing something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w915-e01",
+        "english": "The villagers contrived a bridge from fallen timber.",
+        "japanese": "村人たちは倒木から橋を考案した。",
+        "clozeTarget": "contrived"
+      },
+      {
+        "id": "w915-e02",
+        "english": "She contrived to finish the report before the power failed.",
+        "japanese": "彼女は停電前になんとか報告書を終えた。",
+        "clozeTarget": "contrived"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w916",
+    "lemma": "copious",
+    "pronunciation": "/ˈkoʊpiəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w916-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "豊富な、大量の",
+        "meaningEn": "existing in large amounts"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w916-e01",
+        "english": "The researcher took copious notes during the interviews.",
+        "japanese": "その研究者は面接中に大量のメモを取った。",
+        "clozeTarget": "copious"
+      },
+      {
+        "id": "w916-e02",
+        "english": "The garden produced copious flowers after the rainy season.",
+        "japanese": "雨季の後、その庭には豊富な花が咲いた。",
+        "clozeTarget": "copious"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w917",
+    "lemma": "cordial",
+    "pronunciation": "/ˈkɔːrdʒəl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w917-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "心のこもった、友好的な",
+        "meaningEn": "warm and friendly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w917-e01",
+        "english": "The two leaders maintained cordial relations after the dispute.",
+        "japanese": "2人の指導者は争いの後も友好的な関係を保った。",
+        "clozeTarget": "cordial"
+      },
+      {
+        "id": "w917-e02",
+        "english": "She offered a cordial welcome to the exchange students.",
+        "japanese": "彼女は交換留学生を心のこもった歓迎で迎えた。",
+        "clozeTarget": "cordial"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w918",
+    "lemma": "corroborate",
+    "pronunciation": "/kəˈrɑːbəreɪt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w918-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "裏づける、確証する",
+        "meaningEn": "to support a statement with additional evidence"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w918-e01",
+        "english": "A second witness corroborated the driver's account.",
+        "japanese": "2人目の証人が運転手の説明を裏づけた。",
+        "clozeTarget": "corroborated"
+      },
+      {
+        "id": "w918-e02",
+        "english": "The laboratory data corroborate the villagers' observations.",
+        "japanese": "研究室のデータが村人たちの観察を裏づけている。",
+        "clozeTarget": "corroborate"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w919",
+    "lemma": "cumbersome",
+    "pronunciation": "/ˈkʌmbərsəm/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w919-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "扱いにくい、厄介な",
+        "meaningEn": "large, heavy, or complicated to use"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w919-e01",
+        "english": "The old filing system was cumbersome and slow.",
+        "japanese": "古いファイル制度は扱いにくく遅かった。",
+        "clozeTarget": "cumbersome"
+      },
+      {
+        "id": "w919-e02",
+        "english": "Carrying the cumbersome equipment up the stairs delayed the rescue.",
+        "japanese": "扱いにくい機材を階段で運ぶことが救助を遅らせた。",
+        "clozeTarget": "cumbersome"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w920",
+    "lemma": "cynical",
+    "pronunciation": "/ˈsɪnɪkəl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w920-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "冷笑的な、皮肉な",
+        "meaningEn": "believing that people are motivated mainly by selfishness"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w920-e01",
+        "english": "His cynical view of politics made him distrust every promise.",
+        "japanese": "彼の政治への冷笑的な見方は、あらゆる約束を疑わせた。",
+        "clozeTarget": "cynical"
+      },
+      {
+        "id": "w920-e02",
+        "english": "The article takes a cynical tone toward celebrity charity.",
+        "japanese": "その記事は有名人の慈善活動に冷笑的な調子を取っている。",
+        "clozeTarget": "cynical"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w921",
+    "lemma": "decipher",
+    "pronunciation": "/dɪˈsaɪfər/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w921-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "解読する、読み解く",
+        "meaningEn": "to discover the meaning of writing or a message that is difficult to read"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w921-e01",
+        "english": "The historian deciphered the faded inscription on the bell.",
+        "japanese": "その歴史家は鐘の色あせた碑文を解読した。",
+        "clozeTarget": "deciphered"
+      },
+      {
+        "id": "w921-e02",
+        "english": "Engineers struggled to decipher the machine's warning code.",
+        "japanese": "技術者たちは機械の警告コードを読み解くのに苦労した。",
+        "clozeTarget": "decipher"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w922",
+    "lemma": "deplore",
+    "pronunciation": "/dɪˈplɔːr/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w922-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "深く遺憾に思う、非難する",
+        "meaningEn": "to strongly disapprove of something or feel great sadness about it"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w922-e01",
+        "english": "The conservation group deplored the destruction of the wetland.",
+        "japanese": "その保全団体は湿地の破壊を深く遺憾に思った。",
+        "clozeTarget": "deplored"
+      },
+      {
+        "id": "w922-e02",
+        "english": "She deplored the habit of treating old buildings as disposable.",
+        "japanese": "彼女は古い建物を使い捨てのように扱う習慣を非難した。",
+        "clozeTarget": "deplored"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w923",
+    "lemma": "desolate",
+    "pronunciation": "/ˈdesələt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w923-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "荒涼とした、孤独な",
+        "meaningEn": "empty and without people, life, or comfort"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w923-e01",
+        "english": "The mining town looked desolate after the factory closed.",
+        "japanese": "工場が閉鎖された後、その鉱山町は荒涼として見えた。",
+        "clozeTarget": "desolate"
+      },
+      {
+        "id": "w923-e02",
+        "english": "He felt desolate when the last train left the station.",
+        "japanese": "最終列車が駅を出ると、彼は孤独を感じた。",
+        "clozeTarget": "desolate"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w924",
+    "lemma": "deterrent",
+    "pronunciation": "/dɪˈtɝːənt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w924-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "抑止力、妨げ",
+        "meaningEn": "something that discourages an action"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w924-e01",
+        "english": "A visible police presence can be a deterrent to theft.",
+        "japanese": "目に見える警察の存在は窃盗の抑止力になりうる。",
+        "clozeTarget": "deterrent"
+      },
+      {
+        "id": "w924-e02",
+        "english": "The steep fee was an effective deterrent against unnecessary cancellations.",
+        "japanese": "高い料金は不要なキャンセルへの有効な抑止になった。",
+        "clozeTarget": "deterrent"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w925",
+    "lemma": "diligent",
+    "pronunciation": "/ˈdɪlədʒənt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w925-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "勤勉な、入念な",
+        "meaningEn": "working carefully and steadily"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w925-e01",
+        "english": "The diligent student checked every citation in the essay.",
+        "japanese": "勤勉な学生は論文の引用をすべて確認した。",
+        "clozeTarget": "diligent"
+      },
+      {
+        "id": "w925-e02",
+        "english": "Diligent maintenance kept the old bridge safe for decades.",
+        "japanese": "入念な保守が古い橋を何十年も安全に保った。",
+        "clozeTarget": "diligent"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w926",
+    "lemma": "dismal",
+    "pronunciation": "/ˈdɪzməl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w926-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "陰気な、ひどく悪い",
+        "meaningEn": "very bad, sad, or without hope"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w926-e01",
+        "english": "The team received dismal news about the damaged harvest.",
+        "japanese": "チームは被害を受けた収穫についてひどい知らせを受けた。",
+        "clozeTarget": "dismal"
+      },
+      {
+        "id": "w926-e02",
+        "english": "A dismal gray sky covered the harbor all morning.",
+        "japanese": "陰気な灰色の空が午前中ずっと港を覆っていた。",
+        "clozeTarget": "dismal"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w927",
+    "lemma": "remedy",
+    "pronunciation": "/ˈremədi/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w927-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "治療法、改善策",
+        "meaningEn": "a way of dealing with or correcting a problem"
+      },
+      {
+        "id": "w927-s02",
+        "partOfSpeech": "verb",
+        "meaningJa": "改善する、治療する",
+        "meaningEn": "to correct or improve a problem"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w927-e01",
+        "english": "The report recommends a practical remedy for the housing shortage.",
+        "japanese": "その報告書は住宅不足への実際的な改善策を勧めている。",
+        "clozeTarget": "remedy"
+      },
+      {
+        "id": "w927-e02",
+        "english": "The company acted quickly to remedy the billing error.",
+        "japanese": "その会社は請求ミスを改善するためすぐに対応した。",
+        "clozeTarget": "remedy"
+      },
+      {
+        "id": "w927-e03",
+        "english": "Ginger tea is a traditional remedy for a mild cough.",
+        "japanese": "ショウガ茶は軽いせきに対する伝統的な治療法だ。",
+        "clozeTarget": "remedy"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w928",
+    "lemma": "disdain",
+    "pronunciation": "/dɪsˈdeɪn/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w928-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "軽蔑、侮蔑",
+        "meaningEn": "a strong feeling that someone or something is unworthy"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w928-e01",
+        "english": "The critic expressed disdain for the film's careless historical claims.",
+        "japanese": "批評家はその映画の不注意な歴史的主張に軽蔑を示した。",
+        "clozeTarget": "disdain"
+      },
+      {
+        "id": "w928-e02",
+        "english": "She spoke with disdain about people who refused to learn from mistakes.",
+        "japanese": "彼女は失敗から学ぼうとしない人々について軽蔑を込めて話した。",
+        "clozeTarget": "disdain"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w929",
+    "lemma": "disruptive",
+    "pronunciation": "/dɪsˈrʌptɪv/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w929-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "混乱を引き起こす、破壊的な",
+        "meaningEn": "causing problems that interrupt the normal progress of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w929-e01",
+        "english": "The disruptive storm closed every road to the peninsula.",
+        "japanese": "その混乱を引き起こす嵐が半島への全道路を閉鎖した。",
+        "clozeTarget": "disruptive"
+      },
+      {
+        "id": "w929-e02",
+        "english": "The new technology was disruptive because it changed how news was distributed.",
+        "japanese": "その新技術はニュースの配信方法を変えたため破壊的だった。",
+        "clozeTarget": "disruptive"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w930",
+    "lemma": "eminent",
+    "pronunciation": "/ˈemənənt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w930-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "著名な、卓越した",
+        "meaningEn": "famous and respected, especially in a profession"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w930-e01",
+        "english": "An eminent linguist spoke at the university's language forum.",
+        "japanese": "著名な言語学者が大学の言語フォーラムで講演した。",
+        "clozeTarget": "eminent"
+      },
+      {
+        "id": "w930-e02",
+        "english": "The hospital invited an eminent surgeon to review the rare case.",
+        "japanese": "その病院は珍しい症例を検討するため卓越した外科医を招いた。",
+        "clozeTarget": "eminent"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w931",
+    "lemma": "emulate",
+    "pronunciation": "/ˈemjəleɪt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w931-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "見習う、まねて追いつく",
+        "meaningEn": "to copy someone's success or behavior in order to equal it"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w931-e01",
+        "english": "Young musicians tried to emulate the pianist's disciplined routine.",
+        "japanese": "若い音楽家たちはそのピアニストの規律ある習慣を見習おうとした。",
+        "clozeTarget": "emulate"
+      },
+      {
+        "id": "w931-e02",
+        "english": "The start-up emulates the efficiency of larger firms without copying their products.",
+        "japanese": "その新興企業は製品をまねずに大企業の効率性を見習っている。",
+        "clozeTarget": "emulates"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w932",
+    "lemma": "enigmatic",
+    "pronunciation": "/ˌenɪɡˈmætɪk/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w932-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "謎めいた、不可解な",
+        "meaningEn": "difficult to understand or explain"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w932-e01",
+        "english": "The painter left an enigmatic symbol in the corner of every portrait.",
+        "japanese": "その画家はすべての肖像画の隅に謎めいた記号を残した。",
+        "clozeTarget": "enigmatic"
+      },
+      {
+        "id": "w932-e02",
+        "english": "His enigmatic reply made the reporters ask more questions.",
+        "japanese": "彼の不可解な返答が記者たちにさらに質問をさせた。",
+        "clozeTarget": "enigmatic"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w933",
+    "lemma": "sustainable",
+    "pronunciation": "/səˈsteɪnəbəl/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w933-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "持続可能な、維持できる",
+        "meaningEn": "able to continue without causing serious harm or using too many resources"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w933-e01",
+        "english": "The island is searching for a sustainable source of electricity.",
+        "japanese": "その島は持続可能な電力源を探している。",
+        "clozeTarget": "sustainable"
+      },
+      {
+        "id": "w933-e02",
+        "english": "A sustainable fishing method protects young fish for future seasons.",
+        "japanese": "持続可能な漁法は将来の漁期のために若い魚を守る。",
+        "clozeTarget": "sustainable"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w934",
+    "lemma": "entail",
+    "pronunciation": "/ɪnˈteɪl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w934-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "伴う、必要とする",
+        "meaningEn": "to involve something as a necessary part or consequence"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w934-e01",
+        "english": "The renovation will entail closing the theater for six months.",
+        "japanese": "改修には劇場を6か月閉鎖することが伴う。",
+        "clozeTarget": "entail"
+      },
+      {
+        "id": "w934-e02",
+        "english": "A successful expedition entails careful planning for bad weather.",
+        "japanese": "遠征の成功には悪天候への入念な計画が必要だ。",
+        "clozeTarget": "entails"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w935",
+    "lemma": "erroneous",
+    "pronunciation": "/ɪˈroʊniəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w935-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "誤った",
+        "meaningEn": "containing a mistake or based on incorrect information"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w935-e01",
+        "english": "The article was withdrawn after an erroneous figure was discovered.",
+        "japanese": "誤った数値が発見された後、その記事は撤回された。",
+        "clozeTarget": "erroneous"
+      },
+      {
+        "id": "w935-e02",
+        "english": "An erroneous assumption led the engineers to choose the wrong material.",
+        "japanese": "誤った前提が技術者たちに間違った材料を選ばせた。",
+        "clozeTarget": "erroneous"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w936",
+    "lemma": "erudite",
+    "pronunciation": "/ˈerədaɪt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w936-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "学識のある",
+        "meaningEn": "having or showing a lot of knowledge from study"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w936-e01",
+        "english": "The erudite speaker connected the poem with ancient astronomy.",
+        "japanese": "学識のある講演者はその詩を古代天文学と結びつけた。",
+        "clozeTarget": "erudite"
+      },
+      {
+        "id": "w936-e02",
+        "english": "Her erudite review explained the theory without using unnecessary jargon.",
+        "japanese": "彼女の学識ある書評は不要な専門用語を使わずに理論を説明した。",
+        "clozeTarget": "erudite"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w937",
+    "lemma": "exorbitant",
+    "pronunciation": "/ɪɡˈzɔːrbɪtənt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w937-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "法外な、途方もない",
+        "meaningEn": "much more expensive than is reasonable"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w937-e01",
+        "english": "The hotel charged an exorbitant price during the festival.",
+        "japanese": "そのホテルは祭りの間、法外な料金を請求した。",
+        "clozeTarget": "exorbitant"
+      },
+      {
+        "id": "w937-e02",
+        "english": "The village rejected the contractor's exorbitant estimate for the road.",
+        "japanese": "村は道路工事について業者の途方もない見積もりを退けた。",
+        "clozeTarget": "exorbitant"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w938",
+    "lemma": "exonerate",
+    "pronunciation": "/ɪɡˈzɑːnəreɪt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w938-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "無罪にする、潔白を証明する",
+        "meaningEn": "to officially state that someone is not responsible for a crime or problem"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w938-e01",
+        "english": "New camera footage exonerated the driver accused of the collision.",
+        "japanese": "新しいカメラ映像が衝突を起こしたとされた運転手の潔白を証明した。",
+        "clozeTarget": "exonerated"
+      },
+      {
+        "id": "w938-e02",
+        "english": "The audit exonerated the treasurer from the missing funds.",
+        "japanese": "監査により、会計係は行方不明の資金について潔白だと分かった。",
+        "clozeTarget": "exonerated"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w939",
+    "lemma": "expedite",
+    "pronunciation": "/ˈekspədaɪt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w939-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "促進する、早める",
+        "meaningEn": "to make a process happen more quickly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w939-e01",
+        "english": "The emergency permit expedited repairs to the damaged road.",
+        "japanese": "緊急許可が損傷した道路の修理を早めた。",
+        "clozeTarget": "expedited"
+      },
+      {
+        "id": "w939-e02",
+        "english": "A digital form can expedite applications for rural healthcare.",
+        "japanese": "デジタル書式は地方医療への申請を促進できる。",
+        "clozeTarget": "expedite"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w940",
+    "lemma": "comply",
+    "pronunciation": "/kəmˈplaɪ/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w940-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "従う、応じる",
+        "meaningEn": "to obey a rule or request"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w940-e01",
+        "english": "All laboratories must comply with the new waste regulations.",
+        "japanese": "すべての研究室は新しい廃棄物規則に従わなければならない。",
+        "clozeTarget": "comply"
+      },
+      {
+        "id": "w940-e02",
+        "english": "The company complied with the court's request for records.",
+        "japanese": "その会社は裁判所の記録提出要求に応じた。",
+        "clozeTarget": "complied"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w941",
+    "lemma": "fabricate",
+    "pronunciation": "/ˈfæbrɪkeɪt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w941-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "作り上げる、ねつ造する",
+        "meaningEn": "to invent false information or make something from materials"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w941-e01",
+        "english": "The witness was accused of fabricating evidence.",
+        "japanese": "その証人は証拠をねつ造したと非難された。",
+        "clozeTarget": "fabricating"
+      },
+      {
+        "id": "w941-e02",
+        "english": "The workshop fabricates custom parts for antique bicycles.",
+        "japanese": "その工房は古い自転車用の特注部品を製作する。",
+        "clozeTarget": "fabricates"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w942",
+    "lemma": "fervent",
+    "pronunciation": "/ˈfɝːvənt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w942-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "熱烈な、熱心な",
+        "meaningEn": "showing very strong feelings or enthusiasm"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w942-e01",
+        "english": "The campaign attracted fervent support from young voters.",
+        "japanese": "その運動は若い有権者から熱烈な支持を集めた。",
+        "clozeTarget": "fervent"
+      },
+      {
+        "id": "w942-e02",
+        "english": "She is a fervent believer in protecting public parks.",
+        "japanese": "彼女は公共公園の保護を熱心に信じている。",
+        "clozeTarget": "fervent"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w943",
+    "lemma": "frugal",
+    "pronunciation": "/ˈfruːɡəl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w943-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "質素な、倹約する",
+        "meaningEn": "using money or resources carefully and without waste"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w943-e01",
+        "english": "His frugal habits allowed him to fund a year of study abroad.",
+        "japanese": "彼の倹約的な習慣が1年間の留学費用を可能にした。",
+        "clozeTarget": "frugal"
+      },
+      {
+        "id": "w943-e02",
+        "english": "The restaurant uses a frugal menu to reduce food waste.",
+        "japanese": "そのレストランは食品廃棄を減らすため質素なメニューを使っている。",
+        "clozeTarget": "frugal"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w944",
+    "lemma": "gregarious",
+    "pronunciation": "/ɡrɪˈɡeriəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w944-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "社交的な、群居性の",
+        "meaningEn": "friendly and enjoying the company of others"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w944-e01",
+        "english": "The gregarious guide soon learned every visitor's name.",
+        "japanese": "社交的なガイドはすぐに訪問者全員の名前を覚えた。",
+        "clozeTarget": "gregarious"
+      },
+      {
+        "id": "w944-e02",
+        "english": "Unlike solitary cats, the species is highly gregarious.",
+        "japanese": "単独で暮らす猫と違い、その種は非常に群居性が高い。",
+        "clozeTarget": "gregarious"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w945",
+    "lemma": "hamper",
+    "pronunciation": "/ˈhæmpər/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w945-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "妨げる、遅らせる",
+        "meaningEn": "to make it difficult for something to happen or progress"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w945-e01",
+        "english": "Heavy snow hampered the rescue effort in the mountains.",
+        "japanese": "大雪が山での救助活動を妨げた。",
+        "clozeTarget": "hampered"
+      },
+      {
+        "id": "w945-e02",
+        "english": "A lack of reliable data hampers attempts to compare the regions.",
+        "japanese": "信頼できるデータの不足が地域比較の試みを妨げている。",
+        "clozeTarget": "hampers"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w946",
+    "lemma": "hypothetical",
+    "pronunciation": "/ˌhaɪpəˈθetɪkəl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w946-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "仮定の、仮想の",
+        "meaningEn": "based on a situation that is imagined rather than real"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w946-e01",
+        "english": "The teacher gave a hypothetical example about sharing a limited resource.",
+        "japanese": "教師は限られた資源を分け合う仮想の例を示した。",
+        "clozeTarget": "hypothetical"
+      },
+      {
+        "id": "w946-e02",
+        "english": "The report tests several hypothetical outcomes of a warmer climate.",
+        "japanese": "その報告書は温暖化した気候のいくつかの仮想的な結果を検証している。",
+        "clozeTarget": "hypothetical"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w947",
+    "lemma": "revise",
+    "pronunciation": "/rɪˈvaɪz/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w947-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "修正する、改訂する",
+        "meaningEn": "to change something in order to improve it"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w947-e01",
+        "english": "The author revised the conclusion after receiving criticism.",
+        "japanese": "著者は批判を受けて結論を修正した。",
+        "clozeTarget": "revised"
+      },
+      {
+        "id": "w947-e02",
+        "english": "Students revised their notes before the entrance examination.",
+        "japanese": "学生たちは入学試験の前にノートを復習した。",
+        "clozeTarget": "revised"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w948",
+    "lemma": "stabilize",
+    "pronunciation": "/ˈsteɪbəlaɪz/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w948-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "安定させる、安定する",
+        "meaningEn": "to make something steady or become steady"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w948-e01",
+        "english": "The new supports stabilized the damaged wall.",
+        "japanese": "新しい支柱が傷んだ壁を安定させた。",
+        "clozeTarget": "stabilized"
+      },
+      {
+        "id": "w948-e02",
+        "english": "Prices stabilized after the harvest reached the market.",
+        "japanese": "収穫物が市場に届くと価格は安定した。",
+        "clozeTarget": "stabilized"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w949",
+    "lemma": "impeccable",
+    "pronunciation": "/ɪmˈpekəbəl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w949-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "非の打ちどころのない",
+        "meaningEn": "without any faults or mistakes"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w949-e01",
+        "english": "The pianist gave an impeccable performance despite the broken key.",
+        "japanese": "そのピアニストは壊れた鍵盤があったにもかかわらず完璧な演奏をした。",
+        "clozeTarget": "impeccable"
+      },
+      {
+        "id": "w949-e02",
+        "english": "Her impeccable manners impressed the visiting diplomats.",
+        "japanese": "彼女の非の打ちどころのない礼儀作法が訪問した外交官を感心させた。",
+        "clozeTarget": "impeccable"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w950",
+    "lemma": "impede",
+    "pronunciation": "/ɪmˈpiːd/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w950-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "妨げる、遅らせる",
+        "meaningEn": "to make movement or progress difficult"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w950-e01",
+        "english": "A fallen tree impeded traffic on the mountain road.",
+        "japanese": "倒木が山道の交通を妨げた。",
+        "clozeTarget": "impeded"
+      },
+      {
+        "id": "w950-e02",
+        "english": "Unclear instructions impeded the volunteers' response to the alarm.",
+        "japanese": "不明確な指示が警報へのボランティアの対応を妨げた。",
+        "clozeTarget": "impeded"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w951",
+    "lemma": "incessant",
+    "pronunciation": "/ɪnˈsesənt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w951-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "絶え間ない",
+        "meaningEn": "continuing without stopping"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w951-e01",
+        "english": "The incessant noise from construction made it hard to sleep.",
+        "japanese": "工事の絶え間ない騒音で眠るのが難しかった。",
+        "clozeTarget": "incessant"
+      },
+      {
+        "id": "w951-e02",
+        "english": "Incessant rain caused the river to rise above the bank.",
+        "japanese": "絶え間ない雨で川が堤防を越えて水位を上げた。",
+        "clozeTarget": "incessant"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w952",
+    "lemma": "indispensable",
+    "pronunciation": "/ˌɪndɪˈspensəbəl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w952-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "不可欠な",
+        "meaningEn": "too important or useful to be without"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w952-e01",
+        "english": "Accurate maps are indispensable for planning a safe evacuation.",
+        "japanese": "正確な地図は安全な避難を計画するのに不可欠だ。",
+        "clozeTarget": "indispensable"
+      },
+      {
+        "id": "w952-e02",
+        "english": "Her calm judgment proved indispensable during the crisis.",
+        "japanese": "危機の間、彼女の冷静な判断が不可欠だと分かった。",
+        "clozeTarget": "indispensable"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w953",
+    "lemma": "ingenious",
+    "pronunciation": "/ɪnˈdʒiːniəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w953-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "独創的な、巧妙な",
+        "meaningEn": "clever, original, and effective"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w953-e01",
+        "english": "The child built an ingenious water wheel from bottle caps.",
+        "japanese": "その子どもは瓶のふたから巧妙な水車を作った。",
+        "clozeTarget": "ingenious"
+      },
+      {
+        "id": "w953-e02",
+        "english": "The architect devised an ingenious way to bring light into the basement.",
+        "japanese": "その建築家は地下室へ光を入れる独創的な方法を考案した。",
+        "clozeTarget": "ingenious"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w954",
+    "lemma": "aggravate",
+    "pronunciation": "/ˈæɡrəveɪt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w954-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "悪化させる、いら立たせる",
+        "meaningEn": "to make a problem or illness worse, or annoy someone"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w954-e01",
+        "english": "Running on the injured foot aggravated the swelling.",
+        "japanese": "けがをした足で走ったため腫れが悪化した。",
+        "clozeTarget": "aggravated"
+      },
+      {
+        "id": "w954-e02",
+        "english": "His careless remark aggravated the tension in the room.",
+        "japanese": "彼の不用意な発言が部屋の緊張を悪化させた。",
+        "clozeTarget": "aggravated"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w955",
+    "lemma": "apprehend",
+    "pronunciation": "/ˌæprɪˈhend/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w955-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "逮捕する、理解する",
+        "meaningEn": "to arrest someone or understand an idea"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w955-e01",
+        "english": "The police apprehended the suspect near the railway station.",
+        "japanese": "警察は鉄道駅の近くで容疑者を逮捕した。",
+        "clozeTarget": "apprehended"
+      },
+      {
+        "id": "w955-e02",
+        "english": "Young children may not fully apprehend the danger of deep water.",
+        "japanese": "幼い子どもは深い水の危険を十分に理解できないことがある。",
+        "clozeTarget": "apprehend"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w956",
+    "lemma": "aspiration",
+    "pronunciation": "/ˌæspəˈreɪʃən/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w956-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "熱望、志、向上心",
+        "meaningEn": "a strong desire to achieve something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w956-e01",
+        "english": "Her aspiration is to design homes that use little energy.",
+        "japanese": "彼女の志はエネルギーをほとんど使わない家を設計することだ。",
+        "clozeTarget": "aspiration"
+      },
+      {
+        "id": "w956-e02",
+        "english": "The scholarship supports the aspirations of first-generation university students.",
+        "japanese": "その奨学金は家族で初めて大学へ進む学生の向上心を支援する。",
+        "clozeTarget": "aspirations"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w957",
+    "lemma": "ceasefire",
+    "pronunciation": "/ˈsiːsfaɪər/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w957-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "停戦",
+        "meaningEn": "an agreement to stop fighting for a period of time"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w957-e01",
+        "english": "The ceasefire allowed aid workers to enter the damaged city.",
+        "japanese": "停戦により救援活動家は被災した都市へ入ることができた。",
+        "clozeTarget": "ceasefire"
+      },
+      {
+        "id": "w957-e02",
+        "english": "The fragile ceasefire collapsed after a night of shelling.",
+        "japanese": "もろい停戦は一晩の砲撃の後に崩れた。",
+        "clozeTarget": "ceasefire"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w958",
+    "lemma": "consecutive",
+    "pronunciation": "/kənˈsekjətɪv/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w958-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "連続した",
+        "meaningEn": "following one after another without interruption"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w958-e01",
+        "english": "The athlete won three consecutive races in the national series.",
+        "japanese": "その選手は全国シリーズで3レース連続優勝した。",
+        "clozeTarget": "consecutive"
+      },
+      {
+        "id": "w958-e02",
+        "english": "Rain fell for five consecutive days, flooding the lower fields.",
+        "japanese": "雨が5日連続で降り、低地の畑を水浸しにした。",
+        "clozeTarget": "consecutive"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w959",
+    "lemma": "insidious",
+    "pronunciation": "/ɪnˈsɪdiəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w959-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "徐々に広がる有害な、陰険な",
+        "meaningEn": "harmful but gradually spreading or difficult to notice"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w959-e01",
+        "english": "The insidious effects of soil pollution appeared years later.",
+        "japanese": "土壌汚染の徐々に広がる影響は何年も後に現れた。",
+        "clozeTarget": "insidious"
+      },
+      {
+        "id": "w959-e02",
+        "english": "An insidious rumor damaged the teacher's reputation before the facts were known.",
+        "japanese": "陰険なうわさが事実が知られる前に教師の評判を傷つけた。",
+        "clozeTarget": "insidious"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w960",
+    "lemma": "contingent",
+    "pronunciation": "/kənˈtɪndʒənt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w960-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "条件付きの、偶発的な",
+        "meaningEn": "depending on something else or happening by chance"
+      },
+      {
+        "id": "w960-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "代表団、派遣団",
+        "meaningEn": "a group of people sent to represent a larger group"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w960-e01",
+        "english": "The grant is contingent on the school meeting safety requirements.",
+        "japanese": "その助成金は学校が安全要件を満たすことを条件としている。",
+        "clozeTarget": "contingent"
+      },
+      {
+        "id": "w960-e02",
+        "english": "A small medical contingent joined the relief mission.",
+        "japanese": "小規模な医療派遣団が救援活動に加わった。",
+        "clozeTarget": "contingent"
+      },
+      {
+        "id": "w960-e03",
+        "english": "The military contingent marched past the station at dawn.",
+        "japanese": "軍の派遣団は夜明けに駅の前を行進した。",
+        "clozeTarget": "contingent"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w961",
+    "lemma": "intuitive",
+    "pronunciation": "/ɪnˈtuːətɪv/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w961-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "直感的な",
+        "meaningEn": "based on feelings rather than conscious reasoning"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w961-e01",
+        "english": "The app has an intuitive design that first-time users understand quickly.",
+        "japanese": "そのアプリは初めての利用者にもすぐ分かる直感的な設計だ。",
+        "clozeTarget": "intuitive"
+      },
+      {
+        "id": "w961-e02",
+        "english": "Her intuitive sense of timing saved the performance from a long pause.",
+        "japanese": "彼女の直感的なタイミング感覚が公演を長い沈黙から救った。",
+        "clozeTarget": "intuitive"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w962",
+    "lemma": "diplomatic",
+    "pronunciation": "/ˌdɪpləˈmætɪk/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w962-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "外交の、外交的な、慎重な",
+        "meaningEn": "related to relations between countries or careful not to offend"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w962-e01",
+        "english": "The two governments resumed diplomatic talks in Geneva.",
+        "japanese": "2つの政府はジュネーブで外交協議を再開した。",
+        "clozeTarget": "diplomatic"
+      },
+      {
+        "id": "w962-e02",
+        "english": "She gave a diplomatic answer instead of criticizing the proposal directly.",
+        "japanese": "彼女は提案を直接批判せず、慎重な答えをした。",
+        "clozeTarget": "diplomatic"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w963",
+    "lemma": "lament",
+    "pronunciation": "/ləˈment/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w963-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "嘆く、惜しむ",
+        "meaningEn": "to express sadness or regret about something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w963-e01",
+        "english": "Residents lamented the loss of the historic cinema.",
+        "japanese": "住民たちは歴史ある映画館が失われたことを嘆いた。",
+        "clozeTarget": "lamented"
+      },
+      {
+        "id": "w963-e02",
+        "english": "The essay laments how quickly traditional crafts are disappearing.",
+        "japanese": "その論文は伝統工芸が急速に消えていることを惜しんでいる。",
+        "clozeTarget": "laments"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w964",
+    "lemma": "diverge",
+    "pronunciation": "/daɪˈvɝːdʒ/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w964-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "分岐する、異なる方向へ進む",
+        "meaningEn": "to develop in different directions or separate from a route"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w964-e01",
+        "english": "The two paths diverge beside the old stone bridge.",
+        "japanese": "2本の道は古い石橋のそばで分岐する。",
+        "clozeTarget": "diverge"
+      },
+      {
+        "id": "w964-e02",
+        "english": "Their opinions began to diverge once the costs became clear.",
+        "japanese": "費用が明らかになると、彼らの意見は分かれ始めた。",
+        "clozeTarget": "diverge"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w965",
+    "lemma": "elicit",
+    "pronunciation": "/ɪˈlɪsɪt/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w965-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "引き出す",
+        "meaningEn": "to obtain a response, answer, or fact from someone"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w965-e01",
+        "english": "The interviewer used a quiet question to elicit the child's memories.",
+        "japanese": "面接官は子どもの記憶を引き出すため静かな質問を使った。",
+        "clozeTarget": "elicit"
+      },
+      {
+        "id": "w965-e02",
+        "english": "The new design elicited strong reactions from older customers.",
+        "japanese": "新しいデザインは年配の顧客から強い反応を引き出した。",
+        "clozeTarget": "elicited"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w966",
+    "lemma": "lenient",
+    "pronunciation": "/ˈliːniənt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w966-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "寛大な、厳しくない",
+        "meaningEn": "not strict in punishing or judging"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w966-e01",
+        "english": "The judge was lenient because the offender had repaired the damage.",
+        "japanese": "裁判官は違反者が損害を修復したので寛大だった。",
+        "clozeTarget": "lenient"
+      },
+      {
+        "id": "w966-e02",
+        "english": "The school has a lenient policy on late library books.",
+        "japanese": "その学校は図書館の本の返却遅れに寛大な方針を取っている。",
+        "clozeTarget": "lenient"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w967",
+    "lemma": "malevolent",
+    "pronunciation": "/məˈlevələnt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w967-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "悪意のある",
+        "meaningEn": "having or showing a desire to harm others"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w967-e01",
+        "english": "The novel's villain is driven by a malevolent wish for revenge.",
+        "japanese": "その小説の悪役は復讐への悪意ある願いに動かされている。",
+        "clozeTarget": "malevolent"
+      },
+      {
+        "id": "w967-e02",
+        "english": "A malevolent message was sent to the scientist after the discovery.",
+        "japanese": "発見の後、その科学者に悪意あるメッセージが送られた。",
+        "clozeTarget": "malevolent"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w968",
+    "lemma": "mendacious",
+    "pronunciation": "/menˈdeɪʃəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w968-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "うそつきの、虚偽の",
+        "meaningEn": "not telling the truth"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w968-e01",
+        "english": "The investigation exposed the witness's mendacious account.",
+        "japanese": "その調査は証人の虚偽の説明を暴いた。",
+        "clozeTarget": "mendacious"
+      },
+      {
+        "id": "w968-e02",
+        "english": "A mendacious advertisement promised a cure without medical evidence.",
+        "japanese": "虚偽の広告が医学的証拠なしに治療を約束した。",
+        "clozeTarget": "mendacious"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w969",
+    "lemma": "ominous",
+    "pronunciation": "/ˈɑːmənəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w969-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "不吉な、悪い前兆の",
+        "meaningEn": "suggesting that something bad is likely to happen"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w969-e01",
+        "english": "An ominous silence fell over the harbor before the storm.",
+        "japanese": "嵐の前、港に不吉な静けさが広がった。",
+        "clozeTarget": "ominous"
+      },
+      {
+        "id": "w969-e02",
+        "english": "The sudden disappearance of birds was an ominous sign for the farmers.",
+        "japanese": "鳥が突然姿を消したことは農家にとって不吉な兆候だった。",
+        "clozeTarget": "ominous"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w970",
+    "lemma": "notwithstanding",
+    "pronunciation": "/ˌnɑːtwɪθˈstændɪŋ/",
+    "level": 7,
+    "senses": [
+      {
+        "id": "w970-s01",
+        "partOfSpeech": "preposition",
+        "meaningJa": "〜にもかかわらず",
+        "meaningEn": "despite something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w970-e01",
+        "english": "Notwithstanding the rain, the parade moved through the town.",
+        "japanese": "雨にもかかわらず、パレードは町を進んだ。",
+        "clozeTarget": "Notwithstanding"
+      },
+      {
+        "id": "w970-e02",
+        "english": "The plan succeeded, notwithstanding several serious delays.",
+        "japanese": "いくつかの深刻な遅れにもかかわらず、その計画は成功した。",
+        "clozeTarget": "notwithstanding"
+      }
+    ],
+    "tags": [
+      "eiken-pre1",
+      "eiken-1"
+    ]
+  },
+  {
+    "id": "w971",
+    "lemma": "acumen",
+    "pronunciation": "/ˈækjəmən/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w971-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "洞察力、商才",
+        "meaningEn": "the ability to make good judgments and quick decisions"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w971-e01",
+        "english": "Her financial acumen saved the small theater from bankruptcy.",
+        "japanese": "彼女の財務上の洞察力が小さな劇場を破産から救った。",
+        "clozeTarget": "acumen"
+      },
+      {
+        "id": "w971-e02",
+        "english": "The editor's political acumen was evident in the questions she chose.",
+        "japanese": "その編集者が選んだ質問には政治的洞察力が表れていた。",
+        "clozeTarget": "acumen"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w972",
+    "lemma": "ambivalence",
+    "pronunciation": "/æmˈbɪvələns/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w972-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "相反する感情、ためらい",
+        "meaningEn": "mixed feelings about someone or something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w972-e01",
+        "english": "His ambivalence toward the promotion surprised his colleagues.",
+        "japanese": "昇進に対する彼の複雑な気持ちは同僚を驚かせた。",
+        "clozeTarget": "ambivalence"
+      },
+      {
+        "id": "w972-e02",
+        "english": "The novel captures the public's ambivalence about rapid technological change.",
+        "japanese": "その小説は急速な技術変化に対する人々の相反する感情を描いている。",
+        "clozeTarget": "ambivalence"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w973",
+    "lemma": "conundrum",
+    "pronunciation": "/kəˈnʌndrəm/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w973-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "難問、困惑する問題",
+        "meaningEn": "a confusing and difficult problem"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w973-e01",
+        "english": "The committee faced a conundrum: protect the marsh or expand the airport.",
+        "japanese": "委員会は、湿地を守るか空港を拡張するかという難問に直面した。",
+        "clozeTarget": "conundrum"
+      },
+      {
+        "id": "w973-e02",
+        "english": "The missing data created a conundrum for the statistical team.",
+        "japanese": "欠落したデータが統計チームを困惑させる問題を生んだ。",
+        "clozeTarget": "conundrum"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w974",
+    "lemma": "detrimental",
+    "pronunciation": "/ˌdetrɪˈmentəl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w974-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "有害な、不利益な",
+        "meaningEn": "causing harm or damage"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w974-e01",
+        "english": "Excessive fertilizer is detrimental to the health of the lake.",
+        "japanese": "過剰な肥料は湖の健全性に有害だ。",
+        "clozeTarget": "detrimental"
+      },
+      {
+        "id": "w974-e02",
+        "english": "A lack of sleep can be detrimental to long-term memory.",
+        "japanese": "睡眠不足は長期記憶に有害になりうる。",
+        "clozeTarget": "detrimental"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w975",
+    "lemma": "disparity",
+    "pronunciation": "/dɪˈspærəti/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w975-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "格差、相違",
+        "meaningEn": "a large difference between people or things"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w975-e01",
+        "english": "The report highlights the disparity in healthcare between urban and rural areas.",
+        "japanese": "その報告書は都市部と地方の医療格差を強調している。",
+        "clozeTarget": "disparity"
+      },
+      {
+        "id": "w975-e02",
+        "english": "A disparity in wages pushed many young workers to leave the region.",
+        "japanese": "賃金格差が多くの若い労働者をその地域から去らせた。",
+        "clozeTarget": "disparity"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w976",
+    "lemma": "ephemeral",
+    "pronunciation": "/ɪˈfemərəl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w976-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "はかない、短命な",
+        "meaningEn": "lasting for a very short time"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w976-e01",
+        "english": "The artist used ice to create an ephemeral sculpture in the square.",
+        "japanese": "その芸術家は広場に短命な氷の彫刻を作った。",
+        "clozeTarget": "ephemeral"
+      },
+      {
+        "id": "w976-e02",
+        "english": "Online fame can be ephemeral, disappearing as quickly as it arrives.",
+        "japanese": "ネット上の名声は、現れるのと同じくらい早く消えるはかないものだ。",
+        "clozeTarget": "ephemeral"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w977",
+    "lemma": "exacerbate",
+    "pronunciation": "/ɪɡˈzæsərbeɪt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w977-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "悪化させる",
+        "meaningEn": "to make a problem or bad situation worse"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w977-e01",
+        "english": "Building on the floodplain would exacerbate future damage.",
+        "japanese": "氾濫原に建設すれば将来の被害を悪化させるだろう。",
+        "clozeTarget": "exacerbate"
+      },
+      {
+        "id": "w977-e02",
+        "english": "The argument exacerbated tensions between the neighboring communities.",
+        "japanese": "その口論が近隣地域間の緊張を悪化させた。",
+        "clozeTarget": "exacerbated"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w978",
+    "lemma": "fallacy",
+    "pronunciation": "/ˈfæləsi/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w978-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "誤った考え、誤謬",
+        "meaningEn": "a mistaken belief or an argument that seems logical but is not"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w978-e01",
+        "english": "The claim that expensive goods are always better is a common fallacy.",
+        "japanese": "高価な商品は常によいという主張はよくある誤りだ。",
+        "clozeTarget": "fallacy"
+      },
+      {
+        "id": "w978-e02",
+        "english": "The professor taught students to identify the fallacy in persuasive advertisements.",
+        "japanese": "教授は説得的な広告の中の誤謬を見抜くよう学生に教えた。",
+        "clozeTarget": "fallacy"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w979",
+    "lemma": "futile",
+    "pronunciation": "/ˈfjuːtəl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w979-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "無駄な、役に立たない",
+        "meaningEn": "unable to produce a useful result"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w979-e01",
+        "english": "It was futile to repair the bridge without first fixing its foundation.",
+        "japanese": "基礎を直さずに橋を修理しても無駄だった。",
+        "clozeTarget": "futile"
+      },
+      {
+        "id": "w979-e02",
+        "english": "The negotiator warned that blaming one another would be futile.",
+        "japanese": "その交渉担当者は互いを責めても無駄だと警告した。",
+        "clozeTarget": "futile"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w980",
+    "lemma": "intricate",
+    "pronunciation": "/ˈɪntrɪkət/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w980-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "複雑な、入り組んだ",
+        "meaningEn": "having many small parts or details arranged in a complicated way"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w980-e01",
+        "english": "The watchmaker repaired an intricate mechanism with a tiny spring.",
+        "japanese": "時計職人は小さなばねのある複雑な機構を修理した。",
+        "clozeTarget": "intricate"
+      },
+      {
+        "id": "w980-e02",
+        "english": "The novel's intricate plot rewards readers who notice small clues.",
+        "japanese": "その小説の入り組んだ筋は、小さな手がかりに気づく読者に報いる。",
+        "clozeTarget": "intricate"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w981",
+    "lemma": "meticulous",
+    "pronunciation": "/məˈtɪkjələs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w981-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "細心の、綿密な",
+        "meaningEn": "very careful and precise about every detail"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w981-e01",
+        "english": "The archivist made a meticulous record of each fragile document.",
+        "japanese": "その文書保管員は壊れやすい文書を一つずつ細心に記録した。",
+        "clozeTarget": "meticulous"
+      },
+      {
+        "id": "w981-e02",
+        "english": "Her meticulous preparation left nothing to chance before the expedition.",
+        "japanese": "彼女の綿密な準備は遠征前に偶然任せの部分を残さなかった。",
+        "clozeTarget": "meticulous"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w982",
+    "lemma": "obsolete",
+    "pronunciation": "/ˌɑːbsəˈliːt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w982-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "廃れた、時代遅れの",
+        "meaningEn": "no longer useful because something newer exists"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w982-e01",
+        "english": "The factory replaced its obsolete machinery with energy-efficient equipment.",
+        "japanese": "その工場は廃れた機械を省エネ設備に置き換えた。",
+        "clozeTarget": "obsolete"
+      },
+      {
+        "id": "w982-e02",
+        "english": "Some terms become obsolete when social attitudes change.",
+        "japanese": "社会的な考え方が変わると、時代遅れになる用語もある。",
+        "clozeTarget": "obsolete"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w983",
+    "lemma": "pervasive",
+    "pronunciation": "/pərˈveɪsɪv/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w983-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "広がった、浸透した",
+        "meaningEn": "present or spreading widely throughout an area or group"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w983-e01",
+        "english": "The pervasive smell of smoke led firefighters to the basement.",
+        "japanese": "広がった煙のにおいが消防士を地下室へ導いた。",
+        "clozeTarget": "pervasive"
+      },
+      {
+        "id": "w983-e02",
+        "english": "Digital tracking has become pervasive in modern shopping.",
+        "japanese": "デジタル追跡は現代の買い物に広く浸透している。",
+        "clozeTarget": "pervasive"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w984",
+    "lemma": "pragmatic",
+    "pronunciation": "/præɡˈmætɪk/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w984-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "実用的な、現実主義の",
+        "meaningEn": "solving problems in a practical way rather than following theory"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w984-e01",
+        "english": "The mayor took a pragmatic approach to the shortage of housing.",
+        "japanese": "市長は住宅不足に実用的な方法で取り組んだ。",
+        "clozeTarget": "pragmatic"
+      },
+      {
+        "id": "w984-e02",
+        "english": "Her pragmatic advice helped the volunteers finish the work by sunset.",
+        "japanese": "彼女の現実的な助言がボランティアの作業を日没までに終わらせた。",
+        "clozeTarget": "pragmatic"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w985",
+    "lemma": "proliferate",
+    "pronunciation": "/prəˈlɪfəreɪt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w985-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "急増する、拡散する",
+        "meaningEn": "to increase rapidly in number or spread widely"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w985-e01",
+        "english": "Small cafés proliferated after the new station opened.",
+        "japanese": "新しい駅が開業した後、小さなカフェが急増した。",
+        "clozeTarget": "proliferated"
+      },
+      {
+        "id": "w985-e02",
+        "english": "False medical claims proliferate on social media during emergencies.",
+        "japanese": "緊急時には誤った医療情報がSNSで拡散する。",
+        "clozeTarget": "proliferate"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w986",
+    "lemma": "scrutinize",
+    "pronunciation": "/ˈskruːtənaɪz/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w986-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "詳しく調べる、吟味する",
+        "meaningEn": "to examine something very carefully"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w986-e01",
+        "english": "The committee scrutinized every clause in the proposed treaty.",
+        "japanese": "委員会は提案された条約の全条項を詳しく調べた。",
+        "clozeTarget": "scrutinized"
+      },
+      {
+        "id": "w986-e02",
+        "english": "Investors scrutinized the company's accounts before buying shares.",
+        "japanese": "投資家たちは株を買う前に会社の会計を吟味した。",
+        "clozeTarget": "scrutinized"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w987",
+    "lemma": "substantiate",
+    "pronunciation": "/səbˈstænʃieɪt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w987-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "裏づける、実証する",
+        "meaningEn": "to support a claim with evidence"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w987-e01",
+        "english": "The witness could not substantiate his accusation with documents.",
+        "japanese": "その証人は文書で自分の告発を裏づけられなかった。",
+        "clozeTarget": "substantiate"
+      },
+      {
+        "id": "w987-e02",
+        "english": "Several measurements substantiated the theory about underground heat.",
+        "japanese": "複数の測定が地下熱についての理論を実証した。",
+        "clozeTarget": "substantiated"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w988",
+    "lemma": "succinct",
+    "pronunciation": "/səkˈsɪŋkt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w988-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "簡潔な、簡明な",
+        "meaningEn": "expressed clearly in few words"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w988-e01",
+        "english": "The chair gave a succinct summary before the vote.",
+        "japanese": "議長は投票前に簡潔な要約を述べた。",
+        "clozeTarget": "succinct"
+      },
+      {
+        "id": "w988-e02",
+        "english": "Her succinct reply ended a debate that had lasted all afternoon.",
+        "japanese": "彼女の簡明な返答が午後ずっと続いた議論を終わらせた。",
+        "clozeTarget": "succinct"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w989",
+    "lemma": "tenacious",
+    "pronunciation": "/təˈneɪʃəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w989-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "粘り強い、固執する",
+        "meaningEn": "continuing firmly despite difficulty"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w989-e01",
+        "english": "The tenacious climber returned to the peak after two failed attempts.",
+        "japanese": "その粘り強い登山者は2回失敗した後、頂上へ戻った。",
+        "clozeTarget": "tenacious"
+      },
+      {
+        "id": "w989-e02",
+        "english": "A tenacious rumor survived despite repeated corrections.",
+        "japanese": "何度も訂正されたにもかかわらず、しぶというわさが残った。",
+        "clozeTarget": "tenacious"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w990",
+    "lemma": "ubiquitous",
+    "pronunciation": "/juːˈbɪkwɪtəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w990-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "至る所にある",
+        "meaningEn": "seeming to be everywhere at the same time"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w990-e01",
+        "english": "Smartphones are ubiquitous in the crowded commuter train.",
+        "japanese": "混雑した通勤電車ではスマートフォンが至る所にある。",
+        "clozeTarget": "ubiquitous"
+      },
+      {
+        "id": "w990-e02",
+        "english": "The once rare plant is now ubiquitous along the restored riverbank.",
+        "japanese": "かつては珍しかった植物が、今では再生された川岸の至る所にある。",
+        "clozeTarget": "ubiquitous"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w991",
+    "lemma": "unravel",
+    "pronunciation": "/ʌnˈrævəl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w991-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "解明する、ほどく、崩れる",
+        "meaningEn": "to solve a mystery, separate something tangled, or come apart"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w991-e01",
+        "english": "The detective slowly unraveled the network behind the fraud.",
+        "japanese": "その刑事は詐欺の背後にあるネットワークを徐々に解明した。",
+        "clozeTarget": "unraveled"
+      },
+      {
+        "id": "w991-e02",
+        "english": "The coalition unraveled when its members disagreed about funding.",
+        "japanese": "資金をめぐって構成員が意見を違えると、その連立は崩れた。",
+        "clozeTarget": "unraveled"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w992",
+    "lemma": "withstand",
+    "pronunciation": "/wɪðˈstænd/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w992-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "耐える、持ちこたえる",
+        "meaningEn": "to remain undamaged or unaffected by something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w992-e01",
+        "english": "The seawall was built to withstand typhoons and high waves.",
+        "japanese": "その防潮堤は台風と高波に耐えるよう建設された。",
+        "clozeTarget": "withstand"
+      },
+      {
+        "id": "w992-e02",
+        "english": "The proposal withstood intense criticism from several experts.",
+        "japanese": "その提案は複数の専門家からの激しい批判に耐えた。",
+        "clozeTarget": "withstood"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w993",
+    "lemma": "austere",
+    "pronunciation": "/ɔːˈstɪr/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w993-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "質素な、厳しい",
+        "meaningEn": "plain and without comfort, decoration, or unnecessary features"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w993-e01",
+        "english": "The monastery has an austere interior with bare stone walls.",
+        "japanese": "その修道院はむき出しの石壁を持つ質素な内装だ。",
+        "clozeTarget": "austere"
+      },
+      {
+        "id": "w993-e02",
+        "english": "The government adopted an austere budget after the financial crisis.",
+        "japanese": "金融危機の後、政府は厳しい予算を採用した。",
+        "clozeTarget": "austere"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w994",
+    "lemma": "benevolent",
+    "pronunciation": "/bəˈnevələnt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w994-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "慈善的な、善意の",
+        "meaningEn": "kind and generous, especially toward people in need"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w994-e01",
+        "english": "A benevolent donor funded the village library.",
+        "japanese": "善意ある寄付者が村の図書館に資金を提供した。",
+        "clozeTarget": "benevolent"
+      },
+      {
+        "id": "w994-e02",
+        "english": "The novel portrays the king as a benevolent but fallible ruler.",
+        "japanese": "その小説は王を慈悲深いが誤りもある統治者として描く。",
+        "clozeTarget": "benevolent"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w995",
+    "lemma": "conspicuous",
+    "pronunciation": "/kənˈspɪkjuəs/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w995-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "目立つ、顕著な",
+        "meaningEn": "easy to see or notice because of being unusual or prominent"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w995-e01",
+        "english": "The red flag was conspicuous against the white snow.",
+        "japanese": "赤い旗は白い雪を背景に目立っていた。",
+        "clozeTarget": "conspicuous"
+      },
+      {
+        "id": "w995-e02",
+        "english": "There was a conspicuous gap in the report's explanation of costs.",
+        "japanese": "その報告書の費用説明には顕著な欠落があった。",
+        "clozeTarget": "conspicuous"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w996",
+    "lemma": "deference",
+    "pronunciation": "/ˈdefərəns/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w996-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "敬意、服従",
+        "meaningEn": "respectful willingness to accept another person's opinion or wishes"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w996-e01",
+        "english": "Out of deference to the elder, the young speaker waited before replying.",
+        "japanese": "年長者への敬意から、若い話者は返答する前に待った。",
+        "clozeTarget": "deference"
+      },
+      {
+        "id": "w996-e02",
+        "english": "The judge showed deference to the expert's specialized knowledge.",
+        "japanese": "裁判官は専門家の専門知識に敬意を示した。",
+        "clozeTarget": "deference"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w997",
+    "lemma": "eloquent",
+    "pronunciation": "/ˈeləkwənt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w997-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "雄弁な、説得力のある",
+        "meaningEn": "using language effectively and persuasively"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w997-e01",
+        "english": "The survivor gave an eloquent account of the disaster.",
+        "japanese": "生存者は災害について説得力のある話をした。",
+        "clozeTarget": "eloquent"
+      },
+      {
+        "id": "w997-e02",
+        "english": "Her silence was more eloquent than any speech could have been.",
+        "japanese": "彼女の沈黙はどんな演説よりも雄弁だった。",
+        "clozeTarget": "eloquent"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w998",
+    "lemma": "formidable",
+    "pronunciation": "/ˈfɔːrmɪdəbəl/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w998-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "手ごわい、恐るべき",
+        "meaningEn": "causing people to feel fear or respect because of strength or difficulty"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w998-e01",
+        "english": "The debate team faced a formidable opponent from the capital.",
+        "japanese": "そのディベートチームは首都の手ごわい相手に挑んだ。",
+        "clozeTarget": "formidable"
+      },
+      {
+        "id": "w998-e02",
+        "english": "Climbing the northern wall is a formidable challenge even for experts.",
+        "japanese": "北壁を登るのは専門家にとっても恐るべき挑戦だ。",
+        "clozeTarget": "formidable"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w999",
+    "lemma": "transcendent",
+    "pronunciation": "/trænˈsendənt/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w999-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "卓越した、超越的な",
+        "meaningEn": "going beyond ordinary limits or experience"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w999-e01",
+        "english": "The concert gave the audience a transcendent sense of wonder.",
+        "japanese": "そのコンサートは観客に卓越した驚異の感覚を与えた。",
+        "clozeTarget": "transcendent"
+      },
+      {
+        "id": "w999-e02",
+        "english": "The novel treats friendship as a transcendent value beyond social class.",
+        "japanese": "その小説は友情を社会階級を超えた価値として扱っている。",
+        "clozeTarget": "transcendent"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  },
+  {
+    "id": "w1000",
+    "lemma": "nuanced",
+    "pronunciation": "/ˈnuːɑːnst/",
+    "level": 8,
+    "senses": [
+      {
+        "id": "w1000-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "微妙な差異を含む、含みのある",
+        "meaningEn": "showing subtle differences in meaning, feeling, or opinion"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1000-e01",
+        "english": "The historian offered a nuanced interpretation of the disputed event.",
+        "japanese": "その歴史家は論争になっている出来事について微妙な差異を踏まえた解釈を示した。",
+        "clozeTarget": "nuanced"
+      },
+      {
+        "id": "w1000-e02",
+        "english": "Her nuanced performance made the complicated character believable.",
+        "japanese": "彼女の含みのある演技が複雑な人物を本物らしく見せた。",
+        "clozeTarget": "nuanced"
+      }
+    ],
+    "tags": [
+      "eiken-1",
+      "advanced"
+    ]
+  }
+]

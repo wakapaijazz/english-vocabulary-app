@@ -91,7 +91,7 @@ export function DictionaryPage({ entries }: { entries: VocabularyEntry[] }) {
       <div className="filter-bar dictionary-filters">
         <label>並び順<select value={sortOrder} onChange={(event) => setSortOrder(event.target.value as SortOrder)}><option value="asc">A → Z</option><option value="desc">Z → A</option></select></label>
         {libraryMode === "words" && <>
-          <label>LEVEL<select value={level} onChange={(event) => setLevel(event.target.value === "all" ? "all" : Number(event.target.value))}><option value="all">すべて</option>{[1, 2, 3, 4, 5].map((item) => <option key={item} value={item}>Level {item}</option>)}</select></label>
+          <label>LEVEL<select value={level} onChange={(event) => setLevel(event.target.value === "all" ? "all" : Number(event.target.value))}><option value="all">すべて</option>{[1, 2, 3, 4, 5, 6, 7, 8].map((item) => <option key={item} value={item}>Level {item}</option>)}</select></label>
           <label>品詞<select value={partOfSpeech} onChange={(event) => setPartOfSpeech(event.target.value as PartOfSpeech | "all")}><option value="all">すべて</option>{Object.entries(POS_LABELS).map(([key, label]) => <option key={key} value={key}>{label}</option>)}</select></label>
           <label>タグ<select value={tag} onChange={(event) => setTag(event.target.value)}><option value="all">すべて</option>{tags.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
         </>}

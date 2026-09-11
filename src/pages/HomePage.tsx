@@ -17,7 +17,7 @@ export function HomePage({ entries, history, onNavigate, onStartQuiz }: HomePage
   const totalAnswers = states.reduce((sum, state) => sum + state.seenCount, 0);
   const correctAnswers = states.reduce((sum, state) => sum + state.correctCount, 0);
   const accuracy = totalAnswers ? Math.round(correctAnswers / totalAnswers * 100) : 0;
-  const levelProgress = [1, 2, 3, 4, 5].map((level) => {
+  const levelProgress = [1, 2, 3, 4, 5, 6, 7, 8].map((level) => {
     const levelEntries = entries.filter((entry) => entry.level === level);
     const levelLearned = levelEntries.filter((entry) => history[entry.id]?.mastery >= 4).length;
     return { level, progress: levelEntries.length ? levelLearned / levelEntries.length * 100 : 0 };

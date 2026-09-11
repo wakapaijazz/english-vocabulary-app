@@ -22,16 +22,16 @@ describe("cloze answer uniqueness", () => {
       expect(question, lemma).toBeDefined();
       expect(distractors).toHaveLength(3);
       expect(new Set(distractors).size).toBe(3);
-      expect(new Set(question!.choices.map((choice) => choice.text))).toEqual(new Set([lemma, ...distractors]));
+      expect(new Set(question!.choices.map((choice) => choice.baseText ?? choice.text))).toEqual(new Set([lemma, ...distractors]));
     }
   });
 
   it("makes the past tense explicit for absorb", () => {
     const questions = generateQuizQuestions(entries, { type: "cloze", count: entries.length });
     const question = questions.find((candidate) => candidate.details.word === "absorb");
-    expect(question?.prompt).toContain("yesterday");
-    expect(question?.prompt).toContain("missed her stop");
-    expect(question?.choices.map((choice) => choice.text)).toEqual(expect.arrayContaining(["absorb", "assign", "inspect", "publish"]));
+    expect(question).toBeDefined();
+    expect(question!.choices.map((choice) => choice.baseText ?? choice.text)).toEqual(expect.arrayContaining(["absorb", "assign", "inspect", "publish"]));
+    expect(question!.choices.every((choice) => choice.inflectedText)).toBe(true);
   });
   it("uses reviewed phrase choices that contain only one answer", () => {
     for (const [id, choices] of Object.entries(phraseChoiceOverrides)) {

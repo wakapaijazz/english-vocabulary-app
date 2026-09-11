@@ -13,6 +13,7 @@ import type { VocabularyEntry, VocabularySense } from "../types/vocabulary";
 import { isDue } from "../review/reviewScheduler";
 import { isWeak } from "../review/masteryCalculator";
 import { createChoices } from "./distractorGenerator";
+import { getInflectionCandidates, inflectLike } from "./inflection";
 
 export type QuizMode = "all" | "new" | "review" | "mistakes" | "weak";
 type QuestionType = Exclude<QuizType, "mixed">;
@@ -26,7 +27,7 @@ function getMeaning(entry: VocabularyEntry): string { return primarySense(entry)
 function getDefinition(entry: VocabularyEntry): string { return primarySense(entry).meaningEn?.trim() || definitionCatalog[entry.lemma] || "to have a particular meaning or use"; }
 function escapeRegExp(value: string): string { return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 function findClozeTarget(lemma: string, english: string, preferred?: string): string | undefined {
-  const candidates = [preferred, lemma, lemma.endsWith("y") ? `${lemma.slice(0, -1)}ied` : undefined, lemma.endsWith("y") ? `${lemma.slice(0, -1)}ies` : undefined, lemma.endsWith("e") ? `${lemma}d` : `${lemma}ed`, `${lemma}s`, `${lemma}es`, `${lemma}ing`].filter((candidate): candidate is string => Boolean(candidate));
+  const candidates = [preferred, ...getInflectionCandidates(lemma)].filter((candidate): candidate is string => Boolean(candidate));
   return candidates.find((candidate) => new RegExp(`\\b${escapeRegExp(candidate)}\\b`, "i").test(english));
 }
 function fallbackExample(lemma: string): PreparedExample { return { english: `The word "${lemma}" is useful in context.`, japanese: `「${lemma}」は文脈の中で役立つ語です。`, target: lemma }; }
@@ -54,7 +55,20 @@ function createWordQuestion(entry: VocabularyEntry, entries: VocabularyEntry[], 
   else if (type === "en-to-en") { question.prompt = definitionEn; question.choices = createChoices(entry, entries, entry.lemma, "lemma").map((choice) => choice.text === entry.lemma ? { ...choice, id: correctChoiceId } : choice); }
   else if (type === "ja-to-en") { question.prompt = meaningJa; question.choices = createChoices(entry, entries, entry.lemma, "lemma").map((choice) => choice.text === entry.lemma ? { ...choice, id: correctChoiceId } : choice); }
   else {
-    const clozeExample = selectedExample as PreparedExample; const articleMatch = new RegExp(`\\b(a|an)\\s+${escapeRegExp(clozeExample.target)}\\b`, "i").exec(clozeExample.english); const targetPattern = new RegExp(escapeRegExp(clozeExample.target), "i"); const prompt = (articleMatch ? clozeExample.english.replace(articleMatch[0], "_____") : clozeExample.english.replace(targetPattern, "_____" )).replace(/\s+([,.!?])/g, "$1"); const rawChoices = createChoices(entry, entries, entry.lemma, "lemma"); question.prompt = prompt; question.choices = rawChoices.map((choice) => { const text = articleMatch ? `${articleFor(choice.text)} ${choice.text}` : choice.text; return choice.text === entry.lemma ? { ...choice, text, id: correctChoiceId } : { ...choice, text }; });
+    const clozeExample = selectedExample as PreparedExample;
+    const articleMatch = new RegExp(`\\b(a|an)\\s+${escapeRegExp(clozeExample.target)}\\b`, "i").exec(clozeExample.english);
+    const targetPattern = new RegExp(escapeRegExp(clozeExample.target), "i");
+    const prompt = (articleMatch ? clozeExample.english.replace(articleMatch[0], "_____") : clozeExample.english.replace(targetPattern, "_____" )).replace(/\s+([,.!?])/g, "$1");
+    const rawChoices = createChoices(entry, entries, entry.lemma, "lemma");
+    question.details.answerForm = clozeExample.target;
+    question.prompt = prompt;
+    question.choices = rawChoices.map((choice) => {
+      const inflectedText = inflectLike(choice.text, entry.lemma, clozeExample.target);
+      const text = articleMatch ? `${articleFor(inflectedText)} ${inflectedText}` : inflectedText;
+      return choice.text === entry.lemma
+        ? { ...choice, text, baseText: choice.text, inflectedText, id: correctChoiceId }
+        : { ...choice, text, baseText: choice.text, inflectedText };
+    });
   }
   question.correctChoiceId = correctChoiceId; return question;
 }

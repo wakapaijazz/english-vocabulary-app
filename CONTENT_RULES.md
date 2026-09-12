@@ -17,6 +17,7 @@
   - exampleDiversityRevision.ts: 例文1・例文2が同じ構文や同じ場面になった場合に、別用法の例文へ差し替えるレビュー済みレイヤー。
   - vocabulary-expansion-3.json: Level 6〜8の追加単語200語。発音記号、英語定義、2例文以上をデータ内に持つ。
 - `clozeChoiceOverrides.ts`: 文脈上の別解を排除する必要がある単語空所補充のレビュー済み選択肢。
+- `meaningChoiceOverrides.ts`: reviewed Japanese-meaning choices for cases where an automatically selected distractor shares a Japanese sense with the answer.
 - 語句の例文は `getPhraseExamples()` で統合する。
   - phraseCatalog.ts / phraseCatalogExpansion.ts / phraseCatalogExpansion2.ts / phraseCatalogExpansion3.ts: 基本例文。
   - phraseExampleCatalog.ts / phraseExampleExpansion.ts / phraseExampleExpansion2.ts / phraseExampleExpansion3.ts: 追加例文。
@@ -162,6 +163,15 @@
 - 例文や語句を大きく追加する場合は、今回のように「基本データ」「追加データ」「編集・修正レイヤー」「共通Resolver」「自動テスト」を分離し、画面ごとの個別実装を増やさない。
 - 空所補充の選択肢は自動生成だけを信頼せず、曖昧性が見つかった語・語句をオーバーライド層へ隔離する。オーバーライドには、なぜ通常候補では不適切か分かるテストを添える。
 - 例文を追加・修正したときは、全例文を対象に `clozeTarget` の検出、活用形の分類、選択肢4つの語形そろえを一括監査する。単語ごとの手作業確認だけで済ませない。
+## Choice uniqueness audit
+
+- Every addition must generate all five word-question forms (English-to-Japanese, Japanese-to-English, English-definition-to-English, cloze, and phrase cloze) across the full dataset before release.
+- A distractor that is grammatically possible, semantically acceptable, or a recognized synonym is a second answer even if the intended answer sounds more natural. Rewrite the sentence or replace the distractor.
+- Meaning questions must not pair an answer with a distractor that shares any complete Japanese sense component. Register reviewed replacements in `meaningChoiceOverrides.ts`.
+- English-definition questions must be checked for part of speech, countability, argument frame, and typical complements; similar definitions alone are not enough to establish uniqueness.
+- Word choices use the same primary part of speech as the answer whenever at least four candidates exist. If a rare part of speech has fewer candidates, use a reviewed fallback; never mechanically inflect nouns or adjectives into invalid forms such as `absurded`.
+- Cloze choices must be substituted into the actual sentence and checked for grammar, collocation, meaning, tense, voice, article, and preposition. One valid answer only.
+
 ## 9. クイズ結果レビュー
 
 - デフォルトの1セット（10問）を最後まで解き終えたら、出題順を保った全問題を回答結果・正解・解説付きで一覧表示する。

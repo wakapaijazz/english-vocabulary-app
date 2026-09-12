@@ -1,4 +1,5 @@
 import { clozeChoiceOverrides } from "../data/clozeChoiceOverrides";
+import { meaningChoiceOverrides } from "../data/meaningChoiceOverrides";
 import type { QuizChoice } from "../types/quiz";
 import type { VocabularyEntry, VocabularySense } from "../types/vocabulary";
 
@@ -17,14 +18,21 @@ export function createChoices(
   field: "lemma" | "meaning",
   count = 4,
 ): QuizChoice[] {
-  const override = field === "lemma" ? clozeChoiceOverrides[target.lemma] : undefined;
+  const override = field === "lemma"
+    ? clozeChoiceOverrides[target.lemma]
+    : meaningChoiceOverrides[target.lemma];
   const candidateEntries = override?.length === 3
     ? [target, ...override.map((lemma) => entries.find((entry) => entry.lemma === lemma)).filter((entry): entry is VocabularyEntry => Boolean(entry))]
     : entries;
+  const targetPartOfSpeech = primarySense(target).partOfSpeech;
+  const compatibleEntries = field === "lemma"
+    ? candidateEntries.filter((entry) => entry.id === target.id || primarySense(entry).partOfSpeech === targetPartOfSpeech)
+    : candidateEntries;
+  const choicePool = compatibleEntries.length >= count ? compatibleEntries : candidateEntries;
   const meaningByLemma = new Map(
-    candidateEntries.map((entry) => [entry.lemma, primarySense(entry).meaningJa.trim()]),
+    choicePool.map((entry) => [entry.lemma, primarySense(entry).meaningJa.trim()]),
   );
-  const candidates = candidateEntries
+  const candidates = choicePool
     .filter((entry) => entry.id !== target.id)
     .map((entry) => ({ entry, sense: primarySense(entry) }))
     .sort((a, b) => Math.abs(a.entry.level - target.level) - Math.abs(b.entry.level - target.level))

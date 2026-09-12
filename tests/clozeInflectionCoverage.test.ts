@@ -6,11 +6,12 @@ import vocabularyFinal from "../src/data/vocabulary-final.json";
 import vocabularyExpansion from "../src/data/vocabulary-expansion.json";
 import vocabularyExpansion2 from "../src/data/vocabulary-expansion-2.json";
 import vocabularyExpansion3 from "../src/data/vocabulary-expansion-3.json";
+import vocabularyExpansion4 from "../src/data/vocabulary-expansion-4.json";
 import { generateQuizQuestions } from "../src/quiz/quizGenerator";
 import { inflectLike } from "../src/quiz/inflection";
 import type { VocabularyEntry } from "../src/types/vocabulary";
 
-const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3] as unknown as VocabularyEntry[];
+const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3, ...vocabularyExpansion4] as unknown as VocabularyEntry[];
 
 describe("generated cloze inflection coverage", () => {
   it("keeps every generated choice in the selected example's grammatical form", () => {

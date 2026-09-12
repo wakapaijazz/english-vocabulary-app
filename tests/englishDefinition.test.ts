@@ -6,13 +6,14 @@ import finalData from "../src/data/vocabulary-final.json";
 import expansionData from "../src/data/vocabulary-expansion.json";
 import expansionData2 from "../src/data/vocabulary-expansion-2.json";
 import expansionData3 from "../src/data/vocabulary-expansion-3.json";
+import expansionData4 from "../src/data/vocabulary-expansion-4.json";
 import { generateQuizQuestions, validateQuizQuestion } from "../src/quiz/quizGenerator";
 import type { VocabularyEntry } from "../src/types/vocabulary";
 
-const entries = [...baseData, ...extraData, ...moreData, ...finalData, ...expansionData, ...expansionData2, ...expansionData3] as unknown as VocabularyEntry[];
+const entries = [...baseData, ...extraData, ...moreData, ...finalData, ...expansionData, ...expansionData2, ...expansionData3, ...expansionData4] as unknown as VocabularyEntry[];
 
 describe("English to English quiz", () => {
-  it("loads 1000 vocabulary entries", () => expect(entries).toHaveLength(1000));
+  it("loads 1200 vocabulary entries", () => expect(entries).toHaveLength(1200));
   it("uses an English definition and provides four choices", () => {
     const questions = generateQuizQuestions(entries, { type: "en-to-en", count: 10 });
     expect(questions).toHaveLength(10);

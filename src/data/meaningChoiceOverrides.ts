@@ -10,5 +10,7 @@ export const meaningChoiceOverrides: Record<string, string[]> = {
   decrease: ["maintain", "occur", "publish"],
   caustic: ["abstract", "abrupt", "absurd"],
   grant: ["occur", "belong", "inspect"],
+  cogent: ["abysmal", "amicable", "belligerent"],
+  prudent: ["abysmal", "amicable", "belligerent"],
   refrain: ["abide", "occur", "publish"],
 };

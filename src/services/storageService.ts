@@ -1,11 +1,16 @@
 import type { AppSettings, LearningHistory, VocabularyLearningState } from "../types/learning";
 import { DEFAULT_SETTINGS, DEFAULT_SKILLS } from "../types/learning";
-export const STORAGE_KEYS = { history:"vocab-app-learning-history", settings:"vocab-app-settings", favorites:"vocab-app-favorites" } as const;
+import type { FavoriteGroup } from "../types/favorites";
+import { createDefaultFavoriteGroups, getFavoriteIds, normalizeFavoriteGroups } from "./favoriteGroups";
+export const STORAGE_KEYS = { history:"vocab-app-learning-history", settings:"vocab-app-settings", favorites:"vocab-app-favorites", favoriteGroups:"vocab-app-favorite-groups" } as const;
 function canUseStorage(){ return typeof window !== "undefined" && typeof window.localStorage !== "undefined"; }
 export function createEmptyLearningState(vocabularyId:string):VocabularyLearningState { return { vocabularyId, seenCount:0, correctCount:0, wrongCount:0, streak:0, mastery:0, skills:{...DEFAULT_SKILLS} }; }
 export function loadLearningHistory():LearningHistory { if(!canUseStorage()) return {}; try { const raw=window.localStorage.getItem(STORAGE_KEYS.history); return raw ? JSON.parse(raw) as LearningHistory : {}; } catch { return {}; } }
 export function saveLearningHistory(history:LearningHistory){ if(canUseStorage()) window.localStorage.setItem(STORAGE_KEYS.history, JSON.stringify(history)); }
 export function loadSettings():AppSettings { if(!canUseStorage()) return {...DEFAULT_SETTINGS}; try { const raw=window.localStorage.getItem(STORAGE_KEYS.settings); return raw ? {...DEFAULT_SETTINGS,...JSON.parse(raw) as Partial<AppSettings>} : {...DEFAULT_SETTINGS}; } catch { return {...DEFAULT_SETTINGS}; } }
 export function saveSettings(settings:AppSettings){ if(canUseStorage()) window.localStorage.setItem(STORAGE_KEYS.settings, JSON.stringify(settings)); }
-export function getStoredFavorites():string[]{ if(!canUseStorage()) return []; try { const raw=window.localStorage.getItem(STORAGE_KEYS.favorites); return raw ? JSON.parse(raw) as string[] : []; } catch { return []; } }
-export function updateFavorites(ids:string[]){ if(canUseStorage()) window.localStorage.setItem(STORAGE_KEYS.favorites, JSON.stringify(ids)); }
+function readLegacyFavorites():string[]{ if(!canUseStorage()) return []; try { const raw=window.localStorage.getItem(STORAGE_KEYS.favorites); return raw ? JSON.parse(raw) as string[] : []; } catch { return []; } }
+export function getStoredFavoriteGroups():FavoriteGroup[]{ if(!canUseStorage()) return createDefaultFavoriteGroups(); try { const raw=window.localStorage.getItem(STORAGE_KEYS.favoriteGroups); return normalizeFavoriteGroups(raw ? JSON.parse(raw) : undefined, readLegacyFavorites()); } catch { return createDefaultFavoriteGroups(readLegacyFavorites()); } }
+export function updateFavoriteGroups(groups:FavoriteGroup[]){ if(!canUseStorage()) return; const normalized=normalizeFavoriteGroups(groups); window.localStorage.setItem(STORAGE_KEYS.favoriteGroups, JSON.stringify(normalized)); window.localStorage.setItem(STORAGE_KEYS.favorites, JSON.stringify(getFavoriteIds(normalized))); }
+export function getStoredFavorites():string[]{ return getFavoriteIds(getStoredFavoriteGroups()); }
+export function updateFavorites(ids:string[]){ if(!canUseStorage()) return; const groups=getStoredFavoriteGroups(); const currentIds=getFavoriteIds(groups); const targetIds=[...new Set(ids)]; const removed=new Set(currentIds.filter((id)=>!targetIds.includes(id))); const added=targetIds.filter((id)=>!currentIds.includes(id)); const next=groups.map((group)=>({...group,itemIds:group.itemIds.filter((id)=>!removed.has(id))})); if(next[0]) next[0]={...next[0],itemIds:[...new Set([...next[0].itemIds,...added])]}; updateFavoriteGroups(next); }

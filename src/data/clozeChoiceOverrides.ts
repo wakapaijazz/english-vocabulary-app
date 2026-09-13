@@ -6,7 +6,7 @@ export const clozeChoiceOverrides: Record<string, string[]> = {
   absorb: ["assign", "inspect", "publish"],
   visible: ["academic", "abrupt", "caustic"],
   attain: ["occur", "belong", "arise"],
-  claim: ["inspect", "occur", "belong"],
+  claim: ["occur", "belong", "maintain"],
   pioneer: ["occur", "belong", "arise"],
   create: ["occur", "belong", "arise"],
   substantial: ["abstract", "abrupt", "caustic"],

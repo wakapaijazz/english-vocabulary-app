@@ -6,10 +6,23 @@ import { getPhraseExamples } from "../data/phraseResolver";
 import type { VocabularyEntry } from "../types/vocabulary";
 import { POS_LABELS } from "../types/vocabulary";
 import { SpeakButton } from "./SpeakButton";
+import { FavoriteGroupMenu } from "./FavoriteGroupMenu";
+import type { FavoriteGroup } from "../types/favorites";
 
-interface WordCardProps { entry: VocabularyEntry; compact?: boolean; isFavorite?: boolean; onToggleFavorite?: () => void; }
+interface WordCardProps {
+  entry: VocabularyEntry;
+  compact?: boolean;
+  isFavorite?: boolean;
+  onToggleFavorite?: () => void;
+  favoriteGroups?: FavoriteGroup[];
+  favoriteGroupIds?: string[];
+  onToggleFavoriteGroup?: (groupId: string) => void;
+  onCreateFavoriteGroup?: () => void;
+  onRenameFavoriteGroup?: (group: FavoriteGroup) => void;
+  onDeleteFavoriteGroup?: (group: FavoriteGroup) => void;
+}
 
-export function WordCard({ entry, compact = false, isFavorite = false, onToggleFavorite }: WordCardProps) {
+export function WordCard({ entry, compact = false, isFavorite = false, onToggleFavorite, favoriteGroups, favoriteGroupIds = [], onToggleFavoriteGroup, onCreateFavoriteGroup, onRenameFavoriteGroup, onDeleteFavoriteGroup }: WordCardProps) {
   const [expanded, setExpanded] = useState(false);
   const mainSense = entry.senses[0];
   const existingExpressions = new Set([
@@ -25,7 +38,7 @@ export function WordCard({ entry, compact = false, isFavorite = false, onToggleF
   return (
     <article className={`word-card ${compact ? "compact" : ""}`}>
       <div className="word-card-top"><div style={{ display: "flex", alignItems: "center", gap: "10px" }}><h3>{entry.lemma}</h3><SpeakButton text={entry.lemma} label={`${entry.lemma}を再生`} inline /></div><div style={{ display: "flex", gap: "7px" }}>
-        {onToggleFavorite && <button type="button" className="icon-button" aria-label={isFavorite ? "お気に入りから外す" : "お気に入りに追加"} aria-pressed={isFavorite} title={isFavorite ? "お気に入りから外す" : "お気に入りに追加"} onClick={onToggleFavorite} style={{ color: isFavorite ? "var(--orange)" : undefined }}>{isFavorite ? "★" : "☆"}</button>}
+        {favoriteGroups && onToggleFavoriteGroup && onCreateFavoriteGroup && onRenameFavoriteGroup && onDeleteFavoriteGroup ? <FavoriteGroupMenu groups={favoriteGroups} activeGroupIds={favoriteGroupIds} itemLabel={entry.lemma} onToggleGroup={onToggleFavoriteGroup} onCreateGroup={onCreateFavoriteGroup} onRenameGroup={onRenameFavoriteGroup} onDeleteGroup={onDeleteFavoriteGroup} /> : onToggleFavorite && <button type="button" className="icon-button" aria-label={isFavorite ? "お気に入りから外す" : "お気に入りに追加"} aria-pressed={isFavorite} title={isFavorite ? "お気に入りから外す" : "お気に入りに追加"} onClick={onToggleFavorite} style={{ color: isFavorite ? "var(--orange)" : undefined }}>{isFavorite ? "★" : "☆"}</button>}
         <button className="icon-button" aria-label={expanded ? "詳細を閉じる" : "詳細を表示"} aria-expanded={expanded} title={expanded ? "詳細を閉じる" : "詳細を表示"} onClick={() => setExpanded((value) => !value)} style={detailToggleStyle}><span aria-hidden="true" style={chevronStyle} /></button>
       </div></div>
       {expanded && <div>

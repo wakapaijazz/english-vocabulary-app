@@ -1,9 +1,9 @@
-import { useMemo, useState, type FormEvent } from "react";
+import { useMemo, useState } from "react";
 import { allPhraseCatalog } from "../data/phraseCatalogAll";
 import { PhraseCard } from "../components/PhraseCard";
 import { WordCard } from "../components/WordCard";
 import { getStoredFavoriteGroups, updateFavoriteGroups } from "../services/storageService";
-import { getFavoriteIds, toggleFavoriteInGroup } from "../services/favoriteGroups";
+import { getFavoriteGroupIds, getFavoriteIds, toggleFavoriteInGroup } from "../services/favoriteGroups";
 import type { FavoriteGroup } from "../types/favorites";
 import type { PartOfSpeech, VocabularyEntry } from "../types/vocabulary";
 import { POS_LABELS } from "../types/vocabulary";
@@ -22,10 +22,6 @@ export function DictionaryPage({ entries }: { entries: VocabularyEntry[] }) {
   const [groupByTag, setGroupByTag] = useState(false);
   const [libraryMode, setLibraryMode] = useState<LibraryMode>("words");
   const [favoriteGroups, setFavoriteGroups] = useState<FavoriteGroup[]>(() => getStoredFavoriteGroups());
-  const [manageFavoriteGroups, setManageFavoriteGroups] = useState(false);
-  const [newFavoriteGroupName, setNewFavoriteGroupName] = useState("");
-  const [editingFavoriteGroupId, setEditingFavoriteGroupId] = useState<string | null>(null);
-  const [editingFavoriteGroupName, setEditingFavoriteGroupName] = useState("");
 
   const favoriteIds = useMemo(() => getFavoriteIds(favoriteGroups), [favoriteGroups]);
   const matchesFavoriteFilter = (id: string) => {
@@ -72,43 +68,32 @@ export function DictionaryPage({ entries }: { entries: VocabularyEntry[] }) {
     return [...groups.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([label, groupedEntries]) => ({ label, entries: groupedEntries }));
   }, [groupByTag, wordResults]);
 
-  const toggleFavorite = (id: string) => {
-    const targetGroupId = favoriteGroupId === "all" ? favoriteGroups[0]?.id : favoriteGroupId;
-    if (!targetGroupId) return;
+  const toggleFavoriteGroup = (id: string, groupId: string) => {
     setFavoriteGroups((current) => {
-      const next = toggleFavoriteInGroup(current, targetGroupId, id);
+      const next = toggleFavoriteInGroup(current, groupId, id);
       updateFavoriteGroups(next);
       return next;
     });
   };
 
-  const addFavoriteGroup = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    const name = newFavoriteGroupName.trim();
-    if (!name) return;
+  const createFavoriteGroup = () => {
+    const name = window.prompt("新しいお気に入りグループ名", "");
+    if (!name?.trim()) return;
     setFavoriteGroups((current) => {
-      const next = [...current, { id: "favorite-" + Date.now(), name, itemIds: [] }];
+      const next = [...current, { id: "favorite-" + Date.now(), name: name.trim(), itemIds: [] }];
       updateFavoriteGroups(next);
       return next;
     });
-    setNewFavoriteGroupName("");
   };
 
-  const beginRenameFavoriteGroup = (group: FavoriteGroup) => {
-    setEditingFavoriteGroupId(group.id);
-    setEditingFavoriteGroupName(group.name);
-  };
-
-  const saveFavoriteGroupName = (event: FormEvent<HTMLFormElement>, groupId: string) => {
-    event.preventDefault();
-    const name = editingFavoriteGroupName.trim();
-    if (!name) return;
+  const renameFavoriteGroup = (group: FavoriteGroup) => {
+    const name = window.prompt("お気に入りグループ名を変更", group.name);
+    if (!name?.trim()) return;
     setFavoriteGroups((current) => {
-      const next = current.map((group) => group.id === groupId ? { ...group, name } : group);
+      const next = current.map((candidate) => candidate.id === group.id ? { ...candidate, name: name.trim() } : candidate);
       updateFavoriteGroups(next);
       return next;
     });
-    setEditingFavoriteGroupId(null);
   };
 
   const deleteFavoriteGroup = (group: FavoriteGroup) => {
@@ -156,19 +141,18 @@ export function DictionaryPage({ entries }: { entries: VocabularyEntry[] }) {
         <label>お気に入りグループ<select value={favoriteGroupId} onChange={(event) => setFavoriteGroupId(event.target.value)}><option value="all">すべて</option>{favoriteGroups.map((group) => <option key={group.id} value={group.id}>{group.name}</option>)}</select></label>
         <label className="toggle-label"><input type="checkbox" checked={favoritesOnly} onChange={(event) => setFavoritesOnly(event.target.checked)} /><span className="toggle" />お気に入りのみ</label>
         {libraryMode === "words" && <label className="toggle-label"><input type="checkbox" checked={groupByTag} onChange={(event) => setGroupByTag(event.target.checked)} /><span className="toggle" />タグ別に表示</label>}
-        <button type="button" className="group-manage-button" onClick={() => setManageFavoriteGroups((current) => !current)}>{manageFavoriteGroups ? "管理を閉じる" : "グループを管理"}</button>
         <span className="filter-count">{visibleCount} 件</span>
       </div>
 
-      {manageFavoriteGroups && <section className="favorite-groups-panel"><div className="favorite-groups-heading"><div><span className="eyebrow">FAVORITE GROUPS</span><h2>お気に入りを整理</h2><p>グループを選んでから星を押すと、そのグループに登録・解除できます。1つの項目を複数グループに登録することもできます。</p></div></div><div className="favorite-group-list">{favoriteGroups.map((group) => <div className="favorite-group-row" key={group.id}>{editingFavoriteGroupId === group.id ? <form onSubmit={(event) => saveFavoriteGroupName(event, group.id)}><input value={editingFavoriteGroupName} onChange={(event) => setEditingFavoriteGroupName(event.target.value)} aria-label={group.name + "の新しい名前"} autoFocus /><button type="submit" className="small-button primary-button">保存</button><button type="button" className="small-button outline-button" onClick={() => setEditingFavoriteGroupId(null)}>取消</button></form> : <><span><strong>{group.name}</strong><small>{group.itemIds.length}件</small></span><button type="button" className="text-button" onClick={() => beginRenameFavoriteGroup(group)}>名前を変更</button><button type="button" className="text-button danger-text-button" disabled={favoriteGroups.length <= 1} onClick={() => deleteFavoriteGroup(group)}>削除</button></>}</div>)}</div><form className="favorite-group-add" onSubmit={addFavoriteGroup}><input value={newFavoriteGroupName} onChange={(event) => setNewFavoriteGroupName(event.target.value)} placeholder="新しいグループ名" aria-label="新しいお気に入りグループ名" /><button type="submit" className="primary-button small-button">グループを追加</button></form></section>}
+
 
       {libraryMode === "words" ? wordGroups.map((group) => <section key={group.label || "all"}>
         {groupByTag && <div className="section-heading" style={{ margin: "26px 0 14px" }}><div><span className="eyebrow">TAG GROUP</span><h2>{group.label} <small style={{ color: "var(--muted)", font: "11px DM Mono, monospace" }}>({group.entries.length})</small></h2></div></div>}
         <div className="dictionary-grid">
-          {group.entries.map((entry) => <WordCard key={entry.id} entry={entry} compact isFavorite={isFavoriteInSelectedGroup(entry.id)} onToggleFavorite={() => toggleFavorite(entry.id)} />)}
+          {group.entries.map((entry) => <WordCard key={entry.id} entry={entry} compact isFavorite={isFavoriteInSelectedGroup(entry.id)} favoriteGroups={favoriteGroups} favoriteGroupIds={getFavoriteGroupIds(favoriteGroups, entry.id)} onToggleFavoriteGroup={(groupId) => toggleFavoriteGroup(entry.id, groupId)} onCreateFavoriteGroup={createFavoriteGroup} onRenameFavoriteGroup={renameFavoriteGroup} onDeleteFavoriteGroup={deleteFavoriteGroup} />)}
         </div>
       </section>) : <div className="dictionary-grid">
-        {phraseResults.map((phrase) => <PhraseCard key={phrase.id} phrase={phrase} isFavorite={isFavoriteInSelectedGroup(`phrase:${phrase.id}`)} onToggleFavorite={() => toggleFavorite(`phrase:${phrase.id}`)} />)}
+        {phraseResults.map((phrase) => <PhraseCard key={phrase.id} phrase={phrase} isFavorite={isFavoriteInSelectedGroup(`phrase:${phrase.id}`)} favoriteGroups={favoriteGroups} favoriteGroupIds={getFavoriteGroupIds(favoriteGroups, `phrase:${phrase.id}`)} onToggleFavoriteGroup={(groupId) => toggleFavoriteGroup(`phrase:${phrase.id}`, groupId)} onCreateFavoriteGroup={createFavoriteGroup} onRenameFavoriteGroup={renameFavoriteGroup} onDeleteFavoriteGroup={deleteFavoriteGroup} />)}
       </div>}
 
       {!visibleCount && <div className="empty-state"><span>⌕</span><h2>見つかりませんでした</h2><p>検索条件やお気に入り設定を変えてみてください。</p></div>}

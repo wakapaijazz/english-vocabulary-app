@@ -5,7 +5,9 @@ import type { VocabularyEntry } from "../types/vocabulary";
 import { ProgressBar } from "../components/ProgressBar";
 import { QuizCard } from "../components/QuizCard";
 import { generateQuizQuestions, type QuizMode } from "../quiz/quizGenerator";
-import { getStoredFavorites, updateFavorites } from "../services/storageService";
+import { getStoredFavoriteGroups, updateFavoriteGroups } from "../services/storageService";
+import { getFavoriteGroupIds, toggleFavoriteInGroup } from "../services/favoriteGroups";
+import type { FavoriteGroup } from "../types/favorites";
 
 interface QuizPageProps {
   entries: VocabularyEntry[];
@@ -25,7 +27,7 @@ export function QuizPage({ entries, history, questionCount, config, onAnswer, on
   const [finished, setFinished] = useState(false);
   const [score, setScore] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
-  const [favorites, setFavorites] = useState<string[]>(() => getStoredFavorites());
+  const [favoriteGroups, setFavoriteGroups] = useState<FavoriteGroup[]>(() => getStoredFavoriteGroups());
 
   useEffect(() => {
     setQuestions(generateQuizQuestions(entries, { ...config, count: questionCount, history }));
@@ -76,12 +78,41 @@ export function QuizPage({ entries, history, questionCount, config, onAnswer, on
     setStartedAt(Date.now());
   };
 
-  const toggleFavorite = (reviewQuestion: QuizQuestion) => {
+  const toggleFavoriteGroup = (reviewQuestion: QuizQuestion, groupId: string) => {
     const id = reviewQuestion.favoriteId ?? reviewQuestion.vocabularyId;
-    setFavorites((current) => {
-      const nextFavorites = current.includes(id) ? current.filter((item) => item !== id) : [...current, id];
-      updateFavorites(nextFavorites);
-      return nextFavorites;
+    setFavoriteGroups((current) => {
+      const next = toggleFavoriteInGroup(current, groupId, id);
+      updateFavoriteGroups(next);
+      return next;
+    });
+  };
+
+  const createFavoriteGroup = () => {
+    const name = window.prompt("新しいお気に入りグループ名", "");
+    if (!name?.trim()) return;
+    setFavoriteGroups((current) => {
+      const next = [...current, { id: "favorite-" + Date.now(), name: name.trim(), itemIds: [] }];
+      updateFavoriteGroups(next);
+      return next;
+    });
+  };
+
+  const renameFavoriteGroup = (group: FavoriteGroup) => {
+    const name = window.prompt("お気に入りグループ名を変更", group.name);
+    if (!name?.trim()) return;
+    setFavoriteGroups((current) => {
+      const next = current.map((candidate) => candidate.id === group.id ? { ...candidate, name: name.trim() } : candidate);
+      updateFavoriteGroups(next);
+      return next;
+    });
+  };
+
+  const deleteFavoriteGroup = (group: FavoriteGroup) => {
+    if (favoriteGroups.length <= 1 || !window.confirm("「" + group.name + "」を削除しますか？このグループ内の分類だけが削除されます。")) return;
+    setFavoriteGroups((current) => {
+      const next = current.filter((candidate) => candidate.id !== group.id);
+      updateFavoriteGroups(next);
+      return next;
     });
   };
 
@@ -97,7 +128,7 @@ export function QuizPage({ entries, history, questionCount, config, onAnswer, on
         <section className="quiz-review-list">
           <div className="section-heading">
             <div><span className="eyebrow">ANSWER REVIEW</span><h2>今回の問題を振り返る</h2></div>
-            <p>知らない単語や、あとで復習したい語句は星を押してお気に入りに登録できます。</p>
+            <p>知らない単語や、あとで復習したい語句は右上のボタンからお気に入りグループに登録できます。</p>
           </div>
           {questions.map((reviewQuestion, index) => (
             <article className="quiz-review-item" key={reviewQuestion.id}>
@@ -110,8 +141,13 @@ export function QuizPage({ entries, history, questionCount, config, onAnswer, on
                 selectedChoiceId={answers[reviewQuestion.id]}
                 answered={Boolean(answers[reviewQuestion.id])}
                 onSelect={() => undefined}
-                isFavorite={favorites.includes(reviewQuestion.favoriteId ?? reviewQuestion.vocabularyId)}
-                onToggleFavorite={() => toggleFavorite(reviewQuestion)}
+                isFavorite={getFavoriteGroupIds(favoriteGroups, reviewQuestion.favoriteId ?? reviewQuestion.vocabularyId).length > 0}
+                favoriteGroups={favoriteGroups}
+                favoriteGroupIds={getFavoriteGroupIds(favoriteGroups, reviewQuestion.favoriteId ?? reviewQuestion.vocabularyId)}
+                onToggleFavoriteGroup={(groupId) => toggleFavoriteGroup(reviewQuestion, groupId)}
+                onCreateFavoriteGroup={createFavoriteGroup}
+                onRenameFavoriteGroup={renameFavoriteGroup}
+                onDeleteFavoriteGroup={deleteFavoriteGroup}
               />
             </article>
           ))}

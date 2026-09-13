@@ -2,10 +2,22 @@ import { useState } from "react";
 import { getPhraseExamples } from "../data/phraseResolver";
 import type { PhraseQuestionSeed } from "../data/phraseCatalog";
 import { SpeakButton } from "./SpeakButton";
+import { FavoriteGroupMenu } from "./FavoriteGroupMenu";
+import type { FavoriteGroup } from "../types/favorites";
 
-interface PhraseCardProps { phrase: PhraseQuestionSeed; isFavorite: boolean; onToggleFavorite: () => void; }
+interface PhraseCardProps {
+  phrase: PhraseQuestionSeed;
+  isFavorite: boolean;
+  onToggleFavorite?: () => void;
+  favoriteGroups?: FavoriteGroup[];
+  favoriteGroupIds?: string[];
+  onToggleFavoriteGroup?: (groupId: string) => void;
+  onCreateFavoriteGroup?: () => void;
+  onRenameFavoriteGroup?: (group: FavoriteGroup) => void;
+  onDeleteFavoriteGroup?: (group: FavoriteGroup) => void;
+}
 
-export function PhraseCard({ phrase, isFavorite, onToggleFavorite }: PhraseCardProps) {
+export function PhraseCard({ phrase, isFavorite, onToggleFavorite, favoriteGroups, favoriteGroupIds = [], onToggleFavoriteGroup, onCreateFavoriteGroup, onRenameFavoriteGroup, onDeleteFavoriteGroup }: PhraseCardProps) {
   const [expanded, setExpanded] = useState(false);
   const examples = getPhraseExamples(phrase);
   const detailToggleStyle = { display: "grid", placeItems: "center", width: "32px", height: "32px", borderRadius: "10px", color: "var(--teal-dark)", background: expanded ? "#e7f1ea" : "transparent", transition: "background .2s ease" } as const;
@@ -13,7 +25,7 @@ export function PhraseCard({ phrase, isFavorite, onToggleFavorite }: PhraseCardP
 
   return <article className="word-card phrase-card">
     <div className="word-card-top"><div style={{ display: "flex", alignItems: "center", gap: "10px" }}><h3>{phrase.expression}</h3><SpeakButton text={phrase.expression} label={`${phrase.expression}を再生`} inline /></div><div style={{ display: "flex", gap: "7px" }}>
-      <button type="button" className="icon-button" aria-label={isFavorite ? "お気に入りから外す" : "お気に入りに追加"} aria-pressed={isFavorite} title={isFavorite ? "お気に入りから外す" : "お気に入りに追加"} onClick={onToggleFavorite} style={{ color: isFavorite ? "var(--orange)" : undefined }}>{isFavorite ? "★" : "☆"}</button>
+      {favoriteGroups && onToggleFavoriteGroup && onCreateFavoriteGroup && onRenameFavoriteGroup && onDeleteFavoriteGroup ? <FavoriteGroupMenu groups={favoriteGroups} activeGroupIds={favoriteGroupIds} itemLabel={phrase.expression} onToggleGroup={onToggleFavoriteGroup} onCreateGroup={onCreateFavoriteGroup} onRenameGroup={onRenameFavoriteGroup} onDeleteGroup={onDeleteFavoriteGroup} /> : onToggleFavorite && <button type="button" className="icon-button" aria-label={isFavorite ? "お気に入りから外す" : "お気に入りに追加"} aria-pressed={isFavorite} title={isFavorite ? "お気に入りから外す" : "お気に入りに追加"} onClick={onToggleFavorite} style={{ color: isFavorite ? "var(--orange)" : undefined }}>{isFavorite ? "★" : "☆"}</button>}
       <button className="icon-button" aria-label={expanded ? "詳細を閉じる" : "詳細を表示"} aria-expanded={expanded} title={expanded ? "詳細を閉じる" : "詳細を表示"} onClick={() => setExpanded((value) => !value)} style={detailToggleStyle}><span aria-hidden="true" style={chevronStyle} /></button>
     </div></div>
     {expanded && <><div className="word-meta"><span className="level-pill">PHRASE</span><span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>{phrase.word}<SpeakButton text={phrase.word} label={`${phrase.word}を再生`} inline /></span></div><div className="sense-list"><div className="sense-row"><span>JP</span><p>{phrase.meaningJa}</p></div></div><div className="word-details" style={{ display: "block" }}><div className="detail-group"><span className="detail-label">ENGLISH DEFINITION</span><div style={{ display: "flex", alignItems: "center", gap: "8px" }}><p style={{ flex: 1 }}>{phrase.definitionEn}</p><SpeakButton text={phrase.definitionEn} label={`${phrase.expression}の英語定義を再生`} inline /></div></div><div className="example-box"><span className="detail-label">EXAMPLES</span>{examples.map((example, index) => <div key={`${phrase.id}-example-${index}`} style={{ position: "relative", paddingRight: "42px" }}><span className="detail-label" style={{ marginBottom: "4px" }}>例文{index + 1}</span><p className="example-en">{example.english}</p><p className="example-ja">{example.japanese}</p><SpeakButton text={example.english} label={`${phrase.expression}の例文${index + 1}を再生`} /></div>)}</div></div></>}

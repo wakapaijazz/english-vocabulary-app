@@ -43,6 +43,10 @@ export function getFavoriteIds(groups: FavoriteGroup[]): string[] {
   return uniqueIds(groups.flatMap((group) => group.itemIds));
 }
 
+export function getFavoriteGroupIds(groups: FavoriteGroup[], itemId: string): string[] {
+  return groups.filter((group) => group.itemIds.includes(itemId)).map((group) => group.id);
+}
+
 export function toggleFavoriteInGroup(groups: FavoriteGroup[], groupId: string, itemId: string): FavoriteGroup[] {
   return groups.map((group) => {
     if (group.id !== groupId) return group;

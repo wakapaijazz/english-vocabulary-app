@@ -1,6 +1,7 @@
 interface SpeakButtonProps {
   text: string;
   label?: string;
+  inline?: boolean;
 }
 
 let speechRequestId = 0;
@@ -55,7 +56,7 @@ export function speakEnglish(text: string): void {
   }, 500);
 }
 
-export function SpeakButton({ text, label = "英語を再生" }: SpeakButtonProps) {
+export function SpeakButton({ text, label = "英語を再生", inline = false }: SpeakButtonProps) {
   if (!canSpeak()) return null;
 
   return (
@@ -69,10 +70,10 @@ export function SpeakButton({ text, label = "英語を再生" }: SpeakButtonProp
         speakEnglish(text);
       }}
       style={{
-        position: "absolute",
-        right: "8px",
-        top: "50%",
-        transform: "translateY(-50%)",
+        position: inline ? "static" : "absolute",
+        right: inline ? undefined : "8px",
+        top: inline ? undefined : "50%",
+        transform: inline ? undefined : "translateY(-50%)",
         width: "32px",
         height: "32px",
         padding: 0,
@@ -83,6 +84,8 @@ export function SpeakButton({ text, label = "英語を再生" }: SpeakButtonProp
         fontSize: "15px",
         lineHeight: 1,
         cursor: "pointer",
+        display: "inline-grid",
+        placeItems: "center",
       }}
     >
       🔊

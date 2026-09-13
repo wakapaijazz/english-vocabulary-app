@@ -1,4 +1,4 @@
-import { definitionCatalog } from "../data/definitionCatalog";
+import { getWordDefinition } from "../data/definitionResolver";
 import { exampleCatalog } from "../data/exampleCatalog";
 import { getWordExamples } from "../data/exampleResolver";
 import { allPhraseCatalog } from "../data/phraseCatalogAll";
@@ -25,7 +25,7 @@ function shuffle<T>(items: T[]): T[] { return [...items].sort(() => Math.random(
 function pick<T>(items: T[]): T { return items[Math.floor(Math.random() * items.length)]; }
 function primarySense(entry: VocabularyEntry): VocabularySense { return entry.senses[0] ?? { id: `${entry.id}-sense`, partOfSpeech: "other", meaningJa: "意味未登録" }; }
 function getMeaning(entry: VocabularyEntry): string { return primarySense(entry).meaningJa.trim(); }
-function getDefinition(entry: VocabularyEntry): string { return primarySense(entry).meaningEn?.trim() || definitionCatalog[entry.lemma] || "to have a particular meaning or use"; }
+function getDefinition(entry: VocabularyEntry): string { return getWordDefinition(entry); }
 function escapeRegExp(value: string): string { return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 function findClozeTarget(lemma: string, english: string, preferred?: string): string | undefined {
   const candidates = [preferred, ...getInflectionCandidates(lemma)].filter((candidate): candidate is string => Boolean(candidate));

@@ -10,13 +10,14 @@ import vocabularyExpansion4 from "../src/data/vocabulary-expansion-4.json";
 import vocabularyExpansion5 from "../src/data/vocabulary-expansion-5.json";
 import vocabularyExpansion6 from "../src/data/vocabulary-expansion-6.json";
 import vocabularyExpansion7 from "../src/data/vocabulary-expansion-7.json";
+import vocabularyExpansion8 from "../src/data/vocabulary-expansion-8.json";
 import { clozeChoiceOverrides } from "../src/data/clozeChoiceOverrides";
 import { phraseChoiceOverrides } from "../src/data/phraseChoiceOverrides";
 import { allPhraseCatalog } from "../src/data/phraseCatalogAll";
 import { generateQuizQuestions } from "../src/quiz/quizGenerator";
 import type { VocabularyEntry } from "../src/types/vocabulary";
 
-const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3, ...vocabularyExpansion4, ...vocabularyExpansion5, ...vocabularyExpansion6, ...vocabularyExpansion7] as unknown as VocabularyEntry[];
+const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3, ...vocabularyExpansion4, ...vocabularyExpansion5, ...vocabularyExpansion6, ...vocabularyExpansion7, ...vocabularyExpansion8] as unknown as VocabularyEntry[];
 
 describe("cloze answer uniqueness", () => {
   it("uses exactly the reviewed distractors for ambiguous word clozes", () => {

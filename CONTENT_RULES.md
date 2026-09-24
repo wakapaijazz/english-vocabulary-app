@@ -4,10 +4,10 @@
 
 ## 1. 件数とデータの責務
 
-- 単語は次の11個のJSONを統合して管理する。vocabulary.json、vocabulary-extra.json、vocabulary-more.json、vocabulary-final.json、vocabulary-expansion.json、vocabulary-expansion-2.json、vocabulary-expansion-3.json、vocabulary-expansion-4.json、vocabulary-expansion-5.json、vocabulary-expansion-6.json、vocabulary-expansion-7.json。現在は合計1500語。
+- 単語は次の12個のJSONを統合して管理する。vocabulary.json、vocabulary-extra.json、vocabulary-more.json、vocabulary-final.json、vocabulary-expansion.json、vocabulary-expansion-2.json、vocabulary-expansion-3.json、vocabulary-expansion-4.json、vocabulary-expansion-5.json、vocabulary-expansion-6.json、vocabulary-expansion-7.json、vocabulary-expansion-8.json。現在は合計1550語。
 - Level 1〜4は基礎・標準語彙、Level 5は大学入試共通テストレベルを目安とする。Level 6は国公立大学二次試験レベル〜英検準1級、Level 7は英検準1級〜英検1級、Level 8は英検1級の上級レベルを目安とする。試験の公式対応を保証するものではなく、学習上の目安として運用する。
-- 語句問題は phraseCatalog.ts、phraseCatalogExpansion.ts、phraseCatalogExpansion2.ts、phraseCatalogExpansion3.ts、phraseCatalogExpansion4.ts を allPhraseCatalog で統合して管理する。現在は単語1500語とは別に250問。
-- 辞書には「単語」「語句」の2タブがあり、語句タブで250問すべてを直接確認できる。語句を単語カード内だけに頼らない。
+- 語句問題は phraseCatalog.ts と5つの拡張カタログを allPhraseCatalog で統合して管理する。現在は単語1550語とは別に300問。
+- 辞書には「単語」「語句」の2タブがあり、語句タブで300問すべてを直接確認できる。語句を単語カード内だけに頼らない。
 - 単語の例文は `src/data/exampleResolver.ts` の `getWordExamples()` で統合する。画面やクイズ側で個別に配列を組み立てない。
   - JSONの `entry.examples`: 各単語の基本例文。
   - `exampleCatalog.ts`: 旧データに直接例文がない単語を補う旧例文。
@@ -20,12 +20,14 @@
   - vocabulary-expansion-5.json: Level 5の追加単語100語。
   - vocabulary-expansion-6.json: Level 6の追加単語100語。
   - vocabulary-expansion-7.json: Level 7の追加単語100語。
+- vocabulary-expansion-8.json: Level 5の必修語30語とLevel 6の必修語20語。すべてに米国英語の発音記号、英語定義、自然な日本語訳付き例文を2つ以上収録する。意味や用法が複数ある語は3例文以上にする。
   - expansion-5〜7の新規データも発音記号・英語定義・自然な日本語訳付きの例文を最低2つ持ち、複数の意味・品詞・用法を例示する項目は3つ以上持つ。例文は語形を含め、空所問題で実際に問える見出し語またはその活用形を含める。
 - `clozeChoiceOverrides.ts`: 文脈上の別解を排除する必要がある単語空所補充のレビュー済み選択肢。
 - `meaningChoiceOverrides.ts`: reviewed Japanese-meaning choices for cases where an automatically selected distractor shares a Japanese sense with the answer.
 - 語句の例文は `getPhraseExamples()` で統合する。
   - phraseCatalog.ts / phraseCatalogExpansion.ts / phraseCatalogExpansion2.ts / phraseCatalogExpansion3.ts, phraseCatalogExpansion4.ts: 基本例文。
-  - phraseExampleCatalog.ts / phraseExampleExpansion.ts / phraseExampleExpansion2.ts / phraseExampleExpansion3.ts, phraseExampleExpansion4.ts: 追加例文。
+  - phraseCatalogExpansion5.ts: Level 5〜6の重要表現を追加する50問。ことわざ・格言も、実際の用法が自然で一意に問える場合に採用する。
+  - phraseExampleCatalog.ts / phraseExampleExpansion.ts / phraseExampleExpansion2.ts / phraseExampleExpansion3.ts, phraseExampleExpansion4.ts / phraseExampleExpansion5.ts: 追加例文。
   - `phraseExampleRevision.ts` / `phraseExampleRevision2.ts`: 基本例文と同じ文になった追加例文や、最終レビューで語法を直した例文を別用例へ差し替える編集レイヤー。
   - `phraseChoiceOverrides.ts`: `from/against`、`fill out/fill in` のように、選択肢自体が文法的に成立する語句問題のレビュー済み選択肢。
 
@@ -105,13 +107,13 @@
 
 ## 4. コロケーション／イディオム
 
-- 各IDは一意にする。基本60問、追加40問、追加50問、追加50問、追加50問をそれぞれのカタログに登録し、出題・辞書では allPhraseCatalog を使う。合計250問にする。
+- 各IDは一意にする。基本60問、追加40問、追加50問を4つの拡張カタログに登録し、出題・辞書では allPhraseCatalog を使う。合計300問にする。
 - 各問題は完成した `expression`、関連語 `word`、日本語訳、英語説明、例文を持つ。
 - `prompt` は空欄をちょうど1つ含める。`answer` は完成した表現の空欄部分であること。
 - 選択肢は4つ、テキストはすべて異なるものにする。複数語の答えも可とする（例：`down on`）。
-- phraseMeaningCatalog.ts / phraseMeaningExpansion.ts / phraseMeaningExpansion2.ts / phraseMeaningExpansion3.ts, phraseMeaningExpansion4.ts: 4選択肢すべての意味。
+- phraseMeaningCatalog.ts / phraseMeaningExpansion.ts / phraseMeaningExpansion2.ts / phraseMeaningExpansion3.ts, phraseMeaningExpansion4.ts / phraseMeaningExpansion5.ts: 4選択肢すべての意味。
 - 例文の日本語訳は、語句の意味を括弧で足すのではなく、文全体を自然に訳す。
-- 追加例文は phraseExampleCatalog.ts / phraseExampleExpansion.ts / phraseExampleExpansion2.ts / phraseExampleExpansion3.ts, phraseExampleExpansion4.ts に登録し、英文・日本語訳・必要なら専用の prompt を持たせる。
+- 追加例文は phraseExampleCatalog.ts / phraseExampleExpansion.ts / phraseExampleExpansion2.ts / phraseExampleExpansion3.ts, phraseExampleExpansion4.ts / phraseExampleExpansion5.ts に登録し、英文・日本語訳・必要なら専用の prompt を持たせる。
 - 語句の例文も、主語・場面・用法を変え、元の例文の単なる長文化や再掲にしない。
 - 語句の分類は、前置詞を伴う定型表現、句動詞、慣用表現、一般的なコロケーションを含む。単なる任意の単語の組み合わせは登録しない。
 - 通常のレベル近似選択肢で別解が成立する語句は、`phraseChoiceOverrides.ts` で4選択肢を明示し、正解以外はその文では成立しないものにする。修正後の選択肢にも4つの意味表示を持たせる。
@@ -146,13 +148,13 @@
 
 テストでは少なくとも次を検証する。
 
-- 単語1500語、ID・見出し語の重複なし。Level 5は335語、Level 6は235語、Level 7は270語を目安とし、今回分は各レベル100語ずつ追加する。
-- 1500語すべてに発音記号と英語定義がある。
-- 1500語すべての統合済み例文が2つ以上あり、複数意味語は3つ以上ある。
+- 単語1550語、ID・見出し語の重複なし。現在の目安はLevel 5が365語、Level 6が255語、Level 7が270語。追加時は対象レベルをデータと件数監査の両方で確認する。
+- 1550語すべてに発音記号と英語定義がある。
+- 1550語すべての統合済み例文が2つ以上あり、複数意味語は3つ以上ある。
 - 例文に空欄・日本語訳不足・仮テンプレートの問題がない。
 - 例文ペアの内容語がほぼ同じになるケースを検出する。
 - 例文ペアの構文骨格と共通する内容語を確認し、短文への説明追加型や同じ主語・述語のペアを検出する。
-- 250語句、語句ID、空欄1つ、4選択肢、選択肢意味、追加例文を検証する。
+- 300語句、語句ID、空欄1つ、4選択肢、選択肢意味、追加例文を検証する。
 - クイズ生成後の全空所補充問題に `_____` がちょうど1つあり、実際に空欄にした語形と4選択肢の活用形が一致する。
 - `clozeAmbiguity.test.ts` で、レビュー済み単語・語句の選択肢が指定どおりで、正解が1つだけであることを検証する。
 - `clozeInflection.test.ts` で、過去形・三単現・`-ing`・不規則変化の全選択肢が同じ語形になり、回答後の原形表示に必要な情報が保持されることを検証する。
@@ -167,7 +169,7 @@
 ## 8. 追加時に提案するルール
 
 - 追加語彙には、試験レベルだけでなく出典・分野タグを付け、将来「共通テスト」「二次試験」「英検準1級」「英検1級」を別々に絞り込めるようにする。
-- 単語と語句の件数表示は、データファイルの数値を直接書かず、統合後の配列長から表示する。現在の1500／250対応でもこの方式を維持する。
+- 単語と語句の件数表示は、データファイルの数値を直接書かず、統合後の配列長から表示する。現在の1550／300対応でもこの方式を維持する。
 - 例文作成時は、追加前に既存例文との内容語・主語・構造を比較し、追加後に自動類似度テストを実行する。
 - 例文や語句を大きく追加する場合は、今回のように「基本データ」「追加データ」「編集・修正レイヤー」「共通Resolver」「自動テスト」を分離し、画面ごとの個別実装を増やさない。
 - 空所補充の選択肢は自動生成だけを信頼せず、曖昧性が見つかった語・語句をオーバーライド層へ隔離する。オーバーライドには、なぜ通常候補では不適切か分かるテストを添える。

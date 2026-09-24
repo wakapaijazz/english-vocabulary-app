@@ -10,19 +10,20 @@ import vocabularyExpansion4 from "../src/data/vocabulary-expansion-4.json";
 import vocabularyExpansion5 from "../src/data/vocabulary-expansion-5.json";
 import vocabularyExpansion6 from "../src/data/vocabulary-expansion-6.json";
 import vocabularyExpansion7 from "../src/data/vocabulary-expansion-7.json";
+import vocabularyExpansion8 from "../src/data/vocabulary-expansion-8.json";
 import { definitionCatalog } from "../src/data/definitionCatalog";
 import { allPhraseCatalog } from "../src/data/phraseCatalogAll";
 import { pronunciationCatalog } from "../src/data/pronunciationCatalog";
 import { generateQuizQuestions } from "../src/quiz/quizGenerator";
 import type { VocabularyEntry } from "../src/types/vocabulary";
 
-const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3, ...vocabularyExpansion4, ...vocabularyExpansion5, ...vocabularyExpansion6, ...vocabularyExpansion7] as unknown as VocabularyEntry[];
+const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3, ...vocabularyExpansion4, ...vocabularyExpansion5, ...vocabularyExpansion6, ...vocabularyExpansion7, ...vocabularyExpansion8] as unknown as VocabularyEntry[];
 
 describe("vocabulary feature coverage", () => {
-  it("provides 1500 unique words with pronunciation data", () => {
+  it("provides 1550 unique words with pronunciation data", () => {
     const missing = entries.filter((entry) => !entry.pronunciation && !pronunciationCatalog[entry.lemma]);
-    expect(entries).toHaveLength(1500);
-    expect(new Set(entries.map((entry) => entry.lemma)).size).toBe(1500);
+    expect(entries).toHaveLength(1550);
+    expect(new Set(entries.map((entry) => entry.lemma)).size).toBe(1550);
     expect(missing).toEqual([]);
   });
 
@@ -45,11 +46,11 @@ describe("vocabulary feature coverage", () => {
     expect(questions.flatMap((question) => question.choices).every((choice) => Boolean(choice.meaningJa))).toBe(true);
   });
 
-  it("generates 250 collocation and idiom cloze questions", () => {
-    expect(allPhraseCatalog).toHaveLength(250);
-    expect(new Set(allPhraseCatalog.map((seed) => seed.id)).size).toBe(250);
-    const questions = generateQuizQuestions(entries, { type: "collocation", count: 250 });
-    expect(questions).toHaveLength(250);
+  it("generates 300 collocation and idiom cloze questions", () => {
+    expect(allPhraseCatalog).toHaveLength(300);
+    expect(new Set(allPhraseCatalog.map((seed) => seed.id)).size).toBe(300);
+    const questions = generateQuizQuestions(entries, { type: "collocation", count: 300 });
+    expect(questions).toHaveLength(300);
     expect(questions.every((question) => question.type === "collocation" && question.prompt.includes("_____"))).toBe(true);
     expect(questions.flatMap((question) => question.choices).every((choice) => Boolean(choice.meaningJa))).toBe(true);
   });
@@ -84,7 +85,6 @@ describe("vocabulary feature coverage", () => {
     expect(phraseQuestion.favoriteId).toMatch(/^phrase:/);
   });
 });
-
 
 
 

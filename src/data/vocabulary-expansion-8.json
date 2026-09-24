@@ -1,0 +1,1960 @@
+[
+  {
+    "id": "w1501",
+    "lemma": "accommodation",
+    "pronunciation": "/əˌkɑməˈdeɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1501-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "宿泊施設",
+        "meaningEn": "a place where people stay temporarily"
+      },
+      {
+        "id": "w1501-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "配慮、便宜",
+        "meaningEn": "an arrangement made to meet a particular need"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1501-e01",
+        "english": "The exchange program arranged accommodation with a host family near campus.",
+        "japanese": "交換留学プログラムは、キャンパス近くのホストファミリー宅に宿泊先を手配した。",
+        "clozeTarget": "accommodation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1501-e02",
+        "english": "The library installed an audio loop as an accommodation for visitors with hearing aids.",
+        "japanese": "図書館は、補聴器を使う来館者への配慮として磁気ループを設置した。",
+        "clozeTarget": "accommodation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1501-e03",
+        "english": "After the flood, the town opened temporary accommodation in the sports hall.",
+        "japanese": "洪水の後、町は体育館に一時的な避難宿泊施設を開設した。",
+        "clozeTarget": "accommodation",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1502",
+    "lemma": "accessory",
+    "pronunciation": "/əkˈsɛsəri/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1502-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "付属品、アクセサリー",
+        "meaningEn": "an extra item that is useful or adds to the appearance of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1502-e01",
+        "english": "A detachable keyboard is a useful accessory for the tablet she takes to class.",
+        "japanese": "取り外し式キーボードは、彼女が授業に持っていくタブレットの便利な付属品だ。",
+        "clozeTarget": "accessory",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1502-e02",
+        "english": "The costume designer chose a silver brooch as the only accessory in the scene.",
+        "japanese": "衣装デザイナーは、その場面で唯一のアクセサリーとして銀のブローチを選んだ。",
+        "clozeTarget": "accessory",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1503",
+    "lemma": "athlete",
+    "pronunciation": "/ˈæθˌlit/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1503-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "運動選手、アスリート",
+        "meaningEn": "a person trained to compete in sports or physical activities"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1503-e01",
+        "english": "The athlete changed her training schedule after the sports doctor found a stress fracture.",
+        "japanese": "スポーツ医が疲労骨折を見つけた後、その選手は練習日程を変更した。",
+        "clozeTarget": "athlete",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1503-e02",
+        "english": "Even a gifted athlete needs time to recover between demanding events.",
+        "japanese": "才能ある選手でも、過酷な競技の間には回復する時間が必要だ。",
+        "clozeTarget": "athlete",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1504",
+    "lemma": "campus",
+    "pronunciation": "/ˈkæmpəs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1504-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "キャンパス、大学構内",
+        "meaningEn": "the grounds and buildings of a school, college, or university"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1504-e01",
+        "english": "A free shuttle connects the medical school to the main campus.",
+        "japanese": "無料のシャトルバスが医学部と本部キャンパスを結んでいる。",
+        "clozeTarget": "campus",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1504-e02",
+        "english": "When the power failed, students gathered outside the campus library with flashlights.",
+        "japanese": "停電すると、学生たちは懐中電灯を持って大学図書館の外に集まった。",
+        "clozeTarget": "campus",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1505",
+    "lemma": "costume",
+    "pronunciation": "/ˈkɑːstuːm/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1505-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "衣装、仮装",
+        "meaningEn": "clothing worn to represent a character, period, or particular style"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1505-e01",
+        "english": "The actor's torn costume showed that the character had survived a shipwreck.",
+        "japanese": "俳優の破れた衣装は、その登場人物が難破を生き延びたことを示していた。",
+        "clozeTarget": "costume",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1505-e02",
+        "english": "For the parade, the children made a costume from recycled newspaper and cardboard.",
+        "japanese": "パレードに向けて、子どもたちは古新聞と段ボールで衣装を作った。",
+        "clozeTarget": "costume",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1506",
+    "lemma": "rehearsal",
+    "pronunciation": "/rɪˈhɝːsəl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1506-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "リハーサル、予行演習",
+        "meaningEn": "a practice session before a performance or important event"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1506-e01",
+        "english": "During the final rehearsal, the orchestra stopped whenever the stage lights changed.",
+        "japanese": "最終リハーサルでは、舞台照明が変わるたびにオーケストラが演奏を止めた。",
+        "clozeTarget": "rehearsal",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1506-e02",
+        "english": "During a full-dress rehearsal, a stack of storage boxes blocked the west exit and forced the cast to change its entrance.",
+        "japanese": "通し稽古の最中に保管箱の山が西側の出口をふさぎ、出演者たちは登場口を変えざるを得なかった。",
+        "clozeTarget": "rehearsal",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1507",
+    "lemma": "instructor",
+    "pronunciation": "/ɪnˈstrʌktər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1507-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "指導者、講師",
+        "meaningEn": "a person who teaches a practical skill or subject"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1507-e01",
+        "english": "The diving instructor checked every student's equipment before entering the water.",
+        "japanese": "ダイビングの指導員は入水前に全員の器材を点検した。",
+        "clozeTarget": "instructor",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1507-e02",
+        "english": "A patient instructor helped the beginners tune their violins by ear.",
+        "japanese": "忍耐強い講師は、初心者が耳でバイオリンを調律するのを手伝った。",
+        "clozeTarget": "instructor",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1508",
+    "lemma": "interfere",
+    "pronunciation": "/ˌɪntərˈfɪr/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1508-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "干渉する、妨げる",
+        "meaningEn": "to get involved in a situation or prevent something from working properly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1508-e01",
+        "english": "Loud construction can interfere with the radio telescope's weak signals.",
+        "japanese": "大きな工事音は、電波望遠鏡が受信する微弱な信号を妨げることがある。",
+        "clozeTarget": "interfere",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1508-e02",
+        "english": "The referee warned the coach not to interfere with the officials during the match.",
+        "japanese": "審判は試合中に役員へ干渉しないよう監督に警告した。",
+        "clozeTarget": "interfere",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1509",
+    "lemma": "workshop",
+    "pronunciation": "/ˈwɝːkˌʃɑp/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1509-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "ワークショップ、作業場",
+        "meaningEn": "a practical class or a room where things are made or repaired"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1509-e01",
+        "english": "At the writing workshop, each student revised a short story with a partner.",
+        "japanese": "創作講座では、各生徒がパートナーと短編小説を推敲した。",
+        "clozeTarget": "workshop",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1509-e02",
+        "english": "The carpenter converted an old garage into a workshop for restoring clocks.",
+        "japanese": "大工は古い車庫を時計修復の作業場に改装した。",
+        "clozeTarget": "workshop",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1510",
+    "lemma": "volunteer",
+    "pronunciation": "/ˌvɑlənˈtɪr/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1510-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "自ら進んで申し出る",
+        "meaningEn": "to offer to do something without being forced or paid"
+      },
+      {
+        "id": "w1510-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "ボランティア",
+        "meaningEn": "a person who freely offers to do unpaid work"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1510-e01",
+        "english": "Mina volunteered to translate the safety guide for new arrivals.",
+        "japanese": "ミナは新しく来た人たちのために安全ガイドを翻訳すると自ら申し出た。",
+        "clozeTarget": "volunteered",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1510-e02",
+        "english": "Many hands make light work, so neighbors volunteered to rebuild the damaged footbridge.",
+        "japanese": "人手が多ければ仕事は楽になる。そこで近所の人々が、壊れた歩道橋を架け直す作業に自ら参加した。",
+        "clozeTarget": "volunteered",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1510-e03",
+        "english": "After retirement, he volunteered at the local archive and cataloged old photographs.",
+        "japanese": "退職後、彼は地域の資料館でボランティアをし、古い写真を整理した。",
+        "clozeTarget": "volunteered",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  }
+,
+  {
+    "id": "w1511",
+    "lemma": "recommendation",
+    "pronunciation": "/ˌrɛkəmɛnˈdeɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1511-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "推薦、助言",
+        "meaningEn": "advice about what someone should do"
+      },
+      {
+        "id": "w1511-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "推薦状",
+        "meaningEn": "a letter or statement supporting an applicant"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1511-e01",
+        "english": "The counselor's recommendation was to compare tuition costs before choosing a college.",
+        "japanese": "進路指導員は、大学を選ぶ前に授業料を比べるよう勧めた。",
+        "clozeTarget": "recommendation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1511-e02",
+        "english": "Her application included a recommendation from the scientist who supervised her internship.",
+        "japanese": "彼女の応募書類には、インターンを指導した科学者からの推薦状が添えられていた。",
+        "clozeTarget": "recommendation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1511-e03",
+        "english": "The travel guide's recommendation led us to a family-run restaurant outside the station.",
+        "japanese": "旅行ガイドの推薦のおかげで、私たちは駅の外にある家族経営のレストランを見つけた。",
+        "clozeTarget": "recommendation",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1512",
+    "lemma": "response",
+    "pronunciation": "/rɪˈspɑns/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1512-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "返答、回答",
+        "meaningEn": "an answer given to a question, request, or statement"
+      },
+      {
+        "id": "w1512-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "反応、対応",
+        "meaningEn": "a physical or emotional reaction to a stimulus"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1512-e01",
+        "english": "The mayor's response to the petition included a date for a public meeting.",
+        "japanese": "市長の請願への回答には、公開会議の日程が記されていた。",
+        "clozeTarget": "response",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1512-e02",
+        "english": "A sudden response to the bright light made the patient's pupils shrink.",
+        "japanese": "強い光への急な反応で、患者の瞳孔が縮んだ。",
+        "clozeTarget": "response",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1512-e03",
+        "english": "The survey response rate rose after the organizers shortened the online form.",
+        "japanese": "主催者がオンライン回答フォームを短くすると、アンケートの回答率が上がった。",
+        "clozeTarget": "response",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1513",
+    "lemma": "percentage",
+    "pronunciation": "/pərˈsɛntɪdʒ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1513-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "割合、百分率",
+        "meaningEn": "a rate or proportion expressed as a number out of one hundred"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1513-e01",
+        "english": "The percentage of homes using solar panels doubled in the coastal district.",
+        "japanese": "沿岸地区で太陽光パネルを使う住宅の割合は2倍になった。",
+        "clozeTarget": "percentage",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1513-e02",
+        "english": "Before comparing the teams, the coach calculated each player's percentage of successful serves.",
+        "japanese": "チームを比べる前に、監督は各選手のサーブ成功率を計算した。",
+        "clozeTarget": "percentage",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1514",
+    "lemma": "equipment",
+    "pronunciation": "/ɪˈkwɪpmənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1514-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "設備、器具、装備",
+        "meaningEn": "the tools or machines needed for a particular activity"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1514-e01",
+        "english": "The rescue crew checked its breathing equipment before entering the smoke-filled tunnel.",
+        "japanese": "救助隊は煙の充満したトンネルに入る前に呼吸器具を点検した。",
+        "clozeTarget": "equipment",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1514-e02",
+        "english": "The school shares its recording equipment with the community radio station.",
+        "japanese": "その学校は録音機材を地域のラジオ局と共同で使っている。",
+        "clozeTarget": "equipment",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1515",
+    "lemma": "discourage",
+    "pronunciation": "/dɪsˈkɝːɪdʒ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1515-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "思いとどまらせる、やる気をくじく",
+        "meaningEn": "to make someone less willing or confident to do something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1515-e01",
+        "english": "One failed experiment did not discourage the students from testing a new material.",
+        "japanese": "実験に一度失敗しても、生徒たちは新しい素材の試験を続けた。",
+        "clozeTarget": "discourage",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1515-e02",
+        "english": "The city placed low barriers to discourage cars from entering the historic square.",
+        "japanese": "市は車が歴史地区の広場に進入しないよう、低い柵を設置した。",
+        "clozeTarget": "discourage",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1516",
+    "lemma": "income",
+    "pronunciation": "/ˈɪnˌkʌm/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1516-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "収入、所得",
+        "meaningEn": "money received from work, investments, or other sources"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1516-e01",
+        "english": "The farm earns extra income by selling herbs to nearby restaurants.",
+        "japanese": "その農場は近隣のレストランにハーブを売って副収入を得ている。",
+        "clozeTarget": "income",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1516-e02",
+        "english": "A sudden drop in household income forced the family to postpone the move.",
+        "japanese": "世帯収入が急に減り、その家族は引っ越しを延期せざるを得なかった。",
+        "clozeTarget": "income",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1516-e03",
+        "english": "Although her scholarship covered tuition, the campus job gave her extra income for books and bus fare.",
+        "japanese": "奨学金が授業料を負担し、アルバイトが彼女の小遣いの収入源になっている。",
+        "clozeTarget": "income",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1517",
+    "lemma": "achievement",
+    "pronunciation": "/əˈtʃivmənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1517-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "達成、業績",
+        "meaningEn": "something important that someone succeeds in doing"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1517-e01",
+        "english": "Restoring the wetlands was a remarkable achievement for the small volunteer group.",
+        "japanese": "湿地を復元したことは、小さなボランティア団体にとって目覚ましい成果だった。",
+        "clozeTarget": "achievement",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1517-e02",
+        "english": "The engineer described her greatest achievement as a filter that made river water safe to drink.",
+        "japanese": "その技術者は、自身最大の業績は川の水を飲めるようにするフィルターだと語った。",
+        "clozeTarget": "achievement",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1518",
+    "lemma": "grateful",
+    "pronunciation": "/ˈɡreɪtfəl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1518-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "感謝している",
+        "meaningEn": "feeling or showing thanks for something received"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1518-e01",
+        "english": "The hikers were grateful to the farmer who let them shelter in his barn.",
+        "japanese": "ハイカーたちは納屋に避難させてくれた農家の人に感謝した。",
+        "clozeTarget": "grateful",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1518-e02",
+        "english": "I would be grateful if you could return the borrowed field recorder by Friday.",
+        "japanese": "借りた野外録音機を金曜日までに返していただけるとありがたいです。",
+        "clozeTarget": "grateful",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1519",
+    "lemma": "pressure",
+    "pronunciation": "/ˈprɛʃər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1519-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "圧力、圧迫",
+        "meaningEn": "a force applied to a surface or object"
+      },
+      {
+        "id": "w1519-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "重圧、精神的な負担",
+        "meaningEn": "stress caused by difficult demands or expectations"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1519-e01",
+        "english": "The diver equalized the pressure in her ears as she descended.",
+        "japanese": "潜水士は深く潜るにつれて耳の圧力を調整した。",
+        "clozeTarget": "pressure",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1519-e02",
+        "english": "Under pressure from local residents, the company published its water-quality data.",
+        "japanese": "地域住民からの圧力を受け、その会社は水質データを公表した。",
+        "clozeTarget": "pressure",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1519-e03",
+        "english": "At ten meters underwater, the pressure on the research vessel's hull was more than twice the surface level.",
+        "japanese": "水深10メートルでは、調査船の船体にかかる水圧は海面の2倍を超えた。",
+        "clozeTarget": "pressure",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1520",
+    "lemma": "effect",
+    "pronunciation": "/ɪˈfɛkt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1520-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "影響、効果、結果",
+        "meaningEn": "a change or result caused by an action or event"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1520-e01",
+        "english": "The new bus route had an immediate effect on attendance at the evening classes.",
+        "japanese": "新しいバス路線は夜間講座の出席率にすぐ影響を与えた。",
+        "clozeTarget": "effect",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1520-e02",
+        "english": "Researchers studied the long-term effect of sleep loss on decision-making.",
+        "japanese": "研究者たちは睡眠不足が意思決定に及ぼす長期的な影響を調べた。",
+        "clozeTarget": "effect",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1520-e03",
+        "english": "In the butterfly effect, a tiny change at the start can alter a much larger system.",
+        "japanese": "バタフライ効果では、最初の小さな変化がはるかに大きなシステムを変えうる。",
+        "clozeTarget": "effect",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  }
+,
+  {
+    "id": "w1521",
+    "lemma": "effort",
+    "pronunciation": "/ˈɛfərt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1521-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "努力、取り組み",
+        "meaningEn": "the physical or mental energy used to do something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1521-e01",
+        "english": "The restoration took years of effort from historians, builders, and local families.",
+        "japanese": "修復には歴史家、大工、地元の家族による何年もの努力が必要だった。",
+        "clozeTarget": "effort",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1521-e02",
+        "english": "A final effort by the goalkeeper kept the ball from crossing the line.",
+        "japanese": "ゴールキーパーの最後の奮闘で、ボールはゴールラインを越えずに済んだ。",
+        "clozeTarget": "effort",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1521-e03",
+        "english": "The committee made a joint effort to preserve the island's endangered dialect.",
+        "japanese": "委員会は島の消滅の危機にある方言を保存するため共同で取り組んだ。",
+        "clozeTarget": "effort",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1522",
+    "lemma": "data",
+    "pronunciation": "/ˈdeɪtə/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1522-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "データ、分析資料",
+        "meaningEn": "facts or measurements collected for study or decision-making"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1522-e01",
+        "english": "The journalist turned raw data from the census into an interactive map.",
+        "japanese": "記者は国勢調査の生データを対話型地図にまとめた。",
+        "clozeTarget": "data",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1522-e02",
+        "english": "Before drawing a conclusion, the students checked whether the data included winter readings.",
+        "japanese": "結論を出す前に、生徒たちはデータに冬季の測定値が含まれているか確認した。",
+        "clozeTarget": "data",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1523",
+    "lemma": "information",
+    "pronunciation": "/ˌɪnfərˈmeɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1523-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "情報、知識、案内",
+        "meaningEn": "facts or details that help someone understand something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1523-e01",
+        "english": "The museum's audio guide provides information about the pigments in each painting.",
+        "japanese": "博物館の音声ガイドは、それぞれの絵に使われた顔料について説明している。",
+        "clozeTarget": "information",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1523-e02",
+        "english": "For information about delayed trains, passengers can scan the code on the station notice.",
+        "japanese": "列車の遅延情報は、駅の掲示にあるコードを読み取れば確認できる。",
+        "clozeTarget": "information",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1524",
+    "lemma": "opportunity",
+    "pronunciation": "/ˌɑpərˈtunəti/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1524-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "機会、好機",
+        "meaningEn": "a situation that makes it possible to do or achieve something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1524-e01",
+        "english": "A summer placement gave the biology student an opportunity to observe sea turtles at night.",
+        "japanese": "夏の実習で、その生物学専攻の学生は夜にウミガメを観察する機会を得た。",
+        "clozeTarget": "opportunity",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1524-e02",
+        "english": "When opportunity knocks, the old proverb says, open the door; she accepted the unexpected audition.",
+        "japanese": "「好機が訪れたら扉を開けよ」ということわざのとおり、彼女は思いがけないオーディションを受けた。",
+        "clozeTarget": "opportunity",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1524-e03",
+        "english": "The fellowship offers a rare opportunity for rural teachers to study abroad.",
+        "japanese": "その研究奨励金は、地方の教師が海外で学ぶ貴重な機会を提供する。",
+        "clozeTarget": "opportunity",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1525",
+    "lemma": "reason",
+    "pronunciation": "/ˈrizən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1525-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "理由、根拠、理性",
+        "meaningEn": "a cause for something or a basis for a belief or action"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1525-e01",
+        "english": "The main reason the bridge closed was a crack in one of its support beams.",
+        "japanese": "橋が閉鎖された主な理由は、支柱のひとつに亀裂が見つかったことだった。",
+        "clozeTarget": "reason",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1525-e02",
+        "english": "There is no reason to discard the letters before the archive scans them.",
+        "japanese": "資料館が手紙をスキャンする前に、それらを処分する理由はない。",
+        "clozeTarget": "reason",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1525-e03",
+        "english": "He offered the family one good reason to keep the orchard: its spring supplied clean water.",
+        "japanese": "彼は、その果樹園を残すべき理由として、湧き水がきれいな水を供給していることを家族に説明した。",
+        "clozeTarget": "reason",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1526",
+    "lemma": "relationship",
+    "pronunciation": "/rɪˈleɪʃənˌʃɪp/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1526-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "関係、関連、交際",
+        "meaningEn": "a connection between people, things, or ideas"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1526-e01",
+        "english": "The documentary follows the changing relationship between a village and its river.",
+        "japanese": "そのドキュメンタリーは、村と川の関係が変化していく様子を追っている。",
+        "clozeTarget": "relationship",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1526-e02",
+        "english": "The research found a relationship between regular sleep and memory performance.",
+        "japanese": "その研究は、規則的な睡眠と記憶力の間に関連があることを見いだした。",
+        "clozeTarget": "relationship",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1526-e03",
+        "english": "After moving to different cities, the siblings worked to maintain a close relationship.",
+        "japanese": "別々の町に引っ越した後も、きょうだいは親しい関係を保とうと努めた。",
+        "clozeTarget": "relationship",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1527",
+    "lemma": "situation",
+    "pronunciation": "/ˌsɪtʃuˈeɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1527-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "状況、立場",
+        "meaningEn": "the conditions or facts that exist at a particular time"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1527-e01",
+        "english": "A power cut turned the routine rehearsal into an unexpected situation.",
+        "japanese": "停電によって、いつものリハーサルは思いがけない状況になった。",
+        "clozeTarget": "situation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1527-e02",
+        "english": "The guide stayed calm in a dangerous situation and led the climbers to shelter.",
+        "japanese": "ガイドは危険な状況でも冷静さを保ち、登山者を避難場所へ導いた。",
+        "clozeTarget": "situation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1527-e03",
+        "english": "The report describes the economic situation of families living on remote islands.",
+        "japanese": "その報告書は、離島で暮らす家庭の経済状況を説明している。",
+        "clozeTarget": "situation",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1528",
+    "lemma": "system",
+    "pronunciation": "/ˈsɪstəm/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1528-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "制度、体系、システム",
+        "meaningEn": "an organized set of connected parts, rules, or methods"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1528-e01",
+        "english": "The village built a rainwater system that supplies three public gardens.",
+        "japanese": "その村は3つの公共菜園に水を供給する雨水システムを整備した。",
+        "clozeTarget": "system",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1528-e02",
+        "english": "Under the new voting system, residents can rank up to five candidates.",
+        "japanese": "新しい投票制度では、住民は候補者を最大5人まで順位付けできる。",
+        "clozeTarget": "system",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1528-e03",
+        "english": "A biologist used the root system of the mangrove to explain how the tree survives tides.",
+        "japanese": "生物学者はマングローブの根系を使って、その木が潮の満ち引きに耐える仕組みを説明した。",
+        "clozeTarget": "system",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1529",
+    "lemma": "task",
+    "pronunciation": "/tæsk/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1529-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "仕事、課題、作業",
+        "meaningEn": "a piece of work that must be done"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1529-e01",
+        "english": "The first task for the rescue team was to locate every person listed on the passenger manifest.",
+        "japanese": "救助隊の最初の任務は、乗客名簿にある全員の居場所を確認することだった。",
+        "clozeTarget": "task",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1529-e02",
+        "english": "Many hands make light work, so the volunteers split the book-sorting task and finished in an hour.",
+        "japanese": "人手が多ければ仕事は楽になるというように、ボランティアたちは本の分類作業を分担し、1時間で終えた。",
+        "clozeTarget": "task",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1529-e03",
+        "english": "Copying the recordings was a simple task, but identifying each birdcall took expertise.",
+        "japanese": "録音を複製するのは簡単な作業だったが、鳥の鳴き声を特定するには専門知識が必要だった。",
+        "clozeTarget": "task",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1530",
+    "lemma": "technology",
+    "pronunciation": "/tɛkˈnɑlədʒi/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1530-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "技術、テクノロジー",
+        "meaningEn": "the use of scientific knowledge to create tools or methods"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1530-e01",
+        "english": "Low-cost satellite technology lets researchers track ice movement in remote regions.",
+        "japanese": "低価格の衛星技術によって、研究者は遠隔地の氷の動きを追跡できる。",
+        "clozeTarget": "technology",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1530-e02",
+        "english": "The theater combined centuries-old shadow puppets with digital projection technology.",
+        "japanese": "その劇場は、何世紀も続く影絵人形とデジタル投影技術を組み合わせた。",
+        "clozeTarget": "technology",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1530-e03",
+        "english": "Medical technology can extend life, but patients still need clear conversations with doctors.",
+        "japanese": "医療技術は寿命を延ばしうるが、患者には医師との明確な対話も必要だ。",
+        "clozeTarget": "technology",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  }
+,
+  {
+    "id": "w1531",
+    "lemma": "administration",
+    "pronunciation": "/ədˌmɪnɪˈstreɪʃən/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1531-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "管理、運営",
+        "meaningEn": "the process of managing an organization or carrying out a task"
+      },
+      {
+        "id": "w1531-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "行政、政権",
+        "meaningEn": "the people who govern a country or the period they are in power"
+      },
+      {
+        "id": "w1531-s03",
+        "partOfSpeech": "noun",
+        "meaningJa": "投与",
+        "meaningEn": "the act of giving a medicine or treatment"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1531-e01",
+        "english": "The hospital changed its appointment system to reduce the administration required of nurses.",
+        "japanese": "病院は看護師の事務負担を減らすため、予約制度を変更した。",
+        "clozeTarget": "administration",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1531-e02",
+        "english": "The new administration announced a review of the national rail network.",
+        "japanese": "新政権は全国の鉄道網を見直すと発表した。",
+        "clozeTarget": "administration",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1531-e03",
+        "english": "Nurses recorded the administration of each vaccine dose in the patient's health booklet.",
+        "japanese": "看護師たちは、ワクチンの各回の投与を患者の健康手帳に記録した。",
+        "clozeTarget": "administration",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1532",
+    "lemma": "censorship",
+    "pronunciation": "/ˈsɛnsərˌʃɪp/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1532-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "検閲、表現の抑制",
+        "meaningEn": "the practice of suppressing material considered objectionable or dangerous"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1532-e01",
+        "english": "The playwright moved the story abroad after censorship removed its final scene.",
+        "japanese": "検閲で最後の場面が削除された後、劇作家は物語の舞台を海外に移した。",
+        "clozeTarget": "censorship",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1532-e02",
+        "english": "Digital censorship can hide a report without formally banning the newspaper that published it.",
+        "japanese": "デジタル検閲は、掲載した新聞を正式に禁止せずに報道を見えなくすることがある。",
+        "clozeTarget": "censorship",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1533",
+    "lemma": "respondent",
+    "pronunciation": "/rɪˈspɑndənt/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1533-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "回答者",
+        "meaningEn": "a person who answers questions in a survey or interview"
+      },
+      {
+        "id": "w1533-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "被告側、上訴の相手方",
+        "meaningEn": "the party against whom an appeal or legal claim is made"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1533-e01",
+        "english": "Each respondent received a numbered card so the survey team could avoid collecting names.",
+        "japanese": "調査チームが氏名を集めずに済むよう、回答者には番号付きカードが配られた。",
+        "clozeTarget": "respondent",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1533-e02",
+        "english": "The respondent in the civil case argued that the contract had expired.",
+        "japanese": "民事訴訟の被告側は、契約はすでに失効していたと主張した。",
+        "clozeTarget": "respondent",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1533-e03",
+        "english": "One respondent left the interview early, but the remaining participants completed every question.",
+        "japanese": "回答者の1人は面接を途中で切り上げたが、残りの参加者はすべての質問に答えた。",
+        "clozeTarget": "respondent",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1534",
+    "lemma": "recruit",
+    "pronunciation": "/rɪˈkrut/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1534-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "採用する、募集する",
+        "meaningEn": "to find and persuade people to join an organization or activity"
+      },
+      {
+        "id": "w1534-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "新兵、新規採用者",
+        "meaningEn": "a person who has recently joined an organization or force"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1534-e01",
+        "english": "The laboratory plans to recruit two students with experience in field sampling.",
+        "japanese": "その研究室は、野外採取の経験がある学生を2人募集する予定だ。",
+        "clozeTarget": "recruit",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1534-e02",
+        "english": "A local theater recruited retired engineers to build a movable stage.",
+        "japanese": "地元の劇団は、可動式舞台を作るために退職した技術者を募った。",
+        "clozeTarget": "recruited",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1534-e03",
+        "english": "After the first training session, each recruit practiced radio procedures with a partner.",
+        "japanese": "最初の訓練の後、新人はそれぞれ相棒と無線の手順を練習した。",
+        "clozeTarget": "recruit",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1535",
+    "lemma": "reconsider",
+    "pronunciation": "/ˌrikənˈsɪdər/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1535-s01",
+        "partOfSpeech": "verb",
+        "meaningJa": "再考する、考え直す",
+        "meaningEn": "to think again about a decision or opinion, often to change it"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1535-e01",
+        "english": "The council agreed to reconsider the parking rule after shop owners presented traffic counts.",
+        "japanese": "商店主が交通量の調査結果を示した後、市議会は駐車規則を再考することに同意した。",
+        "clozeTarget": "reconsider",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1535-e02",
+        "english": "Seeing the repaired violin made him reconsider selling his grandfather's instrument.",
+        "japanese": "修復されたバイオリンを見て、彼は祖父の楽器を売る考えを改めた。",
+        "clozeTarget": "reconsider",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1536",
+    "lemma": "consciousness",
+    "pronunciation": "/ˈkɑnʃəsnəs/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1536-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "意識",
+        "meaningEn": "the state of being awake and aware of one's surroundings"
+      },
+      {
+        "id": "w1536-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "社会的な意識、認識",
+        "meaningEn": "public understanding or concern about an issue"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1536-e01",
+        "english": "The patient regained consciousness several minutes after the fainting episode.",
+        "japanese": "患者は失神してから数分後に意識を取り戻した。",
+        "clozeTarget": "consciousness",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1536-e02",
+        "english": "The mural raised public consciousness about the river's declining fish population.",
+        "japanese": "その壁画は、川の魚が減っている問題への市民の意識を高めた。",
+        "clozeTarget": "consciousness",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1536-e03",
+        "english": "The philosopher asked whether consciousness could exist without memory.",
+        "japanese": "その哲学者は、記憶がなくても意識は存在しうるのかと問うた。",
+        "clozeTarget": "consciousness",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1537",
+    "lemma": "unconscious",
+    "pronunciation": "/ʌnˈkɑnʃəs/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1537-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "意識を失った",
+        "meaningEn": "not awake or aware of one's surroundings"
+      },
+      {
+        "id": "w1537-s02",
+        "partOfSpeech": "adjective",
+        "meaningJa": "無意識の、意図しない",
+        "meaningEn": "happening without deliberate or conscious thought"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1537-e01",
+        "english": "A lifeguard pulled the unconscious swimmer onto the dock and checked his breathing.",
+        "japanese": "救命員は意識を失った泳者を桟橋に引き上げ、呼吸を確認した。",
+        "clozeTarget": "unconscious",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1537-e02",
+        "english": "The artist's choice of color reflected an unconscious memory of her childhood home.",
+        "japanese": "その芸術家の色使いには、幼少期の家の無意識の記憶が反映されていた。",
+        "clozeTarget": "unconscious",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1537-e03",
+        "english": "The study examined how unconscious bias can affect hiring decisions.",
+        "japanese": "その研究は、無意識の偏見が採用判断にどう影響するかを調べた。",
+        "clozeTarget": "unconscious",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1538",
+    "lemma": "incubation",
+    "pronunciation": "/ˌɪŋkjuˈbeɪʃən/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1538-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "孵化、抱卵",
+        "meaningEn": "the process of keeping eggs warm until they hatch"
+      },
+      {
+        "id": "w1538-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "潜伏期間",
+        "meaningEn": "the period between infection and the appearance of symptoms"
+      },
+      {
+        "id": "w1538-s03",
+        "partOfSpeech": "noun",
+        "meaningJa": "育成、事業の立ち上げ支援",
+        "meaningEn": "the early development of a business or idea with support"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1538-e01",
+        "english": "The penguin's incubation period lasts long enough for the parents to take turns guarding the egg.",
+        "japanese": "ペンギンの抱卵期間は長く、親鳥は交代で卵を守る。",
+        "clozeTarget": "incubation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1538-e02",
+        "english": "Because the infection has a short incubation period, symptoms may appear within a day.",
+        "japanese": "その感染症は潜伏期間が短いため、症状が1日以内に現れることがある。",
+        "clozeTarget": "incubation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1538-e03",
+        "english": "The university's business incubator gives early-stage companies space and legal advice during incubation.",
+        "japanese": "大学の起業支援施設は、創業初期の企業に育成期間中の場所と法務相談を提供する。",
+        "clozeTarget": "incubation",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1539",
+    "lemma": "receptive",
+    "pronunciation": "/rɪˈsɛptɪv/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1539-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "受け入れる用意がある",
+        "meaningEn": "willing to consider or accept new ideas"
+      },
+      {
+        "id": "w1539-s02",
+        "partOfSpeech": "adjective",
+        "meaningJa": "感受性がある、反応する",
+        "meaningEn": "able to respond to particular signals or influences"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1539-e01",
+        "english": "The museum director was receptive to a proposal for a quiet hour for visitors with sensory needs.",
+        "japanese": "博物館長は、感覚面で配慮が必要な来館者のために静かな時間を設ける提案を受け入れる姿勢を示した。",
+        "clozeTarget": "receptive",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1539-e02",
+        "english": "The sensor is receptive to infrared light but ignores most visible wavelengths.",
+        "japanese": "そのセンサーは赤外線には反応するが、可視光の波長の大半には反応しない。",
+        "clozeTarget": "receptive",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1539-e03",
+        "english": "The porous soil is most receptive to water after its dry surface crust is broken.",
+        "japanese": "乾いた表面の層を崩すと、その多孔質の土壌は水を最も吸収しやすくなる。",
+        "clozeTarget": "receptive",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1540",
+    "lemma": "accessibility",
+    "pronunciation": "/əkˌsɛsəˈbɪləti/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1540-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "利用しやすさ、アクセシビリティ",
+        "meaningEn": "the quality of being easy to enter, use, understand, or reach"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1540-e01",
+        "english": "The website improved accessibility by adding keyboard controls and captions to every video.",
+        "japanese": "そのウェブサイトはキーボード操作を加え、すべての動画に字幕を付けて利用しやすくした。",
+        "clozeTarget": "accessibility",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1540-e02",
+        "english": "The new footpath increased the accessibility of the lakeshore for wheelchair users.",
+        "japanese": "新しい遊歩道によって、車いす利用者が湖岸を訪れやすくなった。",
+        "clozeTarget": "accessibility",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  }
+,
+  {
+    "id": "w1541",
+    "lemma": "injustice",
+    "pronunciation": "/ɪnˈdʒʌstɪs/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1541-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "不正、不公平",
+        "meaningEn": "a situation in which people are treated unfairly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1541-e01",
+        "english": "The report documented the injustice of denying clean water to one district while supplying another.",
+        "japanese": "その報告書は、ある地区には水を供給しながら別の地区には安全な水を与えない不公平を記録した。",
+        "clozeTarget": "injustice",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1541-e02",
+        "english": "The novelist used a court case to show how a small injustice can shape an entire family.",
+        "japanese": "その小説家は、ひとつの小さな不正が家族全体の運命を左右する様子を裁判を通じて描いた。",
+        "clozeTarget": "injustice",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1542",
+    "lemma": "regulation",
+    "pronunciation": "/ˌrɛɡjəˈleɪʃən/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1542-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "規制、規則",
+        "meaningEn": "an official rule made by an authority"
+      },
+      {
+        "id": "w1542-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "調整、調節",
+        "meaningEn": "the act of controlling how a process or system operates"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1542-e01",
+        "english": "A new regulation requires fishing boats to record every turtle they release.",
+        "japanese": "新しい規則により、漁船は逃がしたウミガメをすべて記録することになった。",
+        "clozeTarget": "regulation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1542-e02",
+        "english": "The regulation of blood sugar depends on several hormones working together.",
+        "japanese": "血糖値の調整には、複数のホルモンが連携して働く必要がある。",
+        "clozeTarget": "regulation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1542-e03",
+        "english": "Small publishers worried that the proposed regulation would make translations too expensive to print.",
+        "japanese": "小規模出版社は、提案された規制によって翻訳書の印刷費が高くなりすぎると懸念した。",
+        "clozeTarget": "regulation",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1543",
+    "lemma": "specification",
+    "pronunciation": "/ˌspɛsəfəˈkeɪʃən/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1543-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "仕様、明細、規格",
+        "meaningEn": "a detailed description of the requirements or features of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1543-e01",
+        "english": "The engineer rejected the pump because it failed to meet the contract's pressure specification.",
+        "japanese": "技術者は、そのポンプが契約書に記された圧力規格を満たさなかったため却下した。",
+        "clozeTarget": "specification",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1543-e02",
+        "english": "The tender included a clear specification for recycled steel and delivery dates.",
+        "japanese": "入札書には、再生鋼材と納期について明確な仕様が盛り込まれていた。",
+        "clozeTarget": "specification",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1544",
+    "lemma": "recreational",
+    "pronunciation": "/ˌrɛkriˈeɪʃənəl/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1544-s01",
+        "partOfSpeech": "adjective",
+        "meaningJa": "レクリエーションの、娯楽の",
+        "meaningEn": "done for enjoyment rather than as work or competition"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1544-e01",
+        "english": "The old canal now supports recreational boating instead of carrying factory goods.",
+        "japanese": "古い運河は工場製品を運ぶ代わりに、今ではレジャーボートに利用されている。",
+        "clozeTarget": "recreational",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1544-e02",
+        "english": "A recreational league gave adults a chance to play baseball without professional training.",
+        "japanese": "レクリエーションリーグは、専門的な訓練を受けていない大人にも野球をする機会を与えた。",
+        "clozeTarget": "recreational",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1545",
+    "lemma": "transition",
+    "pronunciation": "/trænˈzɪʃən/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1545-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "移行、変化、移り変わり",
+        "meaningEn": "a change from one state, stage, or system to another"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1545-e01",
+        "english": "The transition from paper tickets to phone passes took the transit agency two years.",
+        "japanese": "紙の切符からスマートフォン乗車券への移行には、交通局で2年かかった。",
+        "clozeTarget": "transition",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1545-e02",
+        "english": "A brief silence marked the transition between the two movements of the symphony.",
+        "japanese": "短い沈黙が、交響曲の2つの楽章の間の移り変わりを示した。",
+        "clozeTarget": "transition",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1545-e03",
+        "english": "Career counselors helped returning parents manage the transition back to full-time work.",
+        "japanese": "キャリアカウンセラーは、育児後に職場へ戻る親たちがフルタイム勤務へ移行するのを支援した。",
+        "clozeTarget": "transition",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1546",
+    "lemma": "sustainability",
+    "pronunciation": "/səˌsteɪnəˈbɪləti/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1546-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "持続可能性",
+        "meaningEn": "the ability to continue over time without exhausting resources or causing lasting harm"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1546-e01",
+        "english": "The fishing cooperative measures sustainability by tracking how quickly each species recovers.",
+        "japanese": "漁業協同組合は、各魚種がどれほど早く回復するかを追跡して持続可能性を測っている。",
+        "clozeTarget": "sustainability",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1546-e02",
+        "english": "A repair café promotes sustainability by keeping household appliances out of landfills.",
+        "japanese": "修理カフェは家電製品が埋め立て処分されるのを防ぎ、持続可能性を高めている。",
+        "clozeTarget": "sustainability",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1547",
+    "lemma": "recognition",
+    "pronunciation": "/ˌrɛkəɡˈnɪʃən/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1547-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "認識、識別",
+        "meaningEn": "the act of identifying someone or something correctly"
+      },
+      {
+        "id": "w1547-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "評価、功績の承認",
+        "meaningEn": "public appreciation or acknowledgment of an achievement"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1547-e01",
+        "english": "Facial recognition failed when smoke blurred the camera above the entrance.",
+        "japanese": "入口上のカメラが煙で曇ると、顔認識システムは機能しなかった。",
+        "clozeTarget": "recognition",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1547-e02",
+        "english": "The translator finally received recognition for preserving the poet's humor across languages.",
+        "japanese": "その翻訳家はついに、詩人のユーモアを各言語で保った功績を認められた。",
+        "clozeTarget": "recognition",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1547-e03",
+        "english": "Early recognition of the warning signs allowed the crew to shut down the reactor safely.",
+        "japanese": "警告の兆候を早期に認識できたため、乗組員は原子炉を安全に停止できた。",
+        "clozeTarget": "recognition",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1548",
+    "lemma": "uncertainty",
+    "pronunciation": "/ʌnˈsɝːtənti/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1548-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "不確実さ、ためらい",
+        "meaningEn": "the state of not knowing what will happen or what is true"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1548-e01",
+        "english": "Uncertainty about the harvest led the farmers to store extra seed for spring.",
+        "japanese": "収穫の見通しが立たず、農家は春に備えて種を余分に保管した。",
+        "clozeTarget": "uncertainty",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1548-e02",
+        "english": "She answered the interviewer without uncertainty, even when the question was unexpected.",
+        "japanese": "予想外の質問を受けても、彼女はためらいなくインタビューに答えた。",
+        "clozeTarget": "uncertainty",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1549",
+    "lemma": "inference",
+    "pronunciation": "/ˈɪnfərəns/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1549-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "推論、推定",
+        "meaningEn": "a conclusion reached by reasoning from evidence rather than direct statement"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1549-e01",
+        "english": "From the fresh footprints, the ranger made the inference that a bear had crossed the trail overnight.",
+        "japanese": "新しい足跡から、レンジャーはクマが夜の間に小道を横切ったと推測した。",
+        "clozeTarget": "inference",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1549-e02",
+        "english": "The article never states that the policy failed; that inference comes from the reader's comparison of the figures.",
+        "japanese": "その記事は政策が失敗したとは述べていない。その推論は、読者が数値を比較して導くものだ。",
+        "clozeTarget": "inference",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  },
+  {
+    "id": "w1550",
+    "lemma": "implication",
+    "pronunciation": "/ˌɪmpləˈkeɪʃən/",
+    "level": 6,
+    "senses": [
+      {
+        "id": "w1550-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "影響、結果",
+        "meaningEn": "a possible effect that follows from an action or fact"
+      },
+      {
+        "id": "w1550-s02",
+        "partOfSpeech": "noun",
+        "meaningJa": "暗示、含み",
+        "meaningEn": "a meaning suggested but not stated directly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1550-e01",
+        "english": "One implication of the shorter winter is that migratory birds may arrive earlier.",
+        "japanese": "冬が短くなることで、渡り鳥がより早く到着する可能性がある。",
+        "clozeTarget": "implication",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1550-e02",
+        "english": "The lawyer objected to the implication that her client had hidden the documents.",
+        "japanese": "弁護士は依頼人が書類を隠したという含みのある発言に異議を唱えた。",
+        "clozeTarget": "implication",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1550-e03",
+        "english": "Scientists discussed the ethical implication of editing embryos before the clinic began its trial.",
+        "japanese": "研究者たちは、診療所が試験を始める前に胚を編集することの倫理的な影響を議論した。",
+        "clozeTarget": "implication",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "second-exam",
+      "eiken-pre1"
+    ]
+  }
+]

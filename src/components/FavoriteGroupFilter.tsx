@@ -23,7 +23,7 @@ export function FavoriteGroupFilter({ groups, selectedId, onSelect, onCreate, on
     <summary className="favorite-group-filter-trigger">
       {selected && <span aria-hidden="true" style={{ color: selected.color }}>★</span>}
       <span>{selected?.name ?? "すべて"}</span>
-      <span className="favorite-group-filter-caret" aria-hidden="true">⌄</span>
+      <span className="favorite-group-filter-caret" aria-hidden="true" />
     </summary>
     <div className="favorite-group-filter-popover">
       <div className="favorite-group-filter-row">

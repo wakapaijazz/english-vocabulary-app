@@ -7,19 +7,22 @@ import vocabularyExpansion from "../src/data/vocabulary-expansion.json";
 import vocabularyExpansion2 from "../src/data/vocabulary-expansion-2.json";
 import vocabularyExpansion3 from "../src/data/vocabulary-expansion-3.json";
 import vocabularyExpansion4 from "../src/data/vocabulary-expansion-4.json";
+import vocabularyExpansion5 from "../src/data/vocabulary-expansion-5.json";
+import vocabularyExpansion6 from "../src/data/vocabulary-expansion-6.json";
+import vocabularyExpansion7 from "../src/data/vocabulary-expansion-7.json";
 import { definitionCatalog } from "../src/data/definitionCatalog";
 import { allPhraseCatalog } from "../src/data/phraseCatalogAll";
 import { pronunciationCatalog } from "../src/data/pronunciationCatalog";
 import { generateQuizQuestions } from "../src/quiz/quizGenerator";
 import type { VocabularyEntry } from "../src/types/vocabulary";
 
-const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3, ...vocabularyExpansion4] as unknown as VocabularyEntry[];
+const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3, ...vocabularyExpansion4, ...vocabularyExpansion5, ...vocabularyExpansion6, ...vocabularyExpansion7] as unknown as VocabularyEntry[];
 
 describe("vocabulary feature coverage", () => {
-  it("provides 1200 unique words with pronunciation data", () => {
+  it("provides 1500 unique words with pronunciation data", () => {
     const missing = entries.filter((entry) => !entry.pronunciation && !pronunciationCatalog[entry.lemma]);
-    expect(entries).toHaveLength(1200);
-    expect(new Set(entries.map((entry) => entry.lemma)).size).toBe(1200);
+    expect(entries).toHaveLength(1500);
+    expect(new Set(entries.map((entry) => entry.lemma)).size).toBe(1500);
     expect(missing).toEqual([]);
   });
 
@@ -81,7 +84,6 @@ describe("vocabulary feature coverage", () => {
     expect(phraseQuestion.favoriteId).toMatch(/^phrase:/);
   });
 });
-
 
 
 

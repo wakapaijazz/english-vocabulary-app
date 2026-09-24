@@ -1,9 +1,10 @@
 import { useMemo, useState } from "react";
 import { allPhraseCatalog } from "../data/phraseCatalogAll";
 import { PhraseCard } from "../components/PhraseCard";
+import { FavoriteGroupFilter } from "../components/FavoriteGroupFilter";
 import { WordCard } from "../components/WordCard";
 import { getStoredFavoriteGroups, updateFavoriteGroups } from "../services/storageService";
-import { getFavoriteGroupIds, getFavoriteIds, toggleFavoriteInGroup } from "../services/favoriteGroups";
+import { getFavoriteGroupColor, getFavoriteGroupIds, getFavoriteIds, toggleFavoriteInGroup } from "../services/favoriteGroups";
 import type { FavoriteGroup } from "../types/favorites";
 import type { PartOfSpeech, VocabularyEntry } from "../types/vocabulary";
 import { POS_LABELS } from "../types/vocabulary";
@@ -80,7 +81,8 @@ export function DictionaryPage({ entries }: { entries: VocabularyEntry[] }) {
     const name = window.prompt("新しいお気に入りグループ名", "");
     if (!name?.trim()) return;
     setFavoriteGroups((current) => {
-      const next = [...current, { id: "favorite-" + Date.now(), name: name.trim(), itemIds: [] }];
+      const id = "favorite-" + Date.now();
+      const next = [...current, { id, name: name.trim(), itemIds: [], color: getFavoriteGroupColor(id, current.length) }];
       updateFavoriteGroups(next);
       return next;
     });
@@ -138,7 +140,7 @@ export function DictionaryPage({ entries }: { entries: VocabularyEntry[] }) {
           <label>品詞<select value={partOfSpeech} onChange={(event) => setPartOfSpeech(event.target.value as PartOfSpeech | "all")}><option value="all">すべて</option>{Object.entries(POS_LABELS).map(([key, label]) => <option key={key} value={key}>{label}</option>)}</select></label>
           <label>タグ<select value={tag} onChange={(event) => setTag(event.target.value)}><option value="all">すべて</option>{tags.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
         </>}
-        <label>お気に入りグループ<select value={favoriteGroupId} onChange={(event) => setFavoriteGroupId(event.target.value)}><option value="all">すべて</option>{favoriteGroups.map((group) => <option key={group.id} value={group.id}>{group.name}</option>)}</select></label>
+        <div className="favorite-group-filter-label"><span>お気に入り</span><FavoriteGroupFilter groups={favoriteGroups} selectedId={favoriteGroupId} onSelect={setFavoriteGroupId} onCreate={createFavoriteGroup} onRename={renameFavoriteGroup} onDelete={deleteFavoriteGroup} /></div>
         <label className="toggle-label"><input type="checkbox" checked={favoritesOnly} onChange={(event) => setFavoritesOnly(event.target.checked)} /><span className="toggle" />お気に入りのみ</label>
         {libraryMode === "words" && <label className="toggle-label"><input type="checkbox" checked={groupByTag} onChange={(event) => setGroupByTag(event.target.checked)} /><span className="toggle" />タグ別に表示</label>}
         <span className="filter-count">{visibleCount} 件</span>

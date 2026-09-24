@@ -13,4 +13,5 @@ export const meaningChoiceOverrides: Record<string, string[]> = {
   cogent: ["abysmal", "amicable", "belligerent"],
   prudent: ["abysmal", "amicable", "belligerent"],
   refrain: ["abide", "occur", "publish"],
+  inane: ["abysmal", "amicable", "belligerent"],
 };

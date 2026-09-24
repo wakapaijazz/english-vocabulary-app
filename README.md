@@ -15,7 +15,7 @@ npm.cmd run dev
 
 ## 主な機能
 
-- 1200語の静的語彙マスターデータ（Level 1〜8）
+- 1500語の静的語彙マスターデータ（Level 1〜8）
 - 辞書のA→Z / Z→A並び替え、レベル別・品詞別フィルター、検索
 - 単語カード（多義語・品詞・発音記号・例文・コロケーション・関連語）
 - 英語→日本語、日本語→英語、英語→英語、Cloze、Mixedクイズ
@@ -25,4 +25,4 @@ npm.cmd run dev
 - 苦手語の自動抽出、今日の復習、統計
 - スマートフォン対応のレスポンシブUI
 
-語彙マスターは `src/data/vocabulary.json`、`src/data/vocabulary-extra.json`、`src/data/vocabulary-more.json`、`src/data/vocabulary-final.json`、`src/data/vocabulary-expansion.json`、`src/data/vocabulary-expansion-2.json`、`src/data/vocabulary-expansion-3.json、vocabulary-expansion-4.json` に分けて管理しています。語句問題は5つのフレーズカタログを統合して250問を管理しています。コンテンツ追加・修正ルールは `CONTENT_RULES.md` に定義しています。
+語彙マスターは `src/data/vocabulary.json`、`src/data/vocabulary-extra.json`、`src/data/vocabulary-more.json`、`src/data/vocabulary-final.json`、`src/data/vocabulary-expansion.json`、`src/data/vocabulary-expansion-2.json`〜`src/data/vocabulary-expansion-7.json` に分けて管理しています。語句問題は5つのフレーズカタログを統合して250問を管理しています。コンテンツ追加・修正ルールは `CONTENT_RULES.md` に定義しています。

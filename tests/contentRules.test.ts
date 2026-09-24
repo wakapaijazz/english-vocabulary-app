@@ -7,6 +7,9 @@ import vocabularyExpansion from "../src/data/vocabulary-expansion.json";
 import vocabularyExpansion2 from "../src/data/vocabulary-expansion-2.json";
 import vocabularyExpansion3 from "../src/data/vocabulary-expansion-3.json";
 import vocabularyExpansion4 from "../src/data/vocabulary-expansion-4.json";
+import vocabularyExpansion5 from "../src/data/vocabulary-expansion-5.json";
+import vocabularyExpansion6 from "../src/data/vocabulary-expansion-6.json";
+import vocabularyExpansion7 from "../src/data/vocabulary-expansion-7.json";
 import { definitionCatalog } from "../src/data/definitionCatalog";
 import { exampleRevisionCatalog } from "../src/data/exampleRevisionCatalog";
 import { exampleRevisionExtra } from "../src/data/exampleRevisionExtra";
@@ -27,7 +30,7 @@ import { phraseMeaningExpansion4 } from "../src/data/phraseMeaningExpansion4";
 import { pronunciationCatalog } from "../src/data/pronunciationCatalog";
 import type { VocabularyEntry } from "../src/types/vocabulary";
 
-const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3, ...vocabularyExpansion4] as unknown as VocabularyEntry[];
+const entries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3, ...vocabularyExpansion4, ...vocabularyExpansion5, ...vocabularyExpansion6, ...vocabularyExpansion7] as unknown as VocabularyEntry[];
 const placeholderPattern = /The word ".*" is useful in context\.|This example shows how to use the word/i;
 const stopWords = new Set("a an the and or but if to of in on at for from with by as is are was were be been being this that these those it its they them their he she his her we our you your i me my do does did can could will would should may might must have has had than then very about into after before during over under up down out not no so who which what where when how all any each both more most some such only own new one several".split(" "));
 
@@ -111,9 +114,9 @@ describe("content rules", () => {
   });
 
   it("keeps every definition and pronunciation covered", () => {
-    expect(entries).toHaveLength(1200);
-    expect(new Set(entries.map((entry) => entry.id)).size).toBe(1200);
-    expect(new Set(entries.map((entry) => entry.lemma)).size).toBe(1200);
+    expect(entries).toHaveLength(1500);
+    expect(new Set(entries.map((entry) => entry.id)).size).toBe(1500);
+    expect(new Set(entries.map((entry) => entry.lemma)).size).toBe(1500);
     expect(entries.every((entry) => entry.senses[0]?.meaningEn || definitionCatalog[entry.lemma])).toBe(true);
     expect(entries.every((entry) => entry.pronunciation || pronunciationCatalog[entry.lemma])).toBe(true);
   });
@@ -151,7 +154,6 @@ describe("content rules", () => {
     expect(legacyMultiSenseWords.filter((lemma) => !exampleThirdCatalog[lemma])).toEqual([]);
   });
 });
-
 
 
 

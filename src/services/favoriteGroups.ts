@@ -1,10 +1,20 @@
 import type { FavoriteGroup } from "../types/favorites";
 
-export const DEFAULT_FAVORITE_GROUPS: ReadonlyArray<Pick<FavoriteGroup, "id" | "name">> = [
-  { id: "favorite-1", name: "お気に入り1" },
-  { id: "favorite-2", name: "お気に入り2" },
-  { id: "favorite-3", name: "お気に入り3" },
+export const FAVORITE_GROUP_COLORS = ["#d9824b", "#398f85", "#7b6bc4", "#d05b70", "#4e7db4", "#7c9d3d", "#b16a9a", "#58636f"] as const;
+
+export const DEFAULT_FAVORITE_GROUPS: ReadonlyArray<Pick<FavoriteGroup, "id" | "name"> & { color: string }> = [
+  { id: "favorite-1", name: "お気に入り1", color: FAVORITE_GROUP_COLORS[0] },
+  { id: "favorite-2", name: "お気に入り2", color: FAVORITE_GROUP_COLORS[1] },
+  { id: "favorite-3", name: "お気に入り3", color: FAVORITE_GROUP_COLORS[2] },
+  { id: "weak-1", name: "苦手1", color: FAVORITE_GROUP_COLORS[3] },
+  { id: "weak-2", name: "苦手2", color: FAVORITE_GROUP_COLORS[4] },
+  { id: "advanced-1", name: "難関1", color: FAVORITE_GROUP_COLORS[5] },
+  { id: "advanced-2", name: "難関2", color: FAVORITE_GROUP_COLORS[6] },
 ];
+
+export function getFavoriteGroupColor(id: string, index = 0): string {
+  return DEFAULT_FAVORITE_GROUPS.find((group) => group.id === id)?.color ?? FAVORITE_GROUP_COLORS[index % FAVORITE_GROUP_COLORS.length];
+}
 
 function uniqueIds(ids: string[]): string[] {
   return [...new Set(ids.filter((id) => typeof id === "string" && id.length > 0))];
@@ -33,6 +43,7 @@ export function normalizeFavoriteGroups(value: unknown, legacyIds: string[] = []
       id,
       name: typeof record.name === "string" && record.name.trim() ? record.name.trim() : `お気に入り${index + 1}`,
       itemIds: Array.isArray(record.itemIds) ? uniqueIds(record.itemIds) : [],
+      color: typeof record.color === "string" && /^#[0-9a-f]{6}$/i.test(record.color) ? record.color : getFavoriteGroupColor(id, index),
     }];
   });
 

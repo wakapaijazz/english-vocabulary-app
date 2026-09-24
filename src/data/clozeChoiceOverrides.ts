@@ -19,4 +19,5 @@ export const clozeChoiceOverrides: Record<string, string[]> = {
   grant: ["occur", "belong", "inspect"],
   cogent: ["abysmal", "amicable", "belligerent"],
   prudent: ["abysmal", "amicable", "belligerent"],
+  inane: ["abysmal", "amicable", "belligerent"],
 };

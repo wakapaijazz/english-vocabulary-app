@@ -1,0 +1,3988 @@
+[
+  {
+    "id": "w1201",
+    "lemma": "abolition",
+    "pronunciation": "/ˌæbəˈlɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1201-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "廃止、撤廃",
+        "meaningEn": "the formal ending of a law or system"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1201-e01",
+        "english": "The abolition of the old toll opened the mountain road to local residents.",
+        "japanese": "古い通行料が廃止され、山道は地域住民に開放された。",
+        "clozeTarget": "abolition",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1201-e02",
+        "english": "Students traced the abolition of slavery through letters from former activists.",
+        "japanese": "生徒たちは元活動家の手紙から奴隷制廃止の経緯をたどった。",
+        "clozeTarget": "abolition",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1202",
+    "lemma": "accountability",
+    "pronunciation": "/əˌkaʊntəˈbɪləti/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1202-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "説明責任",
+        "meaningEn": "the duty to explain actions and accept responsibility"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1202-e01",
+        "english": "The audit required accountability for every dollar spent on the relief fund.",
+        "japanese": "監査では救援基金の支出一ドルごとに説明責任が求められた。",
+        "clozeTarget": "accountability",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1202-e02",
+        "english": "Voters demanded accountability after the council missed its housing targets.",
+        "japanese": "市議会が住宅目標を逃した後、有権者は説明責任を求めた。",
+        "clozeTarget": "accountability",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1203",
+    "lemma": "adolescence",
+    "pronunciation": "/ˌædəˈlesəns/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1203-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "思春期",
+        "meaningEn": "the period of development between childhood and adulthood"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1203-e01",
+        "english": "During adolescence, many teenagers begin questioning ideas they once accepted.",
+        "japanese": "思春期には、かつて受け入れていた考えを問い直す若者が多い。",
+        "clozeTarget": "adolescence",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1203-e02",
+        "english": "Her study follows students from early adolescence into their twenties.",
+        "japanese": "彼女の研究は、生徒たちを思春期初期から二十代まで追跡する。",
+        "clozeTarget": "adolescence",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1204",
+    "lemma": "adoption",
+    "pronunciation": "/əˈdɑːpʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1204-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "採用、養子縁組",
+        "meaningEn": "the act of beginning to use something or legally taking a child into a family"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1204-e01",
+        "english": "The adoption of digital tickets halved the theater's paper use.",
+        "japanese": "電子チケットの採用で、その劇場の紙の使用量は半減した。",
+        "clozeTarget": "adoption",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1204-e02",
+        "english": "The couple completed the adoption of their daughter after years of preparation.",
+        "japanese": "その夫婦は何年も準備を重ね、娘との養子縁組を終えた。",
+        "clozeTarget": "adoption",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1204-e03",
+        "english": "The adoption of the new safety code took effect before winter.",
+        "japanese": "新しい安全規則は冬の前に採用・施行された。",
+        "clozeTarget": "adoption",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1204-e04",
+        "english": "Workers trained before the software's adoption across the company.",
+        "japanese": "会社全体でソフトウェアを導入する前に、従業員は研修を受けた。",
+        "clozeTarget": "adoption",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1204-e05",
+        "english": "The adoption process required patience from everyone involved.",
+        "japanese": "養子縁組の手続きでは、関係者全員に忍耐が求められた。",
+        "clozeTarget": "adoption",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1204-e06",
+        "english": "After the adoption was finalized, the family welcomed their son.",
+        "japanese": "養子縁組が成立した後、その家族は息子を迎えた。",
+        "clozeTarget": "adoption",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1205",
+    "lemma": "adulthood",
+    "pronunciation": "/əˈdʌlthʊd/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1205-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "成人期、大人であること",
+        "meaningEn": "the state or period of being an adult"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1205-e01",
+        "english": "Moving abroad for work was her first major decision in adulthood.",
+        "japanese": "仕事で海外へ移ることは、成人後初めての大きな決断だった。",
+        "clozeTarget": "adulthood",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1205-e02",
+        "english": "The novel contrasts childhood freedom with the duties of adulthood.",
+        "japanese": "その小説は、子ども時代の自由と大人の責任を対比する。",
+        "clozeTarget": "adulthood",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1206",
+    "lemma": "advertisement",
+    "pronunciation": "/ˌædvərˈtaɪzmənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1206-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "広告",
+        "meaningEn": "a public notice designed to promote a product, service, or event"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1206-e01",
+        "english": "A clever advertisement turned the quiet bakery into a weekend destination.",
+        "japanese": "巧みな広告で、その静かなパン屋は週末の人気スポットになった。",
+        "clozeTarget": "advertisement",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1206-e02",
+        "english": "The museum rejected an advertisement that exaggerated the artifacts' age.",
+        "japanese": "博物館は収蔵品の年代を誇張した広告を却下した。",
+        "clozeTarget": "advertisement",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1207",
+    "lemma": "affection",
+    "pronunciation": "/əˈfekʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1207-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "愛情、親愛の情",
+        "meaningEn": "a feeling of fondness and care for someone or something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1207-e01",
+        "english": "The old dog showed affection by waiting beside the child's bed nightly.",
+        "japanese": "その老犬は毎晩子どものベッドのそばで待ち、愛情を示した。",
+        "clozeTarget": "affection",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1207-e02",
+        "english": "She spoke of her hometown with affection after decades abroad.",
+        "japanese": "彼女は何十年も海外で暮らした後も、故郷への愛着を込めて語った。",
+        "clozeTarget": "affection",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1208",
+    "lemma": "agenda",
+    "pronunciation": "/əˈdʒendə/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1208-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "議題、予定表",
+        "meaningEn": "a list of matters to be discussed or done"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1208-e01",
+        "english": "The first item on the agenda was the flood-warning system.",
+        "japanese": "議題の最初の項目は洪水警報システムだった。",
+        "clozeTarget": "agenda",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1208-e02",
+        "english": "Sharing an agenda beforehand kept the team's short meeting focused.",
+        "japanese": "事前に議題を共有し、チームは短い会議に集中できた。",
+        "clozeTarget": "agenda",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1209",
+    "lemma": "alarm",
+    "pronunciation": "/əˈlɑːrm/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1209-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "警報、警報器",
+        "meaningEn": "a signal or device that warns people of danger or a problem"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1209-e01",
+        "english": "A smoke alarm woke the family before the hallway filled with smoke.",
+        "japanese": "煙探知器が鳴り、廊下が煙で満ちる前に家族は目覚めた。",
+        "clozeTarget": "alarm",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1209-e02",
+        "english": "The harbor alarm sounds whenever a vessel enters the restricted channel.",
+        "japanese": "船が航行禁止水域に入るたび、港の警報が鳴る。",
+        "clozeTarget": "alarm",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1209-e03",
+        "english": "A faulty alarm sent office staff outside twice in one afternoon.",
+        "japanese": "故障した警報で、職員は午後だけで二度屋外へ避難した。",
+        "clozeTarget": "alarm",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1209-e04",
+        "english": "The laboratory alarm is tested at the start of every month.",
+        "japanese": "研究室の警報器は毎月初めに点検される。",
+        "clozeTarget": "alarm",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1209-e05",
+        "english": "A silent alarm alerted security without disturbing the guests.",
+        "japanese": "無音警報は来客を驚かせずに警備員へ知らせた。",
+        "clozeTarget": "alarm",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1209-e06",
+        "english": "The night guard checked the loading dock when the alarm rang.",
+        "japanese": "警報が鳴ると、夜勤警備員は搬入口を確認した。",
+        "clozeTarget": "alarm",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1210",
+    "lemma": "allowance",
+    "pronunciation": "/əˈlaʊəns/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1210-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "小遣い、手当",
+        "meaningEn": "a fixed amount of money given regularly for a particular purpose"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1210-e01",
+        "english": "Mina saved her weekly allowance until she could buy a used camera.",
+        "japanese": "ミナは中古カメラを買えるまで、毎週のお小遣いを貯めた。",
+        "clozeTarget": "allowance",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1210-e02",
+        "english": "Field workers received a meal allowance when traveling beyond the city.",
+        "japanese": "現場作業員は市外への出張時に食事手当を受け取った。",
+        "clozeTarget": "allowance",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1211",
+    "lemma": "ambition",
+    "pronunciation": "/æmˈbɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1211-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "大志、野心",
+        "meaningEn": "a strong desire to achieve something important"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1211-e01",
+        "english": "Her ambition to restore the wetlands began with a school project.",
+        "japanese": "湿地を再生したいという彼女の大志は、学校の課題から始まった。",
+        "clozeTarget": "ambition",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1211-e02",
+        "english": "He pursued his ambition to become a pilot after failing his first exam.",
+        "japanese": "最初の試験に落ちても、彼はパイロットになる夢を追った。",
+        "clozeTarget": "ambition",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1212",
+    "lemma": "amusement",
+    "pronunciation": "/əˈmjuːzmənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1212-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "楽しみ、娯楽",
+        "meaningEn": "enjoyment or an activity that entertains people"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1212-e01",
+        "english": "To the children's amusement, a stubborn goat followed the tour bus.",
+        "japanese": "子どもたちが面白がったことに、頑固なヤギは観光バスについてきた。",
+        "clozeTarget": "amusement",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1212-e02",
+        "english": "The town built an amusement park around its historic carousel.",
+        "japanese": "町は歴史ある回転木馬の周りに遊園地を作った。",
+        "clozeTarget": "amusement",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1213",
+    "lemma": "anger",
+    "pronunciation": "/ˈæŋɡər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1213-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "怒り",
+        "meaningEn": "a strong feeling of displeasure, often caused by unfair treatment"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1213-e01",
+        "english": "Public anger grew as the factory kept dumping waste into the river.",
+        "japanese": "工場が川への廃棄物投棄を続け、市民の怒りは強まった。",
+        "clozeTarget": "anger",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1213-e02",
+        "english": "He wrote down his anger before replying to the insulting message.",
+        "japanese": "彼は侮辱的なメッセージに返信する前に、怒りを書き出した。",
+        "clozeTarget": "anger",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1214",
+    "lemma": "announcement",
+    "pronunciation": "/əˈnaʊnsmənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1214-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "発表、知らせ",
+        "meaningEn": "a public or formal statement that gives information"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1214-e01",
+        "english": "The principal's announcement confirmed that classes would resume Monday.",
+        "japanese": "校長の発表で、授業が月曜日に再開することが確認された。",
+        "clozeTarget": "announcement",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1214-e02",
+        "english": "A radio announcement warned drivers about ice on the bridge.",
+        "japanese": "ラジオの告知が橋の凍結について運転手に警告した。",
+        "clozeTarget": "announcement",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1215",
+    "lemma": "apology",
+    "pronunciation": "/əˈpɑːlədʒi/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1215-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "謝罪",
+        "meaningEn": "something said or done to show that one is sorry"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1215-e01",
+        "english": "Her apology included a promise to replace the neighbor's broken window.",
+        "japanese": "彼女は謝罪し、隣人の割れた窓を弁償すると約束した。",
+        "clozeTarget": "apology",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1215-e02",
+        "english": "A sincere apology can rebuild trust but cannot undo past harm.",
+        "japanese": "誠実な謝罪は信頼を取り戻せても、過去の損害は取り消せない。",
+        "clozeTarget": "apology",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1216",
+    "lemma": "appliance",
+    "pronunciation": "/əˈplaɪəns/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1216-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "電化製品、器具",
+        "meaningEn": "a machine used in the home to perform a particular task"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1216-e01",
+        "english": "The repair shop kept the old appliance running by replacing a belt.",
+        "japanese": "修理店はベルトを交換し、その古い家電を動く状態に保った。",
+        "clozeTarget": "appliance",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1216-e02",
+        "english": "Unplug every small appliance near the sink before leaving for vacation.",
+        "japanese": "旅行に出る前に、流し台近くの小型家電のプラグを抜こう。",
+        "clozeTarget": "appliance",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1217",
+    "lemma": "appointment",
+    "pronunciation": "/əˈpɔɪntmənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1217-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "予約、任命",
+        "meaningEn": "an agreed time to meet someone or the act of choosing someone for a role"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1217-e01",
+        "english": "I booked an appointment with the dentist before the pain worsened.",
+        "japanese": "痛みが悪化する前に、歯科医の予約を入れた。",
+        "clozeTarget": "appointment",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1217-e02",
+        "english": "Her appointment as the club's first woman captain changed its history.",
+        "japanese": "彼女がクラブ初の女性主将に任命され、歴史が変わった。",
+        "clozeTarget": "appointment",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1217-e03",
+        "english": "The mayor announced the appointment of a new library director.",
+        "japanese": "市長は新しい図書館長の任命を発表した。",
+        "clozeTarget": "appointment",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1217-e04",
+        "english": "The clinic texted a reminder about my appointment.",
+        "japanese": "診療所は予約のリマインダーをメッセージで送った。",
+        "clozeTarget": "appointment",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1217-e05",
+        "english": "His board appointment followed years of work on local housing.",
+        "japanese": "彼が理事に任命されたのは、地域の住宅問題に長年取り組んだ後だ。",
+        "clozeTarget": "appointment",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1217-e06",
+        "english": "A scheduling error gave two patients the same appointment time.",
+        "japanese": "予約管理ミスで、二人の患者に同じ時刻が割り当てられた。",
+        "clozeTarget": "appointment",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1218",
+    "lemma": "appreciation",
+    "pronunciation": "/əˌpriːʃiˈeɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1218-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "感謝、正しい評価",
+        "meaningEn": "gratitude or recognition of the value of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1218-e01",
+        "english": "Volunteers received handwritten notes of appreciation from local families.",
+        "japanese": "ボランティアは地元の家族から手書きの感謝状を受け取った。",
+        "clozeTarget": "appreciation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1218-e02",
+        "english": "Walking the old district gave him new appreciation of its architecture.",
+        "japanese": "旧市街を歩き、彼はその建築の価値を改めて理解した。",
+        "clozeTarget": "appreciation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1218-e03",
+        "english": "The scholarship reflects the committee's appreciation of her community work.",
+        "japanese": "奨学金には、委員会が彼女の地域活動を高く評価する気持ちが表れている。",
+        "clozeTarget": "appreciation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1218-e04",
+        "english": "Learning trumpet deepened her appreciation of jazz.",
+        "japanese": "トランペットを習い、彼女のジャズへの理解は深まった。",
+        "clozeTarget": "appreciation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1218-e05",
+        "english": "A short message showed the crew's appreciation for the kitchen staff.",
+        "japanese": "短いメッセージに、乗組員から調理スタッフへの感謝が込められていた。",
+        "clozeTarget": "appreciation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1218-e06",
+        "english": "The guide's explanation increased visitors' appreciation of the paintings.",
+        "japanese": "ガイドの説明で、来館者は絵画の価値をより理解できた。",
+        "clozeTarget": "appreciation",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1219",
+    "lemma": "architecture",
+    "pronunciation": "/ˈɑːrkətektʃər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1219-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "建築、建築様式",
+        "meaningEn": "the design and style of buildings"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1219-e01",
+        "english": "The station's wooden architecture echoes fishing boats built along the coast.",
+        "japanese": "駅の木造建築は、海岸で造られてきた漁船を思わせる。",
+        "clozeTarget": "architecture",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1219-e02",
+        "english": "Students compared a Roman bath's architecture with a modern sports center.",
+        "japanese": "生徒たちはローマ浴場と現代のスポーツセンターの建築を比べた。",
+        "clozeTarget": "architecture",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1220",
+    "lemma": "arrival",
+    "pronunciation": "/əˈraɪvəl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1220-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "到着、到来",
+        "meaningEn": "the act of reaching a place or the time when something comes"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1220-e01",
+        "english": "The arrival of spring rain brought frogs back to the rice fields.",
+        "japanese": "春の雨が降ると、田んぼにカエルが戻ってきた。",
+        "clozeTarget": "arrival",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1220-e02",
+        "english": "The station board displayed each train's arrival time.",
+        "japanese": "駅の掲示板には各列車の到着時刻が表示された。",
+        "clozeTarget": "arrival",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1221",
+    "lemma": "artist",
+    "pronunciation": "/ˈɑːrtɪst/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1221-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "芸術家、アーティスト",
+        "meaningEn": "a person who creates art, especially as a profession"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1221-e01",
+        "english": "The artist carved a tiny city into the end of an ordinary pencil.",
+        "japanese": "その芸術家は普通の鉛筆の端に小さな街を彫った。",
+        "clozeTarget": "artist",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1221-e02",
+        "english": "A local artist painted the clinic with calming scenes of the sea.",
+        "japanese": "地元の画家は診療所に心が落ち着く海の風景を描いた。",
+        "clozeTarget": "artist",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1222",
+    "lemma": "assistance",
+    "pronunciation": "/əˈsɪstəns/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1222-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "援助、手助け",
+        "meaningEn": "help given to someone who needs it"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1222-e01",
+        "english": "A neighbor's assistance helped the family move a piano down three flights.",
+        "japanese": "近所の人の手助けで、その家族はピアノを三階分下ろせた。",
+        "clozeTarget": "assistance",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1222-e02",
+        "english": "Travelers can request assistance at the platform desk for a ramp.",
+        "japanese": "スロープが必要な旅行者はホームの窓口で介助を頼める。",
+        "clozeTarget": "assistance",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1223",
+    "lemma": "atmosphere",
+    "pronunciation": "/ˈætməsfɪr/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1223-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "雰囲気、大気",
+        "meaningEn": "the feeling of a place or the layer of gases around a planet"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1223-e01",
+        "english": "Warm lights gave the bookshop a welcoming atmosphere.",
+        "japanese": "温かい照明が、その本屋に親しみやすい雰囲気を生んだ。",
+        "clozeTarget": "atmosphere",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1223-e02",
+        "english": "Scientists measured how volcanic dust changed the atmosphere after the eruption.",
+        "japanese": "噴火後、火山灰が大気をどう変えたか科学者が測定した。",
+        "clozeTarget": "atmosphere",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1223-e03",
+        "english": "The archive's quiet atmosphere helped researchers study fragile letters.",
+        "japanese": "資料館の静かな雰囲気のおかげで、研究者は傷みやすい手紙を調べられた。",
+        "clozeTarget": "atmosphere",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1223-e04",
+        "english": "Satellite readings showed rising carbon dioxide in the atmosphere.",
+        "japanese": "衛星観測は、大気中の二酸化炭素の増加を示した。",
+        "clozeTarget": "atmosphere",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1223-e05",
+        "english": "Courtyard music created a festive atmosphere at the evening market.",
+        "japanese": "中庭からの音楽が、夜市に祭りのような雰囲気を作った。",
+        "clozeTarget": "atmosphere",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1223-e06",
+        "english": "A pressure drop changed the atmosphere inside the research chamber.",
+        "japanese": "気圧低下で研究室内の環境が変わった。",
+        "clozeTarget": "atmosphere",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1224",
+    "lemma": "attendance",
+    "pronunciation": "/əˈtendəns/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1224-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "出席、出席者数",
+        "meaningEn": "the act of being present or the number of people present"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1224-e01",
+        "english": "Attendance at the free concert exceeded the organizers' estimate by hundreds.",
+        "japanese": "無料コンサートの来場者数は主催者の予想を何百人も上回った。",
+        "clozeTarget": "attendance",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1224-e02",
+        "english": "The school contacted Liam's family after his attendance fell in October.",
+        "japanese": "リアムの十月の出席率が下がり、学校は家族に連絡した。",
+        "clozeTarget": "attendance",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1225",
+    "lemma": "attraction",
+    "pronunciation": "/əˈtrækʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1225-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "魅力、観光名所",
+        "meaningEn": "a quality that draws interest or a place people visit for pleasure"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1225-e01",
+        "english": "The island's main attraction is a lighthouse still guiding fishing boats.",
+        "japanese": "その島の最大の見どころは、今も漁船を導く灯台だ。",
+        "clozeTarget": "attraction",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1225-e02",
+        "english": "Her attraction to astronomy began when she saw Saturn through a telescope.",
+        "japanese": "彼女が天文学に惹かれたのは、望遠鏡で土星を見た時だった。",
+        "clozeTarget": "attraction",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1225-e03",
+        "english": "The night market became an attraction for visitors seeking regional food.",
+        "japanese": "夜市は郷土料理を求める観光客の人気名所になった。",
+        "clozeTarget": "attraction",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1225-e04",
+        "english": "A magnetic attraction pulled the metal filings toward the coil.",
+        "japanese": "磁力によって金属粉がコイルへ引き寄せられた。",
+        "clozeTarget": "attraction",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1225-e05",
+        "english": "The garden's attraction lies in its winding paths and hidden benches.",
+        "japanese": "その庭園の魅力は曲がりくねった小道と隠れたベンチにある。",
+        "clozeTarget": "attraction",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1225-e06",
+        "english": "The museum's unusual attraction lets visitors hear whale songs.",
+        "japanese": "博物館の珍しい見どころでは、来館者がクジラの歌を聞ける。",
+        "clozeTarget": "attraction",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1226",
+    "lemma": "awareness",
+    "pronunciation": "/əˈwernəs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1226-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "認識、意識",
+        "meaningEn": "knowledge or understanding of a situation or issue"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1226-e01",
+        "english": "A school campaign raised awareness of how food waste fills landfills.",
+        "japanese": "学校の活動で、食品廃棄物が埋立地を満たす速さへの認識が広まった。",
+        "clozeTarget": "awareness",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1226-e02",
+        "english": "Training improved workers' awareness of hazards around moving machinery.",
+        "japanese": "研修で、作業員の稼働機械周辺の危険への意識が高まった。",
+        "clozeTarget": "awareness",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1227",
+    "lemma": "bacteria",
+    "pronunciation": "/bækˈtɪriə/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1227-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "細菌",
+        "meaningEn": "tiny living organisms, some of which cause disease"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1227-e01",
+        "english": "Researchers found bacteria in a deep-sea sample that survive without sunlight.",
+        "japanese": "研究者は深海試料から、日光なしで生きられる細菌を発見した。",
+        "clozeTarget": "bacteria",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1227-e02",
+        "english": "Wash the cutting board between tasks to keep bacteria from spreading.",
+        "japanese": "細菌が広がらないよう、作業の合間にまな板を洗おう。",
+        "clozeTarget": "bacteria",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1228",
+    "lemma": "balance",
+    "pronunciation": "/ˈbæləns/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1228-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "均衡、残高",
+        "meaningEn": "a state of equal forces or amounts, or the money left in an account"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1228-e01",
+        "english": "The tightrope walker kept her balance by focusing on the tent's far end.",
+        "japanese": "綱渡りの芸人はテントの向こう端に集中し、均衡を保った。",
+        "clozeTarget": "balance",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1228-e02",
+        "english": "My bank balance changed after the rent payment appeared online.",
+        "japanese": "家賃の引き落としがオンラインに反映され、口座残高が変わった。",
+        "clozeTarget": "balance",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1228-e03",
+        "english": "A healthy balance between work and rest kept the rescue crew alert.",
+        "japanese": "仕事と休息の適切なバランスのおかげで、救助隊は集中力を保てた。",
+        "clozeTarget": "balance",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1229",
+    "lemma": "battery",
+    "pronunciation": "/ˈbætəri/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1229-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "電池、バッテリー",
+        "meaningEn": "a device that stores and supplies electrical power"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1229-e01",
+        "english": "A spare battery kept the wildlife camera recording through the migration.",
+        "japanese": "予備バッテリーのおかげで、野生動物カメラは渡りの間ずっと撮影できた。",
+        "clozeTarget": "battery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1229-e02",
+        "english": "Cold weather shortened the electric bus's battery range on the mountain route.",
+        "japanese": "寒さで山道を走る電気バスの走行距離が短くなった。",
+        "clozeTarget": "battery",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1230",
+    "lemma": "behavior",
+    "pronunciation": "/bɪˈheɪvjər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1230-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "行動、振る舞い",
+        "meaningEn": "the way a person or animal acts in a particular situation"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1230-e01",
+        "english": "The biologist recorded penguin behavior when the tide exposed new pools.",
+        "japanese": "潮が引いて水たまりが現れた時、生物学者はペンギンの行動を記録した。",
+        "clozeTarget": "behavior",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1230-e02",
+        "english": "A small habit can improve your behavior during stressful meetings.",
+        "japanese": "小さな習慣で、緊張する会議での振る舞いを改善できる。",
+        "clozeTarget": "behavior",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1231",
+    "lemma": "belief",
+    "pronunciation": "/bɪˈliːf/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1231-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "信念、確信",
+        "meaningEn": "a feeling that something is true or a principle someone accepts"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1231-e01",
+        "english": "Her belief that every child deserves a library shaped the town's program.",
+        "japanese": "すべての子に図書館が必要だという信念が、町の事業の土台となった。",
+        "clozeTarget": "belief",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1231-e02",
+        "english": "Evidence challenged the old belief that nobody had lived in the valley.",
+        "japanese": "証拠は、谷に人が住んだことはないという古い通説を覆した。",
+        "clozeTarget": "belief",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1232",
+    "lemma": "biology",
+    "pronunciation": "/baɪˈɑːlədʒi/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1232-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "生物学",
+        "meaningEn": "the scientific study of living things"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1232-e01",
+        "english": "A monarch butterfly emerged in class, making biology unforgettable.",
+        "japanese": "授業中にオオカバマダラが羽化し、生物学の授業は忘れられないものになった。",
+        "clozeTarget": "biology",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1232-e02",
+        "english": "Advances in biology help doctors identify inherited diseases earlier.",
+        "japanese": "生物学の進歩で、医師は遺伝性疾患を早期に特定できる。",
+        "clozeTarget": "biology",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1233",
+    "lemma": "birth",
+    "pronunciation": "/bɜːrθ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1233-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "誕生、出生",
+        "meaningEn": "the beginning of a person's or animal's life"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1233-e01",
+        "english": "The birth of three rare cranes was celebrated by conservationists.",
+        "japanese": "希少なツルが三羽誕生し、自然保護活動家たちが祝った。",
+        "clozeTarget": "birth",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1233-e02",
+        "english": "A birth certificate helped her grandfather trace his family history.",
+        "japanese": "出生証明書のおかげで、祖父は家系をたどれた。",
+        "clozeTarget": "birth",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1234",
+    "lemma": "bravery",
+    "pronunciation": "/ˈbreɪvəri/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1234-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "勇気、勇敢さ",
+        "meaningEn": "the quality of facing danger or difficulty without giving up"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1234-e01",
+        "english": "The firefighter's bravery gave residents time to reach the roof.",
+        "japanese": "消防士の勇敢な行動で、住民は屋上へ逃げる時間を得た。",
+        "clozeTarget": "bravery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1234-e02",
+        "english": "It took bravery for the young musician to perform her own song.",
+        "japanese": "その若い音楽家が自作曲を演奏するには勇気が必要だった。",
+        "clozeTarget": "bravery",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1235",
+    "lemma": "breath",
+    "pronunciation": "/breθ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1235-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "息、呼吸",
+        "meaningEn": "the air taken into or sent out of the lungs"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1235-e01",
+        "english": "A slow breath steadied the climber's hands before the final ascent.",
+        "japanese": "ゆっくり息を吸うと、登山者は最後の登りを前に手の震えを抑えられた。",
+        "clozeTarget": "breath",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1235-e02",
+        "english": "Cold air turned each breath into a cloud above the river.",
+        "japanese": "冷気の中、息をするたび川の上に白い雲が浮かんだ。",
+        "clozeTarget": "breath",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1236",
+    "lemma": "celebration",
+    "pronunciation": "/ˌseləˈbreɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1236-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "祝賀、祝い",
+        "meaningEn": "an event or activity marking a happy occasion"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1236-e01",
+        "english": "The village held a celebration after volunteers restored its old footbridge.",
+        "japanese": "ボランティアが古い歩道橋を修復すると、村は祝賀会を開いた。",
+        "clozeTarget": "celebration",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1236-e02",
+        "english": "The couple held a celebration for their anniversary at the station where they met.",
+        "japanese": "その夫婦は初めて出会った駅で記念日を祝った。",
+        "clozeTarget": "celebration",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1237",
+    "lemma": "ceremony",
+    "pronunciation": "/ˈserəˌmoʊni/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1237-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "式典、儀式",
+        "meaningEn": "a formal event held on a special occasion"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1237-e01",
+        "english": "At the opening ceremony, athletes entered behind a children's choir.",
+        "japanese": "開会式で選手たちは児童合唱団に続いて入場した。",
+        "clozeTarget": "ceremony",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1237-e02",
+        "english": "The tea ceremony taught visitors to notice tiny details in the room.",
+        "japanese": "茶会を通して、来訪者は部屋の小さな細部に気づくことを学んだ。",
+        "clozeTarget": "ceremony",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1238",
+    "lemma": "childhood",
+    "pronunciation": "/ˈtʃaɪldhʊd/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1238-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "子ども時代",
+        "meaningEn": "the period of someone's life when they are a child"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1238-e01",
+        "english": "Orange peel brought back memories of childhood winters at her grandmother's.",
+        "japanese": "ミカンの皮が、祖母の家で過ごした子ども時代の冬を思い出させた。",
+        "clozeTarget": "childhood",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1238-e02",
+        "english": "His childhood in a coastal village explains his lifelong love of maps.",
+        "japanese": "海辺の村での子ども時代が、彼の生涯続く地図好きの理由だ。",
+        "clozeTarget": "childhood",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1239",
+    "lemma": "choice",
+    "pronunciation": "/tʃɔɪs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1239-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "選択、選択肢",
+        "meaningEn": "the act or possibility of choosing between alternatives"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1239-e01",
+        "english": "The hikers faced a choice between a short rocky trail and a paved road.",
+        "japanese": "登山者は短い岩道と舗装路のどちらを進むか選ぶことになった。",
+        "clozeTarget": "choice",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1239-e02",
+        "english": "The chef prepared a separate meal because the menu offered no vegan choice.",
+        "japanese": "菜食向けの選択肢がなかったため、料理長は別の食事を用意した。",
+        "clozeTarget": "choice",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1239-e03",
+        "english": "You can lead a horse to water, but you cannot make it drink; the choice is its own.",
+        "japanese": "馬を水辺に連れて行けても、飲ませることはできない。選ぶのは馬自身だ。",
+        "clozeTarget": "choice",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1239-e04",
+        "english": "The panel faced a difficult choice between speed and safety.",
+        "japanese": "委員会は迅速さと安全性のどちらを取るか難しい選択を迫られた。",
+        "clozeTarget": "choice",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1239-e05",
+        "english": "The school gave families a choice of afternoon or evening conferences.",
+        "japanese": "学校は保護者が午後か夕方の面談を選べるようにした。",
+        "clozeTarget": "choice",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1239-e06",
+        "english": "Her choice to return a lost wallet restored the owner's faith in strangers.",
+        "japanese": "落とし物の財布を届けた彼女の選択は、持ち主の人間への信頼を取り戻させた。",
+        "clozeTarget": "choice",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1240",
+    "lemma": "church",
+    "pronunciation": "/tʃɜːrtʃ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1240-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "教会",
+        "meaningEn": "a building used for Christian worship or a local Christian community"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1240-e01",
+        "english": "The stone church opened as a shelter when the river flooded nearby homes.",
+        "japanese": "川が氾濫して近隣が浸水すると、石造りの教会は避難所になった。",
+        "clozeTarget": "church",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1240-e02",
+        "english": "The small church bell marks the start of the Sunday market.",
+        "japanese": "小さな教会の鐘が日曜市の始まりを知らせる。",
+        "clozeTarget": "church",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1241",
+    "lemma": "citizenship",
+    "pronunciation": "/ˈsɪtɪzənʃɪp/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1241-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "市民権、市民としての責任",
+        "meaningEn": "the legal status of belonging to a country and its rights and duties"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1241-e01",
+        "english": "The language class helped new residents prepare for the citizenship interview.",
+        "japanese": "語学教室は新住民が市民権の面接に備えるのを助けた。",
+        "clozeTarget": "citizenship",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1241-e02",
+        "english": "The debate club teaches citizenship through discussions of local policies.",
+        "japanese": "討論部は地域政策の話し合いを通して市民としての責任を教える。",
+        "clozeTarget": "citizenship",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1242",
+    "lemma": "classroom",
+    "pronunciation": "/ˈklæsˌruːm/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1242-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "教室",
+        "meaningEn": "a room where a class of students is taught"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1242-e01",
+        "english": "A window garden turned the classroom into a lesson about pollination.",
+        "japanese": "窓辺の菜園は教室を受粉について学ぶ場に変えた。",
+        "clozeTarget": "classroom",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1242-e02",
+        "english": "The teacher rearranged the classroom so wheelchair users could reach each table.",
+        "japanese": "教師は車いすの生徒が各机へ行けるよう教室の配置を変えた。",
+        "clozeTarget": "classroom",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1243",
+    "lemma": "clothing",
+    "pronunciation": "/ˈkloʊðɪŋ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1243-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "衣類、服装",
+        "meaningEn": "things worn on the body, especially for protection or warmth"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1243-e01",
+        "english": "The expedition packed lightweight clothing that dried quickly in mountain fog.",
+        "japanese": "遠征隊は山霧の中でもすぐ乾く軽量の衣類を詰めた。",
+        "clozeTarget": "clothing",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1243-e02",
+        "english": "The theater archive preserves clothing from the original production.",
+        "japanese": "劇場の資料館は初演で使われた衣装を保存している。",
+        "clozeTarget": "clothing",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1244",
+    "lemma": "coast",
+    "pronunciation": "/koʊst/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1244-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "海岸、沿岸",
+        "meaningEn": "the land beside the sea"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1244-e01",
+        "english": "A chain of lighthouses protects ships along the rocky coast.",
+        "japanese": "灯台が連なり、岩の多い海岸沿いを行く船を守っている。",
+        "clozeTarget": "coast",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1244-e02",
+        "english": "The family cycled down the coast, stopping at fishing villages for lunch.",
+        "japanese": "一家は海岸沿いを自転車で走り、漁村で昼食をとった。",
+        "clozeTarget": "coast",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1245",
+    "lemma": "comfort",
+    "pronunciation": "/ˈkʌmfərt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1245-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "慰め、安らぎ",
+        "meaningEn": "a feeling of ease or relief, especially during difficulty"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1245-e01",
+        "english": "Her brother's familiar jokes brought comfort during the long hospital stay.",
+        "japanese": "長い入院中、兄の聞き慣れた冗談が彼女の慰めになった。",
+        "clozeTarget": "comfort",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1245-e02",
+        "english": "The old quilt offered more comfort than the hotel's expensive blanket.",
+        "japanese": "その古いキルトの方がホテルの高価な毛布より心地よかった。",
+        "clozeTarget": "comfort",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1245-e03",
+        "english": "Feeding the horses each morning gave him comfort after retirement.",
+        "japanese": "引退後、毎朝馬に餌をやることが彼の心を落ち着かせた。",
+        "clozeTarget": "comfort",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1245-e04",
+        "english": "Ginger tea brought comfort to the soaked hikers.",
+        "japanese": "ショウガ湯がずぶぬれの登山者たちをほっとさせた。",
+        "clozeTarget": "comfort",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1245-e05",
+        "english": "A postcard from home was a small comfort to the homesick student.",
+        "japanese": "故郷からの絵はがきは、ホームシックの学生にとってささやかな慰めだった。",
+        "clozeTarget": "comfort",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1245-e06",
+        "english": "The nurse offered words of comfort before the difficult procedure.",
+        "japanese": "看護師は難しい処置の前に患者を安心させる言葉をかけた。",
+        "clozeTarget": "comfort",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1246",
+    "lemma": "complaint",
+    "pronunciation": "/kəmˈpleɪnt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1246-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "苦情、不満",
+        "meaningEn": "a statement that something is wrong or unsatisfactory"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1246-e01",
+        "english": "The restaurant addressed each complaint about its new reservation system.",
+        "japanese": "そのレストランは新しい予約システムへの苦情に一つずつ対応した。",
+        "clozeTarget": "complaint",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1246-e02",
+        "english": "A persistent cough was her only complaint after the mountain race.",
+        "japanese": "山岳レースの後に彼女に残った症状は、長引くせきだけだった。",
+        "clozeTarget": "complaint",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1247",
+    "lemma": "conclusion",
+    "pronunciation": "/kənˈkluːʒən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1247-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "結論、終わり",
+        "meaningEn": "a judgment reached after examining evidence, or the end of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1247-e01",
+        "english": "Researchers reached the conclusion that the wetland absorbs more carbon than expected.",
+        "japanese": "研究者たちは、その湿地が予想以上の炭素を吸収すると結論づけた。",
+        "clozeTarget": "conclusion",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1247-e02",
+        "english": "At the conclusion of the trial, the judge thanked the witnesses.",
+        "japanese": "裁判の終わりに、裁判官は証人たちに謝意を述べた。",
+        "clozeTarget": "conclusion",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1247-e03",
+        "english": "The report's conclusion differs from the headline shared online.",
+        "japanese": "報告書の結論は、ネットで拡散した見出しと異なる。",
+        "clozeTarget": "conclusion",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1248",
+    "lemma": "connection",
+    "pronunciation": "/kəˈnekʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1248-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "つながり、接続",
+        "meaningEn": "a relationship or link between people, things, or places"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1248-e01",
+        "english": "The historian found a connection between the family recipe and an old ship's log.",
+        "japanese": "歴史家は家庭料理と古い航海日誌のつながりを見つけた。",
+        "clozeTarget": "connection",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1248-e02",
+        "english": "A reliable internet connection let the rural clinic consult city specialists.",
+        "japanese": "安定したネット接続のおかげで、地方の診療所は都市の専門医に相談できた。",
+        "clozeTarget": "connection",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1249",
+    "lemma": "construction",
+    "pronunciation": "/kənˈstrʌkʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1249-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "建設、構造",
+        "meaningEn": "the process of building something or the way it is built"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1249-e01",
+        "english": "Construction of the footbridge paused while engineers checked the riverbed.",
+        "japanese": "技術者が川底を確認する間、歩道橋の建設は一時停止した。",
+        "clozeTarget": "construction",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1249-e02",
+        "english": "The nest's unusual construction kept rain from reaching the eggs.",
+        "japanese": "巣の独特な構造のおかげで、雨が卵まで届かなかった。",
+        "clozeTarget": "construction",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1250",
+    "lemma": "consumer",
+    "pronunciation": "/kənˈsuːmər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1250-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "消費者",
+        "meaningEn": "a person who buys or uses goods and services"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1250-e01",
+        "english": "The report shows how a consumer can compare the lifetime cost of heaters.",
+        "japanese": "その報告書は暖房器具の長期費用を消費者が比較する方法を示す。",
+        "clozeTarget": "consumer",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1250-e02",
+        "english": "Consumers returned bottles after the deposit system began.",
+        "japanese": "デポジット制度が始まると、消費者は瓶を返却した。",
+        "clozeTarget": "consumers",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1251",
+    "lemma": "contact",
+    "pronunciation": "/ˈkɑːntækt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1251-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "連絡先、接触",
+        "meaningEn": "communication with someone or the state of touching"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1251-e01",
+        "english": "The museum listed an emergency contact for visitors taking the cave tour.",
+        "japanese": "博物館は洞窟ツアー参加者の緊急連絡先を記載した。",
+        "clozeTarget": "contact",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1251-e02",
+        "english": "Direct contact with the chemical can irritate skin, so wear gloves.",
+        "japanese": "その薬品に直接触れると肌が荒れるため、手袋を着けよう。",
+        "clozeTarget": "contact",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1251-e03",
+        "english": "The rescue pilot lost radio contact with the mountain station in the storm.",
+        "japanese": "嵐の中、救助パイロットは山岳基地との無線連絡を失った。",
+        "clozeTarget": "contact",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1251-e04",
+        "english": "Keep the emergency contact card inside your child's backpack.",
+        "japanese": "緊急連絡先カードを子どものリュックに入れておこう。",
+        "clozeTarget": "contact",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1251-e05",
+        "english": "The biologist avoided contact with nesting birds to reduce stress.",
+        "japanese": "生物学者は鳥へのストレスを減らすため巣作り中の鳥に触れなかった。",
+        "clozeTarget": "contact",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1251-e06",
+        "english": "A former classmate put us in contact with a translator in Lima.",
+        "japanese": "昔の同級生がリマの翻訳者を紹介してくれた。",
+        "clozeTarget": "contact",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1252",
+    "lemma": "content",
+    "pronunciation": "/ˈkɑːntent/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1252-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "中身、内容",
+        "meaningEn": "the things contained in something or the information it presents"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1252-e01",
+        "english": "The contents of the sealed envelope were absent from the court record.",
+        "japanese": "封印された封筒の中身は裁判記録に記載されていなかった。",
+        "clozeTarget": "contents",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1252-e02",
+        "english": "The guide summarized the content of each gallery before the group arrived.",
+        "japanese": "団体が来る前に、ガイドは各展示室の内容を要約した。",
+        "clozeTarget": "content",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1252-e03",
+        "english": "A label listed the contents of the emergency kit in three languages.",
+        "japanese": "ラベルには救急キットの中身が三か国語で記されていた。",
+        "clozeTarget": "contents",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1252-e04",
+        "english": "Readers praised the article's content but questioned its dramatic headline.",
+        "japanese": "読者は記事の内容を評価したが、大げさな見出しには疑問を呈した。",
+        "clozeTarget": "content",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1252-e05",
+        "english": "The museum's online content includes interviews with retired shipbuilders.",
+        "japanese": "博物館のオンライン資料には引退した造船工へのインタビューがある。",
+        "clozeTarget": "content",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1252-e06",
+        "english": "Customs officers inspected the contents of the wooden crate.",
+        "japanese": "税関職員は木箱の中身を検査した。",
+        "clozeTarget": "contents",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1253",
+    "lemma": "contrast",
+    "pronunciation": "/ˈkɑːntræst/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1253-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "対照、違い",
+        "meaningEn": "a clear difference between two things placed side by side"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1253-e01",
+        "english": "The contrast between the silent forest and crowded station stayed with her.",
+        "japanese": "静かな森と混雑した駅との対照が彼女の心に残った。",
+        "clozeTarget": "contrast",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1253-e02",
+        "english": "In contrast to the paper map, the phone showed live road closures.",
+        "japanese": "紙の地図とは対照的に、携帯電話は通行止めを即時表示した。",
+        "clozeTarget": "contrast",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1253-e03",
+        "english": "Light and shadow create a striking contrast in the exhibit.",
+        "japanese": "展示では光と影が鮮やかな対照を生んでいる。",
+        "clozeTarget": "contrast",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1254",
+    "lemma": "conversation",
+    "pronunciation": "/ˌkɑːnvərˈseɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1254-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "会話、話し合い",
+        "meaningEn": "an informal talk between people"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1254-e01",
+        "english": "A conversation with the night nurse revealed why the schedule kept failing.",
+        "japanese": "夜勤看護師との会話で、勤務表が何度も破綻する理由が分かった。",
+        "clozeTarget": "conversation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1254-e02",
+        "english": "The rivals continued their conversation over tea after the debate.",
+        "japanese": "討論後、ライバル同士はお茶を飲みながら話し続けた。",
+        "clozeTarget": "conversation",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1255",
+    "lemma": "countryside",
+    "pronunciation": "/ˈkʌntriˌsaɪd/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1255-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "田園地帯、田舎",
+        "meaningEn": "land outside towns and cities, especially open rural areas"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1255-e01",
+        "english": "The train crossed countryside where wind turbines turned above fields.",
+        "japanese": "列車は、畑の上で風力タービンが回る田園地帯を走り抜けた。",
+        "clozeTarget": "countryside",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1255-e02",
+        "english": "After years in the capital, he missed the quiet countryside near home.",
+        "japanese": "首都で何年も暮らした後、彼は故郷近くの静かな田園が恋しくなった。",
+        "clozeTarget": "countryside",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1256",
+    "lemma": "credit",
+    "pronunciation": "/ˈkredɪt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1256-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "功績の評価、信用",
+        "meaningEn": "recognition for achievement or trust that allows borrowing"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1256-e01",
+        "english": "Give credit where credit is due: volunteers designed the whole trail.",
+        "japanese": "正当に評価すべき人に功績を認めよう。その遊歩道はボランティアが設計した。",
+        "clozeTarget": "credit",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1256-e02",
+        "english": "The shop offers credit to customers who need months to pay.",
+        "japanese": "その店は支払いに数か月必要な客に掛け売りを認める。",
+        "clozeTarget": "credit",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1256-e03",
+        "english": "The film's end credits gave credit to local translators who preserved oral histories.",
+        "japanese": "映画のエンドロールは、口承史を残した地元の翻訳者たちに功績を認めていた。",
+        "clozeTarget": "credit",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1257",
+    "lemma": "criticism",
+    "pronunciation": "/ˈkrɪtɪˌsɪzəm/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1257-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "批判、批評",
+        "meaningEn": "comments that point out faults or judge the quality of something"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1257-e01",
+        "english": "The director welcomed criticism from residents before finalizing the park design.",
+        "japanese": "責任者は公園の設計を確定する前に住民の批判を歓迎した。",
+        "clozeTarget": "criticism",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1257-e02",
+        "english": "Her criticism of the novel focused on its shallow treatment of migration.",
+        "japanese": "彼女の小説評は移民を表面的に扱う点に焦点を当てた。",
+        "clozeTarget": "criticism",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1258",
+    "lemma": "crowd",
+    "pronunciation": "/kraʊd/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1258-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "群衆、人混み",
+        "meaningEn": "a large group of people gathered together"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1258-e01",
+        "english": "The crowd fell silent as the final lantern drifted across the lake.",
+        "japanese": "最後の灯籠が湖を流れると、群衆は静まり返った。",
+        "clozeTarget": "crowd",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1258-e02",
+        "english": "A small crowd gathered to watch the baker shape dough.",
+        "japanese": "パン職人が生地を成形するのを見ようと、小さな人だかりができた。",
+        "clozeTarget": "crowd",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1258-e03",
+        "english": "The crowd parted so paramedics could reach the station platform.",
+        "japanese": "救急隊員が駅のホームへ行けるよう、群衆は道を空けた。",
+        "clozeTarget": "crowd",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1258-e04",
+        "english": "Schoolchildren followed the guide through the fossil hall in a crowd.",
+        "japanese": "小学生たちは一団となってガイドの後を化石展示室へ進んだ。",
+        "clozeTarget": "crowd",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1258-e05",
+        "english": "The parade crowd cheered when the local team passed city hall.",
+        "japanese": "地元チームが市庁舎の前を通ると、沿道の群衆が歓声を上げた。",
+        "clozeTarget": "crowd",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1258-e06",
+        "english": "Even a large crowd grew quiet during the candlelight ceremony.",
+        "japanese": "大勢の人々も、ろうそくを灯す式の間は静かになった。",
+        "clozeTarget": "crowd",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1259",
+    "lemma": "darkness",
+    "pronunciation": "/ˈdɑːrknəs/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1259-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "暗闇、暗さ",
+        "meaningEn": "the absence of light or a state of being difficult to understand"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1259-e01",
+        "english": "Solar lamps kept the path visible after darkness fell over the campsite.",
+        "japanese": "キャンプ場が暗闇に包まれた後も、太陽光ランプが道を照らした。",
+        "clozeTarget": "darkness",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1259-e02",
+        "english": "The detective's notes shed light on a mystery that had remained in darkness.",
+        "japanese": "刑事のメモは、闇に包まれていた謎に光を当てた。",
+        "clozeTarget": "darkness",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1260",
+    "lemma": "death",
+    "pronunciation": "/deθ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1260-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "死、死亡",
+        "meaningEn": "the end of a person's or animal's life"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1260-e01",
+        "english": "The death of the old oak prompted the town to plant trees by the river.",
+        "japanese": "古いオークの木が枯れ、町は川沿いに木を植えた。",
+        "clozeTarget": "death",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1260-e02",
+        "english": "The saying that nothing is certain but death and taxes survived another election.",
+        "japanese": "死と税金以外に確かなものはないという言葉は、また選挙を乗り越えた。",
+        "clozeTarget": "death",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1261",
+    "lemma": "definition",
+    "pronunciation": "/ˌdefəˈnɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1261-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "定義、明確な説明",
+        "meaningEn": "a statement that explains the exact meaning of a word or idea"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1261-e01",
+        "english": "The dictionary's definition of migration includes seasonal movement by animals.",
+        "japanese": "その辞書の「移動」の定義には、動物の季節的移動も含まれる。",
+        "clozeTarget": "definition",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1261-e02",
+        "english": "The team agreed on a definition of success before the project began.",
+        "japanese": "チームは事業開始前に成功の定義を決めた。",
+        "clozeTarget": "definition",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1262",
+    "lemma": "delivery",
+    "pronunciation": "/dɪˈlɪvəri/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1262-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "配達、届けること",
+        "meaningEn": "the act of taking something to a person or place, or a style of speaking"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1262-e01",
+        "english": "Fresh-water delivery reached the island before the heat wave intensified.",
+        "japanese": "熱波が強まる前に、真水が島へ届けられた。",
+        "clozeTarget": "delivery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1262-e02",
+        "english": "Her delivery of the closing speech stayed calm despite the noisy hall.",
+        "japanese": "騒がしい会場でも、彼女は落ち着いて締めくくりの演説をした。",
+        "clozeTarget": "delivery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1262-e03",
+        "english": "The hospital improved delivery of medicine to remote villages.",
+        "japanese": "病院は遠隔地の村への薬の配達を改善した。",
+        "clozeTarget": "delivery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1262-e04",
+        "english": "The actor's delivery made the difficult lines memorable.",
+        "japanese": "俳優の台詞回しによって、難しい台詞が印象に残った。",
+        "clozeTarget": "delivery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1262-e05",
+        "english": "The bakery guarantees morning delivery for orders placed by midnight.",
+        "japanese": "そのパン屋は深夜までの注文を朝に届けると保証する。",
+        "clozeTarget": "delivery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1262-e06",
+        "english": "The comedian's dry delivery made the audience laugh even harder.",
+        "japanese": "コメディアンの淡々とした話し方が観客をさらに笑わせた。",
+        "clozeTarget": "delivery",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1263",
+    "lemma": "department",
+    "pronunciation": "/dɪˈpɑːrtmənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1263-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "部門、学科",
+        "meaningEn": "a section of an organization or a field of study at a university"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1263-e01",
+        "english": "The hospital's pediatric department opened a playroom beside the recovery ward.",
+        "japanese": "病院の小児科は回復病棟の隣に遊び場を開設した。",
+        "clozeTarget": "department",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1263-e02",
+        "english": "She transferred to the history department to study medieval trade routes.",
+        "japanese": "彼女は中世の交易路を学ぶため歴史学科へ移った。",
+        "clozeTarget": "department",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1264",
+    "lemma": "description",
+    "pronunciation": "/dɪˈskrɪpʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1264-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "説明、描写",
+        "meaningEn": "a statement that tells what someone or something is like"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1264-e01",
+        "english": "The witness gave a detailed description of the blue van near the bridge.",
+        "japanese": "目撃者は橋の近くにいた青いバンを詳しく説明した。",
+        "clozeTarget": "description",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1264-e02",
+        "english": "The novel's description of the winter harbor made readers imagine its salty air.",
+        "japanese": "小説の冬の港の描写から、読者は潮の香りまで思い浮かべた。",
+        "clozeTarget": "description",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1265",
+    "lemma": "diet",
+    "pronunciation": "/ˈdaɪət/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1265-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "食事、食生活",
+        "meaningEn": "the kinds of food a person or animal regularly eats"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1265-e01",
+        "english": "A diet rich in beans and vegetables helped the village lower food costs.",
+        "japanese": "豆と野菜中心の食生活で、村は食費を抑えられた。",
+        "clozeTarget": "diet",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1265-e02",
+        "english": "The veterinarian changed the parrot's diet after its feathers lost their shine.",
+        "japanese": "羽につやがなくなり、獣医はオウムの食事を見直した。",
+        "clozeTarget": "diet",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1265-e03",
+        "english": "Researchers compared the diet of city foxes with that of forest foxes.",
+        "japanese": "研究者は都市と森のキツネの食生活を比べた。",
+        "clozeTarget": "diet",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1265-e04",
+        "english": "Her diet changed when she began training for a long-distance swim.",
+        "japanese": "長距離水泳の練習を始め、彼女の食事内容は変わった。",
+        "clozeTarget": "diet",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1265-e05",
+        "english": "A balanced diet supplied energy for the harvest season.",
+        "japanese": "栄養の整った食事が収穫期のエネルギーを補った。",
+        "clozeTarget": "diet",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1265-e06",
+        "english": "The report links the bird's diet to changes in the nearby marsh.",
+        "japanese": "報告書はその鳥の食性を近くの湿地の変化と結びつける。",
+        "clozeTarget": "diet",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1266",
+    "lemma": "direction",
+    "pronunciation": "/dəˈrekʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1266-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "方向、指示",
+        "meaningEn": "the way something moves, or guidance about what to do"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1266-e01",
+        "english": "The compass showed the direction of a narrow pass through the mountains.",
+        "japanese": "コンパスは山中の狭い峠の方角を示した。",
+        "clozeTarget": "direction",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1266-e02",
+        "english": "The recipe gave clear direction on when to add the saffron.",
+        "japanese": "レシピにはサフランを加えるタイミングが明確に示されていた。",
+        "clozeTarget": "direction",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1266-e03",
+        "english": "A wind-direction change pushed the sailboat toward shore.",
+        "japanese": "風向きが変わり、ヨットは岸へ押し流された。",
+        "clozeTarget": "direction",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1266-e04",
+        "english": "The manager's direction helped the crew handle an unexpected delay.",
+        "japanese": "責任者の指示で、乗組員は予想外の遅れに対処できた。",
+        "clozeTarget": "direction",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1266-e05",
+        "english": "The sign showed the direction of the nearest evacuation center.",
+        "japanese": "標識は最寄りの避難所の方向を示した。",
+        "clozeTarget": "direction",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1266-e06",
+        "english": "The hikers might have missed the canyon trail without direction from the map.",
+        "japanese": "地図の案内がなければ、登山者は渓谷の道を見落としたかもしれない。",
+        "clozeTarget": "direction",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1267",
+    "lemma": "disagreement",
+    "pronunciation": "/ˌdɪsəˈɡriːmənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1267-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "意見の不一致、口論",
+        "meaningEn": "a situation in which people have different opinions"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1267-e01",
+        "english": "A disagreement over the bridge's color ended when children painted a mural.",
+        "japanese": "橋の色をめぐる意見の対立は、子どもたちが壁画を描いて収まった。",
+        "clozeTarget": "disagreement",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1267-e02",
+        "english": "Despite their disagreement about funding, the doctors shared one goal.",
+        "japanese": "資金について意見は違っても、医師たちの目標は同じだった。",
+        "clozeTarget": "disagreement",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1268",
+    "lemma": "discovery",
+    "pronunciation": "/dɪˈskʌvəri/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1268-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "発見",
+        "meaningEn": "the act of finding something that was not known before"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1268-e01",
+        "english": "The discovery of a Roman coin beneath the playground changed the excavation plan.",
+        "japanese": "遊び場の下からローマ時代の硬貨が見つかり、発掘計画が変わった。",
+        "clozeTarget": "discovery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1268-e02",
+        "english": "Her discovery that seaweed gives the restaurant's soup its flavor solved the mystery.",
+        "japanese": "海藻が店のスープの味の決め手だと彼女が発見し、謎が解けた。",
+        "clozeTarget": "discovery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1268-e03",
+        "english": "A cave discovery revealed paintings untouched for thousands of years.",
+        "japanese": "洞窟での発見により、何千年も手つかずの壁画が明らかになった。",
+        "clozeTarget": "discovery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1268-e04",
+        "english": "The astronomer's discovery of a small moon drew attention to the observatory.",
+        "japanese": "天文学者が小さな衛星を発見し、天文台が注目を集めた。",
+        "clozeTarget": "discovery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1268-e05",
+        "english": "The discovery of clean water beneath the school allowed its garden to flourish.",
+        "japanese": "学校の地下で清水が見つかり、菜園が豊かに育った。",
+        "clozeTarget": "discovery",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1268-e06",
+        "english": "One discovery changed investigators' reading of the old photograph.",
+        "japanese": "ある発見が、古い写真に対する捜査官の見方を変えた。",
+        "clozeTarget": "discovery",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1269",
+    "lemma": "division",
+    "pronunciation": "/dɪˈvɪʒən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1269-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "分割、部門",
+        "meaningEn": "the act of separating something into parts or a section of an organization"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1269-e01",
+        "english": "The division of the garden into plots gave each family room to grow vegetables.",
+        "japanese": "庭を区画に分け、各家庭が野菜を育てる場所を得た。",
+        "clozeTarget": "division",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1269-e02",
+        "english": "The company's research division tests materials in extreme temperatures.",
+        "japanese": "会社の研究部門は極端な温度で素材を試験する。",
+        "clozeTarget": "division",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1269-e03",
+        "english": "A clear division of duties prevented confusion during the rescue.",
+        "japanese": "役割を明確に分担し、救助活動中の混乱を防いだ。",
+        "clozeTarget": "division",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1269-e04",
+        "english": "The division between the two districts follows the old canal.",
+        "japanese": "二地区の境界線は古い運河に沿っている。",
+        "clozeTarget": "division",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1269-e05",
+        "english": "Her report examines the division of labor on family farms.",
+        "japanese": "彼女の報告書は家族経営農場の労働分担を検討する。",
+        "clozeTarget": "division",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1269-e06",
+        "english": "A new division will coordinate research across three campuses.",
+        "japanese": "新設部門が三つのキャンパスにまたがる研究を調整する。",
+        "clozeTarget": "division",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1270",
+    "lemma": "doctor",
+    "pronunciation": "/ˈdɑːktər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1270-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "医師、博士",
+        "meaningEn": "a person trained to treat illness or someone holding a doctoral degree"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1270-e01",
+        "english": "The doctor recognized a rare infection from a photograph of the rash.",
+        "japanese": "医師は発疹の写真を見て、珍しい感染症を見抜いた。",
+        "clozeTarget": "doctor",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1270-e02",
+        "english": "A doctor of linguistics helped record the village's endangered dialect.",
+        "japanese": "言語学博士が村の消滅危機にある方言の記録を手伝った。",
+        "clozeTarget": "doctor",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1270-e03",
+        "english": "The family doctor visited the farm when the injured shepherd could not travel.",
+        "japanese": "羊飼いが負傷して移動できず、かかりつけ医が農場を訪れた。",
+        "clozeTarget": "doctor",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1271",
+    "lemma": "duty",
+    "pronunciation": "/ˈduːti/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1271-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "義務、職務",
+        "meaningEn": "a responsibility someone is expected or required to fulfill"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1271-e01",
+        "english": "It is every passenger's duty to keep the emergency exit clear.",
+        "japanese": "非常口をふさがないのは乗客一人ひとりの義務だ。",
+        "clozeTarget": "duty",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1271-e02",
+        "english": "The ranger's night duty included checking turtle nests along the beach.",
+        "japanese": "レンジャーの夜間業務には浜辺のカメの巣の確認が含まれた。",
+        "clozeTarget": "duty",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1272",
+    "lemma": "earth",
+    "pronunciation": "/ɜːrθ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1272-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "地球、土",
+        "meaningEn": "the planet on which we live or the soil covering the ground"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1272-e01",
+        "english": "The probe sent its last signal to Earth before entering the planet's shadow.",
+        "japanese": "探査機は惑星の影に入る前に最後の信号を地球へ送った。",
+        "clozeTarget": "earth",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1272-e02",
+        "english": "Gardeners mixed compost into the earth so young trees could take root.",
+        "japanese": "庭師は若木が根付くよう、土に堆肥を混ぜた。",
+        "clozeTarget": "earth",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1272-e03",
+        "english": "From orbit, the astronaut watched a storm spiral over the Earth.",
+        "japanese": "宇宙飛行士は軌道上から嵐が地球を渦巻くのを眺めた。",
+        "clozeTarget": "earth",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1273",
+    "lemma": "editor",
+    "pronunciation": "/ˈedɪtər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1273-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "編集者",
+        "meaningEn": "a person who prepares written material for publication"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1273-e01",
+        "english": "The editor asked the reporter to verify the date before publication.",
+        "japanese": "編集者は公開前に日付を確認するよう記者に求めた。",
+        "clozeTarget": "editor",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1273-e02",
+        "english": "A patient editor helped the young poet preserve her unusual voice.",
+        "japanese": "辛抱強い編集者は若い詩人が独自の表現を保つのを助けた。",
+        "clozeTarget": "editor",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1274",
+    "lemma": "election",
+    "pronunciation": "/ɪˈlekʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1274-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "選挙",
+        "meaningEn": "a process in which people vote to choose someone for a position"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1274-e01",
+        "english": "The election drew record turnout after candidates debated public transport.",
+        "japanese": "候補者が公共交通について討論し、その選挙は過去最高の投票率になった。",
+        "clozeTarget": "election",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1274-e02",
+        "english": "Election officials counted the final ballots by hand when the scanner failed.",
+        "japanese": "読み取り機が故障し、選挙管理担当者は最後の票を手で数えた。",
+        "clozeTarget": "election",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1275",
+    "lemma": "electricity",
+    "pronunciation": "/ɪˌlekˈtrɪsəti/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1275-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "電気",
+        "meaningEn": "a form of energy used to power lights and machines"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1275-e01",
+        "english": "The clinic stored electricity from rooftop panels for cloudy days.",
+        "japanese": "診療所は曇りの日に備え、屋上パネルで発電した電気を蓄えた。",
+        "clozeTarget": "electricity",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1275-e02",
+        "english": "A fallen tree left the fishing village without electricity until sunrise.",
+        "japanese": "倒木により、漁村は日の出まで停電した。",
+        "clozeTarget": "electricity",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1276",
+    "lemma": "emotion",
+    "pronunciation": "/ɪˈmoʊʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1276-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "感情",
+        "meaningEn": "a strong feeling such as happiness, fear, or anger"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1276-e01",
+        "english": "The actor conveyed emotion with a pause rather than a raised voice.",
+        "japanese": "俳優は声を荒らげず、間を置くことで感情を伝えた。",
+        "clozeTarget": "emotion",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1276-e02",
+        "english": "A field journal helped the astronaut understand her emotion during isolation.",
+        "japanese": "観察日誌は、宇宙飛行士が孤立中の自分の感情を理解する助けになった。",
+        "clozeTarget": "emotion",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1277",
+    "lemma": "ending",
+    "pronunciation": "/ˈendɪŋ/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1277-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "結末、終わり",
+        "meaningEn": "the final part of a story, event, or period"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1277-e01",
+        "english": "The film's quiet ending stayed with viewers longer than its dramatic opening.",
+        "japanese": "映画の静かな結末は、劇的な冒頭より長く観客の心に残った。",
+        "clozeTarget": "ending",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1277-e02",
+        "english": "An unexpected ending made the detective story a family favorite.",
+        "japanese": "意外な結末のおかげで、その推理小説は家族のお気に入りになった。",
+        "clozeTarget": "ending",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1278",
+    "lemma": "engineer",
+    "pronunciation": "/ˌendʒɪˈnɪr/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1278-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "技術者、エンジニア",
+        "meaningEn": "a person who designs or builds machines, structures, or systems"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1278-e01",
+        "english": "The engineer designed a bridge joint that expands safely in summer heat.",
+        "japanese": "技術者は夏の暑さでも安全に伸縮する橋の継ぎ目を設計した。",
+        "clozeTarget": "engineer",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1278-e02",
+        "english": "A sound engineer captured bats' faint calls inside the cave.",
+        "japanese": "音響技師は洞窟内のコウモリのかすかな鳴き声を録音した。",
+        "clozeTarget": "engineer",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1278-e03",
+        "english": "The train engineer slowed the locomotive when fog covered the crossing.",
+        "japanese": "踏切が霧に覆われ、列車の運転士は機関車を減速させた。",
+        "clozeTarget": "engineer",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1279",
+    "lemma": "entertainment",
+    "pronunciation": "/ˌentərˈteɪnmənt/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1279-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "娯楽、もてなし",
+        "meaningEn": "activities or performances that amuse people"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1279-e01",
+        "english": "The festival offered entertainment from shadow puppets to a jazz quartet.",
+        "japanese": "祭りでは影絵芝居からジャズ四重奏まで楽しめた。",
+        "clozeTarget": "entertainment",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1279-e02",
+        "english": "A deck of worn cards was the cabin's only entertainment during the storm.",
+        "japanese": "嵐の間、その小屋で唯一の娯楽は使い古したトランプだった。",
+        "clozeTarget": "entertainment",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1280",
+    "lemma": "entry",
+    "pronunciation": "/ˈentri/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1280-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "入場、記入項目",
+        "meaningEn": "the act of going into a place or one item in a record or competition"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1280-e01",
+        "english": "Entry to the greenhouse is limited while its rare orchids are blooming.",
+        "japanese": "珍しいランが咲いている間、温室への入場は制限される。",
+        "clozeTarget": "entry",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1280-e02",
+        "english": "The last entry in her journal described sunrise over the desert.",
+        "japanese": "彼女の日記の最後の記述には砂漠の日の出が描かれていた。",
+        "clozeTarget": "entry",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1280-e03",
+        "english": "The museum recorded every entry and exit during the overnight experiment.",
+        "japanese": "博物館は夜通しの実験中、すべての入退場を記録した。",
+        "clozeTarget": "entry",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1280-e04",
+        "english": "His poem won first prize among more than two hundred entries.",
+        "japanese": "彼の詩は二百を超える応募作品の中から最優秀賞に選ばれた。",
+        "clozeTarget": "entries",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1280-e05",
+        "english": "A broken lock prevented entry to the archive's oldest room.",
+        "japanese": "錠前が壊れ、資料館で最も古い部屋に入れなかった。",
+        "clozeTarget": "entry",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1280-e06",
+        "english": "The dictionary's newest entry is a term adopted from online gaming.",
+        "japanese": "辞書の新しい項目にはオンラインゲームから採用された語が載る。",
+        "clozeTarget": "entry",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1281",
+    "lemma": "equality",
+    "pronunciation": "/ɪˈkwɑːləti/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1281-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "平等",
+        "meaningEn": "the state of having the same rights, status, or opportunities"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1281-e01",
+        "english": "The campaign for equality led the orchestra to change its audition process.",
+        "japanese": "平等を求める活動を受け、オーケストラは選考方法を変えた。",
+        "clozeTarget": "equality",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1281-e02",
+        "english": "The treaty promises equality before the law to every resident.",
+        "japanese": "その条約はすべての住民に法の下の平等を約束する。",
+        "clozeTarget": "equality",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1282",
+    "lemma": "expectation",
+    "pronunciation": "/ˌekspekˈteɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1282-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "期待、予想",
+        "meaningEn": "a belief about what will happen or what someone should do"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1282-e01",
+        "english": "The team's expectation of a quick victory vanished when a storm delayed the race.",
+        "japanese": "嵐でレースが延期され、チームの早期勝利への期待は消えた。",
+        "clozeTarget": "expectation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1282-e02",
+        "english": "Parents discussed their expectation that every student learn basic first aid.",
+        "japanese": "保護者は全生徒が応急手当の基本を学ぶことへの期待を話し合った。",
+        "clozeTarget": "expectation",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1283",
+    "lemma": "expression",
+    "pronunciation": "/ɪkˈspreʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1283-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "表現、表情",
+        "meaningEn": "a way of communicating an idea or showing a feeling on the face"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1283-e01",
+        "english": "Her expression changed when a familiar melody began at the station.",
+        "japanese": "駅で聞き慣れたメロディーが流れ、彼女の表情が変わった。",
+        "clozeTarget": "expression",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1283-e02",
+        "english": "The phrase is an expression of gratitude used by sailors after a safe voyage.",
+        "japanese": "その表現は、航海を無事に終えた船乗りが感謝を示す言葉だ。",
+        "clozeTarget": "expression",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1283-e03",
+        "english": "One expression in the contract changed who owned the design.",
+        "japanese": "契約書の一つの表現がデザインの所有者を変えた。",
+        "clozeTarget": "expression",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1283-e04",
+        "english": "The dancer's expression conveyed grief without a word.",
+        "japanese": "ダンサーの表情は一言も発さずに悲しみを伝えた。",
+        "clozeTarget": "expression",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1283-e05",
+        "english": "The report uses a mathematical expression to describe population growth.",
+        "japanese": "報告書は人口増加を表すために数式を使う。",
+        "clozeTarget": "expression",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1283-e06",
+        "english": "The guide explained a regional expression that puzzled visitors.",
+        "japanese": "ガイドは来訪者を困惑させた地域特有の言い回しを説明した。",
+        "clozeTarget": "expression",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1284",
+    "lemma": "farmer",
+    "pronunciation": "/ˈfɑːrmər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1284-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "農家、農場主",
+        "meaningEn": "a person who grows crops or raises animals for a living"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1284-e01",
+        "english": "The farmer planted wildflowers between the fields to attract pollinators.",
+        "japanese": "農家は受粉を助ける虫を呼ぶため、畑の間に野花を植えた。",
+        "clozeTarget": "farmer",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1284-e02",
+        "english": "A young farmer used a weather app to decide when to harvest rice.",
+        "japanese": "若い農家は天気アプリで稲刈りの時期を判断した。",
+        "clozeTarget": "farmer",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1285",
+    "lemma": "festival",
+    "pronunciation": "/ˈfestɪvəl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1285-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "祭り、祝祭",
+        "meaningEn": "a special event with performances or activities, often held annually"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1285-e01",
+        "english": "The lantern festival turned the riverside into a path of moving light.",
+        "japanese": "灯籠祭りで、川沿いは光が流れる道になった。",
+        "clozeTarget": "festival",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1285-e02",
+        "english": "At the film festival, students interviewed directors of low-budget documentaries.",
+        "japanese": "映画祭で学生たちは低予算のドキュメンタリー監督に取材した。",
+        "clozeTarget": "festival",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1286",
+    "lemma": "forecast",
+    "pronunciation": "/ˈfɔːrkæst/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1286-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "予報、予測",
+        "meaningEn": "a statement about what is likely to happen in the future"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1286-e01",
+        "english": "The forecast warned of freezing rain as the last ferry left the island.",
+        "japanese": "最後のフェリーが島を出る頃、予報は凍雨への警戒を呼びかけた。",
+        "clozeTarget": "forecast",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1286-e02",
+        "english": "The economic forecast underestimated how quickly families would return to local shops.",
+        "japanese": "経済予測は、家族連れが地元店に戻る速さを過小評価した。",
+        "clozeTarget": "forecast",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1286-e03",
+        "english": "A revised forecast gave rescuers a safe window to cross the pass.",
+        "japanese": "予報が更新され、救助隊は峠を越える安全な時間帯を得た。",
+        "clozeTarget": "forecast",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1286-e04",
+        "english": "The shipping forecast helped fishermen decide whether to leave before dawn.",
+        "japanese": "海上予報は漁師が夜明け前に出港するか決める助けになった。",
+        "clozeTarget": "forecast",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1286-e05",
+        "english": "The charity's forecast for winter demand guided its food purchases.",
+        "japanese": "冬の需要予測をもとに、その慈善団体は食料を購入した。",
+        "clozeTarget": "forecast",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1286-e06",
+        "english": "A radio forecast changed the lighthouse crew's sailing route.",
+        "japanese": "無線の予報を受け、灯台の乗組員は航路を変えた。",
+        "clozeTarget": "forecast",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1287",
+    "lemma": "foundation",
+    "pronunciation": "/faʊnˈdeɪʃən/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1287-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "基礎、財団",
+        "meaningEn": "the base supporting a structure or an organization that funds a cause"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1287-e01",
+        "english": "Engineers strengthened the foundation before adding floors to the library.",
+        "japanese": "技術者は図書館に階を増築する前に基礎を補強した。",
+        "clozeTarget": "foundation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1287-e02",
+        "english": "A local foundation paid for music lessons at schools with smaller arts budgets.",
+        "japanese": "地元財団は芸術予算の少ない学校の音楽授業費を支援した。",
+        "clozeTarget": "foundation",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1287-e03",
+        "english": "Trust formed the foundation of the partnership between the research teams.",
+        "japanese": "信頼が二つの研究チームの協力関係の土台となった。",
+        "clozeTarget": "foundation",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1288",
+    "lemma": "friendship",
+    "pronunciation": "/ˈfrendʃɪp/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1288-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "友情",
+        "meaningEn": "a relationship of mutual affection and trust between people"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1288-e01",
+        "english": "Their friendship survived three moves, two careers, and a decade of missed calls.",
+        "japanese": "二人の友情は三度の引っ越しと二つの職業、十年の電話の行き違いを乗り越えた。",
+        "clozeTarget": "friendship",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1288-e02",
+        "english": "An unexpected friendship grew between the beekeeper and school librarian.",
+        "japanese": "養蜂家と学校司書の間に思いがけない友情が芽生えた。",
+        "clozeTarget": "friendship",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1289",
+    "lemma": "fuel",
+    "pronunciation": "/ˈfjuːəl/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1289-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "燃料",
+        "meaningEn": "a substance burned or used to provide energy"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1289-e01",
+        "english": "The research vessel carried extra fuel before entering storm-prone northern waters.",
+        "japanese": "調査船は嵐の多い北方海域に入る前に燃料を多く積んだ。",
+        "clozeTarget": "fuel",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1289-e02",
+        "english": "Wood pellets became the village hall's main fuel after its gas line closed.",
+        "japanese": "ガス管の停止後、木質ペレットが村の集会所の主な燃料になった。",
+        "clozeTarget": "fuel",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1289-e03",
+        "english": "A long argument can fuel resentment after both sides leave the room.",
+        "japanese": "長い口論は双方が部屋を出た後も恨みをあおることがある。",
+        "clozeTarget": "fuel",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1289-e04",
+        "english": "The pilot checked the fuel gauge before crossing the desert.",
+        "japanese": "操縦士は砂漠を越える前に燃料計を確認した。",
+        "clozeTarget": "fuel",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1289-e05",
+        "english": "Algae may provide fuel for ships in the future.",
+        "japanese": "将来、藻類が船舶用燃料になるかもしれない。",
+        "clozeTarget": "fuel",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1289-e06",
+        "english": "Curiosity was the fuel that kept the experiment going through setbacks.",
+        "japanese": "好奇心が挫折の中でも実験を続ける原動力だった。",
+        "clozeTarget": "fuel",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1290",
+    "lemma": "furniture",
+    "pronunciation": "/ˈfɜːrnɪtʃər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1290-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "家具",
+        "meaningEn": "large movable objects such as tables, chairs, and beds"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1290-e01",
+        "english": "The library donated sturdy furniture to a community center after renovating.",
+        "japanese": "改装後、図書館は丈夫な家具を地域センターに寄贈した。",
+        "clozeTarget": "furniture",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1290-e02",
+        "english": "Dust covers protected the furniture while the historic house was repaired.",
+        "japanese": "歴史的な家屋の修理中、家具はほこりよけで覆われた。",
+        "clozeTarget": "furniture",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1291",
+    "lemma": "generosity",
+    "pronunciation": "/ˌdʒenəˈrɑːsəti/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1291-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "寛大さ、気前のよさ",
+        "meaningEn": "a willingness to give or share more than is expected"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1291-e01",
+        "english": "The farmer's generosity kept the village pantry stocked through winter.",
+        "japanese": "農家の人の寛大な支援で、冬の間も村の食品庫は満たされていた。",
+        "clozeTarget": "generosity",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1291-e02",
+        "english": "She showed generosity by lending tools to neighbors rebuilding after the flood.",
+        "japanese": "洪水後に家を直す近所の人へ道具を貸し、彼女は寛大さを示した。",
+        "clozeTarget": "generosity",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1292",
+    "lemma": "geography",
+    "pronunciation": "/dʒiˈɑːɡrəfi/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1292-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "地理、地理学",
+        "meaningEn": "the study of Earth's places, features, and relationships between them"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1292-e01",
+        "english": "Geography explains why the villages rely on different mountain passes.",
+        "japanese": "地理を学ぶと、村々が異なる峠に頼る理由が分かる。",
+        "clozeTarget": "geography",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1292-e02",
+        "english": "The class mapped changes in the river's geography using satellite images.",
+        "japanese": "授業では衛星画像で川の地形の変化を地図にした。",
+        "clozeTarget": "geography",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1293",
+    "lemma": "gesture",
+    "pronunciation": "/ˈdʒestʃər/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1293-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "身ぶり、しぐさ",
+        "meaningEn": "a movement of the hands or body that expresses an idea or feeling"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1293-e01",
+        "english": "A small gesture from the conductor brought the restless orchestra together.",
+        "japanese": "指揮者の小さな身ぶりで、落ち着かないオーケストラの演奏がまとまった。",
+        "clozeTarget": "gesture",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1293-e02",
+        "english": "Leaving water outside was a simple gesture of kindness during the heat wave.",
+        "japanese": "熱波の間、外に水を置くのはささやかな親切の表れだった。",
+        "clozeTarget": "gesture",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1293-e03",
+        "english": "Returning a lost medal was a gesture that moved its elderly owner.",
+        "japanese": "落とし物のメダルを返す行為に、年配の持ち主は心を動かされた。",
+        "clozeTarget": "gesture",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1293-e04",
+        "english": "A raised hand is a familiar gesture asking a speaker to pause.",
+        "japanese": "手を挙げるのは、話し手に待ってほしいと伝えるおなじみのしぐさだ。",
+        "clozeTarget": "gesture",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1293-e05",
+        "english": "He offered a welcoming gesture toward visitors at the gate.",
+        "japanese": "彼は門の来訪者に歓迎の身ぶりを示した。",
+        "clozeTarget": "gesture",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1293-e06",
+        "english": "The dance's final gesture echoed its opening movement.",
+        "japanese": "踊りの最後の身ぶりは冒頭の動きを反映していた。",
+        "clozeTarget": "gesture",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1294",
+    "lemma": "graduate",
+    "pronunciation": "/ˈɡrædʒuət/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1294-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "卒業生",
+        "meaningEn": "a person who has completed a course of study at a school or university"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1294-e01",
+        "english": "A recent graduate designed the town's first map of accessible routes.",
+        "japanese": "卒業したばかりの学生が町で初めてのバリアフリールート地図を作った。",
+        "clozeTarget": "graduate",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1294-e02",
+        "english": "The university invited every graduate to plant a tree on campus.",
+        "japanese": "大学は卒業生全員にキャンパスへ木を植えるよう招いた。",
+        "clozeTarget": "graduate",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1294-e03",
+        "english": "One graduate returned home to open a science club for girls.",
+        "japanese": "ある卒業生は故郷へ戻り、女子向け科学クラブを開いた。",
+        "clozeTarget": "graduate",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1294-e04",
+        "english": "The gallery hired a graduate whose thesis examined local ceramics.",
+        "japanese": "美術館は地元の陶芸を研究した卒業生を採用した。",
+        "clozeTarget": "graduate",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1294-e05",
+        "english": "Each graduate received seeds from the campus garden.",
+        "japanese": "卒業生一人ひとりに学内菜園の種が贈られた。",
+        "clozeTarget": "graduate",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1294-e06",
+        "english": "The alumni office paired every graduate with an experienced mentor.",
+        "japanese": "同窓会事務局は卒業生全員に経験豊かな助言者を紹介した。",
+        "clozeTarget": "graduate",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1295",
+    "lemma": "guidance",
+    "pronunciation": "/ˈɡaɪdəns/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1295-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "指導、助言",
+        "meaningEn": "advice or help that shows someone what to do"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1295-e01",
+        "english": "With guidance from a local guide, the researchers found a hidden spring.",
+        "japanese": "地元ガイドの案内で、研究者たちは隠れた泉を見つけた。",
+        "clozeTarget": "guidance",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1295-e02",
+        "english": "The handbook offers guidance on reporting damaged sidewalks to the city.",
+        "japanese": "その手引きは壊れた歩道を市へ報告する方法を示す。",
+        "clozeTarget": "guidance",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1296",
+    "lemma": "headquarters",
+    "pronunciation": "/ˈhedˌkwɔːrtərz/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1296-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "本部、本社",
+        "meaningEn": "the main office or center of an organization"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1296-e01",
+        "english": "The charity moved its headquarters beside the neighborhood food bank.",
+        "japanese": "慈善団体は本部を地域のフードバンクの隣へ移した。",
+        "clozeTarget": "headquarters",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1296-e02",
+        "english": "A call from headquarters changed the rescue team's route before sunrise.",
+        "japanese": "本部からの電話で救助隊の経路は夜明け前に変わった。",
+        "clozeTarget": "headquarters",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1297",
+    "lemma": "honesty",
+    "pronunciation": "/ˈɑːnəsti/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1297-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "正直さ、誠実さ",
+        "meaningEn": "the quality of telling the truth and acting fairly"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1297-e01",
+        "english": "Honesty is the best policy, especially when errors could affect public safety.",
+        "japanese": "正直が最善の策だ。特に誤りが公共の安全に関わる場合はなおさらだ。",
+        "clozeTarget": "honesty",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1297-e02",
+        "english": "The cashier's honesty reunited a tourist with an envelope of travel money.",
+        "japanese": "店員の誠実さのおかげで、観光客は旅費の入った封筒を取り戻した。",
+        "clozeTarget": "honesty",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1298",
+    "lemma": "household",
+    "pronunciation": "/ˈhaʊsˌhoʊld/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1298-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "世帯、家庭",
+        "meaningEn": "all the people who live together in one home"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1298-e01",
+        "english": "Each household received a filter that made rainwater safe for washing.",
+        "japanese": "各世帯に、雨水を洗濯に使えるようにする浄水器が配られた。",
+        "clozeTarget": "household",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1298-e02",
+        "english": "The survey asked each household how often it separated food scraps.",
+        "japanese": "調査では各家庭に生ごみの分別頻度を尋ねた。",
+        "clozeTarget": "household",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1299",
+    "lemma": "humanity",
+    "pronunciation": "/hjuːˈmænəti/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1299-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "人類、人間性",
+        "meaningEn": "all people as a group or the quality of being compassionate"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1299-e01",
+        "english": "The archive preserves stories of humanity's resilience after the disaster.",
+        "japanese": "その資料館は、災害後の人類の回復力を示す物語を保存している。",
+        "clozeTarget": "humanity",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1299-e02",
+        "english": "The nurse treated every patient with humanity, even on the busiest shift.",
+        "japanese": "その看護師は最も忙しい勤務中も、すべての患者に思いやりをもって接した。",
+        "clozeTarget": "humanity",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1299-e03",
+        "english": "The essay asks whether humanity can live responsibly beyond Earth.",
+        "japanese": "その論文は、人類が地球の外で責任ある暮らしを営めるか問う。",
+        "clozeTarget": "humanity",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  },
+  {
+    "id": "w1300",
+    "lemma": "independence",
+    "pronunciation": "/ˌɪndɪˈpendəns/",
+    "level": 5,
+    "senses": [
+      {
+        "id": "w1300-s01",
+        "partOfSpeech": "noun",
+        "meaningJa": "独立、自立",
+        "meaningEn": "freedom from outside control or ability to manage without help"
+      }
+    ],
+    "examples": [
+      {
+        "id": "w1300-e01",
+        "english": "The small nation marked its independence with music from every region.",
+        "japanese": "その小国は各地の音楽とともに独立を祝った。",
+        "clozeTarget": "independence",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1300-e02",
+        "english": "Managing her own budget gave the teenager a sense of independence.",
+        "japanese": "自分の予算を管理できるようになり、その若者は自立を感じた。",
+        "clozeTarget": "independence",
+        "sourceType": "reviewed"
+      },
+      {
+        "id": "w1300-e03",
+        "english": "The colony's declaration of independence transformed the region's politics.",
+        "japanese": "植民地の独立宣言は地域の政治を一変させた。",
+        "clozeTarget": "independence",
+        "sourceType": "reviewed"
+      }
+    ],
+    "tags": [
+      "common-test"
+    ]
+  }
+]

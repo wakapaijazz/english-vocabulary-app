@@ -4,9 +4,9 @@
 
 ## 1. 件数とデータの責務
 
-- 単語は次の8つのJSONを統合して管理する。vocabulary.json、vocabulary-extra.json、vocabulary-more.json、vocabulary-final.json、vocabulary-expansion.json、vocabulary-expansion-2.json、vocabulary-expansion-3.json、vocabulary-expansion-4.json。現在は合計1200語。
+- 単語は次の11個のJSONを統合して管理する。vocabulary.json、vocabulary-extra.json、vocabulary-more.json、vocabulary-final.json、vocabulary-expansion.json、vocabulary-expansion-2.json、vocabulary-expansion-3.json、vocabulary-expansion-4.json、vocabulary-expansion-5.json、vocabulary-expansion-6.json、vocabulary-expansion-7.json。現在は合計1500語。
 - Level 1〜4は基礎・標準語彙、Level 5は大学入試共通テストレベルを目安とする。Level 6は国公立大学二次試験レベル〜英検準1級、Level 7は英検準1級〜英検1級、Level 8は英検1級の上級レベルを目安とする。試験の公式対応を保証するものではなく、学習上の目安として運用する。
-- 語句問題は phraseCatalog.ts、phraseCatalogExpansion.ts、phraseCatalogExpansion2.ts、phraseCatalogExpansion3.ts、phraseCatalogExpansion4.ts を allPhraseCatalog で統合して管理する。現在は単語1200語とは別に250問。
+- 語句問題は phraseCatalog.ts、phraseCatalogExpansion.ts、phraseCatalogExpansion2.ts、phraseCatalogExpansion3.ts、phraseCatalogExpansion4.ts を allPhraseCatalog で統合して管理する。現在は単語1500語とは別に250問。
 - 辞書には「単語」「語句」の2タブがあり、語句タブで250問すべてを直接確認できる。語句を単語カード内だけに頼らない。
 - 単語の例文は `src/data/exampleResolver.ts` の `getWordExamples()` で統合する。画面やクイズ側で個別に配列を組み立てない。
   - JSONの `entry.examples`: 各単語の基本例文。
@@ -17,6 +17,10 @@
   - exampleDiversityRevision.ts: 例文1・例文2が同じ構文や同じ場面になった場合に、別用法の例文へ差し替えるレビュー済みレイヤー。
   - vocabulary-expansion-3.json: Level 6〜8の追加単語200語。発音記号、英語定義、2例文以上をデータ内に持つ。
   - vocabulary-expansion-4.json: Level 6〜8の追加単語200語。発音記号、英語定義、2例文以上をデータ内に持つ。
+  - vocabulary-expansion-5.json: Level 5の追加単語100語。
+  - vocabulary-expansion-6.json: Level 6の追加単語100語。
+  - vocabulary-expansion-7.json: Level 7の追加単語100語。
+  - expansion-5〜7の新規データも発音記号・英語定義・自然な日本語訳付きの例文を最低2つ持ち、複数の意味・品詞・用法を例示する項目は3つ以上持つ。例文は語形を含め、空所問題で実際に問える見出し語またはその活用形を含める。
 - `clozeChoiceOverrides.ts`: 文脈上の別解を排除する必要がある単語空所補充のレビュー済み選択肢。
 - `meaningChoiceOverrides.ts`: reviewed Japanese-meaning choices for cases where an automatically selected distractor shares a Japanese sense with the answer.
 - 語句の例文は `getPhraseExamples()` で統合する。
@@ -122,8 +126,8 @@
 - クイズ解説の例文は、英文と日本語訳を別行にし、`例文1`、`例文2` のように番号を付ける。
 - お気に入りは単語ID、語句は `phrase:<phraseId>` の形式で保存する。
 - お気に入りは複数のグループに分類できる。保存先は `vocab-app-favorite-groups` とし、各グループは一意なID・表示名・単語IDまたは `phrase:<phraseId>` の配列を持つ。
-- 初期グループは「お気に入り1」「お気に入り2」「お気に入り3」とし、ユーザーはグループの追加・名前変更・削除ができる。既存の旧お気に入り保存データは失わず、「お気に入り1」へ移行する。
-- 辞書ではグループを選択して表示を絞り込める。各カードの星位置にあるお気に入りドロップダウンでグループごとの登録・解除を行い、1つの項目を複数グループへ登録できる。ドロップダウン内からグループの追加・名前変更・削除も行える。選択が「すべて」の場合は既定の1つ目のグループを対象にする。
+- 初期グループは「お気に入り1」「お気に入り2」「お気に入り3」「苦手1」「苦手2」「難関1」「難関2」の7つとし、それぞれ異なる星色を持つ。ユーザーはプルダウンからグループの追加・名前変更・削除ができる。名前を変えても色と登録項目は維持する。既存の旧お気に入り保存データは失わず、「お気に入り1」へ移行する。
+- 辞書ではグループを選択して表示を絞り込める。各カードの星位置にあるお気に入りドロップダウンでグループごとの登録・解除を行い、1つの項目を複数グループへ登録できる。辞書のグループ絞り込みプルダウンからもグループの追加・名前変更・削除を行える。カード上の星は登録先グループの色で示し、複数グループ登録時は登録色を併記する。選択が「すべて」の場合は既定の1つ目のグループを対象にする。
 
 ## 6. 追加・レビュー手順
 
@@ -142,9 +146,9 @@
 
 テストでは少なくとも次を検証する。
 
-- 単語1200語、ID・見出し語の重複なし。
-- 1200語すべてに発音記号と英語定義がある。
-- 1200語すべての統合済み例文が2つ以上あり、複数意味語は3つ以上ある。
+- 単語1500語、ID・見出し語の重複なし。Level 5は335語、Level 6は235語、Level 7は270語を目安とし、今回分は各レベル100語ずつ追加する。
+- 1500語すべてに発音記号と英語定義がある。
+- 1500語すべての統合済み例文が2つ以上あり、複数意味語は3つ以上ある。
 - 例文に空欄・日本語訳不足・仮テンプレートの問題がない。
 - 例文ペアの内容語がほぼ同じになるケースを検出する。
 - 例文ペアの構文骨格と共通する内容語を確認し、短文への説明追加型や同じ主語・述語のペアを検出する。
@@ -163,7 +167,7 @@
 ## 8. 追加時に提案するルール
 
 - 追加語彙には、試験レベルだけでなく出典・分野タグを付け、将来「共通テスト」「二次試験」「英検準1級」「英検1級」を別々に絞り込めるようにする。
-- 単語と語句の件数表示は、データファイルの数値を直接書かず、統合後の配列長から表示する。今回の1200／250対応でもこの方式を維持する。
+- 単語と語句の件数表示は、データファイルの数値を直接書かず、統合後の配列長から表示する。現在の1500／250対応でもこの方式を維持する。
 - 例文作成時は、追加前に既存例文との内容語・主語・構造を比較し、追加後に自動類似度テストを実行する。
 - 例文や語句を大きく追加する場合は、今回のように「基本データ」「追加データ」「編集・修正レイヤー」「共通Resolver」「自動テスト」を分離し、画面ごとの個別実装を増やさない。
 - 空所補充の選択肢は自動生成だけを信頼せず、曖昧性が見つかった語・語句をオーバーライド層へ隔離する。オーバーライドには、なぜ通常候補では不適切か分かるテストを添える。

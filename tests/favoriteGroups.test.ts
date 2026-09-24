@@ -2,9 +2,10 @@ import { describe, expect, it } from "vitest";
 import { createDefaultFavoriteGroups, getFavoriteIds, normalizeFavoriteGroups, toggleFavoriteInGroup } from "../src/services/favoriteGroups";
 
 describe("favorite groups", () => {
-  it("starts with three named groups and migrates legacy IDs into the first group", () => {
+  it("starts with seven named, color-coded groups and migrates legacy IDs into the first group", () => {
     const groups = createDefaultFavoriteGroups(["word-a", "phrase:p1"]);
-    expect(groups.map((group) => group.name)).toEqual(["お気に入り1", "お気に入り2", "お気に入り3"]);
+    expect(groups.map((group) => group.name)).toEqual(["お気に入り1", "お気に入り2", "お気に入り3", "苦手1", "苦手2", "難関1", "難関2"]);
+    expect(new Set(groups.map((group) => group.color)).size).toBe(7);
     expect(groups[0].itemIds).toEqual(["word-a", "phrase:p1"]);
     expect(getFavoriteIds(groups)).toEqual(["word-a", "phrase:p1"]);
   });
@@ -25,7 +26,7 @@ describe("favorite groups", () => {
       { id: "other", name: "", itemIds: "invalid" },
     ]);
     expect(groups).toHaveLength(3);
-    expect(groups[0]).toEqual({ id: "custom", name: "つい忘れる", itemIds: ["word-a"] });
+    expect(groups[0]).toEqual({ id: "custom", name: "つい忘れる", itemIds: ["word-a"], color: "#d9824b" });
     expect(groups[1].itemIds).toEqual(["word-b"]);
     expect(groups[2].itemIds).toEqual([]);
   });

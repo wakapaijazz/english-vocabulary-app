@@ -6,7 +6,7 @@ import { ProgressBar } from "../components/ProgressBar";
 import { QuizCard } from "../components/QuizCard";
 import { generateQuizQuestions, type QuizMode } from "../quiz/quizGenerator";
 import { getStoredFavoriteGroups, updateFavoriteGroups } from "../services/storageService";
-import { getFavoriteGroupIds, toggleFavoriteInGroup } from "../services/favoriteGroups";
+import { getFavoriteGroupColor, getFavoriteGroupIds, toggleFavoriteInGroup } from "../services/favoriteGroups";
 import type { FavoriteGroup } from "../types/favorites";
 
 interface QuizPageProps {
@@ -91,7 +91,8 @@ export function QuizPage({ entries, history, questionCount, config, onAnswer, on
     const name = window.prompt("新しいお気に入りグループ名", "");
     if (!name?.trim()) return;
     setFavoriteGroups((current) => {
-      const next = [...current, { id: "favorite-" + Date.now(), name: name.trim(), itemIds: [] }];
+      const id = "favorite-" + Date.now();
+      const next = [...current, { id, name: name.trim(), itemIds: [], color: getFavoriteGroupColor(id, current.length) }];
       updateFavoriteGroups(next);
       return next;
     });

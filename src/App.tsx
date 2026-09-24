@@ -7,6 +7,9 @@ import vocabularyExpansion from "./data/vocabulary-expansion.json";
 import vocabularyExpansion2 from "./data/vocabulary-expansion-2.json";
 import vocabularyExpansion3 from "./data/vocabulary-expansion-3.json";
 import vocabularyExpansion4 from "./data/vocabulary-expansion-4.json";
+import vocabularyExpansion5 from "./data/vocabulary-expansion-5.json";
+import vocabularyExpansion6 from "./data/vocabulary-expansion-6.json";
+import vocabularyExpansion7 from "./data/vocabulary-expansion-7.json";
 import { pronunciationCatalog } from "./data/pronunciationCatalog";
 import { Navigation, type PageKey } from "./components/Navigation";
 import { HomePage } from "./pages/HomePage";
@@ -22,7 +25,7 @@ import type { VocabularyEntry } from "./types/vocabulary";
 import { createEmptyLearningState, loadLearningHistory, loadSettings, saveLearningHistory, saveSettings } from "./services/storageService";
 import { recordQuizResult } from "./review/masteryCalculator";
 
-const rawEntries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3, ...vocabularyExpansion4] as unknown as VocabularyEntry[];
+const rawEntries = [...vocabularyData, ...vocabularyExtra, ...vocabularyMore, ...vocabularyFinal, ...vocabularyExpansion, ...vocabularyExpansion2, ...vocabularyExpansion3, ...vocabularyExpansion4, ...vocabularyExpansion5, ...vocabularyExpansion6, ...vocabularyExpansion7] as unknown as VocabularyEntry[];
 const entries = rawEntries.map((entry) => ({
   ...entry,
   pronunciation: entry.pronunciation ?? pronunciationCatalog[entry.lemma],
@@ -62,6 +65,5 @@ export default function App() {
     <div className="mobile-nav"><Navigation activePage={activePage} onNavigate={setActivePage} mobile /></div>
   </div>;
 }
-
 
 
